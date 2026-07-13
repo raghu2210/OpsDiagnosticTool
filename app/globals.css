@@ -1,0 +1,121 @@
+@import "tailwindcss";
+
+/*
+ * Design tokens - single source of truth for color/spacing/radius, shared with
+ * lib/pdf/pdf-theme.ts (which duplicates the hex values as plain constants since
+ * @react-pdf/renderer can't read CSS variables). Keep both in sync if these change.
+ *
+ * Palette is the same muted/desaturated set already validated for LongArc's
+ * operations-audit tool - deliberately not a generic SaaS gradient/purple accent.
+ */
+:root {
+  --ink: #242424;
+  --charcoal: #3a3a3a;
+  /* Was #fafaf8 - technically "off-white" but only 2% off pure white, so it read as
+     plain white on screen. Deepened to a genuinely visible warm cream (real paper-stock
+     tone, not a token that's off-white in name only). --surface was first tried as a
+     shade lighter (#fbf9f4) but that was still only ~3% off --paper - on screen, next to
+     real content, a border that faint plus a near-identical fill reads as no separation
+     at all (confirmed via screenshot: the Build page's area cards were essentially
+     invisible against the page). Pushed to a genuinely white surface instead, paired with
+     a soft shadow (see .la-surface-shadow below) - border alone wasn't enough contrast. */
+  --paper: #f3efe6;
+  --surface: #fffefb;
+  --rule: #e4e2dd; /* warm-grey hairline border, not cool grey */
+  --neutral: #6b6b6b;
+
+  /* Brand accent - a grounded rust/terracotta, not a generic SaaS blue/purple. Reserved for
+     chrome/interaction (focus rings, active nav, link hover, selected-state borders) - never
+     used for scoring/status semantics, which stay strictly on the red/amber/blue/green set
+     below so the two systems never collide in meaning. */
+  --accent: #a8532e;
+  --accent-soft: #c0754f;
+
+  --red: #9c4a3d; /* at risk / blocked */
+  --amber: #8a6a2a; /* standardized / pending */
+  --amber-soft: #a66a3a; /* developing */
+  --blue: #3e5c7a; /* managed / in progress */
+  --green: #3f6b52; /* best-in-class / complete */
+  --green-soft: #4f7d5e; /* managed sub-shade */
+
+  /* Helvetica Neue by request - a system font (Apple/Linotype-licensed, not distributable
+     via next/font/google), so this is a plain CSS stack rather than a bundled webfont:
+     renders as the real Helvetica Neue on macOS/iOS, falls back to Arial elsewhere
+     (Windows ships Arial by default, metrically near-identical to Helvetica). Same stack
+     for both display and body - no more separate serif/sans pairing. */
+  --font-display: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-body: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-code: var(--font-plex-mono);
+}
+
+@theme inline {
+  --color-ink: var(--ink);
+  --color-charcoal: var(--charcoal);
+  --color-paper: var(--paper);
+  --color-surface: var(--surface);
+  --color-rule: var(--rule);
+  --color-neutral: var(--neutral);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-red: var(--red);
+  --color-amber: var(--amber);
+  --color-amber-soft: var(--amber-soft);
+  --color-blue: var(--blue);
+  --color-green: var(--green);
+  --color-green-soft: var(--green-soft);
+
+  --font-sans: var(--font-body);
+  --font-display: var(--font-display);
+  --font-mono: var(--font-code);
+
+  /* Deliberately small, sharp radius scale everywhere except the one hero centerpiece
+     (radius-lg) - small/sharp radii avoid the generic "rounded-lg-everywhere" SaaS tell;
+     one large, intentional radius on the actual hero surface reads as a considered choice
+     rather than a default. */
+  --radius-xs: 4px;
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 28px;
+}
+
+/* Infinite marquee - module-domain strip in the hero, "backed by" style but content that's
+   actually true of this tool (the domains it covers) rather than borrowed brand logos. */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marquee 26s linear infinite;
+}
+
+body {
+  background-color: var(--paper);
+  /* Very light paper-grain texture (feTurbulence noise, ~2% opacity via the alpha in the
+     filter) - reads as tactile/premium "stock" rather than a flat digital fill, without
+     adding a shadow or gradient (both already ruled out for this project). Part of the
+     background itself, not a fixed-position overlay, so there's no z-index/stacking risk
+     with modals or dropdowns. */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0.14  0 0 0 0 0.13  0 0 0 0 0.11  0 0 0 0.025 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-variant-numeric: tabular-nums;
+}
+
+h1, h2, h3, .font-display {
+  font-family: var(--font-display);
+}
+
+.font-code {
+  font-family: var(--font-code), ui-monospace, monospace;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "input_scores": {
+    "A1.1": 1,
+    "A1.2": 2,
+    "A1.3": 3,
+    "A1.4": 4,
+    "A1.5": 5,
+    "A2.1": 1,
+    "A2.2": 2,
+    "A2.3": 3,
+    "A2.4": 4,
+    "A3.1": 5,
+    "A3.2": 1,
+    "A3.3": 2,
+    "A3.4": 3,
+    "A4.1": 4,
+    "A4.2": 5,
+    "A4.3": 1,
+    "A5.1": 2,
+    "A5.2": 3,
+    "A5.3": 4,
+    "A6.1": 5
+  },
+  "result": {
+    "module_score": 3.2487000000000004,
+    "pct": 64.974,
+    "n_scored": 20,
+    "n_total": 23,
+    "area_scores": [
+      {
+        "area_id": "A1",
+        "area_name": "Inward",
+        "area_weight": 0.17,
+        "area_score": 3.0,
+        "n_scored": 5
+      },
+      {
+        "area_id": "A2",
+        "area_name": "Quality Control",
+        "area_weight": 0.17,
+        "area_score": 2.5,
+        "n_scored": 4
+      },
+      {
+        "area_id": "A3",
+        "area_name": "Putaway",
+        "area_weight": 0.17,
+        "area_score": 2.75,
+        "n_scored": 4
+      },
+      {
+        "area_id": "A4",
+        "area_name": "Packaging",
+        "area_weight": 0.17,
+        "area_score": 3.3400000000000003,
+        "n_scored": 3
+      },
+      {
+        "area_id": "A5",
+        "area_name": "Staging",
+        "area_weight": 0.16,
+        "area_score": 2.99,
+        "n_scored": 3
+      },
+      {
+        "area_id": "A6",
+        "area_name": "Dispatch",
+        "area_weight": 0.16,
+        "area_score": 5.0,
+        "n_scored": 1
+      }
+    ]
+  }
+}

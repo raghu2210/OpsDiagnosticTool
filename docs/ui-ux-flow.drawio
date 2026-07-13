@@ -1,0 +1,163 @@
+<mxfile host="app.diagrams.net" agent="claude-code">
+  <diagram id="longarc-ui-ux-flow" name="LongArc UI-UX &amp; Data Flow">
+    <mxGraphModel dx="2049" dy="944" grid="0" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1320" pageHeight="990" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="navhub" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3a3a3a;strokeColor=#242424;fontColor=#ffffff;fontSize=13;fontStyle=1;arcSize=6;spacing=4;" value="TopNav - sticky glass pill, present on every page&#xa;Home · Checklist · Diagnose · Tracker · Workflow" vertex="1">
+          <mxGeometry height="55" width="1240" x="40" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="src_masters" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3efe6;strokeColor=#a8532e;strokeWidth=1.5;fontColor=#242424;fontSize=11;arcSize=8;spacing=4;" value="Google Sheet: Masters + Recommendations&#xa;loadMasters() / loadRecommendations()&#xa;fallback -&gt; local-fallback/*.json" vertex="1">
+          <mxGeometry height="70" width="480" x="280" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="src_tracker" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3efe6;strokeColor=#a8532e;strokeWidth=1.5;fontColor=#242424;fontSize=11;arcSize=8;spacing=4;" value="Google Sheet: Tracker&#xa;loadTracker() - hand-maintained,&#xa;read-only from this app" vertex="1">
+          <mxGeometry height="70" width="220" x="800" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="home" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3a3a3a;strokeWidth=1.5;fontColor=#242424;fontSize=13;fontStyle=1;arcSize=6;" value="Home&#xa;/" vertex="1">
+          <mxGeometry height="65" width="220" x="40" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="build" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3a3a3a;strokeWidth=1.5;fontColor=#242424;fontSize=13;fontStyle=1;arcSize=6;" value="Build a Checklist&#xa;/build" vertex="1">
+          <mxGeometry height="65" width="220" x="280" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="diagnose" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3a3a3a;strokeWidth=1.5;fontColor=#242424;fontSize=13;fontStyle=1;arcSize=6;" value="Score &amp; Diagnose&#xa;/diagnose" vertex="1">
+          <mxGeometry height="65" width="220" x="540" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="tracker" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3a3a3a;strokeWidth=1.5;fontColor=#242424;fontSize=13;fontStyle=1;arcSize=6;" value="Sync Tracker&#xa;/tracker" vertex="1">
+          <mxGeometry height="65" width="220" x="800" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="workflow" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3a3a3a;strokeWidth=1.5;fontColor=#242424;fontSize=13;fontStyle=1;arcSize=6;" value="Workflow&#xa;/workflow" vertex="1">
+          <mxGeometry height="65" width="220" x="1060" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="e_src_build" edge="1" parent="1" source="src_masters" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#a8532e;strokeWidth=1.5;endArrow=block;endFill=1;" target="build">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_src_diag" edge="1" parent="1" source="src_masters" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#a8532e;strokeWidth=1.5;endArrow=block;endFill=1;" target="diagnose">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_src_tracker" edge="1" parent="1" source="src_tracker" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#a8532e;strokeWidth=1.5;endArrow=block;endFill=1;" target="tracker">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="home_note" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fffefb;strokeColor=#e4e2dd;fontColor=#3a3a3a;fontSize=10;arcSize=8;spacing=4;" value="Static content only -&#xa;no data in/out, no loading/&#xa;empty/error states" vertex="1">
+          <mxGeometry height="60" width="220" x="40" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="e_home_note" edge="1" parent="1" source="home" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#6b6b6b;" target="home_note">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="build_d1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fffefb;strokeColor=#e4e2dd;fontColor=#3a3a3a;fontSize=10;arcSize=8;spacing=4;" value="Pick Module -&gt; toggle Area cards&#xa;(client state, BuildFlow.tsx)" vertex="1">
+          <mxGeometry height="60" width="220" x="280" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="build_d2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fffefb;strokeColor=#e4e2dd;fontColor=#3a3a3a;fontSize=10;arcSize=8;spacing=4;" value="POST /api/checklist/export&#xa;-&gt; buildChecklistXlsx()" vertex="1">
+          <mxGeometry height="50" width="220" x="280" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="build_d3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fffefb;strokeColor=#e4e2dd;fontColor=#3a3a3a;fontSize=10;arcSize=8;spacing=4;" value=".xlsx checklist download -&#xa;blank Score / Observation columns" vertex="1">
+          <mxGeometry height="60" width="220" x="280" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="e_build_1" edge="1" parent="1" source="build" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#6b6b6b;" target="build_d1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_build_2" edge="1" parent="1" source="build_d1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#6b6b6b;" target="build_d2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_build_3" edge="1" parent="1" source="build_d2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#6b6b6b;" target="build_d3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="diag_d1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fffefb;strokeColor=#e4e2dd;fontColor=#3a3a3a;fontSize=10;arcSize=8;spacing=4;" value="Pick Module -&gt; tab switch:&#xa;Upload filled checklist  OR  Score in-app" vertex="1">
+          <mxGeometry height="60" width="220" x="540" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="diag_upload" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fffefb;strokeColor=#e4e2dd;fontColor=#3a3a3a;fontSize=9.5;arcSize=8;spacing=4;" value="Upload: POST /api/checklist/parse&#xa;-&gt; parseChecklistXlsx() -&gt; toScoreMaps()" vertex="1">
+          <mxGeometry height="45" width="220" x="540" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="diag_form" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fffefb;strokeColor=#e4e2dd;fontColor=#3a3a3a;fontSize=9.5;arcSize=8;spacing=4;" value="Form: ScoreForm submit&#xa;-&gt; {scores, observations}" vertex="1">
+          <mxGeometry height="45" width="220" x="540" y="465" as="geometry" />
+        </mxCell>
+        <mxCell id="diag_compute" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fffefb;strokeColor=#e4e2dd;fontColor=#3a3a3a;fontSize=10;arcSize=8;spacing=4;" value="computeDiagnostic(scores, observations, recommendations)" vertex="1">
+          <mxGeometry height="50" width="220" x="540" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="diag_result" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fffefb;strokeColor=#e4e2dd;fontColor=#3a3a3a;fontSize=10;arcSize=8;spacing=4;" value="ResultsReveal: animated score ring +&#xa;weighted priority-action list" vertex="1">
+          <mxGeometry height="60" width="220" x="540" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="diag_pdf" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fffefb;strokeColor=#e4e2dd;fontColor=#3a3a3a;fontSize=10;arcSize=8;spacing=4;" value="POST /api/diagnostic/report&#xa;-&gt; Diagnostic PDF download" vertex="1">
+          <mxGeometry height="50" width="220" x="540" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="e_diag_1" edge="1" parent="1" source="diagnose" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#6b6b6b;" target="diag_d1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_diag_2a" edge="1" parent="1" source="diag_d1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#6b6b6b;" target="diag_upload">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_diag_2b" edge="1" parent="1" source="diag_upload" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#6b6b6b;" target="diag_form">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_diag_3a" edge="1" parent="1" source="diag_upload" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#6b6b6b;" target="diag_compute">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_diag_3b" edge="1" parent="1" source="diag_form" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#6b6b6b;" target="diag_compute">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_diag_4" edge="1" parent="1" source="diag_compute" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#6b6b6b;" target="diag_result">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_diag_5" edge="1" parent="1" source="diag_result" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#6b6b6b;" target="diag_pdf">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_roundtrip" edge="1" parent="1" source="build_d3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;dashed=1;strokeColor=#a8532e;strokeWidth=1.5;fontColor=#a8532e;fontSize=10;fontStyle=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;" target="diag_d1" value="auditor fills checklist on the ground, uploads back">
+          <mxGeometry relative="1" x="-1" y="97" as="geometry">
+            <mxPoint x="-85" y="51" as="offset" />
+            <Array as="points">
+              <mxPoint x="520" y="520" />
+              <mxPoint x="520" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tracker_d1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fffefb;strokeColor=#e4e2dd;fontColor=#3a3a3a;fontSize=10;arcSize=8;spacing=4;" value="groupRows(): nest Sr No 2.1 under 2&#xa;Refresh -&gt; GET /api/tracker (60s cache)" vertex="1">
+          <mxGeometry height="60" width="220" x="800" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="tracker_d2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fffefb;strokeColor=#e4e2dd;fontColor=#3a3a3a;fontSize=10;arcSize=8;spacing=4;" value="Read-only - no write-back;&#xa;source of truth = the Sheet itself" vertex="1">
+          <mxGeometry height="50" width="220" x="800" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="e_tracker_1" edge="1" parent="1" source="tracker" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#6b6b6b;" target="tracker_d1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_tracker_2" edge="1" parent="1" source="tracker_d1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#6b6b6b;" target="tracker_d2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="workflow_d1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fffefb;strokeColor=#e4e2dd;fontColor=#3a3a3a;fontSize=10;arcSize=8;spacing=4;" value="Stat strip (live counts) + flow steps&#xa;+ sections + changelog (Reveal-animated)" vertex="1">
+          <mxGeometry height="60" width="220" x="1060" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="workflow_d2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fffefb;strokeColor=#e4e2dd;fontColor=#3a3a3a;fontSize=10;arcSize=8;spacing=4;" value="GET /api/workflow/pdf +&#xa;GET /api/changelog/pdf&#xa;-&gt; branded PDFs (split, not merged)" vertex="1">
+          <mxGeometry height="60" width="220" x="1060" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="e_workflow_1" edge="1" parent="1" source="workflow" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#6b6b6b;" target="workflow_d1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_workflow_2" edge="1" parent="1" source="workflow_d1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#6b6b6b;" target="workflow_d2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="footnote" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#6b6b6b;dashed=1;fontColor=#6b6b6b;fontSize=9;arcSize=8;spacing=6;" value="Public, read-only, not called by any page today: GET /api/masters (active-filtered Masters JSON) · GET /api/recommendations (raw Recommendations JSON)" vertex="1">
+          <mxGeometry height="40" width="1240" x="40" y="743" as="geometry" />
+        </mxCell>
+        <mxCell id="legend" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#242424;fontColor=#242424;fontSize=11;fontStyle=1;verticalAlign=top;align=left;spacingLeft=10;spacingTop=8;arcSize=4;" value="Legend" vertex="1">
+          <mxGeometry height="75" width="420" x="40" y="808" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_src" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3efe6;strokeColor=#a8532e;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="16" width="22" x="58" y="838" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_src_lbl" parent="1" style="text;html=1;fontSize=10;fontColor=#242424;align=left;verticalAlign=middle;" value="Data source" vertex="1">
+          <mxGeometry height="20" width="90" x="86" y="834" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_page" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3a3a3a;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="16" width="22" x="190" y="838" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_page_lbl" parent="1" style="text;html=1;fontSize=10;fontColor=#242424;align=left;verticalAlign=middle;" value="Page / route" vertex="1">
+          <mxGeometry height="20" width="90" x="218" y="834" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_step" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fffefb;strokeColor=#e4e2dd;" value="" vertex="1">
+          <mxGeometry height="16" width="22" x="322" y="838" as="geometry" />
+        </mxCell>
+        <mxCell id="legend_step_lbl" parent="1" style="text;html=1;fontSize=10;fontColor=#242424;align=left;verticalAlign=middle;" value="UI/data step" vertex="1">
+          <mxGeometry height="20" width="100" x="350" y="834" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

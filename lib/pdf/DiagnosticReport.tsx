@@ -1,0 +1,145 @@
+import { Document, Page, View, Text, Image, StyleSheet } from "@react-pdf/renderer";
+import type { DiagnosticResult } from "@/lib/domain/types";
+import { scoreBand } from "@/lib/domain/bands";
+import { PDF_COLOR, PDF_LOGO_PATH } from "./pdf-theme";
+
+const styles = StyleSheet.create({
+  page: { fontSize: 10, color: PDF_COLOR.ink, paddingBottom: 40 },
+  header: {
+    backgroundColor: PDF_COLOR.charcoal,
+    height: 60,
+    paddingHorizontal: 32,
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
+  },
+  logo: { height: 26 },
+  headerTitle: { color: "#ffffff", fontSize: 13, fontWeight: 700 },
+  body: { paddingHorizontal: 32, paddingTop: 24 },
+  moduleName: { fontSize: 18, fontWeight: 700, marginBottom: 4 },
+  muted: { color: PDF_COLOR.neutral, fontSize: 9 },
+  scoreRow: { flexDirection: "row", alignItems: "baseline", gap: 8, marginTop: 10 },
+  scoreNum: { fontSize: 34, fontWeight: 700 },
+  bandLabel: { fontSize: 12, fontWeight: 700, marginTop: 4 },
+  sectionTitle: { fontSize: 13, fontWeight: 700, marginTop: 20, marginBottom: 10 },
+  areaRow: { marginBottom: 10 },
+  areaLabelRow: { flexDirection: "row", justifyContent: "space-between", marginBottom: 3 },
+  barTrack: { height: 5, backgroundColor: "#e6e6e6", borderRadius: 2 },
+  barFill: { height: 5, borderRadius: 2 },
+  priorityItem: { marginBottom: 10, paddingBottom: 10, borderBottom: `1px solid ${PDF_COLOR.rule}` },
+  priorityTitle: { fontSize: 10.5, fontWeight: 700, marginBottom: 2 },
+  task: { fontSize: 9.5, marginTop: 2, marginLeft: 8 },
+  footer: {
+    // Flows naturally at the end of the content instead of a fixed `position: absolute`
+    // offset - found via direct PDF inspection that a fixed-bottom footer overlaps the
+    // last priority item's text once content is long enough to reach that offset.
+    marginTop: 20,
+    paddingTop: 10,
+    borderTop: `1px solid ${PDF_COLOR.rule}`,
+    fontSize: 8,
+    color: PDF_COLOR.neutral,
+    fontStyle: "italic",
+  },
+});
+
+/**
+ * @react-pdf/renderer's default core font (Helvetica) has no glyphs for Unicode
+ * punctuation like em-dash/en-dash/middot/arrows - those silently render as the wrong
+ * glyph (found via direct PDF inspection: an arrow rendered as a stray apostrophe).
+ * This mirrors app.py's _pdf_safe()/_PDF_SUBS: map everything to plain ASCII rather than
+ * embedding a custom Unicode font, which is unnecessary for this report's content.
+ *
+ * Also: every dynamic line below is built as ONE template-literal string passed as a
+ * single JSX expression child, not JSX text mixed with `{expr}` interpolations - react-pdf's
+ * text layout collapses whitespace between adjacent text/expression nodes (found via the
+ * same inspection: "target {n}" rendered as "target2" with no space). A single string
+ * expression sidesteps that entirely.
+ */
+function pdfSafe(text: string): string {
+  return text
+    .replace(/[–—‒―‐‑]/g, "-")
+    .replace(/[‘’]/g, "'")
+    .replace(/[“”]/g, '"')
+    .replace(/[•·]/g, "-")
+    .replace(/→/g, "->")
+    .replace(/←/g, "<-")
+    .replace(/[^\x00-\x7F]/g, "");
+}
+
+export function DiagnosticReport({ moduleName, diag }: { moduleName: string; diag: DiagnosticResult }) {
+  const band = scoreBand(diag.module_score);
+  const priority = diag.scored.filter((s) => s.score < 5).sort((a, b) => b.weighted_gap - a.weighted_gap);
+
+  return (
+    <Document>
+      <Page size="A4" style={styles.page}>
+        <View style={styles.header}>
+          <Image src={PDF_LOGO_PATH} style={styles.logo} />
+          <Text style={styles.headerTitle}>{pdfSafe("Operations Diagnostic Report")}</Text>
+        </View>
+
+        <View style={styles.body}>
+          <Text style={styles.moduleName}>{pdfSafe(moduleName)}</Text>
+          <Text style={styles.muted}>{pdfSafe(`${diag.n_scored} of ${diag.n_total} sub-points scored`)}</Text>
+
+          <View style={styles.scoreRow}>
+            <Text style={[styles.scoreNum, { color: band.color }]}>{`${diag.module_score.toFixed(1)} / 5`}</Text>
+          </View>
+          <Text style={[styles.bandLabel, { color: band.color }]}>
+            {pdfSafe(`${band.label} - ${diag.pct.toFixed(0)}% of potential`)}
+          </Text>
+
+          <Text style={styles.sectionTitle}>Area maturity</Text>
+          {diag.area_scores.map((a) => {
+            const b = scoreBand(a.area_score);
+            return (
+              <View key={a.area_id} style={styles.areaRow}>
+                <View style={styles.areaLabelRow}>
+                  <Text>{pdfSafe(`${a.area_id}  ${a.area_name}`)}</Text>
+                  <Text style={{ color: b.color, fontWeight: 700 }}>
+                    {pdfSafe(`${a.area_score.toFixed(1)} ${b.label}`)}
+                  </Text>
+                </View>
+                <View style={styles.barTrack}>
+                  <View style={[styles.barFill, { width: `${(a.area_score / 5) * 100}%`, backgroundColor: b.color }]} />
+                </View>
+              </View>
+            );
+          })}
+
+          <Text style={styles.sectionTitle}>{pdfSafe("Priority actions - tasks to reach the next level")}</Text>
+          {priority.length === 0 ? (
+            <Text style={styles.muted}>No gaps found - every scored sub-point is already best-in-class.</Text>
+          ) : (
+            priority.map((s, i) => (
+              <View key={s.subpoint_id} style={styles.priorityItem}>
+                <Text style={styles.priorityTitle}>
+                  {pdfSafe(
+                    `${i + 1}. ${s.area_name} / ${s.subpoint_name} (scored ${s.score} -> target ${s.target} ${s.target_name})`
+                  )}
+                </Text>
+                {s.observation ? (
+                  <Text style={[styles.muted, { fontStyle: "italic", marginBottom: 2 }]}>
+                    {pdfSafe(`Observation: ${s.observation}`)}
+                  </Text>
+                ) : null}
+                {s.tasks
+                  .split("\n")
+                  .filter(Boolean)
+                  .map((t, ti) => (
+                    <Text key={ti} style={styles.task}>
+                      {pdfSafe(`-  ${t.trim()}`)}
+                    </Text>
+                  ))}
+              </View>
+            ))
+          )}
+
+          <Text style={styles.footer}>
+            {pdfSafe("Built & powered by LongArc - Operations Strategy for Growing Businesses - golongarc.com")}
+          </Text>
+        </View>
+      </Page>
+    </Document>
+  );
+}

@@ -1,0 +1,2818 @@
+[
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A1.1",
+    "subpoint_name": "Time Adherence",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Time Adherence.\nDefine and document a basic Time Adherence process, even if manual.\nStart capturing Time Adherence activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A1.1",
+    "subpoint_name": "Time Adherence",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Time Adherence and train the team on it.\nTrack adherence to the Time Adherence process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A1.1",
+    "subpoint_name": "Time Adherence",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Time Adherence and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Time Adherence exceptions early."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A1.1",
+    "subpoint_name": "Time Adherence",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Time Adherence end-to-end where feasible.\nAdd live dashboards and alerts for Time Adherence performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A1.2",
+    "subpoint_name": "Manpower Planning",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Manpower Planning.\nDefine and document a basic Manpower Planning process, even if manual.\nStart capturing Manpower Planning activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A1.2",
+    "subpoint_name": "Manpower Planning",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Manpower Planning and train the team on it.\nTrack adherence to the Manpower Planning process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A1.2",
+    "subpoint_name": "Manpower Planning",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Manpower Planning and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Manpower Planning exceptions early."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A1.2",
+    "subpoint_name": "Manpower Planning",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Manpower Planning end-to-end where feasible.\nAdd live dashboards and alerts for Manpower Planning performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A1.3",
+    "subpoint_name": "Vendor Visibility",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Vendor Visibility.\nDefine and document a basic Vendor Visibility process, even if manual.\nStart capturing Vendor Visibility activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A1.3",
+    "subpoint_name": "Vendor Visibility",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Vendor Visibility and train the team on it.\nTrack adherence to the Vendor Visibility process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A1.3",
+    "subpoint_name": "Vendor Visibility",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Vendor Visibility and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Vendor Visibility exceptions early."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A1.3",
+    "subpoint_name": "Vendor Visibility",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Vendor Visibility end-to-end where feasible.\nAdd live dashboards and alerts for Vendor Visibility performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A1.4",
+    "subpoint_name": "Documentation & Compliance",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Documentation & Compliance.\nDefine and document a basic Documentation & Compliance process, even if manual.\nStart capturing Documentation & Compliance activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A1.4",
+    "subpoint_name": "Documentation & Compliance",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Documentation & Compliance and train the team on it.\nTrack adherence to the Documentation & Compliance process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A1.4",
+    "subpoint_name": "Documentation & Compliance",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Documentation & Compliance and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Documentation & Compliance exceptions early."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A1.4",
+    "subpoint_name": "Documentation & Compliance",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Documentation & Compliance end-to-end where feasible.\nAdd live dashboards and alerts for Documentation & Compliance performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A1.5",
+    "subpoint_name": "Dock/Yard Management",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Dock/Yard Management.\nDefine and document a basic Dock/Yard Management process, even if manual.\nStart capturing Dock/Yard Management activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A1.5",
+    "subpoint_name": "Dock/Yard Management",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Dock/Yard Management and train the team on it.\nTrack adherence to the Dock/Yard Management process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A1.5",
+    "subpoint_name": "Dock/Yard Management",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Dock/Yard Management and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Dock/Yard Management exceptions early."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A1.5",
+    "subpoint_name": "Dock/Yard Management",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Dock/Yard Management end-to-end where feasible.\nAdd live dashboards and alerts for Dock/Yard Management performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A2.1",
+    "subpoint_name": "Inspection Coverage",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Inspection Coverage.\nDefine and document a basic Inspection Coverage process, even if manual.\nStart capturing Inspection Coverage activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A2.1",
+    "subpoint_name": "Inspection Coverage",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Inspection Coverage and train the team on it.\nTrack adherence to the Inspection Coverage process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A2.1",
+    "subpoint_name": "Inspection Coverage",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Inspection Coverage and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Inspection Coverage exceptions early."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A2.1",
+    "subpoint_name": "Inspection Coverage",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Inspection Coverage end-to-end where feasible.\nAdd live dashboards and alerts for Inspection Coverage performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A2.2",
+    "subpoint_name": "Rejection Handling",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Rejection Handling.\nDefine and document a basic Rejection Handling process, even if manual.\nStart capturing Rejection Handling activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A2.2",
+    "subpoint_name": "Rejection Handling",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Rejection Handling and train the team on it.\nTrack adherence to the Rejection Handling process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A2.2",
+    "subpoint_name": "Rejection Handling",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Rejection Handling and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Rejection Handling exceptions early."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A2.2",
+    "subpoint_name": "Rejection Handling",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Rejection Handling end-to-end where feasible.\nAdd live dashboards and alerts for Rejection Handling performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A2.3",
+    "subpoint_name": "Sampling Discipline",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Sampling Discipline.\nDefine and document a basic Sampling Discipline process, even if manual.\nStart capturing Sampling Discipline activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A2.3",
+    "subpoint_name": "Sampling Discipline",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Sampling Discipline and train the team on it.\nTrack adherence to the Sampling Discipline process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A2.3",
+    "subpoint_name": "Sampling Discipline",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Sampling Discipline and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Sampling Discipline exceptions early."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A2.3",
+    "subpoint_name": "Sampling Discipline",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Sampling Discipline end-to-end where feasible.\nAdd live dashboards and alerts for Sampling Discipline performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A2.4",
+    "subpoint_name": "QC Documentation",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for QC Documentation.\nDefine and document a basic QC Documentation process, even if manual.\nStart capturing QC Documentation activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A2.4",
+    "subpoint_name": "QC Documentation",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for QC Documentation and train the team on it.\nTrack adherence to the QC Documentation process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A2.4",
+    "subpoint_name": "QC Documentation",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for QC Documentation and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag QC Documentation exceptions early."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A2.4",
+    "subpoint_name": "QC Documentation",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate QC Documentation end-to-end where feasible.\nAdd live dashboards and alerts for QC Documentation performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A3.1",
+    "subpoint_name": "Slotting Logic",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Slotting Logic.\nDefine and document a basic Slotting Logic process, even if manual.\nStart capturing Slotting Logic activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A3.1",
+    "subpoint_name": "Slotting Logic",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Slotting Logic and train the team on it.\nTrack adherence to the Slotting Logic process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A3.1",
+    "subpoint_name": "Slotting Logic",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Slotting Logic and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Slotting Logic exceptions early."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A3.1",
+    "subpoint_name": "Slotting Logic",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Slotting Logic end-to-end where feasible.\nAdd live dashboards and alerts for Slotting Logic performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A3.2",
+    "subpoint_name": "Putaway TAT",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Putaway TAT.\nDefine and document a basic Putaway TAT process, even if manual.\nStart capturing Putaway TAT activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A3.2",
+    "subpoint_name": "Putaway TAT",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Putaway TAT and train the team on it.\nTrack adherence to the Putaway TAT process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A3.2",
+    "subpoint_name": "Putaway TAT",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Putaway TAT and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Putaway TAT exceptions early."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A3.2",
+    "subpoint_name": "Putaway TAT",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Putaway TAT end-to-end where feasible.\nAdd live dashboards and alerts for Putaway TAT performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A3.3",
+    "subpoint_name": "Location Accuracy",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Location Accuracy.\nDefine and document a basic Location Accuracy process, even if manual.\nStart capturing Location Accuracy activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A3.3",
+    "subpoint_name": "Location Accuracy",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Location Accuracy and train the team on it.\nTrack adherence to the Location Accuracy process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A3.3",
+    "subpoint_name": "Location Accuracy",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Location Accuracy and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Location Accuracy exceptions early."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A3.3",
+    "subpoint_name": "Location Accuracy",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Location Accuracy end-to-end where feasible.\nAdd live dashboards and alerts for Location Accuracy performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A3.4",
+    "subpoint_name": "Space Utilization",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Space Utilization.\nDefine and document a basic Space Utilization process, even if manual.\nStart capturing Space Utilization activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A3.4",
+    "subpoint_name": "Space Utilization",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Space Utilization and train the team on it.\nTrack adherence to the Space Utilization process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A3.4",
+    "subpoint_name": "Space Utilization",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Space Utilization and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Space Utilization exceptions early."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A3.4",
+    "subpoint_name": "Space Utilization",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Space Utilization end-to-end where feasible.\nAdd live dashboards and alerts for Space Utilization performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A4.1",
+    "subpoint_name": "Material Standardization",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Material Standardization.\nDefine and document a basic Material Standardization process, even if manual.\nStart capturing Material Standardization activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A4.1",
+    "subpoint_name": "Material Standardization",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Material Standardization and train the team on it.\nTrack adherence to the Material Standardization process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A4.1",
+    "subpoint_name": "Material Standardization",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Material Standardization and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Material Standardization exceptions early."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A4.1",
+    "subpoint_name": "Material Standardization",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Material Standardization end-to-end where feasible.\nAdd live dashboards and alerts for Material Standardization performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A4.2",
+    "subpoint_name": "Damage Prevention",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Damage Prevention.\nDefine and document a basic Damage Prevention process, even if manual.\nStart capturing Damage Prevention activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A4.2",
+    "subpoint_name": "Damage Prevention",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Damage Prevention and train the team on it.\nTrack adherence to the Damage Prevention process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A4.2",
+    "subpoint_name": "Damage Prevention",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Damage Prevention and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Damage Prevention exceptions early."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A4.2",
+    "subpoint_name": "Damage Prevention",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Damage Prevention end-to-end where feasible.\nAdd live dashboards and alerts for Damage Prevention performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A4.3",
+    "subpoint_name": "Pack Productivity",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Pack Productivity.\nDefine and document a basic Pack Productivity process, even if manual.\nStart capturing Pack Productivity activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A4.3",
+    "subpoint_name": "Pack Productivity",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Pack Productivity and train the team on it.\nTrack adherence to the Pack Productivity process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A4.3",
+    "subpoint_name": "Pack Productivity",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Pack Productivity and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Pack Productivity exceptions early."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A4.3",
+    "subpoint_name": "Pack Productivity",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Pack Productivity end-to-end where feasible.\nAdd live dashboards and alerts for Pack Productivity performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A5.1",
+    "subpoint_name": "Staging Discipline",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Staging Discipline.\nDefine and document a basic Staging Discipline process, even if manual.\nStart capturing Staging Discipline activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A5.1",
+    "subpoint_name": "Staging Discipline",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Staging Discipline and train the team on it.\nTrack adherence to the Staging Discipline process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A5.1",
+    "subpoint_name": "Staging Discipline",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Staging Discipline and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Staging Discipline exceptions early."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A5.1",
+    "subpoint_name": "Staging Discipline",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Staging Discipline end-to-end where feasible.\nAdd live dashboards and alerts for Staging Discipline performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A5.2",
+    "subpoint_name": "Order Consolidation",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Order Consolidation.\nDefine and document a basic Order Consolidation process, even if manual.\nStart capturing Order Consolidation activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A5.2",
+    "subpoint_name": "Order Consolidation",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Order Consolidation and train the team on it.\nTrack adherence to the Order Consolidation process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A5.2",
+    "subpoint_name": "Order Consolidation",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Order Consolidation and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Order Consolidation exceptions early."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A5.2",
+    "subpoint_name": "Order Consolidation",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Order Consolidation end-to-end where feasible.\nAdd live dashboards and alerts for Order Consolidation performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A5.3",
+    "subpoint_name": "FIFO/FEFO Adherence",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for FIFO/FEFO Adherence.\nDefine and document a basic FIFO/FEFO Adherence process, even if manual.\nStart capturing FIFO/FEFO Adherence activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A5.3",
+    "subpoint_name": "FIFO/FEFO Adherence",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for FIFO/FEFO Adherence and train the team on it.\nTrack adherence to the FIFO/FEFO Adherence process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A5.3",
+    "subpoint_name": "FIFO/FEFO Adherence",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for FIFO/FEFO Adherence and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag FIFO/FEFO Adherence exceptions early."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A5.3",
+    "subpoint_name": "FIFO/FEFO Adherence",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate FIFO/FEFO Adherence end-to-end where feasible.\nAdd live dashboards and alerts for FIFO/FEFO Adherence performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A6.1",
+    "subpoint_name": "Loading Efficiency",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Loading Efficiency.\nDefine and document a basic Loading Efficiency process, even if manual.\nStart capturing Loading Efficiency activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A6.1",
+    "subpoint_name": "Loading Efficiency",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Loading Efficiency and train the team on it.\nTrack adherence to the Loading Efficiency process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A6.1",
+    "subpoint_name": "Loading Efficiency",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Loading Efficiency and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Loading Efficiency exceptions early."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A6.1",
+    "subpoint_name": "Loading Efficiency",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Loading Efficiency end-to-end where feasible.\nAdd live dashboards and alerts for Loading Efficiency performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A6.2",
+    "subpoint_name": "Dispatch Accuracy",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Dispatch Accuracy.\nDefine and document a basic Dispatch Accuracy process, even if manual.\nStart capturing Dispatch Accuracy activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A6.2",
+    "subpoint_name": "Dispatch Accuracy",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Dispatch Accuracy and train the team on it.\nTrack adherence to the Dispatch Accuracy process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A6.2",
+    "subpoint_name": "Dispatch Accuracy",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Dispatch Accuracy and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Dispatch Accuracy exceptions early."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A6.2",
+    "subpoint_name": "Dispatch Accuracy",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Dispatch Accuracy end-to-end where feasible.\nAdd live dashboards and alerts for Dispatch Accuracy performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A6.3",
+    "subpoint_name": "Vehicle Turnaround",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Vehicle Turnaround.\nDefine and document a basic Vehicle Turnaround process, even if manual.\nStart capturing Vehicle Turnaround activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A6.3",
+    "subpoint_name": "Vehicle Turnaround",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Vehicle Turnaround and train the team on it.\nTrack adherence to the Vehicle Turnaround process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A6.3",
+    "subpoint_name": "Vehicle Turnaround",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Vehicle Turnaround and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Vehicle Turnaround exceptions early."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A6.3",
+    "subpoint_name": "Vehicle Turnaround",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Vehicle Turnaround end-to-end where feasible.\nAdd live dashboards and alerts for Vehicle Turnaround performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A6.4",
+    "subpoint_name": "Proof of Delivery",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Proof of Delivery.\nDefine and document a basic Proof of Delivery process, even if manual.\nStart capturing Proof of Delivery activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A6.4",
+    "subpoint_name": "Proof of Delivery",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Proof of Delivery and train the team on it.\nTrack adherence to the Proof of Delivery process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A6.4",
+    "subpoint_name": "Proof of Delivery",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Proof of Delivery and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Proof of Delivery exceptions early."
+  },
+  {
+    "module_id": "WH_V1",
+    "subpoint_id": "A6.4",
+    "subpoint_name": "Proof of Delivery",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Proof of Delivery end-to-end where feasible.\nAdd live dashboards and alerts for Proof of Delivery performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A1.1",
+    "subpoint_name": "Route Optimization",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Route Optimization.\nDefine and document a basic Route Optimization process, even if manual.\nStart capturing Route Optimization activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A1.1",
+    "subpoint_name": "Route Optimization",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Route Optimization and train the team on it.\nTrack adherence to the Route Optimization process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A1.1",
+    "subpoint_name": "Route Optimization",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Route Optimization and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Route Optimization exceptions early."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A1.1",
+    "subpoint_name": "Route Optimization",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Route Optimization end-to-end where feasible.\nAdd live dashboards and alerts for Route Optimization performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A1.2",
+    "subpoint_name": "Load Consolidation",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Load Consolidation.\nDefine and document a basic Load Consolidation process, even if manual.\nStart capturing Load Consolidation activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A1.2",
+    "subpoint_name": "Load Consolidation",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Load Consolidation and train the team on it.\nTrack adherence to the Load Consolidation process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A1.2",
+    "subpoint_name": "Load Consolidation",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Load Consolidation and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Load Consolidation exceptions early."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A1.2",
+    "subpoint_name": "Load Consolidation",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Load Consolidation end-to-end where feasible.\nAdd live dashboards and alerts for Load Consolidation performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A1.3",
+    "subpoint_name": "Trip Scheduling",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Trip Scheduling.\nDefine and document a basic Trip Scheduling process, even if manual.\nStart capturing Trip Scheduling activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A1.3",
+    "subpoint_name": "Trip Scheduling",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Trip Scheduling and train the team on it.\nTrack adherence to the Trip Scheduling process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A1.3",
+    "subpoint_name": "Trip Scheduling",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Trip Scheduling and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Trip Scheduling exceptions early."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A1.3",
+    "subpoint_name": "Trip Scheduling",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Trip Scheduling end-to-end where feasible.\nAdd live dashboards and alerts for Trip Scheduling performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A2.1",
+    "subpoint_name": "Capacity Utilization",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Capacity Utilization.\nDefine and document a basic Capacity Utilization process, even if manual.\nStart capturing Capacity Utilization activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A2.1",
+    "subpoint_name": "Capacity Utilization",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Capacity Utilization and train the team on it.\nTrack adherence to the Capacity Utilization process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A2.1",
+    "subpoint_name": "Capacity Utilization",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Capacity Utilization and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Capacity Utilization exceptions early."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A2.1",
+    "subpoint_name": "Capacity Utilization",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Capacity Utilization end-to-end where feasible.\nAdd live dashboards and alerts for Capacity Utilization performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A2.2",
+    "subpoint_name": "Idle Time Control",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Idle Time Control.\nDefine and document a basic Idle Time Control process, even if manual.\nStart capturing Idle Time Control activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A2.2",
+    "subpoint_name": "Idle Time Control",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Idle Time Control and train the team on it.\nTrack adherence to the Idle Time Control process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A2.2",
+    "subpoint_name": "Idle Time Control",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Idle Time Control and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Idle Time Control exceptions early."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A2.2",
+    "subpoint_name": "Idle Time Control",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Idle Time Control end-to-end where feasible.\nAdd live dashboards and alerts for Idle Time Control performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A2.3",
+    "subpoint_name": "Return-Trip Loading",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Return-Trip Loading.\nDefine and document a basic Return-Trip Loading process, even if manual.\nStart capturing Return-Trip Loading activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A2.3",
+    "subpoint_name": "Return-Trip Loading",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Return-Trip Loading and train the team on it.\nTrack adherence to the Return-Trip Loading process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A2.3",
+    "subpoint_name": "Return-Trip Loading",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Return-Trip Loading and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Return-Trip Loading exceptions early."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A2.3",
+    "subpoint_name": "Return-Trip Loading",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Return-Trip Loading end-to-end where feasible.\nAdd live dashboards and alerts for Return-Trip Loading performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A3.1",
+    "subpoint_name": "Driver Availability",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Driver Availability.\nDefine and document a basic Driver Availability process, even if manual.\nStart capturing Driver Availability activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A3.1",
+    "subpoint_name": "Driver Availability",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Driver Availability and train the team on it.\nTrack adherence to the Driver Availability process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A3.1",
+    "subpoint_name": "Driver Availability",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Driver Availability and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Driver Availability exceptions early."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A3.1",
+    "subpoint_name": "Driver Availability",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Driver Availability end-to-end where feasible.\nAdd live dashboards and alerts for Driver Availability performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A3.2",
+    "subpoint_name": "Behaviour Monitoring",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Behaviour Monitoring.\nDefine and document a basic Behaviour Monitoring process, even if manual.\nStart capturing Behaviour Monitoring activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A3.2",
+    "subpoint_name": "Behaviour Monitoring",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Behaviour Monitoring and train the team on it.\nTrack adherence to the Behaviour Monitoring process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A3.2",
+    "subpoint_name": "Behaviour Monitoring",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Behaviour Monitoring and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Behaviour Monitoring exceptions early."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A3.2",
+    "subpoint_name": "Behaviour Monitoring",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Behaviour Monitoring end-to-end where feasible.\nAdd live dashboards and alerts for Behaviour Monitoring performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A3.3",
+    "subpoint_name": "Training & Certification",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Training & Certification.\nDefine and document a basic Training & Certification process, even if manual.\nStart capturing Training & Certification activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A3.3",
+    "subpoint_name": "Training & Certification",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Training & Certification and train the team on it.\nTrack adherence to the Training & Certification process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A3.3",
+    "subpoint_name": "Training & Certification",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Training & Certification and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Training & Certification exceptions early."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A3.3",
+    "subpoint_name": "Training & Certification",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Training & Certification end-to-end where feasible.\nAdd live dashboards and alerts for Training & Certification performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A4.1",
+    "subpoint_name": "Fuel Efficiency",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Fuel Efficiency.\nDefine and document a basic Fuel Efficiency process, even if manual.\nStart capturing Fuel Efficiency activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A4.1",
+    "subpoint_name": "Fuel Efficiency",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Fuel Efficiency and train the team on it.\nTrack adherence to the Fuel Efficiency process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A4.1",
+    "subpoint_name": "Fuel Efficiency",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Fuel Efficiency and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Fuel Efficiency exceptions early."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A4.1",
+    "subpoint_name": "Fuel Efficiency",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Fuel Efficiency end-to-end where feasible.\nAdd live dashboards and alerts for Fuel Efficiency performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A4.2",
+    "subpoint_name": "Cost per Km Tracking",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Cost per Km Tracking.\nDefine and document a basic Cost per Km Tracking process, even if manual.\nStart capturing Cost per Km Tracking activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A4.2",
+    "subpoint_name": "Cost per Km Tracking",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Cost per Km Tracking and train the team on it.\nTrack adherence to the Cost per Km Tracking process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A4.2",
+    "subpoint_name": "Cost per Km Tracking",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Cost per Km Tracking and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Cost per Km Tracking exceptions early."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A4.2",
+    "subpoint_name": "Cost per Km Tracking",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Cost per Km Tracking end-to-end where feasible.\nAdd live dashboards and alerts for Cost per Km Tracking performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A4.3",
+    "subpoint_name": "Maintenance Cost Control",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Maintenance Cost Control.\nDefine and document a basic Maintenance Cost Control process, even if manual.\nStart capturing Maintenance Cost Control activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A4.3",
+    "subpoint_name": "Maintenance Cost Control",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Maintenance Cost Control and train the team on it.\nTrack adherence to the Maintenance Cost Control process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A4.3",
+    "subpoint_name": "Maintenance Cost Control",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Maintenance Cost Control and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Maintenance Cost Control exceptions early."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A4.3",
+    "subpoint_name": "Maintenance Cost Control",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Maintenance Cost Control end-to-end where feasible.\nAdd live dashboards and alerts for Maintenance Cost Control performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A5.1",
+    "subpoint_name": "On-Time Dispatch",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for On-Time Dispatch.\nDefine and document a basic On-Time Dispatch process, even if manual.\nStart capturing On-Time Dispatch activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A5.1",
+    "subpoint_name": "On-Time Dispatch",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for On-Time Dispatch and train the team on it.\nTrack adherence to the On-Time Dispatch process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A5.1",
+    "subpoint_name": "On-Time Dispatch",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for On-Time Dispatch and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag On-Time Dispatch exceptions early."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A5.1",
+    "subpoint_name": "On-Time Dispatch",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate On-Time Dispatch end-to-end where feasible.\nAdd live dashboards and alerts for On-Time Dispatch performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A5.2",
+    "subpoint_name": "Transit Time Adherence",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Transit Time Adherence.\nDefine and document a basic Transit Time Adherence process, even if manual.\nStart capturing Transit Time Adherence activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A5.2",
+    "subpoint_name": "Transit Time Adherence",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Transit Time Adherence and train the team on it.\nTrack adherence to the Transit Time Adherence process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A5.2",
+    "subpoint_name": "Transit Time Adherence",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Transit Time Adherence and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Transit Time Adherence exceptions early."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A5.2",
+    "subpoint_name": "Transit Time Adherence",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Transit Time Adherence end-to-end where feasible.\nAdd live dashboards and alerts for Transit Time Adherence performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A5.3",
+    "subpoint_name": "Exception Handling",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Exception Handling.\nDefine and document a basic Exception Handling process, even if manual.\nStart capturing Exception Handling activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A5.3",
+    "subpoint_name": "Exception Handling",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Exception Handling and train the team on it.\nTrack adherence to the Exception Handling process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A5.3",
+    "subpoint_name": "Exception Handling",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Exception Handling and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Exception Handling exceptions early."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A5.3",
+    "subpoint_name": "Exception Handling",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Exception Handling end-to-end where feasible.\nAdd live dashboards and alerts for Exception Handling performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A6.1",
+    "subpoint_name": "Regulatory Compliance",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Regulatory Compliance.\nDefine and document a basic Regulatory Compliance process, even if manual.\nStart capturing Regulatory Compliance activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A6.1",
+    "subpoint_name": "Regulatory Compliance",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Regulatory Compliance and train the team on it.\nTrack adherence to the Regulatory Compliance process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A6.1",
+    "subpoint_name": "Regulatory Compliance",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Regulatory Compliance and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Regulatory Compliance exceptions early."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A6.1",
+    "subpoint_name": "Regulatory Compliance",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Regulatory Compliance end-to-end where feasible.\nAdd live dashboards and alerts for Regulatory Compliance performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A6.2",
+    "subpoint_name": "Incident Management",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Incident Management.\nDefine and document a basic Incident Management process, even if manual.\nStart capturing Incident Management activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A6.2",
+    "subpoint_name": "Incident Management",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Incident Management and train the team on it.\nTrack adherence to the Incident Management process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A6.2",
+    "subpoint_name": "Incident Management",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Incident Management and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Incident Management exceptions early."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A6.2",
+    "subpoint_name": "Incident Management",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Incident Management end-to-end where feasible.\nAdd live dashboards and alerts for Incident Management performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A6.3",
+    "subpoint_name": "Vehicle Fitness",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Vehicle Fitness.\nDefine and document a basic Vehicle Fitness process, even if manual.\nStart capturing Vehicle Fitness activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A6.3",
+    "subpoint_name": "Vehicle Fitness",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Vehicle Fitness and train the team on it.\nTrack adherence to the Vehicle Fitness process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A6.3",
+    "subpoint_name": "Vehicle Fitness",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Vehicle Fitness and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Vehicle Fitness exceptions early."
+  },
+  {
+    "module_id": "TRANS_V1",
+    "subpoint_id": "A6.3",
+    "subpoint_name": "Vehicle Fitness",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Vehicle Fitness end-to-end where feasible.\nAdd live dashboards and alerts for Vehicle Fitness performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "PROC_V1",
+    "subpoint_id": "A1.1",
+    "subpoint_name": "Vendor Onboarding",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Vendor Onboarding.\nDefine and document a basic Vendor Onboarding process, even if manual.\nStart capturing Vendor Onboarding activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "PROC_V1",
+    "subpoint_id": "A1.1",
+    "subpoint_name": "Vendor Onboarding",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Vendor Onboarding and train the team on it.\nTrack adherence to the Vendor Onboarding process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "PROC_V1",
+    "subpoint_id": "A1.1",
+    "subpoint_name": "Vendor Onboarding",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Vendor Onboarding and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Vendor Onboarding exceptions early."
+  },
+  {
+    "module_id": "PROC_V1",
+    "subpoint_id": "A1.1",
+    "subpoint_name": "Vendor Onboarding",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Vendor Onboarding end-to-end where feasible.\nAdd live dashboards and alerts for Vendor Onboarding performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "PROC_V1",
+    "subpoint_id": "A1.2",
+    "subpoint_name": "Performance Scorecards",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Performance Scorecards.\nDefine and document a basic Performance Scorecards process, even if manual.\nStart capturing Performance Scorecards activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "PROC_V1",
+    "subpoint_id": "A1.2",
+    "subpoint_name": "Performance Scorecards",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Performance Scorecards and train the team on it.\nTrack adherence to the Performance Scorecards process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "PROC_V1",
+    "subpoint_id": "A1.2",
+    "subpoint_name": "Performance Scorecards",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Performance Scorecards and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Performance Scorecards exceptions early."
+  },
+  {
+    "module_id": "PROC_V1",
+    "subpoint_id": "A1.2",
+    "subpoint_name": "Performance Scorecards",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Performance Scorecards end-to-end where feasible.\nAdd live dashboards and alerts for Performance Scorecards performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "PROC_V1",
+    "subpoint_id": "A1.3",
+    "subpoint_name": "Relationship Management",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Relationship Management.\nDefine and document a basic Relationship Management process, even if manual.\nStart capturing Relationship Management activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "PROC_V1",
+    "subpoint_id": "A1.3",
+    "subpoint_name": "Relationship Management",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Relationship Management and train the team on it.\nTrack adherence to the Relationship Management process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "PROC_V1",
+    "subpoint_id": "A1.3",
+    "subpoint_name": "Relationship Management",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Relationship Management and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Relationship Management exceptions early."
+  },
+  {
+    "module_id": "PROC_V1",
+    "subpoint_id": "A1.3",
+    "subpoint_name": "Relationship Management",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Relationship Management end-to-end where feasible.\nAdd live dashboards and alerts for Relationship Management performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "PROC_V1",
+    "subpoint_id": "A2.1",
+    "subpoint_name": "Category Strategy",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Category Strategy.\nDefine and document a basic Category Strategy process, even if manual.\nStart capturing Category Strategy activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "PROC_V1",
+    "subpoint_id": "A2.1",
+    "subpoint_name": "Category Strategy",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Category Strategy and train the team on it.\nTrack adherence to the Category Strategy process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "PROC_V1",
+    "subpoint_id": "A2.1",
+    "subpoint_name": "Category Strategy",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Category Strategy and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Category Strategy exceptions early."
+  },
+  {
+    "module_id": "PROC_V1",
+    "subpoint_id": "A2.1",
+    "subpoint_name": "Category Strategy",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Category Strategy end-to-end where feasible.\nAdd live dashboards and alerts for Category Strategy performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "PROC_V1",
+    "subpoint_id": "A2.2",
+    "subpoint_name": "Supplier Diversification",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Supplier Diversification.\nDefine and document a basic Supplier Diversification process, even if manual.\nStart capturing Supplier Diversification activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "PROC_V1",
+    "subpoint_id": "A2.2",
+    "subpoint_name": "Supplier Diversification",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Supplier Diversification and train the team on it.\nTrack adherence to the Supplier Diversification process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "PROC_V1",
+    "subpoint_id": "A2.2",
+    "subpoint_name": "Supplier Diversification",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Supplier Diversification and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Supplier Diversification exceptions early."
+  },
+  {
+    "module_id": "PROC_V1",
+    "subpoint_id": "A2.2",
+    "subpoint_name": "Supplier Diversification",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Supplier Diversification end-to-end where feasible.\nAdd live dashboards and alerts for Supplier Diversification performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "PROC_V1",
+    "subpoint_id": "A2.3",
+    "subpoint_name": "Should-Cost Analysis",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Should-Cost Analysis.\nDefine and document a basic Should-Cost Analysis process, even if manual.\nStart capturing Should-Cost Analysis activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "PROC_V1",
+    "subpoint_id": "A2.3",
+    "subpoint_name": "Should-Cost Analysis",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Should-Cost Analysis and train the team on it.\nTrack adherence to the Should-Cost Analysis process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "PROC_V1",
+    "subpoint_id": "A2.3",
+    "subpoint_name": "Should-Cost Analysis",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Should-Cost Analysis and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Should-Cost Analysis exceptions early."
+  },
+  {
+    "module_id": "PROC_V1",
+    "subpoint_id": "A2.3",
+    "subpoint_name": "Should-Cost Analysis",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Should-Cost Analysis end-to-end where feasible.\nAdd live dashboards and alerts for Should-Cost Analysis performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "PROC_V1",
+    "subpoint_id": "A3.1",
+    "subpoint_name": "Contract Coverage",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Contract Coverage.\nDefine and document a basic Contract Coverage process, even if manual.\nStart capturing Contract Coverage activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "PROC_V1",
+    "subpoint_id": "A3.1",
+    "subpoint_name": "Contract Coverage",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Contract Coverage and train the team on it.\nTrack adherence to the Contract Coverage process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "PROC_V1",
+    "subpoint_id": "A3.1",
+    "subpoint_name": "Contract Coverage",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Contract Coverage and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Contract Coverage exceptions early."
+  },
+  {
+    "module_id": "PROC_V1",
+    "subpoint_id": "A3.1",
+    "subpoint_name": "Contract Coverage",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Contract Coverage end-to-end where feasible.\nAdd live dashboards and alerts for Contract Coverage performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "PROC_V1",
+    "subpoint_id": "A3.2",
+    "subpoint_name": "Compliance & Renewals",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Compliance & Renewals.\nDefine and document a basic Compliance & Renewals process, even if manual.\nStart capturing Compliance & Renewals activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "PROC_V1",
+    "subpoint_id": "A3.2",
+    "subpoint_name": "Compliance & Renewals",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Compliance & Renewals and train the team on it.\nTrack adherence to the Compliance & Renewals process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "PROC_V1",
+    "subpoint_id": "A3.2",
+    "subpoint_name": "Compliance & Renewals",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Compliance & Renewals and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Compliance & Renewals exceptions early."
+  },
+  {
+    "module_id": "PROC_V1",
+    "subpoint_id": "A3.2",
+    "subpoint_name": "Compliance & Renewals",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Compliance & Renewals end-to-end where feasible.\nAdd live dashboards and alerts for Compliance & Renewals performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "PROC_V1",
+    "subpoint_id": "A3.3",
+    "subpoint_name": "Terms Standardization",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Terms Standardization.\nDefine and document a basic Terms Standardization process, even if manual.\nStart capturing Terms Standardization activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "PROC_V1",
+    "subpoint_id": "A3.3",
+    "subpoint_name": "Terms Standardization",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Terms Standardization and train the team on it.\nTrack adherence to the Terms Standardization process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "PROC_V1",
+    "subpoint_id": "A3.3",
+    "subpoint_name": "Terms Standardization",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Terms Standardization and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Terms Standardization exceptions early."
+  },
+  {
+    "module_id": "PROC_V1",
+    "subpoint_id": "A3.3",
+    "subpoint_name": "Terms Standardization",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Terms Standardization end-to-end where feasible.\nAdd live dashboards and alerts for Terms Standardization performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "PROC_V1",
+    "subpoint_id": "A4.1",
+    "subpoint_name": "PO Cycle Time",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for PO Cycle Time.\nDefine and document a basic PO Cycle Time process, even if manual.\nStart capturing PO Cycle Time activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "PROC_V1",
+    "subpoint_id": "A4.1",
+    "subpoint_name": "PO Cycle Time",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for PO Cycle Time and train the team on it.\nTrack adherence to the PO Cycle Time process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "PROC_V1",
+    "subpoint_id": "A4.1",
+    "subpoint_name": "PO Cycle Time",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for PO Cycle Time and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag PO Cycle Time exceptions early."
+  },
+  {
+    "module_id": "PROC_V1",
+    "subpoint_id": "A4.1",
+    "subpoint_name": "PO Cycle Time",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate PO Cycle Time end-to-end where feasible.\nAdd live dashboards and alerts for PO Cycle Time performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "PROC_V1",
+    "subpoint_id": "A4.2",
+    "subpoint_name": "Three-Way Matching",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Three-Way Matching.\nDefine and document a basic Three-Way Matching process, even if manual.\nStart capturing Three-Way Matching activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "PROC_V1",
+    "subpoint_id": "A4.2",
+    "subpoint_name": "Three-Way Matching",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Three-Way Matching and train the team on it.\nTrack adherence to the Three-Way Matching process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "PROC_V1",
+    "subpoint_id": "A4.2",
+    "subpoint_name": "Three-Way Matching",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Three-Way Matching and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Three-Way Matching exceptions early."
+  },
+  {
+    "module_id": "PROC_V1",
+    "subpoint_id": "A4.2",
+    "subpoint_name": "Three-Way Matching",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Three-Way Matching end-to-end where feasible.\nAdd live dashboards and alerts for Three-Way Matching performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "PROC_V1",
+    "subpoint_id": "A4.3",
+    "subpoint_name": "PO Accuracy",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for PO Accuracy.\nDefine and document a basic PO Accuracy process, even if manual.\nStart capturing PO Accuracy activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "PROC_V1",
+    "subpoint_id": "A4.3",
+    "subpoint_name": "PO Accuracy",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for PO Accuracy and train the team on it.\nTrack adherence to the PO Accuracy process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "PROC_V1",
+    "subpoint_id": "A4.3",
+    "subpoint_name": "PO Accuracy",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for PO Accuracy and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag PO Accuracy exceptions early."
+  },
+  {
+    "module_id": "PROC_V1",
+    "subpoint_id": "A4.3",
+    "subpoint_name": "PO Accuracy",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate PO Accuracy end-to-end where feasible.\nAdd live dashboards and alerts for PO Accuracy performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "PROC_V1",
+    "subpoint_id": "A5.1",
+    "subpoint_name": "Cost Savings Tracking",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Cost Savings Tracking.\nDefine and document a basic Cost Savings Tracking process, even if manual.\nStart capturing Cost Savings Tracking activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "PROC_V1",
+    "subpoint_id": "A5.1",
+    "subpoint_name": "Cost Savings Tracking",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Cost Savings Tracking and train the team on it.\nTrack adherence to the Cost Savings Tracking process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "PROC_V1",
+    "subpoint_id": "A5.1",
+    "subpoint_name": "Cost Savings Tracking",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Cost Savings Tracking and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Cost Savings Tracking exceptions early."
+  },
+  {
+    "module_id": "PROC_V1",
+    "subpoint_id": "A5.1",
+    "subpoint_name": "Cost Savings Tracking",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Cost Savings Tracking end-to-end where feasible.\nAdd live dashboards and alerts for Cost Savings Tracking performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "PROC_V1",
+    "subpoint_id": "A5.2",
+    "subpoint_name": "Supply Risk Management",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Supply Risk Management.\nDefine and document a basic Supply Risk Management process, even if manual.\nStart capturing Supply Risk Management activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "PROC_V1",
+    "subpoint_id": "A5.2",
+    "subpoint_name": "Supply Risk Management",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Supply Risk Management and train the team on it.\nTrack adherence to the Supply Risk Management process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "PROC_V1",
+    "subpoint_id": "A5.2",
+    "subpoint_name": "Supply Risk Management",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Supply Risk Management and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Supply Risk Management exceptions early."
+  },
+  {
+    "module_id": "PROC_V1",
+    "subpoint_id": "A5.2",
+    "subpoint_name": "Supply Risk Management",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Supply Risk Management end-to-end where feasible.\nAdd live dashboards and alerts for Supply Risk Management performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "PROC_V1",
+    "subpoint_id": "A5.3",
+    "subpoint_name": "Spend Visibility",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Spend Visibility.\nDefine and document a basic Spend Visibility process, even if manual.\nStart capturing Spend Visibility activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "PROC_V1",
+    "subpoint_id": "A5.3",
+    "subpoint_name": "Spend Visibility",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Spend Visibility and train the team on it.\nTrack adherence to the Spend Visibility process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "PROC_V1",
+    "subpoint_id": "A5.3",
+    "subpoint_name": "Spend Visibility",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Spend Visibility and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Spend Visibility exceptions early."
+  },
+  {
+    "module_id": "PROC_V1",
+    "subpoint_id": "A5.3",
+    "subpoint_name": "Spend Visibility",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Spend Visibility end-to-end where feasible.\nAdd live dashboards and alerts for Spend Visibility performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "INV_V1",
+    "subpoint_id": "A1.1",
+    "subpoint_name": "Forecast Accuracy",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Forecast Accuracy.\nDefine and document a basic Forecast Accuracy process, even if manual.\nStart capturing Forecast Accuracy activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "INV_V1",
+    "subpoint_id": "A1.1",
+    "subpoint_name": "Forecast Accuracy",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Forecast Accuracy and train the team on it.\nTrack adherence to the Forecast Accuracy process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "INV_V1",
+    "subpoint_id": "A1.1",
+    "subpoint_name": "Forecast Accuracy",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Forecast Accuracy and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Forecast Accuracy exceptions early."
+  },
+  {
+    "module_id": "INV_V1",
+    "subpoint_id": "A1.1",
+    "subpoint_name": "Forecast Accuracy",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Forecast Accuracy end-to-end where feasible.\nAdd live dashboards and alerts for Forecast Accuracy performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "INV_V1",
+    "subpoint_id": "A1.2",
+    "subpoint_name": "Demand Sensing",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Demand Sensing.\nDefine and document a basic Demand Sensing process, even if manual.\nStart capturing Demand Sensing activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "INV_V1",
+    "subpoint_id": "A1.2",
+    "subpoint_name": "Demand Sensing",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Demand Sensing and train the team on it.\nTrack adherence to the Demand Sensing process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "INV_V1",
+    "subpoint_id": "A1.2",
+    "subpoint_name": "Demand Sensing",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Demand Sensing and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Demand Sensing exceptions early."
+  },
+  {
+    "module_id": "INV_V1",
+    "subpoint_id": "A1.2",
+    "subpoint_name": "Demand Sensing",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Demand Sensing end-to-end where feasible.\nAdd live dashboards and alerts for Demand Sensing performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "INV_V1",
+    "subpoint_id": "A1.3",
+    "subpoint_name": "Planning Cadence",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Planning Cadence.\nDefine and document a basic Planning Cadence process, even if manual.\nStart capturing Planning Cadence activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "INV_V1",
+    "subpoint_id": "A1.3",
+    "subpoint_name": "Planning Cadence",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Planning Cadence and train the team on it.\nTrack adherence to the Planning Cadence process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "INV_V1",
+    "subpoint_id": "A1.3",
+    "subpoint_name": "Planning Cadence",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Planning Cadence and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Planning Cadence exceptions early."
+  },
+  {
+    "module_id": "INV_V1",
+    "subpoint_id": "A1.3",
+    "subpoint_name": "Planning Cadence",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Planning Cadence end-to-end where feasible.\nAdd live dashboards and alerts for Planning Cadence performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "INV_V1",
+    "subpoint_id": "A2.1",
+    "subpoint_name": "Cycle Counting",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Cycle Counting.\nDefine and document a basic Cycle Counting process, even if manual.\nStart capturing Cycle Counting activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "INV_V1",
+    "subpoint_id": "A2.1",
+    "subpoint_name": "Cycle Counting",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Cycle Counting and train the team on it.\nTrack adherence to the Cycle Counting process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "INV_V1",
+    "subpoint_id": "A2.1",
+    "subpoint_name": "Cycle Counting",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Cycle Counting and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Cycle Counting exceptions early."
+  },
+  {
+    "module_id": "INV_V1",
+    "subpoint_id": "A2.1",
+    "subpoint_name": "Cycle Counting",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Cycle Counting end-to-end where feasible.\nAdd live dashboards and alerts for Cycle Counting performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "INV_V1",
+    "subpoint_id": "A2.2",
+    "subpoint_name": "System-Physical Match",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for System-Physical Match.\nDefine and document a basic System-Physical Match process, even if manual.\nStart capturing System-Physical Match activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "INV_V1",
+    "subpoint_id": "A2.2",
+    "subpoint_name": "System-Physical Match",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for System-Physical Match and train the team on it.\nTrack adherence to the System-Physical Match process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "INV_V1",
+    "subpoint_id": "A2.2",
+    "subpoint_name": "System-Physical Match",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for System-Physical Match and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag System-Physical Match exceptions early."
+  },
+  {
+    "module_id": "INV_V1",
+    "subpoint_id": "A2.2",
+    "subpoint_name": "System-Physical Match",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate System-Physical Match end-to-end where feasible.\nAdd live dashboards and alerts for System-Physical Match performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "INV_V1",
+    "subpoint_id": "A2.3",
+    "subpoint_name": "Shrinkage Control",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Shrinkage Control.\nDefine and document a basic Shrinkage Control process, even if manual.\nStart capturing Shrinkage Control activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "INV_V1",
+    "subpoint_id": "A2.3",
+    "subpoint_name": "Shrinkage Control",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Shrinkage Control and train the team on it.\nTrack adherence to the Shrinkage Control process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "INV_V1",
+    "subpoint_id": "A2.3",
+    "subpoint_name": "Shrinkage Control",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Shrinkage Control and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Shrinkage Control exceptions early."
+  },
+  {
+    "module_id": "INV_V1",
+    "subpoint_id": "A2.3",
+    "subpoint_name": "Shrinkage Control",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Shrinkage Control end-to-end where feasible.\nAdd live dashboards and alerts for Shrinkage Control performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "INV_V1",
+    "subpoint_id": "A3.1",
+    "subpoint_name": "Reorder Discipline",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Reorder Discipline.\nDefine and document a basic Reorder Discipline process, even if manual.\nStart capturing Reorder Discipline activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "INV_V1",
+    "subpoint_id": "A3.1",
+    "subpoint_name": "Reorder Discipline",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Reorder Discipline and train the team on it.\nTrack adherence to the Reorder Discipline process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "INV_V1",
+    "subpoint_id": "A3.1",
+    "subpoint_name": "Reorder Discipline",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Reorder Discipline and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Reorder Discipline exceptions early."
+  },
+  {
+    "module_id": "INV_V1",
+    "subpoint_id": "A3.1",
+    "subpoint_name": "Reorder Discipline",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Reorder Discipline end-to-end where feasible.\nAdd live dashboards and alerts for Reorder Discipline performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "INV_V1",
+    "subpoint_id": "A3.2",
+    "subpoint_name": "Safety Stock Policy",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Safety Stock Policy.\nDefine and document a basic Safety Stock Policy process, even if manual.\nStart capturing Safety Stock Policy activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "INV_V1",
+    "subpoint_id": "A3.2",
+    "subpoint_name": "Safety Stock Policy",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Safety Stock Policy and train the team on it.\nTrack adherence to the Safety Stock Policy process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "INV_V1",
+    "subpoint_id": "A3.2",
+    "subpoint_name": "Safety Stock Policy",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Safety Stock Policy and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Safety Stock Policy exceptions early."
+  },
+  {
+    "module_id": "INV_V1",
+    "subpoint_id": "A3.2",
+    "subpoint_name": "Safety Stock Policy",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Safety Stock Policy end-to-end where feasible.\nAdd live dashboards and alerts for Safety Stock Policy performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "INV_V1",
+    "subpoint_id": "A3.3",
+    "subpoint_name": "Lead-Time Management",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Lead-Time Management.\nDefine and document a basic Lead-Time Management process, even if manual.\nStart capturing Lead-Time Management activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "INV_V1",
+    "subpoint_id": "A3.3",
+    "subpoint_name": "Lead-Time Management",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Lead-Time Management and train the team on it.\nTrack adherence to the Lead-Time Management process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "INV_V1",
+    "subpoint_id": "A3.3",
+    "subpoint_name": "Lead-Time Management",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Lead-Time Management and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Lead-Time Management exceptions early."
+  },
+  {
+    "module_id": "INV_V1",
+    "subpoint_id": "A3.3",
+    "subpoint_name": "Lead-Time Management",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Lead-Time Management end-to-end where feasible.\nAdd live dashboards and alerts for Lead-Time Management performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "INV_V1",
+    "subpoint_id": "A4.1",
+    "subpoint_name": "Aging Visibility",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Aging Visibility.\nDefine and document a basic Aging Visibility process, even if manual.\nStart capturing Aging Visibility activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "INV_V1",
+    "subpoint_id": "A4.1",
+    "subpoint_name": "Aging Visibility",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Aging Visibility and train the team on it.\nTrack adherence to the Aging Visibility process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "INV_V1",
+    "subpoint_id": "A4.1",
+    "subpoint_name": "Aging Visibility",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Aging Visibility and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Aging Visibility exceptions early."
+  },
+  {
+    "module_id": "INV_V1",
+    "subpoint_id": "A4.1",
+    "subpoint_name": "Aging Visibility",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Aging Visibility end-to-end where feasible.\nAdd live dashboards and alerts for Aging Visibility performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "INV_V1",
+    "subpoint_id": "A4.2",
+    "subpoint_name": "Obsolescence Provisioning",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Obsolescence Provisioning.\nDefine and document a basic Obsolescence Provisioning process, even if manual.\nStart capturing Obsolescence Provisioning activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "INV_V1",
+    "subpoint_id": "A4.2",
+    "subpoint_name": "Obsolescence Provisioning",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Obsolescence Provisioning and train the team on it.\nTrack adherence to the Obsolescence Provisioning process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "INV_V1",
+    "subpoint_id": "A4.2",
+    "subpoint_name": "Obsolescence Provisioning",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Obsolescence Provisioning and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Obsolescence Provisioning exceptions early."
+  },
+  {
+    "module_id": "INV_V1",
+    "subpoint_id": "A4.2",
+    "subpoint_name": "Obsolescence Provisioning",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Obsolescence Provisioning end-to-end where feasible.\nAdd live dashboards and alerts for Obsolescence Provisioning performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "INV_V1",
+    "subpoint_id": "A4.3",
+    "subpoint_name": "Liquidation Process",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Liquidation Process.\nDefine and document a basic Liquidation Process process, even if manual.\nStart capturing Liquidation Process activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "INV_V1",
+    "subpoint_id": "A4.3",
+    "subpoint_name": "Liquidation Process",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Liquidation Process and train the team on it.\nTrack adherence to the Liquidation Process process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "INV_V1",
+    "subpoint_id": "A4.3",
+    "subpoint_name": "Liquidation Process",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Liquidation Process and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Liquidation Process exceptions early."
+  },
+  {
+    "module_id": "INV_V1",
+    "subpoint_id": "A4.3",
+    "subpoint_name": "Liquidation Process",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Liquidation Process end-to-end where feasible.\nAdd live dashboards and alerts for Liquidation Process performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "INV_V1",
+    "subpoint_id": "A5.1",
+    "subpoint_name": "ABC/XYZ Classification",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for ABC/XYZ Classification.\nDefine and document a basic ABC/XYZ Classification process, even if manual.\nStart capturing ABC/XYZ Classification activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "INV_V1",
+    "subpoint_id": "A5.1",
+    "subpoint_name": "ABC/XYZ Classification",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for ABC/XYZ Classification and train the team on it.\nTrack adherence to the ABC/XYZ Classification process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "INV_V1",
+    "subpoint_id": "A5.1",
+    "subpoint_name": "ABC/XYZ Classification",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for ABC/XYZ Classification and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag ABC/XYZ Classification exceptions early."
+  },
+  {
+    "module_id": "INV_V1",
+    "subpoint_id": "A5.1",
+    "subpoint_name": "ABC/XYZ Classification",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate ABC/XYZ Classification end-to-end where feasible.\nAdd live dashboards and alerts for ABC/XYZ Classification performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "INV_V1",
+    "subpoint_id": "A5.2",
+    "subpoint_name": "Inventory Turns",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Inventory Turns.\nDefine and document a basic Inventory Turns process, even if manual.\nStart capturing Inventory Turns activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "INV_V1",
+    "subpoint_id": "A5.2",
+    "subpoint_name": "Inventory Turns",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Inventory Turns and train the team on it.\nTrack adherence to the Inventory Turns process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "INV_V1",
+    "subpoint_id": "A5.2",
+    "subpoint_name": "Inventory Turns",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Inventory Turns and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Inventory Turns exceptions early."
+  },
+  {
+    "module_id": "INV_V1",
+    "subpoint_id": "A5.2",
+    "subpoint_name": "Inventory Turns",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Inventory Turns end-to-end where feasible.\nAdd live dashboards and alerts for Inventory Turns performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "INV_V1",
+    "subpoint_id": "A5.3",
+    "subpoint_name": "Fill-Rate Tracking",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Fill-Rate Tracking.\nDefine and document a basic Fill-Rate Tracking process, even if manual.\nStart capturing Fill-Rate Tracking activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "INV_V1",
+    "subpoint_id": "A5.3",
+    "subpoint_name": "Fill-Rate Tracking",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Fill-Rate Tracking and train the team on it.\nTrack adherence to the Fill-Rate Tracking process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "INV_V1",
+    "subpoint_id": "A5.3",
+    "subpoint_name": "Fill-Rate Tracking",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Fill-Rate Tracking and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Fill-Rate Tracking exceptions early."
+  },
+  {
+    "module_id": "INV_V1",
+    "subpoint_id": "A5.3",
+    "subpoint_name": "Fill-Rate Tracking",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Fill-Rate Tracking end-to-end where feasible.\nAdd live dashboards and alerts for Fill-Rate Tracking performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A1.1",
+    "subpoint_name": "Schedule Adherence",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Schedule Adherence.\nDefine and document a basic Schedule Adherence process, even if manual.\nStart capturing Schedule Adherence activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A1.1",
+    "subpoint_name": "Schedule Adherence",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Schedule Adherence and train the team on it.\nTrack adherence to the Schedule Adherence process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A1.1",
+    "subpoint_name": "Schedule Adherence",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Schedule Adherence and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Schedule Adherence exceptions early."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A1.1",
+    "subpoint_name": "Schedule Adherence",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Schedule Adherence end-to-end where feasible.\nAdd live dashboards and alerts for Schedule Adherence performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A1.2",
+    "subpoint_name": "Capacity Planning",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Capacity Planning.\nDefine and document a basic Capacity Planning process, even if manual.\nStart capturing Capacity Planning activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A1.2",
+    "subpoint_name": "Capacity Planning",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Capacity Planning and train the team on it.\nTrack adherence to the Capacity Planning process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A1.2",
+    "subpoint_name": "Capacity Planning",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Capacity Planning and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Capacity Planning exceptions early."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A1.2",
+    "subpoint_name": "Capacity Planning",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Capacity Planning end-to-end where feasible.\nAdd live dashboards and alerts for Capacity Planning performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A1.3",
+    "subpoint_name": "Material Availability",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Material Availability.\nDefine and document a basic Material Availability process, even if manual.\nStart capturing Material Availability activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A1.3",
+    "subpoint_name": "Material Availability",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Material Availability and train the team on it.\nTrack adherence to the Material Availability process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A1.3",
+    "subpoint_name": "Material Availability",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Material Availability and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Material Availability exceptions early."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A1.3",
+    "subpoint_name": "Material Availability",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Material Availability end-to-end where feasible.\nAdd live dashboards and alerts for Material Availability performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A2.1",
+    "subpoint_name": "Availability",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Availability.\nDefine and document a basic Availability process, even if manual.\nStart capturing Availability activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A2.1",
+    "subpoint_name": "Availability",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Availability and train the team on it.\nTrack adherence to the Availability process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A2.1",
+    "subpoint_name": "Availability",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Availability and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Availability exceptions early."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A2.1",
+    "subpoint_name": "Availability",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Availability end-to-end where feasible.\nAdd live dashboards and alerts for Availability performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A2.2",
+    "subpoint_name": "Performance",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Performance.\nDefine and document a basic Performance process, even if manual.\nStart capturing Performance activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A2.2",
+    "subpoint_name": "Performance",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Performance and train the team on it.\nTrack adherence to the Performance process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A2.2",
+    "subpoint_name": "Performance",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Performance and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Performance exceptions early."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A2.2",
+    "subpoint_name": "Performance",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Performance end-to-end where feasible.\nAdd live dashboards and alerts for Performance performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A2.3",
+    "subpoint_name": "Quality Rate",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Quality Rate.\nDefine and document a basic Quality Rate process, even if manual.\nStart capturing Quality Rate activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A2.3",
+    "subpoint_name": "Quality Rate",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Quality Rate and train the team on it.\nTrack adherence to the Quality Rate process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A2.3",
+    "subpoint_name": "Quality Rate",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Quality Rate and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Quality Rate exceptions early."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A2.3",
+    "subpoint_name": "Quality Rate",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Quality Rate end-to-end where feasible.\nAdd live dashboards and alerts for Quality Rate performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A3.1",
+    "subpoint_name": "In-Process Inspection",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for In-Process Inspection.\nDefine and document a basic In-Process Inspection process, even if manual.\nStart capturing In-Process Inspection activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A3.1",
+    "subpoint_name": "In-Process Inspection",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for In-Process Inspection and train the team on it.\nTrack adherence to the In-Process Inspection process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A3.1",
+    "subpoint_name": "In-Process Inspection",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for In-Process Inspection and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag In-Process Inspection exceptions early."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A3.1",
+    "subpoint_name": "In-Process Inspection",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate In-Process Inspection end-to-end where feasible.\nAdd live dashboards and alerts for In-Process Inspection performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A3.2",
+    "subpoint_name": "Defect / Scrap Rate",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Defect / Scrap Rate.\nDefine and document a basic Defect / Scrap Rate process, even if manual.\nStart capturing Defect / Scrap Rate activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A3.2",
+    "subpoint_name": "Defect / Scrap Rate",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Defect / Scrap Rate and train the team on it.\nTrack adherence to the Defect / Scrap Rate process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A3.2",
+    "subpoint_name": "Defect / Scrap Rate",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Defect / Scrap Rate and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Defect / Scrap Rate exceptions early."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A3.2",
+    "subpoint_name": "Defect / Scrap Rate",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Defect / Scrap Rate end-to-end where feasible.\nAdd live dashboards and alerts for Defect / Scrap Rate performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A3.3",
+    "subpoint_name": "Root-Cause Analysis",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Root-Cause Analysis.\nDefine and document a basic Root-Cause Analysis process, even if manual.\nStart capturing Root-Cause Analysis activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A3.3",
+    "subpoint_name": "Root-Cause Analysis",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Root-Cause Analysis and train the team on it.\nTrack adherence to the Root-Cause Analysis process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A3.3",
+    "subpoint_name": "Root-Cause Analysis",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Root-Cause Analysis and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Root-Cause Analysis exceptions early."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A3.3",
+    "subpoint_name": "Root-Cause Analysis",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Root-Cause Analysis end-to-end where feasible.\nAdd live dashboards and alerts for Root-Cause Analysis performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A4.1",
+    "subpoint_name": "Preventive Maintenance",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Preventive Maintenance.\nDefine and document a basic Preventive Maintenance process, even if manual.\nStart capturing Preventive Maintenance activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A4.1",
+    "subpoint_name": "Preventive Maintenance",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Preventive Maintenance and train the team on it.\nTrack adherence to the Preventive Maintenance process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A4.1",
+    "subpoint_name": "Preventive Maintenance",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Preventive Maintenance and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Preventive Maintenance exceptions early."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A4.1",
+    "subpoint_name": "Preventive Maintenance",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Preventive Maintenance end-to-end where feasible.\nAdd live dashboards and alerts for Preventive Maintenance performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A4.2",
+    "subpoint_name": "Breakdown Response",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Breakdown Response.\nDefine and document a basic Breakdown Response process, even if manual.\nStart capturing Breakdown Response activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A4.2",
+    "subpoint_name": "Breakdown Response",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Breakdown Response and train the team on it.\nTrack adherence to the Breakdown Response process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A4.2",
+    "subpoint_name": "Breakdown Response",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Breakdown Response and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Breakdown Response exceptions early."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A4.2",
+    "subpoint_name": "Breakdown Response",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Breakdown Response end-to-end where feasible.\nAdd live dashboards and alerts for Breakdown Response performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A4.3",
+    "subpoint_name": "Spare-Parts Management",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Spare-Parts Management.\nDefine and document a basic Spare-Parts Management process, even if manual.\nStart capturing Spare-Parts Management activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A4.3",
+    "subpoint_name": "Spare-Parts Management",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Spare-Parts Management and train the team on it.\nTrack adherence to the Spare-Parts Management process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A4.3",
+    "subpoint_name": "Spare-Parts Management",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Spare-Parts Management and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Spare-Parts Management exceptions early."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A4.3",
+    "subpoint_name": "Spare-Parts Management",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Spare-Parts Management end-to-end where feasible.\nAdd live dashboards and alerts for Spare-Parts Management performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A5.1",
+    "subpoint_name": "Changeover Time",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Changeover Time.\nDefine and document a basic Changeover Time process, even if manual.\nStart capturing Changeover Time activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A5.1",
+    "subpoint_name": "Changeover Time",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Changeover Time and train the team on it.\nTrack adherence to the Changeover Time process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A5.1",
+    "subpoint_name": "Changeover Time",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Changeover Time and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Changeover Time exceptions early."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A5.1",
+    "subpoint_name": "Changeover Time",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Changeover Time end-to-end where feasible.\nAdd live dashboards and alerts for Changeover Time performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A5.2",
+    "subpoint_name": "SMED Practices",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for SMED Practices.\nDefine and document a basic SMED Practices process, even if manual.\nStart capturing SMED Practices activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A5.2",
+    "subpoint_name": "SMED Practices",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for SMED Practices and train the team on it.\nTrack adherence to the SMED Practices process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A5.2",
+    "subpoint_name": "SMED Practices",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for SMED Practices and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag SMED Practices exceptions early."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A5.2",
+    "subpoint_name": "SMED Practices",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate SMED Practices end-to-end where feasible.\nAdd live dashboards and alerts for SMED Practices performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A6.1",
+    "subpoint_name": "Safety Incidents",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for Safety Incidents.\nDefine and document a basic Safety Incidents process, even if manual.\nStart capturing Safety Incidents activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A6.1",
+    "subpoint_name": "Safety Incidents",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for Safety Incidents and train the team on it.\nTrack adherence to the Safety Incidents process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A6.1",
+    "subpoint_name": "Safety Incidents",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for Safety Incidents and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag Safety Incidents exceptions early."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A6.1",
+    "subpoint_name": "Safety Incidents",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate Safety Incidents end-to-end where feasible.\nAdd live dashboards and alerts for Safety Incidents performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A6.2",
+    "subpoint_name": "5S Adherence",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for 5S Adherence.\nDefine and document a basic 5S Adherence process, even if manual.\nStart capturing 5S Adherence activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A6.2",
+    "subpoint_name": "5S Adherence",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for 5S Adherence and train the team on it.\nTrack adherence to the 5S Adherence process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A6.2",
+    "subpoint_name": "5S Adherence",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for 5S Adherence and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag 5S Adherence exceptions early."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A6.2",
+    "subpoint_name": "5S Adherence",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate 5S Adherence end-to-end where feasible.\nAdd live dashboards and alerts for 5S Adherence performance.\nRun continuous improvement using trend and predictive analytics."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A6.3",
+    "subpoint_name": "PPE Compliance",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Assign a clear owner and accountability for PPE Compliance.\nDefine and document a basic PPE Compliance process, even if manual.\nStart capturing PPE Compliance activity/records so performance becomes visible."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A6.3",
+    "subpoint_name": "PPE Compliance",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Publish a standardized SOP for PPE Compliance and train the team on it.\nTrack adherence to the PPE Compliance process in a shared register or tool.\nSet a regular review rhythm to catch and correct deviations."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A6.3",
+    "subpoint_name": "PPE Compliance",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Define KPIs and targets for PPE Compliance and report them on a fixed cadence.\nReview deviations, log root causes, and drive corrective actions.\nAdd system support to flag PPE Compliance exceptions early."
+  },
+  {
+    "module_id": "MFG_V1",
+    "subpoint_id": "A6.3",
+    "subpoint_name": "PPE Compliance",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Digitize and automate PPE Compliance end-to-end where feasible.\nAdd live dashboards and alerts for PPE Compliance performance.\nRun continuous improvement using trend and predictive analytics."
+  }
+]
