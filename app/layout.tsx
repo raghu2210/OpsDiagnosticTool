@@ -18,8 +18,8 @@ const plexMono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "LongArc Diagnostic Tool",
-  description: "Operations Strategy for Growing Businesses",
+  title: "LongArc FnV Warehouse Diagnostic",
+  description: "FnV warehouse diagnostics for quick commerce - storage, rotation, spoilage, replenishment.",
 };
 
 export default function RootLayout({

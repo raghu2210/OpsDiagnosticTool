@@ -4,20 +4,24 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { ArrowRight, ChevronDown } from "lucide-react";
 
-// The tool's actual positioning copy (matches the original hero's pitch) - not a marquee
+// Repositioned as an FnV warehouse diagnostic for quick commerce (not a general multi-domain
+// ops tool) - the marquee lists the actual sub-domains this diagnostic covers, not a marquee
 // of borrowed brand logos, since there's no such thing as an internal-audit-tool's
 // investor/partner marquee. Genuinely descriptive content standing in for decoration.
 const DOMAINS = [
-  "Warehousing",
-  "Procurement",
-  "Fleet",
-  "Inventory",
-  "Manufacturing",
-  "Quality Control",
-  "Distribution",
+  "Cold Chain & Storage",
+  "Spoilage & Wastage",
+  "FEFO / Shelf-Life Rotation",
+  "Put-Away & Slotting",
+  "Dark Store Replenishment",
+  "Quality Grading",
+  "Pick-Pack Accuracy",
 ];
 
-const HEADLINE = "Bring clarity to how you run operations.";
+// Direction B from the hero copy review: hooks on the real operational tension (10-minute
+// delivery promise vs. days-long shelf life for fresh produce) instead of generic "clarity"
+// language, per the "10 seconds to grab attention" brief.
+const HEADLINE = "10-minute delivery. Days-long shelf life. One diagnostic for the gap.";
 
 function GlowBackdrop() {
   // The second glow carries the brand accent (--accent, a grounded rust/terracotta) rather
@@ -53,7 +57,7 @@ export function Hero() {
           transition={{ duration: 0.5 }}
           className="font-code text-xs uppercase tracking-[0.25em] text-white/60 mb-6"
         >
-          LongArc Labs &middot; Operations Diagnostics
+          LongArc Labs &middot; FnV Warehouse Diagnostics for Quick Commerce
         </motion.div>
 
         <h1 className="font-display text-5xl md:text-6xl lg:text-7xl font-semibold tracking-tight leading-[1.05] max-w-3xl mb-6">
@@ -76,9 +80,8 @@ export function Hero() {
           transition={{ duration: 0.6, delay: 0.9 }}
           className="text-white/70 text-lg max-w-lg leading-relaxed"
         >
-          Pick an operations domain, drill into its focus areas, and generate a ready-to-use diagnostic checklist
-          &ndash; every sub-point benchmarked on a clear 1&ndash;5 maturity scale and exportable to Excel for
-          on-ground scoring.
+          Score your FnV warehouse operation &ndash; storage, rotation, spoilage, replenishment &ndash; against a
+          clear 1&ndash;5 maturity scale, and export a ready-to-use audit checklist for on-ground scoring.
         </motion.p>
 
         <motion.p

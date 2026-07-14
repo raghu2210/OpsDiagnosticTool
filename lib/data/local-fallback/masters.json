@@ -14,7 +14,7 @@
     "score_4_desc": "Time Adherence is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Time Adherence: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "WH_V1",
@@ -31,7 +31,7 @@
     "score_4_desc": "Manpower Planning is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Manpower Planning: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "WH_V1",
@@ -48,7 +48,7 @@
     "score_4_desc": "Vendor Visibility is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Vendor Visibility: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "WH_V1",
@@ -65,7 +65,7 @@
     "score_4_desc": "Documentation & Compliance is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Documentation & Compliance: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "WH_V1",
@@ -82,7 +82,7 @@
     "score_4_desc": "Dock/Yard Management is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Dock/Yard Management: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "WH_V1",
@@ -99,7 +99,7 @@
     "score_4_desc": "Inspection Coverage is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Inspection Coverage: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "WH_V1",
@@ -116,7 +116,7 @@
     "score_4_desc": "Rejection Handling is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Rejection Handling: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "WH_V1",
@@ -133,7 +133,7 @@
     "score_4_desc": "Sampling Discipline is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Sampling Discipline: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "WH_V1",
@@ -150,7 +150,7 @@
     "score_4_desc": "QC Documentation is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class QC Documentation: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "WH_V1",
@@ -167,7 +167,7 @@
     "score_4_desc": "Slotting Logic is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Slotting Logic: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "WH_V1",
@@ -184,7 +184,7 @@
     "score_4_desc": "Putaway TAT is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Putaway TAT: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "WH_V1",
@@ -201,7 +201,7 @@
     "score_4_desc": "Location Accuracy is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Location Accuracy: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "WH_V1",
@@ -218,7 +218,7 @@
     "score_4_desc": "Space Utilization is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Space Utilization: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "WH_V1",
@@ -235,7 +235,7 @@
     "score_4_desc": "Material Standardization is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Material Standardization: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "WH_V1",
@@ -252,7 +252,7 @@
     "score_4_desc": "Damage Prevention is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Damage Prevention: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "WH_V1",
@@ -269,7 +269,7 @@
     "score_4_desc": "Pack Productivity is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Pack Productivity: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "WH_V1",
@@ -286,7 +286,7 @@
     "score_4_desc": "Staging Discipline is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Staging Discipline: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "WH_V1",
@@ -303,7 +303,7 @@
     "score_4_desc": "Order Consolidation is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Order Consolidation: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "WH_V1",
@@ -320,7 +320,7 @@
     "score_4_desc": "FIFO/FEFO Adherence is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class FIFO/FEFO Adherence: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "WH_V1",
@@ -337,7 +337,7 @@
     "score_4_desc": "Loading Efficiency is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Loading Efficiency: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "WH_V1",
@@ -354,7 +354,7 @@
     "score_4_desc": "Dispatch Accuracy is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Dispatch Accuracy: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "WH_V1",
@@ -371,7 +371,7 @@
     "score_4_desc": "Vehicle Turnaround is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Vehicle Turnaround: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "WH_V1",
@@ -388,7 +388,7 @@
     "score_4_desc": "Proof of Delivery is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Proof of Delivery: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "TRANS_V1",
@@ -405,7 +405,7 @@
     "score_4_desc": "Route Optimization is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Route Optimization: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "TRANS_V1",
@@ -422,7 +422,7 @@
     "score_4_desc": "Load Consolidation is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Load Consolidation: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "TRANS_V1",
@@ -439,7 +439,7 @@
     "score_4_desc": "Trip Scheduling is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Trip Scheduling: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "TRANS_V1",
@@ -456,7 +456,7 @@
     "score_4_desc": "Capacity Utilization is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Capacity Utilization: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "TRANS_V1",
@@ -473,7 +473,7 @@
     "score_4_desc": "Idle Time Control is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Idle Time Control: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "TRANS_V1",
@@ -490,7 +490,7 @@
     "score_4_desc": "Return-Trip Loading is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Return-Trip Loading: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "TRANS_V1",
@@ -507,7 +507,7 @@
     "score_4_desc": "Driver Availability is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Driver Availability: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "TRANS_V1",
@@ -524,7 +524,7 @@
     "score_4_desc": "Behaviour Monitoring is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Behaviour Monitoring: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "TRANS_V1",
@@ -541,7 +541,7 @@
     "score_4_desc": "Training & Certification is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Training & Certification: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "TRANS_V1",
@@ -558,7 +558,7 @@
     "score_4_desc": "Fuel Efficiency is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Fuel Efficiency: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "TRANS_V1",
@@ -575,7 +575,7 @@
     "score_4_desc": "Cost per Km Tracking is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Cost per Km Tracking: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "TRANS_V1",
@@ -592,7 +592,7 @@
     "score_4_desc": "Maintenance Cost Control is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Maintenance Cost Control: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "TRANS_V1",
@@ -609,7 +609,7 @@
     "score_4_desc": "On-Time Dispatch is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class On-Time Dispatch: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "TRANS_V1",
@@ -626,7 +626,7 @@
     "score_4_desc": "Transit Time Adherence is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Transit Time Adherence: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "TRANS_V1",
@@ -643,7 +643,7 @@
     "score_4_desc": "Exception Handling is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Exception Handling: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "TRANS_V1",
@@ -660,7 +660,7 @@
     "score_4_desc": "Regulatory Compliance is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Regulatory Compliance: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "TRANS_V1",
@@ -677,7 +677,7 @@
     "score_4_desc": "Incident Management is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Incident Management: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "TRANS_V1",
@@ -694,7 +694,7 @@
     "score_4_desc": "Vehicle Fitness is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Vehicle Fitness: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "PROC_V1",
@@ -711,7 +711,7 @@
     "score_4_desc": "Vendor Onboarding is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Vendor Onboarding: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "PROC_V1",
@@ -728,7 +728,7 @@
     "score_4_desc": "Performance Scorecards is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Performance Scorecards: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "PROC_V1",
@@ -745,7 +745,7 @@
     "score_4_desc": "Relationship Management is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Relationship Management: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "PROC_V1",
@@ -762,7 +762,7 @@
     "score_4_desc": "Category Strategy is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Category Strategy: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "PROC_V1",
@@ -779,7 +779,7 @@
     "score_4_desc": "Supplier Diversification is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Supplier Diversification: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "PROC_V1",
@@ -796,7 +796,7 @@
     "score_4_desc": "Should-Cost Analysis is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Should-Cost Analysis: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "PROC_V1",
@@ -813,7 +813,7 @@
     "score_4_desc": "Contract Coverage is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Contract Coverage: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "PROC_V1",
@@ -830,7 +830,7 @@
     "score_4_desc": "Compliance & Renewals is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Compliance & Renewals: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "PROC_V1",
@@ -847,7 +847,7 @@
     "score_4_desc": "Terms Standardization is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Terms Standardization: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "PROC_V1",
@@ -864,7 +864,7 @@
     "score_4_desc": "PO Cycle Time is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class PO Cycle Time: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "PROC_V1",
@@ -881,7 +881,7 @@
     "score_4_desc": "Three-Way Matching is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Three-Way Matching: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "PROC_V1",
@@ -898,7 +898,7 @@
     "score_4_desc": "PO Accuracy is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class PO Accuracy: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "PROC_V1",
@@ -915,7 +915,7 @@
     "score_4_desc": "Cost Savings Tracking is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Cost Savings Tracking: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "PROC_V1",
@@ -932,7 +932,7 @@
     "score_4_desc": "Supply Risk Management is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Supply Risk Management: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "PROC_V1",
@@ -949,7 +949,7 @@
     "score_4_desc": "Spend Visibility is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Spend Visibility: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "INV_V1",
@@ -966,7 +966,7 @@
     "score_4_desc": "Forecast Accuracy is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Forecast Accuracy: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "INV_V1",
@@ -983,7 +983,7 @@
     "score_4_desc": "Demand Sensing is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Demand Sensing: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "INV_V1",
@@ -1000,7 +1000,7 @@
     "score_4_desc": "Planning Cadence is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Planning Cadence: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "INV_V1",
@@ -1017,7 +1017,7 @@
     "score_4_desc": "Cycle Counting is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Cycle Counting: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "INV_V1",
@@ -1034,7 +1034,7 @@
     "score_4_desc": "System-Physical Match is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class System-Physical Match: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "INV_V1",
@@ -1051,7 +1051,7 @@
     "score_4_desc": "Shrinkage Control is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Shrinkage Control: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "INV_V1",
@@ -1068,7 +1068,7 @@
     "score_4_desc": "Reorder Discipline is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Reorder Discipline: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "INV_V1",
@@ -1085,7 +1085,7 @@
     "score_4_desc": "Safety Stock Policy is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Safety Stock Policy: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "INV_V1",
@@ -1102,7 +1102,7 @@
     "score_4_desc": "Lead-Time Management is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Lead-Time Management: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "INV_V1",
@@ -1119,7 +1119,7 @@
     "score_4_desc": "Aging Visibility is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Aging Visibility: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "INV_V1",
@@ -1136,7 +1136,7 @@
     "score_4_desc": "Obsolescence Provisioning is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Obsolescence Provisioning: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "INV_V1",
@@ -1153,7 +1153,7 @@
     "score_4_desc": "Liquidation Process is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Liquidation Process: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "INV_V1",
@@ -1170,7 +1170,7 @@
     "score_4_desc": "ABC/XYZ Classification is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class ABC/XYZ Classification: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "INV_V1",
@@ -1187,7 +1187,7 @@
     "score_4_desc": "Inventory Turns is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Inventory Turns: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "INV_V1",
@@ -1204,7 +1204,7 @@
     "score_4_desc": "Fill-Rate Tracking is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Fill-Rate Tracking: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "MFG_V1",
@@ -1221,7 +1221,7 @@
     "score_4_desc": "Schedule Adherence is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Schedule Adherence: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "MFG_V1",
@@ -1238,7 +1238,7 @@
     "score_4_desc": "Capacity Planning is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Capacity Planning: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "MFG_V1",
@@ -1255,7 +1255,7 @@
     "score_4_desc": "Material Availability is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Material Availability: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "MFG_V1",
@@ -1272,7 +1272,7 @@
     "score_4_desc": "Availability is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Availability: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "MFG_V1",
@@ -1289,7 +1289,7 @@
     "score_4_desc": "Performance is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Performance: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "MFG_V1",
@@ -1306,7 +1306,7 @@
     "score_4_desc": "Quality Rate is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Quality Rate: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "MFG_V1",
@@ -1323,7 +1323,7 @@
     "score_4_desc": "In-Process Inspection is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class In-Process Inspection: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "MFG_V1",
@@ -1340,7 +1340,7 @@
     "score_4_desc": "Defect / Scrap Rate is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Defect / Scrap Rate: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "MFG_V1",
@@ -1357,7 +1357,7 @@
     "score_4_desc": "Root-Cause Analysis is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Root-Cause Analysis: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "MFG_V1",
@@ -1374,7 +1374,7 @@
     "score_4_desc": "Preventive Maintenance is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Preventive Maintenance: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "MFG_V1",
@@ -1391,7 +1391,7 @@
     "score_4_desc": "Breakdown Response is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Breakdown Response: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "MFG_V1",
@@ -1408,7 +1408,7 @@
     "score_4_desc": "Spare-Parts Management is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Spare-Parts Management: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "MFG_V1",
@@ -1425,7 +1425,7 @@
     "score_4_desc": "Changeover Time is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Changeover Time: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "MFG_V1",
@@ -1442,7 +1442,7 @@
     "score_4_desc": "SMED Practices is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class SMED Practices: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "MFG_V1",
@@ -1459,7 +1459,7 @@
     "score_4_desc": "Safety Incidents is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class Safety Incidents: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "MFG_V1",
@@ -1476,7 +1476,7 @@
     "score_4_desc": "5S Adherence is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class 5S Adherence: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
     "version": 1,
-    "status": "active"
+    "status": "inactive"
   },
   {
     "module_id": "MFG_V1",
@@ -1492,6 +1492,329 @@
     "score_3_desc": "Standardized PPE Compliance process is defined and generally followed, with documented SOPs tracked manually or in basic tools.",
     "score_4_desc": "PPE Compliance is actively managed against KPIs with system support; deviations are reviewed and corrected regularly.",
     "score_5_desc": "Best-in-class PPE Compliance: fully digitized, automated where possible, and continuously improved using data and predictive insight.",
+    "version": 1,
+    "status": "inactive"
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "module_name": "FnV Warehouse Diagnostic - Quick Commerce",
+    "area_id": "A1",
+    "area_name": "Inward & Quality Grading",
+    "area_weight": 0.16,
+    "subpoint_id": "A1.1",
+    "subpoint_name": "Receiving Dock Discipline",
+    "subpoint_weight": 0.35,
+    "score_1_desc": "No defined receiving process for inbound produce. Crates are unloaded and moved into the facility with no time stamping, no dock scheduling, and no ownership of the inward step.",
+    "score_2_desc": "A basic receiving process exists but is manual and inconsistent - some inbound batches are logged on paper or a spreadsheet, others aren't tracked at all, and dock timing varies by whoever is on shift.",
+    "score_3_desc": "A standardized dock SOP is documented and generally followed: inbound trucks are scheduled, crates are logged against a purchase order, and receiving time is recorded manually or in a basic tool.",
+    "score_4_desc": "Receiving is actively managed against a dock-to-shelf time KPI, with system-logged timestamps, deviations flagged, and vendor punctuality tracked and reviewed.",
+    "score_5_desc": "Dock scheduling and inbound logging are fully digitized and integrated with the WMS; dock-to-shelf time is continuously monitored and used to renegotiate vendor delivery windows.",
+    "version": 1,
+    "status": "active"
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "module_name": "FnV Warehouse Diagnostic - Quick Commerce",
+    "area_id": "A1",
+    "area_name": "Inward & Quality Grading",
+    "area_weight": 0.16,
+    "subpoint_id": "A1.2",
+    "subpoint_name": "Produce Quality Grading",
+    "subpoint_weight": 0.4,
+    "score_1_desc": "No formal grading of incoming produce. Acceptance/rejection is a subjective, ad-hoc call with no documented standard for ripeness, bruising, or size.",
+    "score_2_desc": "A basic grading checklist exists for a few high-volume SKUs, but it's applied inconsistently and mostly from memory rather than a written spec.",
+    "score_3_desc": "A standardized grading rubric (ripeness stage, blemish tolerance, size band) is documented per SKU category and used at the dock, with rejected batches logged.",
+    "score_4_desc": "Grading is actively managed with photo-referenced standards, sampling-based inspection at defined intervals, and rejection-rate KPIs reviewed with vendors.",
+    "score_5_desc": "Grading is best-in-class: digitized (e.g. handheld/photo-based grading capture), tied directly to vendor scorecards, and rejection data feeds back into sourcing decisions automatically.",
+    "version": 1,
+    "status": "active"
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "module_name": "FnV Warehouse Diagnostic - Quick Commerce",
+    "area_id": "A1",
+    "area_name": "Inward & Quality Grading",
+    "area_weight": 0.16,
+    "subpoint_id": "A1.3",
+    "subpoint_name": "Batch & Lot Traceability",
+    "subpoint_weight": 0.25,
+    "score_1_desc": "No batch or lot identification on inbound produce - once inside the facility, a crate's origin and receipt date can't be reliably traced.",
+    "score_2_desc": "Batch/lot numbers are assigned manually with a marker or paper tag, but records aren't centrally kept and are frequently lost or illegible.",
+    "score_3_desc": "A standardized batch-tagging process (vendor, receipt date, lot) is documented and applied consistently, with a manual or spreadsheet-based log kept.",
+    "score_4_desc": "Batch/lot data is captured in a system at receiving and can be traced through storage and picking; discrepancies are investigated.",
+    "score_5_desc": "Full lot-level traceability from dock to dispatch is system-enforced and barcode/QR-driven, enabling instant recall or root-cause tracing for any batch.",
+    "version": 1,
+    "status": "active"
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "module_name": "FnV Warehouse Diagnostic - Quick Commerce",
+    "area_id": "A2",
+    "area_name": "Cold Chain & Storage Conditions",
+    "area_weight": 0.16,
+    "subpoint_id": "A2.1",
+    "subpoint_name": "Temperature Monitoring & Logging",
+    "subpoint_weight": 0.4,
+    "score_1_desc": "No temperature monitoring in storage areas. Cooling is assumed to be working; there's no record of actual conditions produce is held at.",
+    "score_2_desc": "Temperature is checked manually and irregularly (e.g. a wall thermometer glanced at occasionally), with no logging or escalation if out of range.",
+    "score_3_desc": "A standardized temperature-check SOP exists with scheduled manual readings logged on paper or a spreadsheet, and a defined acceptable range per zone.",
+    "score_4_desc": "Temperature is monitored with sensors and logged on a defined cadence; excursions trigger a documented escalation and corrective action process.",
+    "score_5_desc": "Continuous automated temperature/humidity monitoring with real-time alerts, historical trend data, and integration into a cold-chain compliance dashboard.",
+    "version": 1,
+    "status": "active"
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "module_name": "FnV Warehouse Diagnostic - Quick Commerce",
+    "area_id": "A2",
+    "area_name": "Cold Chain & Storage Conditions",
+    "area_weight": 0.16,
+    "subpoint_id": "A2.2",
+    "subpoint_name": "Zone Segregation by Produce Type",
+    "subpoint_weight": 0.3,
+    "score_1_desc": "All produce is stored together regardless of temperature sensitivity or ethylene sensitivity, with no zoning at all.",
+    "score_2_desc": "Some informal separation exists (e.g. \"cold stuff over there\") but it's not documented or consistently enforced across shifts.",
+    "score_3_desc": "Storage zones are defined and labeled by temperature band and ethylene sensitivity, with a documented placement guide for common SKUs.",
+    "score_4_desc": "Zone assignment is actively enforced through put-away rules and periodically audited; misplacement is tracked and corrected.",
+    "score_5_desc": "Zoning is system-enforced at put-away (WMS blocks incorrect placement), with zone-level condition monitoring tied to individual SKU shelf-life outcomes.",
+    "version": 1,
+    "status": "active"
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "module_name": "FnV Warehouse Diagnostic - Quick Commerce",
+    "area_id": "A2",
+    "area_name": "Cold Chain & Storage Conditions",
+    "area_weight": 0.16,
+    "subpoint_id": "A2.3",
+    "subpoint_name": "Humidity & Ventilation Control",
+    "subpoint_weight": 0.3,
+    "score_1_desc": "No humidity or airflow management - produce is stored in whatever ambient conditions the facility happens to have.",
+    "score_2_desc": "Basic ventilation (fans, open doors) is used opportunistically but there's no target humidity range or consistent practice.",
+    "score_3_desc": "A documented humidity/ventilation standard exists per storage zone, with equipment (humidifiers, exhaust) assigned and checked periodically.",
+    "score_4_desc": "Humidity is actively monitored against targets with corrective actions logged when out of range, and equipment maintenance is scheduled.",
+    "score_5_desc": "Humidity and airflow are automatically controlled and logged per zone, tuned per produce category, and reviewed against spoilage outcomes to refine targets.",
+    "version": 1,
+    "status": "active"
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "module_name": "FnV Warehouse Diagnostic - Quick Commerce",
+    "area_id": "A3",
+    "area_name": "Put-Away & Slotting",
+    "area_weight": 0.12,
+    "subpoint_id": "A3.1",
+    "subpoint_name": "Slotting Logic for Perishables",
+    "subpoint_weight": 0.5,
+    "score_1_desc": "No defined slotting logic - produce is placed wherever there's open space, with no regard to velocity, shelf-life, or picker travel distance.",
+    "score_2_desc": "Slotting follows informal habits of experienced staff, but it's not documented and breaks down when they're not on shift.",
+    "score_3_desc": "A documented slotting plan exists based on velocity and shelf-life (fast-moving, short-life SKUs near pack-out), generally followed.",
+    "score_4_desc": "Slotting is actively reviewed against sales velocity data and adjusted on a defined cadence; deviations from plan are tracked.",
+    "score_5_desc": "Slotting is dynamically optimized (system-recommended or algorithm-driven) based on real-time velocity, shelf-life, and pick-path efficiency.",
+    "version": 1,
+    "status": "active"
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "module_name": "FnV Warehouse Diagnostic - Quick Commerce",
+    "area_id": "A3",
+    "area_name": "Put-Away & Slotting",
+    "area_weight": 0.12,
+    "subpoint_id": "A3.2",
+    "subpoint_name": "Put-Away Speed & SOP Adherence",
+    "subpoint_weight": 0.5,
+    "score_1_desc": "No put-away time expectation or process - produce can sit at the dock for an unpredictable amount of time before being shelved.",
+    "score_2_desc": "A rough put-away expectation exists informally but isn't tracked, and delays are common during peak inbound periods.",
+    "score_3_desc": "A documented put-away SOP with a target time-to-shelf exists and is generally followed under normal conditions.",
+    "score_4_desc": "Put-away time is actively measured against the KPI, with staffing adjusted for peak inbound volume and delays investigated.",
+    "score_5_desc": "Put-away is system-directed (task assignment, guided locations) and time-to-shelf is a continuously tracked, best-in-class-benchmarked metric.",
+    "version": 1,
+    "status": "active"
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "module_name": "FnV Warehouse Diagnostic - Quick Commerce",
+    "area_id": "A4",
+    "area_name": "Inventory & Shelf-Life Management",
+    "area_weight": 0.16,
+    "subpoint_id": "A4.1",
+    "subpoint_name": "FEFO Rotation Discipline",
+    "subpoint_weight": 0.4,
+    "score_1_desc": "No first-expiry-first-out discipline - older stock and newer stock are picked interchangeably, with no visibility into which is which.",
+    "score_2_desc": "FEFO is understood informally by experienced pickers but isn't enforced by any process or system, and is frequently skipped under time pressure.",
+    "score_3_desc": "A documented FEFO process exists (e.g. date-labeled bins, front-to-back stocking) and is generally followed with periodic spot checks.",
+    "score_4_desc": "FEFO adherence is actively audited on a defined schedule, with violations tracked and corrective coaching given.",
+    "score_5_desc": "FEFO is system-enforced at pick (the WMS directs pickers to the oldest eligible batch), with adherence continuously measured near 100%.",
+    "version": 1,
+    "status": "active"
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "module_name": "FnV Warehouse Diagnostic - Quick Commerce",
+    "area_id": "A4",
+    "area_name": "Inventory & Shelf-Life Management",
+    "area_weight": 0.16,
+    "subpoint_id": "A4.2",
+    "subpoint_name": "Expiry / Shelf-Life Tracking",
+    "subpoint_weight": 0.35,
+    "score_1_desc": "No shelf-life tracking at all - there's no way to know how close any given batch is to becoming unsellable until it visibly spoils.",
+    "score_2_desc": "Shelf-life is estimated informally by appearance/smell rather than tracked from receipt date, and is inconsistent across staff.",
+    "score_3_desc": "A documented shelf-life standard per SKU (days from receipt) is defined and used to flag aging stock manually.",
+    "score_4_desc": "Remaining shelf-life is actively tracked per batch, with aging stock flagged for markdown or priority picking on a defined cadence.",
+    "score_5_desc": "Shelf-life is tracked per batch in a system that automatically flags at-risk inventory and triggers markdown, redistribution, or priority-pick workflows.",
+    "version": 1,
+    "status": "active"
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "module_name": "FnV Warehouse Diagnostic - Quick Commerce",
+    "area_id": "A4",
+    "area_name": "Inventory & Shelf-Life Management",
+    "area_weight": 0.16,
+    "subpoint_id": "A4.3",
+    "subpoint_name": "Cycle Counting & Stock Accuracy",
+    "subpoint_weight": 0.25,
+    "score_1_desc": "No cycle counting - system/paper stock levels and physical stock are not reconciled, and discrepancies are only discovered when a pick fails.",
+    "score_2_desc": "Counts happen occasionally and informally, with no defined frequency or accuracy target.",
+    "score_3_desc": "A documented cycle-count schedule exists (e.g. weekly per zone) with a defined accuracy target, and discrepancies are logged.",
+    "score_4_desc": "Cycle counts are actively tracked against an accuracy KPI, with root causes of variance investigated and corrected.",
+    "score_5_desc": "Cycle counting is continuous/perpetual (not just periodic), system-driven, with accuracy consistently above a best-in-class threshold and variance trends analyzed.",
+    "version": 1,
+    "status": "active"
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "module_name": "FnV Warehouse Diagnostic - Quick Commerce",
+    "area_id": "A5",
+    "area_name": "Replenishment & Demand Planning",
+    "area_weight": 0.14,
+    "subpoint_id": "A5.1",
+    "subpoint_name": "Dark Store Replenishment Cadence",
+    "subpoint_weight": 0.4,
+    "score_1_desc": "Replenishment to dark stores/fulfillment points is reactive and ad-hoc - triggered only after a stockout is noticed.",
+    "score_2_desc": "A rough replenishment schedule exists but is manually decided each time with no consistent trigger logic.",
+    "score_3_desc": "A documented replenishment cadence and trigger threshold (e.g. par level) exists per SKU category and is generally followed.",
+    "score_4_desc": "Replenishment triggers are actively tuned against sell-through data and adjusted for known demand spikes (e.g. weekends, promotions).",
+    "score_5_desc": "Replenishment is dynamically automated based on real-time sell-through, shelf-life, and demand signals, minimizing both stockouts and over-replenishment of perishables.",
+    "version": 1,
+    "status": "active"
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "module_name": "FnV Warehouse Diagnostic - Quick Commerce",
+    "area_id": "A5",
+    "area_name": "Replenishment & Demand Planning",
+    "area_weight": 0.14,
+    "subpoint_id": "A5.2",
+    "subpoint_name": "Demand Forecasting for Perishables",
+    "subpoint_weight": 0.35,
+    "score_1_desc": "No forecasting - order quantities are guessed or based on whatever was ordered last time, with no reference to actual demand.",
+    "score_2_desc": "A basic forecast exists (e.g. last week's sales) but doesn't account for perishability, seasonality, or promotions.",
+    "score_3_desc": "A documented forecasting method incorporating recent sales trends and shelf-life constraints is used and generally followed.",
+    "score_4_desc": "Forecasts are actively reviewed against actuals on a defined cadence, with accuracy tracked and adjustments made for known demand drivers.",
+    "score_5_desc": "Forecasting is system/model-driven, incorporating seasonality, promotions, and shelf-life risk, with continuous accuracy monitoring and feedback loops.",
+    "version": 1,
+    "status": "active"
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "module_name": "FnV Warehouse Diagnostic - Quick Commerce",
+    "area_id": "A5",
+    "area_name": "Replenishment & Demand Planning",
+    "area_weight": 0.14,
+    "subpoint_id": "A5.3",
+    "subpoint_name": "Stockout & Overstock Balance",
+    "subpoint_weight": 0.25,
+    "score_1_desc": "Stockouts and overstock (leading to spoilage) both happen frequently with no tracking of either, and no attempt to balance the two.",
+    "score_2_desc": "Stockouts and overstock are noticed anecdotally but not measured, so it's unclear which SKUs or stores are worst affected.",
+    "score_3_desc": "Stockout rate and overstock/spoilage-linked-to-overstock are documented and tracked at a basic level per SKU category.",
+    "score_4_desc": "Both metrics are actively monitored against targets, with root causes reviewed and replenishment parameters adjusted accordingly.",
+    "score_5_desc": "Stockout and overstock are jointly optimized in a single system view, with SKU-level parameters continuously tuned to minimize both simultaneously.",
+    "version": 1,
+    "status": "active"
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "module_name": "FnV Warehouse Diagnostic - Quick Commerce",
+    "area_id": "A6",
+    "area_name": "Pick-Pack & Fulfillment Accuracy",
+    "area_weight": 0.12,
+    "subpoint_id": "A6.1",
+    "subpoint_name": "Pick Accuracy for Loose/Weighted SKUs",
+    "subpoint_weight": 0.5,
+    "score_1_desc": "No defined process for picking loose or weight-based produce (e.g. picked by eye, no weighing step, no accuracy check).",
+    "score_2_desc": "A basic weighing step exists for some SKUs but isn't consistently applied or checked, leading to frequent under/over-fulfillment.",
+    "score_3_desc": "A documented pick-and-weigh SOP with a tolerance band exists per SKU and is generally followed.",
+    "score_4_desc": "Pick accuracy for weighted SKUs is actively measured against a tolerance KPI, with deviations tracked back to individual pickers for coaching.",
+    "score_5_desc": "Pick-and-weigh is system-verified at the point of pack (integrated scale, automatic flag on out-of-tolerance), with accuracy consistently best-in-class.",
+    "version": 1,
+    "status": "active"
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "module_name": "FnV Warehouse Diagnostic - Quick Commerce",
+    "area_id": "A6",
+    "area_name": "Pick-Pack & Fulfillment Accuracy",
+    "area_weight": 0.12,
+    "subpoint_id": "A6.2",
+    "subpoint_name": "Packaging Integrity for Transit",
+    "subpoint_weight": 0.5,
+    "score_1_desc": "No standard for how produce is packed for delivery - packaging choice is left entirely to whoever is packing, with frequent transit damage.",
+    "score_2_desc": "A basic packaging guideline exists for a few fragile SKUs but isn't documented or consistently applied.",
+    "score_3_desc": "A documented packaging standard per produce category (crush-resistance, ventilation, ice packs where needed) exists and is generally followed.",
+    "score_4_desc": "Transit-damage rates are actively tracked back to packaging choices, with the standard updated based on damage data.",
+    "score_5_desc": "Packaging is continuously optimized per SKU based on transit-damage analytics, with near-zero damage-related returns/complaints.",
+    "version": 1,
+    "status": "active"
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "module_name": "FnV Warehouse Diagnostic - Quick Commerce",
+    "area_id": "A7",
+    "area_name": "Spoilage & Wastage Management",
+    "area_weight": 0.14,
+    "subpoint_id": "A7.1",
+    "subpoint_name": "Spoilage / Shrinkage Tracking",
+    "subpoint_weight": 0.4,
+    "score_1_desc": "Spoilage is not tracked at all - unsellable produce is simply discarded with no record of quantity, SKU, or cause.",
+    "score_2_desc": "Spoilage is estimated informally (e.g. \"a lot this week\") but not logged with any consistency or granularity.",
+    "score_3_desc": "A documented process for logging spoiled/discarded produce (SKU, quantity, reason) exists and is generally followed.",
+    "score_4_desc": "Spoilage is actively tracked as a % of throughput per SKU, reviewed on a defined cadence, and compared against a target.",
+    "score_5_desc": "Spoilage is tracked in real time per SKU/batch with automated reporting, benchmarked against a best-in-class shrinkage target, and directly feeds sourcing/replenishment decisions.",
+    "version": 1,
+    "status": "active"
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "module_name": "FnV Warehouse Diagnostic - Quick Commerce",
+    "area_id": "A7",
+    "area_name": "Spoilage & Wastage Management",
+    "area_weight": 0.14,
+    "subpoint_id": "A7.2",
+    "subpoint_name": "Root-Cause Analysis & Corrective Action",
+    "subpoint_weight": 0.3,
+    "score_1_desc": "No investigation into why produce spoils - it's treated as an unavoidable cost of doing business rather than a solvable problem.",
+    "score_2_desc": "Causes are occasionally guessed at informally, but no structured analysis or corrective action is taken.",
+    "score_3_desc": "A documented process exists to categorize spoilage causes (over-order, cold-chain break, aged stock, damage) and review them periodically.",
+    "score_4_desc": "Root causes are actively analyzed against the tracked spoilage data, with corrective actions assigned and their impact monitored.",
+    "score_5_desc": "Root-cause analysis is continuous and data-driven, with corrective actions automatically prioritized by impact and their effectiveness tracked over time.",
+    "version": 1,
+    "status": "active"
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "module_name": "FnV Warehouse Diagnostic - Quick Commerce",
+    "area_id": "A7",
+    "area_name": "Spoilage & Wastage Management",
+    "area_weight": 0.14,
+    "subpoint_id": "A7.3",
+    "subpoint_name": "Write-Off & Disposal Process",
+    "subpoint_weight": 0.3,
+    "score_1_desc": "No formal write-off process - spoiled stock disappears from the floor with no reconciliation against inventory records.",
+    "score_2_desc": "Write-offs are recorded manually and inconsistently, often after the fact and without approval or verification.",
+    "score_3_desc": "A documented write-off SOP (verification, approval, disposal method, inventory reconciliation) exists and is generally followed.",
+    "score_4_desc": "Write-offs are actively reconciled against inventory on a defined cadence, with unusual patterns flagged for review.",
+    "score_5_desc": "Write-off and disposal are system-integrated with inventory (automatic reconciliation), fully auditable, and disposal method is optimized (e.g. donation/composting where viable) to reduce cost and waste impact.",
     "version": 1,
     "status": "active"
   }
