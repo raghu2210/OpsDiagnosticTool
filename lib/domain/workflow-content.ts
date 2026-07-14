@@ -5,8 +5,8 @@
  * Section bodies are plain string arrays (one paragraph per string) rather than JSX so the
  * exact same content can drive both renderers without duplicating the copy.
  */
-export const APP_VERSION = "2.4";
-export const APP_UPDATED = "2026-07-13";
+export const APP_VERSION = "2.6";
+export const APP_UPDATED = "2026-07-14";
 
 export const FLOW_STEPS = ["Data layer", "Build checklist", "Auditor fills", "Score & diagnose", "Outputs"];
 
@@ -40,6 +40,16 @@ export const WORKFLOW_SECTIONS: { title: string; body: string[] }[] = [
 ];
 
 export const CHANGELOG = [
+  {
+    version: "2.6",
+    date: "2026-07-14",
+    body: "Score & Diagnose: 'Score in-app' now captures an optional photo per sub-point alongside the existing observation text (capped at 250 words). computeDiagnostic() gains an optional photos param (Map<subpoint_id, base64 data URI>, defaults to empty, appended last so the existing golden-parity test call keeps working unchanged) and ScoredSubpoint gains an optional photo field. Phase 1 scope deliberately skips persistent storage: the photo is resized/compressed client-side and lives only in browser state for the session - it is never uploaded to or stored on a server. It surfaces in exactly two places: a thumbnail in the in-app Priority actions list, and embedded directly into the exported diagnostic PDF (DiagnosticReport.tsx) when present. The 'Upload filled checklist' path is unaffected - photos are only capturable via the in-app scoring form, not the .xlsx round-trip. Phase 2 (using observation + score + photo together as input to an AI-assisted recommendation layer) is a separate, not-yet-scoped follow-on.",
+  },
+  {
+    version: "2.5",
+    date: "2026-07-14",
+    body: "Diagnostic content: replaced the generic 5-module Masters data (WH_V1, INV_V1, MFG_V1, PROC_V1, TRANS_V1) with a single FnV Warehouse Diagnostic module (FNV_WH_V1) - 7 areas, 19 sub-points, 76 recommendation rows, covering inward/quality grading, cold chain, put-away/slotting, FEFO/shelf-life, dark-store replenishment, pick-pack accuracy, and spoilage/wastage management. The old 5 modules are marked status=inactive (not deleted) so the data is preserved and reversible. Generated via the new scripts/seed-fnv-warehouse.mjs against sample_data/LongArc_Masters.xlsx, then regenerated into the JSON fallback via the existing generate-fallback-json.mjs pipeline - the same content pipeline the project already uses, so future edits made directly in the sheet/xlsx will flow through the same way. This is a workflow/data-schema change only; UI/UX copy changes made in the same work session are logged separately in docs/ui-ux-workflow.md per the hard rule that these two logs never mix.",
+  },
   {
     version: "2.4",
     date: "2026-07-13",

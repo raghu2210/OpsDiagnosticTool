@@ -252,3 +252,33 @@ Both gaps originally flagged in this doc have since been closed:
   workflow/changelog PDFs) - never a write back to the source of truth.
 - Editing Recommendations or Masters happens by hand in the Google Sheet, outside this
   app, exactly like the Sync Tracker.
+
+## UI/UX Change Log
+
+**Hard rule (2026-07-14 onward): this log is UI/UX and copy changes only - never data,
+schema, or scoring-logic changes.** Those are workflow changes and belong exclusively in
+the in-app Workflow tab's own changelog (`lib/domain/workflow-content.ts`), which is
+updated independently. The two logs are never allowed to mix, even when both happen in
+the same work session - see the corresponding entry there for what happened on the
+workflow side of any given date.
+
+- **2026-07-14** - `ScoreForm.tsx`'s observation field changed from a single-line
+  `<input>` to an auto-growing `<textarea>` (starts at one line, expands with content
+  via a scrollHeight-based resize handler) with a live word counter once non-empty. Added
+  a photo-attach control next to it (thumbnail preview + remove button once attached).
+  Underlying data capability (what the photo *is*, where it flows, that it's
+  never persisted) is logged as a workflow change, v2.6.
+- **2026-07-14** - Repositioned all copy for the FnV Warehouse Diagnostic for Quick
+  Commerce identity: Home hero headline, subhead, and domain marquee rewritten
+  (`components/home/Hero.tsx`); page `<title>`/meta description updated
+  (`app/layout.tsx`); footer tagline updated (`components/nav/Footer.tsx`). No component
+  structure, data flow, or logic changed - copy only.
+- **2026-07-14** - Nav logo fixed: rendered at its native ~2.81:1 aspect ratio instead of
+  squashed into a square, redundant adjacent text label removed (`components/nav/TopNav.tsx`).
+- **2026-07-13** - Added `Reveal` entrance motion, visual hierarchy (elevated primary
+  surfaces), and resting-state accent touches to Build/Tracker/Workflow, which had none.
+  Added visible error states and consistent loading spinners to every download/refresh
+  action across Build, Diagnose, and Tracker.
+- **2026-07-13** - Fixed `bg-paper` table-header banding in `BuildFlow.tsx` /
+  `TrackerTable.tsx`, a second-order visual regression from the `--surface`/`--paper`
+  contrast fix (documented on the workflow side as v2.3).
