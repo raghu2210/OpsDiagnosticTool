@@ -39,7 +39,7 @@ export function DiagnoseFlow({
   }
 
   function handleSubmit(values: ScoreFormValues) {
-    setDiag(computeDiagnostic(moduleRows, values.scores, values.observations, recommendations));
+    setDiag(computeDiagnostic(moduleRows, values.scores, values.observations, recommendations, values.photos));
   }
 
   function handleUploaded(rows: SubpointScore[]) {

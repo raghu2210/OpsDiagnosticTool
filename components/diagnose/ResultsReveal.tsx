@@ -160,6 +160,10 @@ export function ResultsReveal({ diag }: { diag: DiagnosticResult }) {
                 </summary>
                 <div className="pt-3 text-sm text-neutral">
                   {s.observation && <p className="mb-2 italic">Observation: {s.observation}</p>}
+                  {s.photo && (
+                    // eslint-disable-next-line @next/next/no-img-element -- client-only base64 data URI
+                    <img src={s.photo} alt="" className="mb-2 rounded-sm border border-rule max-h-40 max-w-full" />
+                  )}
                   {s.tasks ? (
                     <ul className="list-disc pl-5 space-y-1">
                       {s.tasks.split("\n").filter(Boolean).map((t, i) => (

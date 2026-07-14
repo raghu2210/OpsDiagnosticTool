@@ -20,7 +20,8 @@ export function computeDiagnostic(
   moduleRows: MasterRow[],
   scores: Map<string, ScoreValue>,
   observations: Map<string, string>,
-  recommendations: RecommendationRow[]
+  recommendations: RecommendationRow[],
+  photos: Map<string, string> = new Map()
 ): DiagnosticResult {
   const hasModuleId = recommendations.some((r) => "module_id" in r);
   const recoMap = new Map<string, string>();
@@ -43,6 +44,7 @@ export function computeDiagnostic(
       ...row,
       score,
       observation: observations.get(row.subpoint_id) ?? "",
+      photo: photos.get(row.subpoint_id),
       level_name: LEVEL_NAME[score],
       target,
       target_name: LEVEL_NAME[target],

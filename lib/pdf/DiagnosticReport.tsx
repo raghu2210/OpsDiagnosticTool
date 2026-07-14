@@ -29,6 +29,7 @@ const styles = StyleSheet.create({
   priorityItem: { marginBottom: 10, paddingBottom: 10, borderBottom: `1px solid ${PDF_COLOR.rule}` },
   priorityTitle: { fontSize: 10.5, fontWeight: 700, marginBottom: 2 },
   task: { fontSize: 9.5, marginTop: 2, marginLeft: 8 },
+  priorityPhoto: { width: 100, height: 75, objectFit: "cover", borderRadius: 2, marginTop: 4, marginBottom: 4 },
   footer: {
     // Flows naturally at the end of the content instead of a fixed `position: absolute`
     // offset - found via direct PDF inspection that a fixed-bottom footer overlaps the
@@ -123,6 +124,7 @@ export function DiagnosticReport({ moduleName, diag }: { moduleName: string; dia
                     {pdfSafe(`Observation: ${s.observation}`)}
                   </Text>
                 ) : null}
+                {s.photo ? <Image src={s.photo} style={styles.priorityPhoto} /> : null}
                 {s.tasks
                   .split("\n")
                   .filter(Boolean)

@@ -54,6 +54,9 @@ export const LEVEL_NAME: Record<ScoreValue, string> = {
 export interface ScoredSubpoint extends MasterRow {
   score: ScoreValue;
   observation: string;
+  /** Base64 data URI, client-resized/compressed. Never persisted server-side - lives only
+   * for the duration of the session and gets embedded directly into the exported PDF. */
+  photo?: string;
   level_name: string;
   target: ScoreValue;
   target_name: string;
