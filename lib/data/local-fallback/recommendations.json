@@ -3710,5 +3710,1093 @@
     "target_level": 5,
     "target_level_name": "Best-in-class",
     "recommended_tasks": "Move Recall/Root-Cause Capability toward: Any downstream issue can be traced to its exact inbound batch and vendor within minutes, system-supported."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A2.1.1",
+    "subpoint_name": "Sensor Coverage & Placement",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Sensor Coverage & Placement toward: A single sensor exists somewhere in the facility, not representative of conditions across different storage zones."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A2.1.1",
+    "subpoint_name": "Sensor Coverage & Placement",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Sensor Coverage & Placement toward: Sensors are placed in each defined storage zone per a documented placement plan, generally followed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A2.1.1",
+    "subpoint_name": "Sensor Coverage & Placement",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Sensor Coverage & Placement toward: Sensor placement is actively reviewed against hot-spot/cold-spot mapping and adjusted when gaps are found."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A2.1.1",
+    "subpoint_name": "Sensor Coverage & Placement",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Sensor Coverage & Placement toward: Sensor coverage is continuously validated (calibration checks, redundancy in critical zones) and placement is data-driven from historical temperature variance."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A2.1.2",
+    "subpoint_name": "Reading Frequency & Logging Discipline",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Reading Frequency & Logging Discipline toward: Readings are taken irregularly and logged inconsistently, often skipped during busy periods."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A2.1.2",
+    "subpoint_name": "Reading Frequency & Logging Discipline",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Reading Frequency & Logging Discipline toward: A documented reading schedule (e.g. every 2 hours) exists and logs are generally kept, manually or in a spreadsheet."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A2.1.2",
+    "subpoint_name": "Reading Frequency & Logging Discipline",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Reading Frequency & Logging Discipline toward: Reading frequency is actively enforced with completion tracked against the schedule, gaps flagged."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A2.1.2",
+    "subpoint_name": "Reading Frequency & Logging Discipline",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Reading Frequency & Logging Discipline toward: Readings are continuous and automatic (sensor-logged), with 100% time-coverage and no manual step required."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A2.1.3",
+    "subpoint_name": "Excursion Escalation Process",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Excursion Escalation Process toward: An informal response exists (\"tell the supervisor\") but isn't documented or consistently followed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A2.1.3",
+    "subpoint_name": "Excursion Escalation Process",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Excursion Escalation Process toward: A documented escalation process (who's notified, what action is taken) exists and is generally followed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A2.1.3",
+    "subpoint_name": "Excursion Escalation Process",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Excursion Escalation Process toward: Escalations are actively tracked with response-time targets, and root causes of excursions are reviewed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A2.1.3",
+    "subpoint_name": "Excursion Escalation Process",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Excursion Escalation Process toward: Excursions trigger automatic real-time alerts with a defined SLA for response, and escalation effectiveness is continuously measured."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A2.2.1",
+    "subpoint_name": "Zone Definition & Labeling",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Zone Definition & Labeling toward: Zones exist informally (\"the cold corner\") but aren't labeled or documented anywhere."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A2.2.1",
+    "subpoint_name": "Zone Definition & Labeling",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Zone Definition & Labeling toward: Zones are documented and physically labeled, with a written guide for what belongs where."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A2.2.1",
+    "subpoint_name": "Zone Definition & Labeling",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Zone Definition & Labeling toward: Zone definitions are actively reviewed and refined based on operational experience, with staff trained on them."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A2.2.1",
+    "subpoint_name": "Zone Definition & Labeling",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Zone Definition & Labeling toward: Zone layout is data-optimized (temperature mapping, produce mix) and digitally referenced in the WMS."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A2.2.2",
+    "subpoint_name": "Ethylene-Sensitivity Separation",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Ethylene-Sensitivity Separation toward: Ethylene sensitivity is known informally by some staff but not applied systematically."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A2.2.2",
+    "subpoint_name": "Ethylene-Sensitivity Separation",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Ethylene-Sensitivity Separation toward: A documented ethylene-compatibility guide exists and separation is generally practiced."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A2.2.2",
+    "subpoint_name": "Ethylene-Sensitivity Separation",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Ethylene-Sensitivity Separation toward: Ethylene separation is actively audited and violations are tracked back to spoilage outcomes."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A2.2.2",
+    "subpoint_name": "Ethylene-Sensitivity Separation",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Ethylene-Sensitivity Separation toward: Ethylene management is systematized (zone assignment enforces it automatically) and continuously validated against spoilage data."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A2.2.3",
+    "subpoint_name": "Put-Away Enforcement of Zoning",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Put-Away Enforcement of Zoning toward: Staff generally know where things should go but zoning isn't checked or enforced."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A2.2.3",
+    "subpoint_name": "Put-Away Enforcement of Zoning",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Put-Away Enforcement of Zoning toward: A documented put-away process references zone assignment and is generally followed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A2.2.3",
+    "subpoint_name": "Put-Away Enforcement of Zoning",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Put-Away Enforcement of Zoning toward: Zone compliance at put-away is actively spot-checked, with misplacement tracked and corrected."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A2.2.3",
+    "subpoint_name": "Put-Away Enforcement of Zoning",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Put-Away Enforcement of Zoning toward: Zone assignment is system-enforced at put-away (WMS blocks incorrect placement)."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A2.3.1",
+    "subpoint_name": "Humidity Target Setting per Zone",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Humidity Target Setting per Zone toward: A rough humidity preference exists informally but isn't documented or measured against."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A2.3.1",
+    "subpoint_name": "Humidity Target Setting per Zone",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Humidity Target Setting per Zone toward: Documented humidity targets exist per zone/produce category and are referenced."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A2.3.1",
+    "subpoint_name": "Humidity Target Setting per Zone",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Humidity Target Setting per Zone toward: Humidity is actively measured against targets with corrective action when out of range."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A2.3.1",
+    "subpoint_name": "Humidity Target Setting per Zone",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Humidity Target Setting per Zone toward: Humidity targets are continuously refined based on spoilage outcomes and automatically enforced per zone."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A2.3.2",
+    "subpoint_name": "Airflow/Ventilation Equipment Upkeep",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Airflow/Ventilation Equipment Upkeep toward: Equipment is fixed reactively only after visible failure, with no preventive maintenance."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A2.3.2",
+    "subpoint_name": "Airflow/Ventilation Equipment Upkeep",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Airflow/Ventilation Equipment Upkeep toward: A documented maintenance schedule exists and is generally followed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A2.3.2",
+    "subpoint_name": "Airflow/Ventilation Equipment Upkeep",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Airflow/Ventilation Equipment Upkeep toward: Maintenance completion is actively tracked against the schedule, with equipment downtime monitored."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A2.3.2",
+    "subpoint_name": "Airflow/Ventilation Equipment Upkeep",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Airflow/Ventilation Equipment Upkeep toward: Maintenance is predictive/condition-based, with equipment performance continuously monitored and downtime near zero."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A3.1.1",
+    "subpoint_name": "Velocity-Based Slot Assignment",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Velocity-Based Slot Assignment toward: Fast movers are placed conveniently based on staff habit, not documented or data-driven."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A3.1.1",
+    "subpoint_name": "Velocity-Based Slot Assignment",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Velocity-Based Slot Assignment toward: A documented slotting plan based on velocity tiers exists and is generally followed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A3.1.1",
+    "subpoint_name": "Velocity-Based Slot Assignment",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Velocity-Based Slot Assignment toward: Slot assignment is actively reviewed against current velocity data on a defined cadence and adjusted."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A3.1.1",
+    "subpoint_name": "Velocity-Based Slot Assignment",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Velocity-Based Slot Assignment toward: Slotting is dynamically optimized by an algorithm/system recommendation based on real-time velocity."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A3.1.2",
+    "subpoint_name": "Shelf-Life-Aware Placement",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Shelf-Life-Aware Placement toward: Shelf-life is considered informally by experienced staff but not systematically."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A3.1.2",
+    "subpoint_name": "Shelf-Life-Aware Placement",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Shelf-Life-Aware Placement toward: A documented placement rule links shelf-life to proximity (shortest-life nearest pack-out) and is generally followed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A3.1.2",
+    "subpoint_name": "Shelf-Life-Aware Placement",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Shelf-Life-Aware Placement toward: Shelf-life-aware placement is actively audited and adjusted based on spoilage patterns."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A3.1.2",
+    "subpoint_name": "Shelf-Life-Aware Placement",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Shelf-Life-Aware Placement toward: Placement is system-recommended based on live shelf-life data per batch."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A3.2.1",
+    "subpoint_name": "Time-to-Shelf Target & Tracking",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Time-to-Shelf Target & Tracking toward: A rough expectation exists informally but isn't measured."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A3.2.1",
+    "subpoint_name": "Time-to-Shelf Target & Tracking",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Time-to-Shelf Target & Tracking toward: A documented time-to-shelf target exists and is occasionally checked."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A3.2.1",
+    "subpoint_name": "Time-to-Shelf Target & Tracking",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Time-to-Shelf Target & Tracking toward: Time-to-shelf is actively measured against the target with delays investigated."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A3.2.1",
+    "subpoint_name": "Time-to-Shelf Target & Tracking",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Time-to-Shelf Target & Tracking toward: Time-to-shelf is continuously tracked in real time and benchmarked against a best-in-class threshold."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A3.2.2",
+    "subpoint_name": "Peak-Inbound Staffing Response",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Peak-Inbound Staffing Response toward: Staffing is adjusted informally and inconsistently when someone notices a backlog."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A3.2.2",
+    "subpoint_name": "Peak-Inbound Staffing Response",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Peak-Inbound Staffing Response toward: A documented staffing plan for peak inbound periods exists and is generally followed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A3.2.2",
+    "subpoint_name": "Peak-Inbound Staffing Response",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Peak-Inbound Staffing Response toward: Staffing response is actively reviewed against actual peak performance and refined."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A3.2.2",
+    "subpoint_name": "Peak-Inbound Staffing Response",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Peak-Inbound Staffing Response toward: Staffing is dynamically planned using inbound forecast data, with peak delays minimized proactively."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A4.1.1",
+    "subpoint_name": "Date-Based Bin/Location Labeling",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Date-Based Bin/Location Labeling toward: Some batches are dated informally (marker on a box) but inconsistently."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A4.1.1",
+    "subpoint_name": "Date-Based Bin/Location Labeling",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Date-Based Bin/Location Labeling toward: A documented date-labeling process exists and is generally applied."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A4.1.1",
+    "subpoint_name": "Date-Based Bin/Location Labeling",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Date-Based Bin/Location Labeling toward: Date-labeling accuracy is actively spot-checked and corrected."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A4.1.1",
+    "subpoint_name": "Date-Based Bin/Location Labeling",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Date-Based Bin/Location Labeling toward: Date labeling is barcode/system-based and automatically visible at the point of pick."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A4.1.2",
+    "subpoint_name": "Pick-Time FEFO Enforcement",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Pick-Time FEFO Enforcement toward: FEFO is understood informally but frequently skipped under time pressure."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A4.1.2",
+    "subpoint_name": "Pick-Time FEFO Enforcement",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Pick-Time FEFO Enforcement toward: A documented FEFO picking process exists and is generally followed with spot checks."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A4.1.2",
+    "subpoint_name": "Pick-Time FEFO Enforcement",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Pick-Time FEFO Enforcement toward: FEFO adherence is actively audited on a schedule, with violations tracked and coached."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A4.1.2",
+    "subpoint_name": "Pick-Time FEFO Enforcement",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Pick-Time FEFO Enforcement toward: FEFO is system-directed at pick (the WMS routes pickers to the oldest eligible batch) with adherence near 100%."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A4.2.1",
+    "subpoint_name": "Per-Batch Shelf-Life Recording",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Per-Batch Shelf-Life Recording toward: Shelf-life is estimated by appearance rather than recorded from receipt date."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A4.2.1",
+    "subpoint_name": "Per-Batch Shelf-Life Recording",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Per-Batch Shelf-Life Recording toward: A documented shelf-life standard per SKU (days from receipt) is defined and used to track batches."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A4.2.1",
+    "subpoint_name": "Per-Batch Shelf-Life Recording",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Per-Batch Shelf-Life Recording toward: Remaining shelf-life is actively tracked per batch and reviewed on a defined cadence."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A4.2.1",
+    "subpoint_name": "Per-Batch Shelf-Life Recording",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Per-Batch Shelf-Life Recording toward: Shelf-life is tracked per batch in a system that computes remaining life automatically from receipt date."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A4.2.2",
+    "subpoint_name": "Aging-Stock Flagging & Action",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Aging-Stock Flagging & Action toward: Aging stock is occasionally noticed informally but no consistent action is taken."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A4.2.2",
+    "subpoint_name": "Aging-Stock Flagging & Action",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Aging-Stock Flagging & Action toward: A documented process flags aging stock at a defined threshold and prescribes an action (markdown, priority pick)."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A4.2.2",
+    "subpoint_name": "Aging-Stock Flagging & Action",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Aging-Stock Flagging & Action toward: Aging-stock flags are actively actioned and tracked to completion, with outcomes reviewed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A4.2.2",
+    "subpoint_name": "Aging-Stock Flagging & Action",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Aging-Stock Flagging & Action toward: Aging stock is automatically flagged and routed (markdown, redistribution, priority pick) with no manual step."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A4.3.1",
+    "subpoint_name": "Count Frequency & Coverage",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Count Frequency & Coverage toward: Counts happen occasionally and informally with no defined schedule or coverage."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A4.3.1",
+    "subpoint_name": "Count Frequency & Coverage",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Count Frequency & Coverage toward: A documented cycle-count schedule (e.g. weekly per zone) exists and is generally followed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A4.3.1",
+    "subpoint_name": "Count Frequency & Coverage",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Count Frequency & Coverage toward: Count completion is actively tracked against the schedule with coverage gaps flagged."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A4.3.1",
+    "subpoint_name": "Count Frequency & Coverage",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Count Frequency & Coverage toward: Cycle counting is continuous/perpetual, system-driven, with full SKU coverage on a rolling basis."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A4.3.2",
+    "subpoint_name": "Variance Investigation Process",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Variance Investigation Process toward: Variances are occasionally looked into informally, without a consistent process."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A4.3.2",
+    "subpoint_name": "Variance Investigation Process",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Variance Investigation Process toward: A documented variance-investigation process exists and is generally followed for significant variances."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A4.3.2",
+    "subpoint_name": "Variance Investigation Process",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Variance Investigation Process toward: Variance root causes are actively tracked and trends reviewed to prevent recurrence."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A4.3.2",
+    "subpoint_name": "Variance Investigation Process",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Variance Investigation Process toward: Variance investigation is systematic and data-driven, with root-cause patterns feeding process improvements automatically."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A5.1.1",
+    "subpoint_name": "Replenishment Trigger Definition",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Replenishment Trigger Definition toward: A rough par level exists informally but isn't consistently used to trigger replenishment."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A5.1.1",
+    "subpoint_name": "Replenishment Trigger Definition",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Replenishment Trigger Definition toward: A documented par level/trigger threshold exists per SKU category and is generally followed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A5.1.1",
+    "subpoint_name": "Replenishment Trigger Definition",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Replenishment Trigger Definition toward: Trigger thresholds are actively reviewed against sell-through data and adjusted."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A5.1.1",
+    "subpoint_name": "Replenishment Trigger Definition",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Replenishment Trigger Definition toward: Replenishment triggers are dynamically calculated from real-time sell-through and shelf-life data."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A5.1.2",
+    "subpoint_name": "Peak/Promo Demand Adjustment",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Peak/Promo Demand Adjustment toward: Adjustments happen informally and inconsistently when someone remembers an upcoming promotion."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A5.1.2",
+    "subpoint_name": "Peak/Promo Demand Adjustment",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Peak/Promo Demand Adjustment toward: A documented process adjusts replenishment ahead of known demand drivers and is generally followed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A5.1.2",
+    "subpoint_name": "Peak/Promo Demand Adjustment",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Peak/Promo Demand Adjustment toward: Peak/promo adjustments are actively reviewed post-event for accuracy and refined."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A5.1.2",
+    "subpoint_name": "Peak/Promo Demand Adjustment",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Peak/Promo Demand Adjustment toward: Demand-driver adjustments are modeled and applied automatically based on historical promo/peak performance."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A5.2.1",
+    "subpoint_name": "Forecast Input Data Quality",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Forecast Input Data Quality toward: Recent sales are referenced informally but not systematically incorporated."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A5.2.1",
+    "subpoint_name": "Forecast Input Data Quality",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Forecast Input Data Quality toward: A documented forecasting input (recent sales trend) is used consistently."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A5.2.1",
+    "subpoint_name": "Forecast Input Data Quality",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Forecast Input Data Quality toward: Forecast inputs are actively validated for quality and expanded to include more signals (weather, day-of-week)."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A5.2.1",
+    "subpoint_name": "Forecast Input Data Quality",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Forecast Input Data Quality toward: Forecast inputs are comprehensive and automatically ingested (sales, seasonality, promotions, external signals)."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A5.2.2",
+    "subpoint_name": "Forecast Accuracy Review Cadence",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Forecast Accuracy Review Cadence toward: Accuracy is occasionally noticed informally when a big miss happens."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A5.2.2",
+    "subpoint_name": "Forecast Accuracy Review Cadence",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Forecast Accuracy Review Cadence toward: A documented review cadence compares forecast to actuals and is generally followed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A5.2.2",
+    "subpoint_name": "Forecast Accuracy Review Cadence",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Forecast Accuracy Review Cadence toward: Forecast accuracy is actively tracked as a KPI, with systematic adjustments based on error patterns."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A5.2.2",
+    "subpoint_name": "Forecast Accuracy Review Cadence",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Forecast Accuracy Review Cadence toward: Forecast accuracy is continuously monitored with automated model refinement based on error trends."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A5.3.1",
+    "subpoint_name": "Stockout Rate Tracking",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Stockout Rate Tracking toward: Stockouts are noticed anecdotally but not measured."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A5.3.1",
+    "subpoint_name": "Stockout Rate Tracking",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Stockout Rate Tracking toward: A documented stockout rate is tracked at a basic level per SKU category."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A5.3.1",
+    "subpoint_name": "Stockout Rate Tracking",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Stockout Rate Tracking toward: Stockout rate is actively monitored against a target, with root causes reviewed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A5.3.1",
+    "subpoint_name": "Stockout Rate Tracking",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Stockout Rate Tracking toward: Stockout rate is tracked in real time per SKU/store with automated root-cause tagging."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A5.3.2",
+    "subpoint_name": "Overstock/Spoilage Linkage Tracking",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Overstock/Spoilage Linkage Tracking toward: The link is occasionally noticed informally but not tracked."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A5.3.2",
+    "subpoint_name": "Overstock/Spoilage Linkage Tracking",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Overstock/Spoilage Linkage Tracking toward: A documented process tracks spoilage attributable to overstock at a basic level."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A5.3.2",
+    "subpoint_name": "Overstock/Spoilage Linkage Tracking",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Overstock/Spoilage Linkage Tracking toward: Overstock-linked spoilage is actively monitored and used to adjust replenishment parameters."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A5.3.2",
+    "subpoint_name": "Overstock/Spoilage Linkage Tracking",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Overstock/Spoilage Linkage Tracking toward: Overstock and spoilage are jointly optimized in a single system view, continuously tuned to minimize both."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A6.1.1",
+    "subpoint_name": "Weigh-Station Coverage & Calibration",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Weigh-Station Coverage & Calibration toward: Some weighing equipment exists but isn't consistently used or calibrated."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A6.1.1",
+    "subpoint_name": "Weigh-Station Coverage & Calibration",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Weigh-Station Coverage & Calibration toward: A documented weighing process with calibrated scales exists at defined stations and is generally used."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A6.1.1",
+    "subpoint_name": "Weigh-Station Coverage & Calibration",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Weigh-Station Coverage & Calibration toward: Scale calibration and usage are actively audited on a schedule."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A6.1.1",
+    "subpoint_name": "Weigh-Station Coverage & Calibration",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Weigh-Station Coverage & Calibration toward: Weighing is integrated into the pick workflow (system-connected scales) with calibration continuously monitored."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A6.1.2",
+    "subpoint_name": "Pick-Accuracy Tolerance Enforcement",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Pick-Accuracy Tolerance Enforcement toward: A rough tolerance is understood informally but not enforced or measured."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A6.1.2",
+    "subpoint_name": "Pick-Accuracy Tolerance Enforcement",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Pick-Accuracy Tolerance Enforcement toward: A documented tolerance band exists per SKU and is generally referenced."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A6.1.2",
+    "subpoint_name": "Pick-Accuracy Tolerance Enforcement",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Pick-Accuracy Tolerance Enforcement toward: Tolerance adherence is actively measured against a KPI, with deviations tracked to individual pickers."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A6.1.2",
+    "subpoint_name": "Pick-Accuracy Tolerance Enforcement",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Pick-Accuracy Tolerance Enforcement toward: Tolerance is system-verified at pack (automatic flag on out-of-tolerance) with accuracy consistently best-in-class."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A6.2.1",
+    "subpoint_name": "Packaging Standard by Produce Category",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Packaging Standard by Produce Category toward: A rough packaging preference exists for a few fragile items but isn't documented."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A6.2.1",
+    "subpoint_name": "Packaging Standard by Produce Category",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Packaging Standard by Produce Category toward: A documented packaging standard per produce category exists and is generally followed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A6.2.1",
+    "subpoint_name": "Packaging Standard by Produce Category",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Packaging Standard by Produce Category toward: Packaging standards are actively reviewed against damage data and refined."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A6.2.1",
+    "subpoint_name": "Packaging Standard by Produce Category",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Packaging Standard by Produce Category toward: Packaging is continuously optimized per SKU based on transit-damage analytics."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A6.2.2",
+    "subpoint_name": "Transit-Damage Tracking & Feedback",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Transit-Damage Tracking & Feedback toward: Damage is occasionally noted informally but not compiled."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A6.2.2",
+    "subpoint_name": "Transit-Damage Tracking & Feedback",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Transit-Damage Tracking & Feedback toward: A documented process logs transit damage (SKU, cause) and is generally followed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A6.2.2",
+    "subpoint_name": "Transit-Damage Tracking & Feedback",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Transit-Damage Tracking & Feedback toward: Damage data is actively reviewed and fed back into packaging decisions on a defined cadence."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A6.2.2",
+    "subpoint_name": "Transit-Damage Tracking & Feedback",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Transit-Damage Tracking & Feedback toward: Damage tracking is real-time and automatically triggers packaging standard updates."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A7.1.1",
+    "subpoint_name": "Spoilage Logging Discipline",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Spoilage Logging Discipline toward: Spoilage is estimated informally rather than logged consistently."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A7.1.1",
+    "subpoint_name": "Spoilage Logging Discipline",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Spoilage Logging Discipline toward: A documented logging process (SKU, quantity, reason) exists and is generally followed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A7.1.1",
+    "subpoint_name": "Spoilage Logging Discipline",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Spoilage Logging Discipline toward: Spoilage logging completeness is actively audited and gaps are corrected."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A7.1.1",
+    "subpoint_name": "Spoilage Logging Discipline",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Spoilage Logging Discipline toward: Spoilage is logged in real time per SKU/batch with automated reporting."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A7.1.2",
+    "subpoint_name": "Shrinkage % Benchmarking",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Shrinkage % Benchmarking toward: Shrinkage is estimated roughly but not calculated as a consistent percentage of throughput."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A7.1.2",
+    "subpoint_name": "Shrinkage % Benchmarking",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Shrinkage % Benchmarking toward: Shrinkage % is calculated on a defined cadence and compared to a basic target."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A7.1.2",
+    "subpoint_name": "Shrinkage % Benchmarking",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Shrinkage % Benchmarking toward: Shrinkage % is actively tracked as a KPI and reviewed against a best-in-class benchmark."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A7.1.2",
+    "subpoint_name": "Shrinkage % Benchmarking",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Shrinkage % Benchmarking toward: Shrinkage % is tracked in real time and directly feeds sourcing/replenishment decisions."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A7.2.1",
+    "subpoint_name": "Cause Categorization Process",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Cause Categorization Process toward: Causes are occasionally guessed at informally."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A7.2.1",
+    "subpoint_name": "Cause Categorization Process",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Cause Categorization Process toward: A documented categorization (over-order, cold-chain break, aged stock, damage) exists and is generally applied."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A7.2.1",
+    "subpoint_name": "Cause Categorization Process",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Cause Categorization Process toward: Cause categorization is actively analyzed for patterns and reviewed on a defined cadence."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A7.2.1",
+    "subpoint_name": "Cause Categorization Process",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Cause Categorization Process toward: Cause categorization is systematic and data-driven, with patterns surfaced automatically."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A7.2.2",
+    "subpoint_name": "Corrective Action Follow-Through",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Corrective Action Follow-Through toward: Corrective actions are occasionally taken informally but not tracked to completion."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A7.2.2",
+    "subpoint_name": "Corrective Action Follow-Through",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Corrective Action Follow-Through toward: A documented process assigns and tracks corrective actions for identified causes."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A7.2.2",
+    "subpoint_name": "Corrective Action Follow-Through",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Corrective Action Follow-Through toward: Corrective action effectiveness is actively measured and reviewed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A7.2.2",
+    "subpoint_name": "Corrective Action Follow-Through",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Corrective Action Follow-Through toward: Corrective actions are automatically prioritized by impact and their effectiveness is tracked continuously."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A7.3.1",
+    "subpoint_name": "Write-Off Approval & Verification",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Write-Off Approval & Verification toward: Write-offs are recorded informally and inconsistently, often without approval."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A7.3.1",
+    "subpoint_name": "Write-Off Approval & Verification",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Write-Off Approval & Verification toward: A documented write-off SOP (verification, approval) exists and is generally followed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A7.3.1",
+    "subpoint_name": "Write-Off Approval & Verification",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Write-Off Approval & Verification toward: Write-off approvals are actively audited for compliance with the SOP."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A7.3.1",
+    "subpoint_name": "Write-Off Approval & Verification",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Write-Off Approval & Verification toward: Write-off approval is system-integrated and fully auditable, with no manual gaps."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A7.3.2",
+    "subpoint_name": "Inventory Reconciliation on Disposal",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Inventory Reconciliation on Disposal toward: Reconciliation happens occasionally and informally."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A7.3.2",
+    "subpoint_name": "Inventory Reconciliation on Disposal",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Inventory Reconciliation on Disposal toward: A documented reconciliation process runs on a defined cadence and is generally followed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A7.3.2",
+    "subpoint_name": "Inventory Reconciliation on Disposal",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Inventory Reconciliation on Disposal toward: Reconciliation is actively monitored for unusual patterns, which are investigated."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A7.3.2",
+    "subpoint_name": "Inventory Reconciliation on Disposal",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Inventory Reconciliation on Disposal toward: Reconciliation is automatic and real-time, with disposal method also optimized (e.g. donation/composting) to reduce cost and waste impact."
   }
 ]
