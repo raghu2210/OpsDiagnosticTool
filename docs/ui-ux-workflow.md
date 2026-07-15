@@ -262,6 +262,12 @@ updated independently. The two logs are never allowed to mix, even when both hap
 the same work session - see the corresponding entry there for what happened on the
 workflow side of any given date.
 
+- **2026-07-15** - `BuildFlow.tsx`'s checklist preview table restructured from repeating
+  the sub-point name on every problem row to a staggered hierarchy: a bold sub-point
+  header row (e.g. A1.1 Receiving Dock Discipline), followed by its indented problem rows
+  underneath (A1.1.1 Dock Scheduling, A1.1.2 Arrival Time-Stamping, ...) - matching the
+  same header + indented-children pattern already used in `ScoreForm.tsx`. Purely visual;
+  no data change.
 - **2026-07-15** - `BuildFlow.tsx`'s checklist preview table now mirrors exactly what
   the exported `.xlsx` will contain: sub-points with problem statements (A1) show one
   preview row per problem ("Sub-point / Problem statement" column, e.g. "Receiving Dock

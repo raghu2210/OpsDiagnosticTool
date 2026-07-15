@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { Fragment, useMemo, useState } from "react";
 import { Check, Loader2 } from "lucide-react";
 import type { MasterRow, ProblemRow } from "@/lib/domain/types";
 import { groupByArea, listModules } from "@/lib/domain/grouping";
@@ -205,7 +205,7 @@ export function BuildFlow({ masters, problems }: { masters: MasterRow[]; problem
                         <th className="font-code font-medium text-xs text-neutral px-3 py-2 whitespace-nowrap">
                           ID
                         </th>
-                        <th className="font-medium px-3 py-2">Sub-point / Problem statement</th>
+                        <th className="font-medium px-3 py-2">Sub-point</th>
                         <th className="font-code font-medium text-xs text-neutral px-3 py-2 whitespace-nowrap">
                           Weight
                         </th>
@@ -215,22 +215,30 @@ export function BuildFlow({ masters, problems }: { masters: MasterRow[]; problem
                       {area.subpoints.map((sp) => {
                         const subProblems = problemsBySubpoint.get(sp.subpoint_id);
                         if (subProblems && subProblems.length > 0) {
-                          return subProblems.map((p) => (
-                            <tr
-                              key={p.problem_id}
-                              className="border-b border-rule last:border-b-0 hover:bg-black/[0.02]"
-                            >
-                              <td className="font-code text-xs text-neutral px-3 py-2 align-top whitespace-nowrap">
-                                {p.problem_id}
-                              </td>
-                              <td className="px-3 py-2 align-top">
-                                <span className="text-neutral">{sp.subpoint_name} /</span> {p.problem_name}
-                              </td>
-                              <td className="font-code text-xs text-neutral px-3 py-2 align-top whitespace-nowrap">
-                                {(p.problem_weight * 100).toFixed(0)}%
-                              </td>
-                            </tr>
-                          ));
+                          return (
+                            <Fragment key={sp.subpoint_id}>
+                              <tr className="border-b border-rule bg-black/[0.03]">
+                                <td className="font-code text-xs text-neutral px-3 py-2 align-top whitespace-nowrap font-medium">
+                                  {sp.subpoint_id}
+                                </td>
+                                <td className="px-3 py-2 align-top font-medium">{sp.subpoint_name}</td>
+                                <td className="font-code text-xs text-neutral px-3 py-2 align-top whitespace-nowrap">
+                                  {(sp.subpoint_weight * 100).toFixed(0)}%
+                                </td>
+                              </tr>
+                              {subProblems.map((p) => (
+                                <tr key={p.problem_id} className="border-b border-rule last:border-b-0 hover:bg-black/[0.02]">
+                                  <td className="font-code text-xs text-neutral px-3 py-2 pl-8 align-top whitespace-nowrap">
+                                    {p.problem_id}
+                                  </td>
+                                  <td className="px-3 py-2 align-top">{p.problem_name}</td>
+                                  <td className="font-code text-xs text-neutral px-3 py-2 align-top whitespace-nowrap">
+                                    {(p.problem_weight * 100).toFixed(0)}%
+                                  </td>
+                                </tr>
+                              ))}
+                            </Fragment>
+                          );
                         }
                         return (
                           <tr key={sp.subpoint_id} className="border-b border-rule last:border-b-0 hover:bg-black/[0.02]">
