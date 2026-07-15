@@ -262,6 +262,18 @@ updated independently. The two logs are never allowed to mix, even when both hap
 the same work session - see the corresponding entry there for what happened on the
 workflow side of any given date.
 
+- **2026-07-15** - `ScoreForm.tsx`: sub-points with problem statements (currently only
+  Area A1) now render as an expandable group - a header row showing a live-computed,
+  read-only rollup score (color/label via `scoreBand()`) plus one full scoring row
+  (picker + observation + photo) per problem statement, indented beneath it. Every other
+  sub-point is visually and functionally identical to before. `ResultsReveal.tsx` and the
+  PDF's Priority Actions list now show a mix of sub-point-level and problem-level entries
+  in one ranked list, whichever applies. Underlying data/rollup mechanics are logged as a
+  workflow change, v2.7.
+- **2026-07-15** - Fixed a stale "Operations Strategy for Growing Businesses" tagline in
+  all three PDF footers (Diagnostic/Workflow/Changelog) - missed during the FnV
+  repositioning pass on 2026-07-14, now reads "FnV Warehouse Diagnostics for Quick
+  Commerce" matching the site's nav/footer copy.
 - **2026-07-14** - `ScoreForm.tsx`'s observation field changed from a single-line
   `<input>` to an auto-growing `<textarea>` (starts at one line, expands with content
   via a scrollHeight-based resize handler) with a live word counter once non-empty. Added

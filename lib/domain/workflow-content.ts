@@ -5,8 +5,8 @@
  * Section bodies are plain string arrays (one paragraph per string) rather than JSX so the
  * exact same content can drive both renderers without duplicating the copy.
  */
-export const APP_VERSION = "2.6";
-export const APP_UPDATED = "2026-07-14";
+export const APP_VERSION = "2.7";
+export const APP_UPDATED = "2026-07-15";
 
 export const FLOW_STEPS = ["Data layer", "Build checklist", "Auditor fills", "Score & diagnose", "Outputs"];
 
@@ -40,6 +40,11 @@ export const WORKFLOW_SECTIONS: { title: string; body: string[] }[] = [
 ];
 
 export const CHANGELOG = [
+  {
+    version: "2.7",
+    date: "2026-07-15",
+    body: "Added Node 4 (problem statements) to the diagnostic tree - piloted on Area A1 (Inward & Quality Grading) only. A1's 3 sub-points now carry 9 leaf-level problem statements (3 each) with their own 5-level maturity descriptions and weights; scoring happens at this leaf level and rolls up automatically to the sub-point score via a weighted average, the same pattern computeDiagnostic() already used for sub-point -> area -> module. Areas A2-A7 are completely untouched and continue to be scored directly. computeDiagnostic() gained optional problems/problemScores params (appended last, default empty) - the existing 4-arg golden-parity test call keeps passing unchanged, confirming this is purely additive. New Problems sheet/problems.json alongside the existing Masters/Recommendations; new Recommendations rows for A1's 9 problems are keyed by problem_id via the existing recoKey() pattern - no schema changes to Masters or Recommendations themselves. The .xlsx field checklist is deliberately untouched for this pilot: an uploaded filled checklist still supplies a direct sub-point score, which is exactly the fallback computeDiagnostic() uses when no problem-level scores are present, so nothing broke there. Priority Actions (in-app and PDF) now shows A1's specific problem statements (e.g. 'Dock Scheduling') as individually ranked line items instead of one vague sub-point entry.",
+  },
   {
     version: "2.6",
     date: "2026-07-14",
