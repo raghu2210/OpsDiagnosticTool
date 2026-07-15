@@ -5,7 +5,7 @@
  * Section bodies are plain string arrays (one paragraph per string) rather than JSX so the
  * exact same content can drive both renderers without duplicating the copy.
  */
-export const APP_VERSION = "2.8";
+export const APP_VERSION = "2.9";
 export const APP_UPDATED = "2026-07-15";
 
 export const FLOW_STEPS = ["Data layer", "Build checklist", "Auditor fills", "Score & diagnose", "Outputs"];
@@ -40,6 +40,11 @@ export const WORKFLOW_SECTIONS: { title: string; body: string[] }[] = [
 ];
 
 export const CHANGELOG = [
+  {
+    version: "2.9",
+    date: "2026-07-15",
+    body: "Full Node 4 rollout: extended from the A1 pilot (v2.7-2.8) to every remaining area - A2 through A7. All 19 sub-points in the FnV Warehouse Diagnostic now score via Node 4 problem statements; there is no longer a pilot/non-pilot split within the module. 34 new problem statements (43 total) across the 16 remaining sub-points, each with its own 5-level maturity description and weight summing to 1.0 within its sub-point - same content pipeline as A1 (scripts/seed-a2-a7-problems.mjs -> sample_data/LongArc_Masters.xlsx -> regenerated JSON fallback). This is a pure content/data extension - no code changed, since computeDiagnostic(), ScoreForm.tsx, BuildFlow.tsx, ResultsReveal.tsx, and DiagnosticReport.tsx already handle Node 4 generically per sub-point rather than hardcoding which sub-points have it. Verified end to end: scored all 43 problems, confirmed all 19 sub-points produce correct computed rollups, all 7 areas and the module score compute correctly, and every problem scored below 5 resolved a non-empty recommendation.",
+  },
   {
     version: "2.8",
     date: "2026-07-15",
