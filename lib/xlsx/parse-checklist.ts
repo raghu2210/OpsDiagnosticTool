@@ -8,6 +8,13 @@ import type { ScoreValue, SubpointScore } from "@/lib/domain/types";
  * -insensitive, matching the Python `.lower().startswith(...)` lookup rather than an exact
  * header match), and returns only rows with a valid 1-5 score - same net result as the
  * Python version's two-stage filter (parse, then `between(1, 5)` at diagnostic time).
+ *
+ * Also looks for an optional problem_id column (present on checklists exported for areas
+ * broken down to Node 4 - see build-checklist.ts). A row with a non-empty problem_id is a
+ * problem-statement row; toScoreMaps() routes those into problemScores instead of scores,
+ * keeping this offline path in sync with the in-app "Score in-app" flow. Older checklists
+ * exported before Node 4 existed simply have no problem_id column, so this stays a no-op
+ * for them.
  */
 export async function parseChecklistXlsx(buffer: ArrayBuffer): Promise<SubpointScore[]> {
   const wb = new ExcelJS.Workbook();
@@ -26,6 +33,7 @@ export async function parseChecklistXlsx(buffer: ArrayBuffer): Promise<SubpointS
     headers.findIndex((h) => predicate((h ?? "").toLowerCase()));
 
   const subpointCol = findCol((h) => h === "subpoint_id");
+  const problemCol = findCol((h) => h === "problem_id");
   const scoreCol = findCol((h) => h.startsWith("score ("));
   const obsCol = findCol((h) => h.startsWith("observation"));
 
@@ -44,7 +52,12 @@ export async function parseChecklistXlsx(buffer: ArrayBuffer): Promise<SubpointS
     if (!(score >= 1 && score <= 5)) return;
 
     const observation = obsCol !== -1 ? String(row.getCell(obsCol).value ?? "").trim() : "";
-    out.push({ subpoint_id: String(subpointId).trim(), score: score as ScoreValue, observation });
+    const rawProblemId = problemCol !== -1 ? row.getCell(problemCol).value : null;
+    const problemId =
+      rawProblemId === null || rawProblemId === undefined || rawProblemId === ""
+        ? undefined
+        : String(rawProblemId).trim();
+    out.push({ subpoint_id: String(subpointId).trim(), problem_id: problemId, score: score as ScoreValue, observation });
   });
   return out;
 }

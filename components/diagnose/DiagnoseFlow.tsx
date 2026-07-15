@@ -56,8 +56,10 @@ export function DiagnoseFlow({
   }
 
   function handleUploaded(rows: SubpointScore[]) {
-    const { scores, observations } = toScoreMaps(rows);
-    setDiag(computeDiagnostic(moduleRows, scores, observations, recommendations, undefined, moduleProblems));
+    const { scores, problemScores, observations } = toScoreMaps(rows);
+    setDiag(
+      computeDiagnostic(moduleRows, scores, observations, recommendations, undefined, moduleProblems, problemScores)
+    );
   }
 
   async function handleDownloadPdf() {

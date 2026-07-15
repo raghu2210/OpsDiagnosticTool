@@ -2,15 +2,21 @@
 
 import { useMemo, useState } from "react";
 import { Check, Loader2 } from "lucide-react";
-import type { MasterRow } from "@/lib/domain/types";
+import type { MasterRow, ProblemRow } from "@/lib/domain/types";
 import { groupByArea, listModules } from "@/lib/domain/grouping";
 import { Reveal } from "@/components/motion/Reveal";
 
-async function downloadChecklist(moduleName: string, rows: MasterRow[], areaName: string | undefined, fileName: string) {
+async function downloadChecklist(
+  moduleName: string,
+  rows: MasterRow[],
+  areaName: string | undefined,
+  fileName: string,
+  problems: ProblemRow[]
+) {
   const resp = await fetch("/api/checklist/export", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ moduleName, rows, areaName }),
+    body: JSON.stringify({ moduleName, rows, areaName, problems }),
   });
   if (!resp.ok) throw new Error("Failed to generate checklist");
   const blob = await resp.blob();
@@ -22,7 +28,7 @@ async function downloadChecklist(moduleName: string, rows: MasterRow[], areaName
   URL.revokeObjectURL(url);
 }
 
-export function BuildFlow({ masters }: { masters: MasterRow[] }) {
+export function BuildFlow({ masters, problems }: { masters: MasterRow[]; problems: ProblemRow[] }) {
   const modules = useMemo(() => listModules(masters), [masters]);
   const [moduleId, setModuleId] = useState(modules[0]?.module_id);
   const [selectedAreas, setSelectedAreas] = useState<Set<string>>(new Set());
@@ -31,6 +37,16 @@ export function BuildFlow({ masters }: { masters: MasterRow[] }) {
 
   const moduleRows = useMemo(() => masters.filter((r) => r.module_id === moduleId), [masters, moduleId]);
   const moduleName = moduleRows[0]?.module_name ?? "";
+  const moduleProblems = useMemo(() => problems.filter((p) => p.module_id === moduleId), [problems, moduleId]);
+  const problemsBySubpoint = useMemo(() => {
+    const map = new Map<string, ProblemRow[]>();
+    for (const p of moduleProblems) {
+      const list = map.get(p.subpoint_id) ?? [];
+      list.push(p);
+      map.set(p.subpoint_id, list);
+    }
+    return map;
+  }, [moduleProblems]);
   const areas = useMemo(() => groupByArea(moduleRows), [moduleRows]);
 
   function handleModuleChange(newId: string) {
@@ -51,7 +67,7 @@ export function BuildFlow({ masters }: { masters: MasterRow[] }) {
     setError(null);
     try {
       if (kind === "full") {
-        await downloadChecklist(moduleName, moduleRows, undefined, `${moduleId}_full_checklist.xlsx`);
+        await downloadChecklist(moduleName, moduleRows, undefined, `${moduleId}_full_checklist.xlsx`, moduleProblems);
       } else {
         const ids = areas.filter((a) => selectedAreas.has(a.area_id)).map((a) => a.area_id);
         const combinedRows = moduleRows
@@ -61,7 +77,8 @@ export function BuildFlow({ masters }: { masters: MasterRow[] }) {
           moduleName,
           combinedRows,
           ids.join(", "),
-          `${moduleId}_${ids.join("-")}_checklist.xlsx`
+          `${moduleId}_${ids.join("-")}_checklist.xlsx`,
+          moduleProblems
         );
       }
     } catch (e) {
@@ -188,24 +205,45 @@ export function BuildFlow({ masters }: { masters: MasterRow[] }) {
                         <th className="font-code font-medium text-xs text-neutral px-3 py-2 whitespace-nowrap">
                           ID
                         </th>
-                        <th className="font-medium px-3 py-2">Sub-point</th>
+                        <th className="font-medium px-3 py-2">Sub-point / Problem statement</th>
                         <th className="font-code font-medium text-xs text-neutral px-3 py-2 whitespace-nowrap">
                           Weight
                         </th>
                       </tr>
                     </thead>
                     <tbody>
-                      {area.subpoints.map((sp) => (
-                        <tr key={sp.subpoint_id} className="border-b border-rule last:border-b-0 hover:bg-black/[0.02]">
-                          <td className="font-code text-xs text-neutral px-3 py-2 align-top whitespace-nowrap">
-                            {sp.subpoint_id}
-                          </td>
-                          <td className="px-3 py-2 align-top">{sp.subpoint_name}</td>
-                          <td className="font-code text-xs text-neutral px-3 py-2 align-top whitespace-nowrap">
-                            {(sp.subpoint_weight * 100).toFixed(0)}%
-                          </td>
-                        </tr>
-                      ))}
+                      {area.subpoints.map((sp) => {
+                        const subProblems = problemsBySubpoint.get(sp.subpoint_id);
+                        if (subProblems && subProblems.length > 0) {
+                          return subProblems.map((p) => (
+                            <tr
+                              key={p.problem_id}
+                              className="border-b border-rule last:border-b-0 hover:bg-black/[0.02]"
+                            >
+                              <td className="font-code text-xs text-neutral px-3 py-2 align-top whitespace-nowrap">
+                                {p.problem_id}
+                              </td>
+                              <td className="px-3 py-2 align-top">
+                                <span className="text-neutral">{sp.subpoint_name} /</span> {p.problem_name}
+                              </td>
+                              <td className="font-code text-xs text-neutral px-3 py-2 align-top whitespace-nowrap">
+                                {(p.problem_weight * 100).toFixed(0)}%
+                              </td>
+                            </tr>
+                          ));
+                        }
+                        return (
+                          <tr key={sp.subpoint_id} className="border-b border-rule last:border-b-0 hover:bg-black/[0.02]">
+                            <td className="font-code text-xs text-neutral px-3 py-2 align-top whitespace-nowrap">
+                              {sp.subpoint_id}
+                            </td>
+                            <td className="px-3 py-2 align-top">{sp.subpoint_name}</td>
+                            <td className="font-code text-xs text-neutral px-3 py-2 align-top whitespace-nowrap">
+                              {(sp.subpoint_weight * 100).toFixed(0)}%
+                            </td>
+                          </tr>
+                        );
+                      })}
                     </tbody>
                   </table>
                 </div>

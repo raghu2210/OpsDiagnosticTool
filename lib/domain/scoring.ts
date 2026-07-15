@@ -177,18 +177,25 @@ function mean(xs: number[]): number {
   return xs.length ? sum(xs) / xs.length : 0;
 }
 
-/** Parses a completed checklist upload's raw {subpoint_id, score, observation} rows into
- * the Map inputs computeDiagnostic() expects. Only scores 1-5 are kept - mirrors app.py's
- * parse_uploaded_checklist() + the `between(1, 5)` filter applied at diagnostic time. */
+/** Parses a completed checklist upload's raw {subpoint_id, problem_id?, score, observation}
+ * rows into the Map inputs computeDiagnostic() expects. Only scores 1-5 are kept - mirrors
+ * app.py's parse_uploaded_checklist() + the `between(1, 5)` filter applied at diagnostic
+ * time. Rows with a problem_id (Node-4 rows in a checklist that was exported for an area
+ * broken down that granularly) route into problemScores instead of scores, keeping the
+ * offline path in sync with the in-app "Score in-app" flow. */
 export function toScoreMaps(rows: SubpointScore[]): {
   scores: Map<string, ScoreValue>;
+  problemScores: Map<string, ScoreValue>;
   observations: Map<string, string>;
 } {
   const scores = new Map<string, ScoreValue>();
+  const problemScores = new Map<string, ScoreValue>();
   const observations = new Map<string, string>();
   for (const r of rows) {
-    if (r.score >= 1 && r.score <= 5) scores.set(r.subpoint_id, r.score);
-    if (r.observation) observations.set(r.subpoint_id, r.observation);
+    if (r.score < 1 || r.score > 5) continue;
+    const id = r.problem_id || r.subpoint_id;
+    (r.problem_id ? problemScores : scores).set(id, r.score);
+    if (r.observation) observations.set(id, r.observation);
   }
-  return { scores, observations };
+  return { scores, problemScores, observations };
 }

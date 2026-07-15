@@ -61,6 +61,10 @@ export type ScoreValue = 1 | 2 | 3 | 4 | 5;
 
 export interface SubpointScore {
   subpoint_id: string;
+  /** Present only for Node-4 (problem-statement) rows in a filled checklist upload -
+   * subpoint_id still identifies the parent sub-point for context, but the scored entity
+   * is problem_id when present. */
+  problem_id?: string;
   score: ScoreValue;
   observation?: string;
 }

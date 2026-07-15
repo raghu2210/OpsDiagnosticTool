@@ -1,8 +1,8 @@
-import { loadMasters } from "@/lib/data/masters-source";
+import { loadMasters, loadProblems } from "@/lib/data/masters-source";
 import { BuildFlow } from "@/components/build/BuildFlow";
 
 export default async function BuildPage() {
-  const masters = await loadMasters();
+  const [masters, problems] = await Promise.all([loadMasters(), loadProblems()]);
   const active = masters.filter((r) => r.status === "active");
 
   return (
@@ -12,7 +12,7 @@ export default async function BuildPage() {
         Pick a module, choose one or more areas, and export a fillable audit workbook benchmarked on a clear 1-5
         maturity scale.
       </p>
-      <BuildFlow masters={active} />
+      <BuildFlow masters={active} problems={problems} />
     </div>
   );
 }
