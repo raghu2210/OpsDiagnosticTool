@@ -5,7 +5,7 @@
  * Section bodies are plain string arrays (one paragraph per string) rather than JSX so the
  * exact same content can drive both renderers without duplicating the copy.
  */
-export const APP_VERSION = "2.7";
+export const APP_VERSION = "2.8";
 export const APP_UPDATED = "2026-07-15";
 
 export const FLOW_STEPS = ["Data layer", "Build checklist", "Auditor fills", "Score & diagnose", "Outputs"];
@@ -40,6 +40,11 @@ export const WORKFLOW_SECTIONS: { title: string; body: string[] }[] = [
 ];
 
 export const CHANGELOG = [
+  {
+    version: "2.8",
+    date: "2026-07-15",
+    body: "Extended Node 4 (problem statements, v2.7) to the offline .xlsx path so online and offline scoring stay in sync - previously only the in-app 'Score in-app' tab supported it. build_checklist_xlsx() now emits one row per problem statement (with its own problem_id/problem_name/weight/descriptions) for sub-points broken down to Node 4, instead of one row per sub-point; every other sub-point is unaffected. parseChecklistXlsx() looks for an optional problem_id column and, when present, routes that row's score into problemScores instead of scores - SubpointScore gained an optional problem_id field, and toScoreMaps() now returns {scores, problemScores, observations}. Verified with a real end-to-end round trip (export via the actual production code -> simulate an auditor filling in Score/Observation -> parse back -> compute the diagnostic): the resulting rollup scores matched the in-app path exactly (A1.1=2.300, A1.2=4.250, A1.3=1.950). Checklists exported before this change have no problem_id column and continue to parse exactly as before - fully backward compatible.",
+  },
   {
     version: "2.7",
     date: "2026-07-15",

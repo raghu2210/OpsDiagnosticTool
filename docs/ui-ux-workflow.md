@@ -262,6 +262,12 @@ updated independently. The two logs are never allowed to mix, even when both hap
 the same work session - see the corresponding entry there for what happened on the
 workflow side of any given date.
 
+- **2026-07-15** - `BuildFlow.tsx`'s checklist preview table now mirrors exactly what
+  the exported `.xlsx` will contain: sub-points with problem statements (A1) show one
+  preview row per problem ("Sub-point / Problem statement" column, e.g. "Receiving Dock
+  Discipline / Dock Scheduling") instead of one row for the sub-point, matching the new
+  export format. Every other area's preview is unchanged. Underlying export/parse
+  mechanics are logged as a workflow change, v2.8.
 - **2026-07-15** - `ScoreForm.tsx`: sub-points with problem statements (currently only
   Area A1) now render as an expandable group - a header row showing a live-computed,
   read-only rollup score (color/label via `scoreBand()`) plus one full scoring row
