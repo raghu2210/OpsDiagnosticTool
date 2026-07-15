@@ -56,6 +56,12 @@ const styles = StyleSheet.create({
  * same inspection: "target {n}" rendered as "target2" with no space). A single string
  * expression sidesteps that entirely.
  */
+/** Shows whole numbers plainly (directly-scored items) and one decimal only for
+ * fractional weighted rollups (Node-4 problem-statement items). */
+function fmtScore(n: number): string {
+  return Number.isInteger(n) ? String(n) : n.toFixed(1);
+}
+
 function pdfSafe(text: string): string {
   return text
     .replace(/[–—‒―‐‑]/g, "-")
@@ -67,9 +73,62 @@ function pdfSafe(text: string): string {
     .replace(/[^\x00-\x7F]/g, "");
 }
 
+/** Same merge as ResultsReveal.tsx's priority list - a directly-scored sub-point (Node 3)
+ * or a scored problem statement (Node 4), whichever level applies. Sub-points broken down
+ * to Node 4 are represented by their problems instead of themselves. */
+interface PriorityItem {
+  key: string;
+  code: string;
+  areaName: string;
+  label: string;
+  score: number;
+  target: number;
+  targetName: string;
+  weightedGap: number;
+  observation: string;
+  photo?: string;
+  tasks: string;
+}
+
+function buildPriority(diag: DiagnosticResult): PriorityItem[] {
+  const problemSubpointIds = new Set(diag.scored_problems.map((p) => p.subpoint_id));
+  return [
+    ...diag.scored
+      .filter((s) => s.score < 5 && !problemSubpointIds.has(s.subpoint_id))
+      .map((s): PriorityItem => ({
+        key: s.subpoint_id,
+        code: s.subpoint_id,
+        areaName: s.area_name,
+        label: s.subpoint_name,
+        score: s.score,
+        target: s.target,
+        targetName: s.target_name,
+        weightedGap: s.weighted_gap,
+        observation: s.observation,
+        photo: s.photo,
+        tasks: s.tasks,
+      })),
+    ...diag.scored_problems
+      .filter((p) => p.score < 5)
+      .map((p): PriorityItem => ({
+        key: p.problem_id,
+        code: p.problem_id,
+        areaName: p.area_name,
+        label: `${p.subpoint_name} / ${p.problem_name}`,
+        score: p.score,
+        target: p.target,
+        targetName: p.target_name,
+        weightedGap: p.weighted_gap,
+        observation: p.observation,
+        photo: p.photo,
+        tasks: p.tasks,
+      })),
+  ].sort((a, b) => b.weightedGap - a.weightedGap);
+}
+
 export function DiagnosticReport({ moduleName, diag }: { moduleName: string; diag: DiagnosticResult }) {
   const band = scoreBand(diag.module_score);
-  const priority = diag.scored.filter((s) => s.score < 5).sort((a, b) => b.weighted_gap - a.weighted_gap);
+  const priority = buildPriority(diag);
 
   return (
     <Document>
@@ -113,10 +172,10 @@ export function DiagnosticReport({ moduleName, diag }: { moduleName: string; dia
             <Text style={styles.muted}>No gaps found - every scored sub-point is already best-in-class.</Text>
           ) : (
             priority.map((s, i) => (
-              <View key={s.subpoint_id} style={styles.priorityItem}>
+              <View key={s.key} style={styles.priorityItem}>
                 <Text style={styles.priorityTitle}>
                   {pdfSafe(
-                    `${i + 1}. ${s.area_name} / ${s.subpoint_name} (scored ${s.score} -> target ${s.target} ${s.target_name})`
+                    `${i + 1}. ${s.areaName} / ${s.label} (scored ${fmtScore(s.score)} -> target ${fmtScore(s.target)} ${s.targetName})`
                   )}
                 </Text>
                 {s.observation ? (
@@ -138,7 +197,7 @@ export function DiagnosticReport({ moduleName, diag }: { moduleName: string; dia
           )}
 
           <Text style={styles.footer}>
-            {pdfSafe("Built & powered by LongArc - Operations Strategy for Growing Businesses - golongarc.com")}
+            {pdfSafe("Built & powered by LongArc - FnV Warehouse Diagnostics for Quick Commerce - golongarc.com")}
           </Text>
         </View>
       </Page>

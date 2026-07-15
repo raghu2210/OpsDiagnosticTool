@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from "react";
 import { Loader2 } from "lucide-react";
-import type { MasterRow, RecommendationRow, DiagnosticResult, SubpointScore } from "@/lib/domain/types";
+import type { MasterRow, ProblemRow, RecommendationRow, DiagnosticResult, SubpointScore } from "@/lib/domain/types";
 import { groupByArea, listModules } from "@/lib/domain/grouping";
 import { computeDiagnostic, toScoreMaps } from "@/lib/domain/scoring";
 import { ScoreForm, type ScoreFormValues } from "./ScoreForm";
@@ -14,10 +14,12 @@ type InputMode = "upload" | "form";
 export function DiagnoseFlow({
   masters,
   recommendations,
+  problems,
   initialModuleId,
 }: {
   masters: MasterRow[];
   recommendations: RecommendationRow[];
+  problems: ProblemRow[];
   initialModuleId?: string;
 }) {
   const modules = useMemo(() => listModules(masters), [masters]);
@@ -30,6 +32,7 @@ export function DiagnoseFlow({
   const [downloadError, setDownloadError] = useState<string | null>(null);
 
   const moduleRows = useMemo(() => masters.filter((r) => r.module_id === moduleId), [masters, moduleId]);
+  const moduleProblems = useMemo(() => problems.filter((r) => r.module_id === moduleId), [problems, moduleId]);
   const areas = useMemo(() => groupByArea(moduleRows), [moduleRows]);
   const moduleName = moduleRows[0]?.module_name ?? "";
 
@@ -39,12 +42,22 @@ export function DiagnoseFlow({
   }
 
   function handleSubmit(values: ScoreFormValues) {
-    setDiag(computeDiagnostic(moduleRows, values.scores, values.observations, recommendations, values.photos));
+    setDiag(
+      computeDiagnostic(
+        moduleRows,
+        values.scores,
+        values.observations,
+        recommendations,
+        values.photos,
+        moduleProblems,
+        values.problemScores
+      )
+    );
   }
 
   function handleUploaded(rows: SubpointScore[]) {
     const { scores, observations } = toScoreMaps(rows);
-    setDiag(computeDiagnostic(moduleRows, scores, observations, recommendations));
+    setDiag(computeDiagnostic(moduleRows, scores, observations, recommendations, undefined, moduleProblems));
   }
 
   async function handleDownloadPdf() {
@@ -115,7 +128,7 @@ export function DiagnoseFlow({
         {mode === "upload" ? (
           <UploadChecklist key={moduleId} onParsed={handleUploaded} />
         ) : (
-          <ScoreForm key={moduleId} areas={areas} onSubmit={handleSubmit} />
+          <ScoreForm key={moduleId} areas={areas} problems={moduleProblems} onSubmit={handleSubmit} />
         )}
       </div>
 

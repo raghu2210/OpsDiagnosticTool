@@ -1,5 +1,5 @@
 // One-off script: converts sample_data/LongArc_Masters.xlsx into checked-in JSON
-// (lib/data/local-fallback/{masters,recommendations}.json) so the app doesn't need to
+// (lib/data/local-fallback/{masters,recommendations,problems}.json) so the app doesn't need to
 // parse xlsx on every request when Google Sheets isn't configured. Not part of the
 // Next.js build - run manually with `node scripts/generate-fallback-json.mjs` whenever
 // sample_data/LongArc_Masters.xlsx changes.
@@ -48,11 +48,16 @@ async function main() {
 
   const masters = sheetToRecords(wb.getWorksheet("Masters"));
   const recommendations = sheetToRecords(wb.getWorksheet("Recommendations"));
+  const problemsWs = wb.getWorksheet("Problems");
+  const problems = problemsWs ? sheetToRecords(problemsWs) : [];
 
   writeFileSync(path.join(OUT_DIR, "masters.json"), JSON.stringify(masters, null, 2));
   writeFileSync(path.join(OUT_DIR, "recommendations.json"), JSON.stringify(recommendations, null, 2));
+  writeFileSync(path.join(OUT_DIR, "problems.json"), JSON.stringify(problems, null, 2));
 
-  console.log(`Wrote ${masters.length} Masters rows, ${recommendations.length} Recommendations rows to ${OUT_DIR}`);
+  console.log(
+    `Wrote ${masters.length} Masters rows, ${recommendations.length} Recommendations rows, ${problems.length} Problems rows to ${OUT_DIR}`
+  );
 }
 
 main().catch((err) => {

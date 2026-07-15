@@ -1,13 +1,16 @@
 "use client";
 
-import { useRef, useState } from "react";
+import { useMemo, useRef, useState } from "react";
 import { ImagePlus, X } from "lucide-react";
 import type { AreaGroup } from "@/lib/domain/grouping";
-import type { ScoreValue } from "@/lib/domain/types";
+import type { ProblemRow, ScoreValue } from "@/lib/domain/types";
+import { scoreBand } from "@/lib/domain/bands";
 import { SegmentedScore } from "./SegmentedScore";
 
 export interface ScoreFormValues {
   scores: Map<string, ScoreValue>;
+  /** Node-4 problem-statement scores, keyed by problem_id. */
+  problemScores: Map<string, ScoreValue>;
   observations: Map<string, string>;
   photos: Map<string, string>;
 }
@@ -49,6 +52,17 @@ function resizeImageToDataUrl(file: File): Promise<string> {
     };
     img.src = url;
   });
+}
+
+/** Weighted rollup of whichever problem statements have been scored so far, for a live
+ * preview in the sub-point header - purely a display convenience. The authoritative
+ * computation happens in computeDiagnostic() on submit. */
+function liveRollup(subProblems: ProblemRow[], values: Record<string, string>): number | null {
+  const scored = subProblems.filter((p) => values[p.problem_id]);
+  if (scored.length === 0) return null;
+  const w = scored.reduce((s, p) => s + p.problem_weight, 0);
+  const weighted = scored.reduce((s, p) => s + Number(values[p.problem_id]) * p.problem_weight, 0);
+  return w ? weighted / w : scored.reduce((s, p) => s + Number(values[p.problem_id]), 0) / scored.length;
 }
 
 function AutoGrowTextarea({
@@ -145,32 +159,89 @@ function PhotoAttach({
   );
 }
 
+/** One sub-point row's observation + photo + score picker - shared by both the direct
+ * scoring row and each nested problem-statement row, just keyed by a different id. */
+function ScorableRow({
+  id,
+  label,
+  code,
+  obsValue,
+  onObsChange,
+  photo,
+  onPhotoAttach,
+  onPhotoRemove,
+  scoreValue,
+  onScoreChange,
+  indent,
+}: {
+  id: string;
+  label: string;
+  code: string;
+  obsValue: string;
+  onObsChange: (v: string) => void;
+  photo: string | undefined;
+  onPhotoAttach: (dataUrl: string) => void;
+  onPhotoRemove: () => void;
+  scoreValue: string;
+  onScoreChange: (v: string) => void;
+  indent?: boolean;
+}) {
+  return (
+    <div className={`flex items-start gap-4 px-4 py-3 ${indent ? "pl-8" : ""}`}>
+      <div className="flex-1 min-w-0">
+        <div className="text-sm font-medium">
+          <span className="font-code text-neutral mr-1.5">{code}</span>
+          {label}
+        </div>
+        <AutoGrowTextarea value={obsValue} onChange={onObsChange} />
+        <PhotoAttach photo={photo} onAttach={onPhotoAttach} onRemove={onPhotoRemove} />
+      </div>
+      <SegmentedScore value={scoreValue} onChange={onScoreChange} />
+    </div>
+  );
+}
+
 export function ScoreForm({
   areas,
+  problems = [],
   onSubmit,
 }: {
   areas: AreaGroup[];
+  problems?: ProblemRow[];
   onSubmit: (values: ScoreFormValues) => void;
 }) {
   const [values, setValues] = useState<Record<string, string>>({});
   const [obs, setObs] = useState<Record<string, string>>({});
   const [photos, setPhotos] = useState<Record<string, string>>({});
 
+  const problemsBySubpoint = useMemo(() => {
+    const map = new Map<string, ProblemRow[]>();
+    for (const p of problems) {
+      const list = map.get(p.subpoint_id) ?? [];
+      list.push(p);
+      map.set(p.subpoint_id, list);
+    }
+    return map;
+  }, [problems]);
+  const problemIdSet = useMemo(() => new Set(problems.map((p) => p.problem_id)), [problems]);
+
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     const scores = new Map<string, ScoreValue>();
+    const problemScores = new Map<string, ScoreValue>();
+    for (const [id, v] of Object.entries(values)) {
+      if (!v) continue;
+      (problemIdSet.has(id) ? problemScores : scores).set(id, Number(v) as ScoreValue);
+    }
     const observations = new Map<string, string>();
+    for (const [id, v] of Object.entries(obs)) {
+      if (v) observations.set(id, v);
+    }
     const photoMap = new Map<string, string>();
-    for (const [subpointId, v] of Object.entries(values)) {
-      if (v) scores.set(subpointId, Number(v) as ScoreValue);
+    for (const [id, v] of Object.entries(photos)) {
+      if (v) photoMap.set(id, v);
     }
-    for (const [subpointId, v] of Object.entries(obs)) {
-      if (v) observations.set(subpointId, v);
-    }
-    for (const [subpointId, v] of Object.entries(photos)) {
-      if (v) photoMap.set(subpointId, v);
-    }
-    onSubmit({ scores, observations, photos: photoMap });
+    onSubmit({ scores, problemScores, observations, photos: photoMap });
   }
 
   return (
@@ -183,29 +254,67 @@ export function ScoreForm({
             <span className="font-code text-xs text-neutral ml-auto">weight {(area.area_weight * 100).toFixed(0)}%</span>
           </div>
           <div className="border border-rule rounded-md divide-y divide-rule bg-surface shadow-sm">
-            {area.subpoints.map((sp) => (
-              <div key={sp.subpoint_id} className="flex items-start gap-4 px-4 py-3">
-                <div className="flex-1 min-w-0">
-                  <div className="text-sm font-medium">
-                    <span className="font-code text-neutral mr-1.5">{sp.subpoint_id}</span>
-                    {sp.subpoint_name}
+            {area.subpoints.map((sp) => {
+              const subProblems = problemsBySubpoint.get(sp.subpoint_id);
+              if (subProblems && subProblems.length > 0) {
+                const rollup = liveRollup(subProblems, values);
+                const band = rollup !== null ? scoreBand(rollup) : null;
+                return (
+                  <div key={sp.subpoint_id}>
+                    <div className="flex items-center justify-between gap-4 px-4 py-3 bg-black/[0.03]">
+                      <div className="text-sm font-medium">
+                        <span className="font-code text-neutral mr-1.5">{sp.subpoint_id}</span>
+                        {sp.subpoint_name}
+                        <span className="ml-2 font-code text-xs text-neutral font-normal">
+                          {subProblems.length} problem statements
+                        </span>
+                      </div>
+                      {band ? (
+                        <span className="font-code text-sm font-medium shrink-0" style={{ color: band.color }}>
+                          {rollup!.toFixed(1)} / 5 &middot; {band.label}
+                        </span>
+                      ) : (
+                        <span className="text-xs text-neutral shrink-0">Not yet scored</span>
+                      )}
+                    </div>
+                    <div className="divide-y divide-rule">
+                      {subProblems.map((p) => (
+                        <ScorableRow
+                          key={p.problem_id}
+                          id={p.problem_id}
+                          code={p.problem_id}
+                          label={p.problem_name}
+                          obsValue={obs[p.problem_id] ?? ""}
+                          onObsChange={(v) => setObs((o) => ({ ...o, [p.problem_id]: v }))}
+                          photo={photos[p.problem_id]}
+                          onPhotoAttach={(dataUrl) => setPhotos((ph) => ({ ...ph, [p.problem_id]: dataUrl }))}
+                          onPhotoRemove={() => setPhotos((ph) => ({ ...ph, [p.problem_id]: "" }))}
+                          scoreValue={values[p.problem_id] ?? ""}
+                          onScoreChange={(v) => setValues((prev) => ({ ...prev, [p.problem_id]: v }))}
+                          indent
+                        />
+                      ))}
+                    </div>
                   </div>
-                  <AutoGrowTextarea
-                    value={obs[sp.subpoint_id] ?? ""}
-                    onChange={(v) => setObs((o) => ({ ...o, [sp.subpoint_id]: v }))}
-                  />
-                  <PhotoAttach
-                    photo={photos[sp.subpoint_id]}
-                    onAttach={(dataUrl) => setPhotos((p) => ({ ...p, [sp.subpoint_id]: dataUrl }))}
-                    onRemove={() => setPhotos((p) => ({ ...p, [sp.subpoint_id]: "" }))}
-                  />
-                </div>
-                <SegmentedScore
-                  value={values[sp.subpoint_id] ?? ""}
-                  onChange={(v) => setValues((prev) => ({ ...prev, [sp.subpoint_id]: v }))}
+                );
+              }
+
+              return (
+                <ScorableRow
+                  key={sp.subpoint_id}
+                  id={sp.subpoint_id}
+                  code={sp.subpoint_id}
+                  label={sp.subpoint_name}
+                  obsValue={obs[sp.subpoint_id] ?? ""}
+                  onObsChange={(v) => setObs((o) => ({ ...o, [sp.subpoint_id]: v }))}
+                  photo={photos[sp.subpoint_id]}
+                  onPhotoAttach={(dataUrl) => setPhotos((ph) => ({ ...ph, [sp.subpoint_id]: dataUrl }))}
+                  onPhotoRemove={() => setPhotos((ph) => ({ ...ph, [sp.subpoint_id]: "" }))}
+                  scoreValue={values[sp.subpoint_id] ?? ""}
+                  onScoreChange={(v) => setValues((prev) => ({ ...prev, [sp.subpoint_id]: v }))}
                 />
-              </div>
-            ))}
+              );
+            })}
           </div>
         </div>
       ))}

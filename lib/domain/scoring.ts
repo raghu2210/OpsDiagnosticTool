@@ -3,8 +3,10 @@ import {
   DiagnosticResult,
   LEVEL_NAME,
   MasterRow,
+  ProblemRow,
   RecommendationRow,
   ScoreValue,
+  ScoredProblem,
   ScoredSubpoint,
   SubpointScore,
 } from "./types";
@@ -15,13 +17,24 @@ import {
  * needs to contain entries for subpoints actually scored; anything not in the map is
  * treated as un-scored and excluded from every average, exactly like the Python
  * `df["score"].between(1, 5)` filter.
+ *
+ * `problems`/`problemScores` add Node 4 (leaf-level problem-statement scoring) on top,
+ * additive and backward-compatible: a sub-point with rows in `problems` gets its score
+ * computed as the weighted rollup of its problem statements' scores (Node 4 -> Node 3),
+ * using the exact same weighted-average pattern already used one level up for
+ * sub-point -> area -> module. A sub-point with no `problems` rows (or with rows but none
+ * scored) falls back to the direct `scores` map lookup, unchanged from before - this is
+ * what keeps the .xlsx upload path working untouched for sub-points that have been
+ * broken down to Node 4: an uploaded checklist only ever provides direct scores.
  */
 export function computeDiagnostic(
   moduleRows: MasterRow[],
   scores: Map<string, ScoreValue>,
   observations: Map<string, string>,
   recommendations: RecommendationRow[],
-  photos: Map<string, string> = new Map()
+  photos: Map<string, string> = new Map(),
+  problems: ProblemRow[] = [],
+  problemScores: Map<string, ScoreValue> = new Map()
 ): DiagnosticResult {
   const hasModuleId = recommendations.some((r) => "module_id" in r);
   const recoMap = new Map<string, string>();
@@ -30,12 +43,71 @@ export function computeDiagnostic(
     recoMap.set(key, r.recommended_tasks);
   }
 
+  const problemsBySubpoint = new Map<string, ProblemRow[]>();
+  for (const p of problems) {
+    const list = problemsBySubpoint.get(p.subpoint_id) ?? [];
+    list.push(p);
+    problemsBySubpoint.set(p.subpoint_id, list);
+  }
+
+  // Node 4: every scored problem statement, regardless of which sub-point it belongs to.
+  // weighted_gap chains all three weight tiers so it's directly comparable to a
+  // ScoredSubpoint's weighted_gap in a merged priority list.
+  const scoredProblems: ScoredProblem[] = [];
+  for (const row of moduleRows) {
+    const subProblems = problemsBySubpoint.get(row.subpoint_id);
+    if (!subProblems) continue;
+    for (const p of subProblems) {
+      const score = problemScores.get(p.problem_id);
+      if (score === undefined) continue;
+
+      const target = (score < 5 ? Math.min(score + 1, 5) : 5) as ScoreValue;
+      const weightedGap = (5 - score) * p.problem_weight * row.subpoint_weight * row.area_weight;
+      const tasks =
+        score >= 5 ? "" : recoMap.get(recoKey(hasModuleId ? p.module_id : null, p.problem_id, target)) ?? "";
+
+      scoredProblems.push({
+        ...p,
+        area_id: row.area_id,
+        area_name: row.area_name,
+        subpoint_name: row.subpoint_name,
+        score,
+        observation: observations.get(p.problem_id) ?? "",
+        photo: photos.get(p.problem_id),
+        level_name: LEVEL_NAME[score],
+        target,
+        target_name: LEVEL_NAME[target],
+        weighted_gap: weightedGap,
+        tasks,
+      });
+    }
+  }
+  const scoredProblemsBySubpoint = new Map<string, ScoredProblem[]>();
+  for (const sp of scoredProblems) {
+    const list = scoredProblemsBySubpoint.get(sp.subpoint_id) ?? [];
+    list.push(sp);
+    scoredProblemsBySubpoint.set(sp.subpoint_id, list);
+  }
+
   const scored: ScoredSubpoint[] = [];
   for (const row of moduleRows) {
-    const score = scores.get(row.subpoint_id);
-    if (score === undefined) continue; // un-scored - excluded, same as the Python between(1,5) filter
+    const subProblems = problemsBySubpoint.get(row.subpoint_id);
+    let score: number | undefined;
 
-    const target = (score < 5 ? Math.min(score + 1, 5) : 5) as ScoreValue;
+    if (subProblems && subProblems.length > 0) {
+      const scoredForSub = scoredProblemsBySubpoint.get(row.subpoint_id) ?? [];
+      if (scoredForSub.length > 0) {
+        const w = sum(scoredForSub.map((p) => p.problem_weight));
+        score = w
+          ? sum(scoredForSub.map((p) => p.score * p.problem_weight)) / w
+          : mean(scoredForSub.map((p) => p.score));
+      }
+    }
+    if (score === undefined) score = scores.get(row.subpoint_id); // fallback: direct score (or none)
+    if (score === undefined) continue; // truly un-scored - excluded, same as the Python between(1,5) filter
+
+    const roundedScore = Math.round(score) as ScoreValue;
+    const target = score < 5 ? Math.min(roundedScore + 1, 5) : 5;
     const weightedGap = (5 - score) * row.subpoint_weight * row.area_weight;
     const tasks =
       score >= 5 ? "" : recoMap.get(recoKey(hasModuleId ? row.module_id : null, row.subpoint_id, target)) ?? "";
@@ -45,9 +117,9 @@ export function computeDiagnostic(
       score,
       observation: observations.get(row.subpoint_id) ?? "",
       photo: photos.get(row.subpoint_id),
-      level_name: LEVEL_NAME[score],
+      level_name: LEVEL_NAME[roundedScore] ?? "",
       target,
-      target_name: LEVEL_NAME[target],
+      target_name: LEVEL_NAME[target as ScoreValue] ?? "",
       weighted_gap: weightedGap,
       tasks,
     });
@@ -84,6 +156,7 @@ export function computeDiagnostic(
 
   return {
     scored,
+    scored_problems: scoredProblems,
     area_scores: areaScores,
     module_score: moduleScore,
     pct: (moduleScore / 5) * 100,
@@ -92,8 +165,8 @@ export function computeDiagnostic(
   };
 }
 
-function recoKey(moduleId: string | null, subpointId: string, targetLevel: number): string {
-  return `${moduleId ?? ""}::${subpointId}::${targetLevel}`;
+function recoKey(moduleId: string | null, id: string, targetLevel: number): string {
+  return `${moduleId ?? ""}::${id}::${targetLevel}`;
 }
 
 function sum(xs: number[]): number {

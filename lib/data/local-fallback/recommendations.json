@@ -3422,5 +3422,293 @@
     "target_level": 5,
     "target_level_name": "Best-in-class",
     "recommended_tasks": "Move Write-Off & Disposal Process toward: Write-off and disposal are system-integrated with inventory (automatic reconciliation), fully auditable, and disposal method is optimized (e.g. donation/composting where viable) to reduce cost and waste impact."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A1.1.1",
+    "subpoint_name": "Dock Scheduling",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Dock Scheduling toward: A rough scheduling attempt exists (a phone call or message) but isn't tracked, and vendors regularly ignore it."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A1.1.1",
+    "subpoint_name": "Dock Scheduling",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Dock Scheduling toward: A documented dock schedule with assigned time windows per vendor exists and is generally followed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A1.1.1",
+    "subpoint_name": "Dock Scheduling",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Dock Scheduling toward: Dock scheduling is actively enforced with a booking system or calendar, and vendor adherence is tracked against a KPI."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A1.1.1",
+    "subpoint_name": "Dock Scheduling",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Dock Scheduling toward: Dock scheduling is fully digitized (self-service vendor booking), with real-time visibility and automatic reflow when a slot is missed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A1.1.2",
+    "subpoint_name": "Arrival Time-Stamping",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Arrival Time-Stamping toward: Arrival time is noted informally (a scrawled note) but not consistently, and isn't compiled anywhere."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A1.1.2",
+    "subpoint_name": "Arrival Time-Stamping",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Arrival Time-Stamping toward: A documented process for logging arrival and unload-complete times exists and is generally followed, recorded manually or in a spreadsheet."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A1.1.2",
+    "subpoint_name": "Arrival Time-Stamping",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Arrival Time-Stamping toward: Time-stamping is actively reviewed against a dock-to-shelf time KPI, with delays flagged and investigated."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A1.1.2",
+    "subpoint_name": "Arrival Time-Stamping",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Arrival Time-Stamping toward: Time-stamping is automatic (system/scan-based) and dock-to-shelf time is a continuously monitored, benchmarked metric."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A1.1.3",
+    "subpoint_name": "Dock-to-Shelf SOP Adherence",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Dock-to-Shelf SOP Adherence toward: An informal sequence is understood by experienced staff but isn't written down, and breaks down when they're absent."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A1.1.3",
+    "subpoint_name": "Dock-to-Shelf SOP Adherence",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Dock-to-Shelf SOP Adherence toward: A documented dock-to-shelf SOP exists and is generally followed under normal conditions."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A1.1.3",
+    "subpoint_name": "Dock-to-Shelf SOP Adherence",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Dock-to-Shelf SOP Adherence toward: SOP adherence is actively audited on a defined cadence, with deviations tracked and corrected."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A1.1.3",
+    "subpoint_name": "Dock-to-Shelf SOP Adherence",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Dock-to-Shelf SOP Adherence toward: The SOP is system-guided (e.g. task prompts) and adherence is consistently near 100%, verified continuously."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A1.2.1",
+    "subpoint_name": "Grading Standard Documentation",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Grading Standard Documentation toward: A grading standard exists informally in a few people's heads but isn't written down anywhere."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A1.2.1",
+    "subpoint_name": "Grading Standard Documentation",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Grading Standard Documentation toward: A documented grading rubric (ripeness, blemish tolerance, size) exists for major SKU categories."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A1.2.1",
+    "subpoint_name": "Grading Standard Documentation",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Grading Standard Documentation toward: The grading rubric is actively maintained, covers most SKUs, and is referenced during training."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A1.2.1",
+    "subpoint_name": "Grading Standard Documentation",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Grading Standard Documentation toward: Grading standards are documented with photo references for every SKU category and reviewed/updated on a regular cadence."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A1.2.2",
+    "subpoint_name": "Grading Consistency & Sampling",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Grading Consistency & Sampling toward: Grading happens but isn't sampling-based or systematic - whoever is at the dock eyeballs a few crates."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A1.2.2",
+    "subpoint_name": "Grading Consistency & Sampling",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Grading Consistency & Sampling toward: A defined sampling method (e.g. check N crates per batch) is documented and generally followed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A1.2.2",
+    "subpoint_name": "Grading Consistency & Sampling",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Grading Consistency & Sampling toward: Sampling-based grading is actively tracked for consistency across shifts/staff, with outliers coached."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A1.2.2",
+    "subpoint_name": "Grading Consistency & Sampling",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Grading Consistency & Sampling toward: Grading consistency is measured (e.g. inter-rater agreement) and continuously improved through training and feedback."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A1.2.3",
+    "subpoint_name": "Rejection Data & Vendor Feedback Loop",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Rejection Data & Vendor Feedback Loop toward: Rejections are occasionally noted informally but not compiled or shared with vendors."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A1.2.3",
+    "subpoint_name": "Rejection Data & Vendor Feedback Loop",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Rejection Data & Vendor Feedback Loop toward: A documented process for logging rejections (vendor, SKU, reason, quantity) exists and is generally followed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A1.2.3",
+    "subpoint_name": "Rejection Data & Vendor Feedback Loop",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Rejection Data & Vendor Feedback Loop toward: Rejection data is actively reviewed and shared with vendors on a defined cadence, feeding into vendor scorecards."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A1.2.3",
+    "subpoint_name": "Rejection Data & Vendor Feedback Loop",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Rejection Data & Vendor Feedback Loop toward: Rejection data automatically feeds vendor performance reviews and sourcing decisions, with trends tracked over time."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A1.3.1",
+    "subpoint_name": "Batch/Lot Identification at Receiving",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Batch/Lot Identification at Receiving toward: Batch/lot tagging happens manually and inconsistently (marker on a box), often illegible or lost."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A1.3.1",
+    "subpoint_name": "Batch/Lot Identification at Receiving",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Batch/Lot Identification at Receiving toward: A documented batch-tagging process (vendor, date, lot) exists and is applied consistently."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A1.3.1",
+    "subpoint_name": "Batch/Lot Identification at Receiving",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Batch/Lot Identification at Receiving toward: Batch tagging is actively verified at receiving with a defined accuracy target."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A1.3.1",
+    "subpoint_name": "Batch/Lot Identification at Receiving",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Batch/Lot Identification at Receiving toward: Batch/lot identification is barcode/QR-based and system-captured at the point of receiving."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A1.3.2",
+    "subpoint_name": "Traceability Through Storage",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Traceability Through Storage toward: Some batches can be traced with effort (asking staff, checking notes) but it's unreliable."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A1.3.2",
+    "subpoint_name": "Traceability Through Storage",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Traceability Through Storage toward: A documented process keeps batch identity associated with stock through storage, generally followed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A1.3.2",
+    "subpoint_name": "Traceability Through Storage",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Traceability Through Storage toward: Batch traceability through storage is actively spot-checked and discrepancies are investigated."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A1.3.2",
+    "subpoint_name": "Traceability Through Storage",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Traceability Through Storage toward: Full batch-level traceability is system-enforced from receiving through storage to pick, queryable instantly."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A1.3.3",
+    "subpoint_name": "Recall/Root-Cause Capability",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Recall/Root-Cause Capability toward: Root-cause tracing is possible in theory but takes significant manual effort and often fails."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A1.3.3",
+    "subpoint_name": "Recall/Root-Cause Capability",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Recall/Root-Cause Capability toward: A documented process exists to trace a downstream issue back to its batch/vendor, generally workable within a reasonable time."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A1.3.3",
+    "subpoint_name": "Recall/Root-Cause Capability",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Recall/Root-Cause Capability toward: Traceability is actively tested/drilled on a defined cadence to confirm it actually works when needed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A1.3.3",
+    "subpoint_name": "Recall/Root-Cause Capability",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Recall/Root-Cause Capability toward: Any downstream issue can be traced to its exact inbound batch and vendor within minutes, system-supported."
   }
 ]

@@ -1,4 +1,4 @@
-import { loadMasters, loadRecommendations } from "@/lib/data/masters-source";
+import { loadMasters, loadProblems, loadRecommendations } from "@/lib/data/masters-source";
 import { DiagnoseFlow } from "@/components/diagnose/DiagnoseFlow";
 
 export default async function DiagnosePage({
@@ -7,7 +7,11 @@ export default async function DiagnosePage({
   searchParams: Promise<{ module?: string }>;
 }) {
   const { module: initialModuleId } = await searchParams;
-  const [masters, recommendations] = await Promise.all([loadMasters(), loadRecommendations()]);
+  const [masters, recommendations, problems] = await Promise.all([
+    loadMasters(),
+    loadRecommendations(),
+    loadProblems(),
+  ]);
   const active = masters.filter((r) => r.status === "active");
 
   return (
@@ -17,7 +21,7 @@ export default async function DiagnosePage({
         Score the sub-points in-app and get a weighted maturity diagnostic with the tasks needed to reach the next
         level.
       </p>
-      <DiagnoseFlow masters={active} recommendations={recommendations} initialModuleId={initialModuleId} />
+      <DiagnoseFlow masters={active} recommendations={recommendations} problems={problems} initialModuleId={initialModuleId} />
     </div>
   );
 }

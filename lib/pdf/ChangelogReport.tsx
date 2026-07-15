@@ -59,7 +59,7 @@ export function ChangelogReport({ version, updated, changelog }: ChangelogReport
           ))}
 
           <Text style={styles.footer}>
-            {pdfSafe("Built & powered by LongArc - Operations Strategy for Growing Businesses - golongarc.com")}
+            {pdfSafe("Built & powered by LongArc - FnV Warehouse Diagnostics for Quick Commerce - golongarc.com")}
           </Text>
         </View>
       </Page>

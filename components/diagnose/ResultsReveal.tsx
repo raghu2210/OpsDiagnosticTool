@@ -8,6 +8,12 @@ import { scoreBand } from "@/lib/domain/bands";
 const RING_R = 64;
 const RING_C = 2 * Math.PI * RING_R;
 
+/** Shows whole numbers plainly (directly-scored items) and one decimal only for
+ * fractional weighted rollups (Node-4 problem-statement items). */
+function fmtScore(n: number): string {
+  return Number.isInteger(n) ? String(n) : n.toFixed(1);
+}
+
 /** Animated radial progress ring + count-up number whose color transitions across the
  * score-band palette as it crosses thresholds while counting - visualizes "weighted
  * average" as a real interaction, the signature moment this stack can do that Streamlit
@@ -83,6 +89,25 @@ function AreaBar({ areaId, areaName, score, delay }: { areaId: string; areaName:
   );
 }
 
+/** Common shape for a priority-list entry, whichever tree level it came from - a
+ * directly-scored sub-point (Node 3) or a scored problem statement (Node 4). Sub-points
+ * that have been broken down to Node 4 are represented by their problems instead of
+ * themselves, so nothing shows up twice at two levels of granularity. */
+interface PriorityItem {
+  key: string;
+  code: string;
+  areaName: string;
+  label: string;
+  score: number;
+  levelName: string;
+  target: number;
+  targetName: string;
+  weightedGap: number;
+  observation: string;
+  photo?: string;
+  tasks: string;
+}
+
 export function ResultsReveal({ diag }: { diag: DiagnosticResult }) {
   if (diag.n_scored === 0) {
     return <p className="text-neutral">No scores yet - fill in at least one Score (1-5) above.</p>;
@@ -94,9 +119,41 @@ export function ResultsReveal({ diag }: { diag: DiagnosticResult }) {
     [...diag.area_scores].sort((a, b) => b.area_weight - a.area_weight).map((a, i) => [a.area_id, i])
   );
 
-  const priority = diag.scored
-    .filter((s) => s.score < 5)
-    .sort((a, b) => b.weighted_gap - a.weighted_gap);
+  const problemSubpointIds = new Set(diag.scored_problems.map((p) => p.subpoint_id));
+  const priority: PriorityItem[] = [
+    ...diag.scored
+      .filter((s) => s.score < 5 && !problemSubpointIds.has(s.subpoint_id))
+      .map((s): PriorityItem => ({
+        key: s.subpoint_id,
+        code: s.subpoint_id,
+        areaName: s.area_name,
+        label: s.subpoint_name,
+        score: s.score,
+        levelName: s.level_name,
+        target: s.target,
+        targetName: s.target_name,
+        weightedGap: s.weighted_gap,
+        observation: s.observation,
+        photo: s.photo,
+        tasks: s.tasks,
+      })),
+    ...diag.scored_problems
+      .filter((p) => p.score < 5)
+      .map((p): PriorityItem => ({
+        key: p.problem_id,
+        code: p.problem_id,
+        areaName: p.area_name,
+        label: `${p.subpoint_name} / ${p.problem_name}`,
+        score: p.score,
+        levelName: p.level_name,
+        target: p.target,
+        targetName: p.target_name,
+        weightedGap: p.weighted_gap,
+        observation: p.observation,
+        photo: p.photo,
+        tasks: p.tasks,
+      })),
+  ].sort((a, b) => b.weightedGap - a.weightedGap);
 
   const moduleBand = scoreBand(diag.module_score);
 
@@ -149,12 +206,12 @@ export function ResultsReveal({ diag }: { diag: DiagnosticResult }) {
         ) : (
           <div className="divide-y divide-rule border border-rule rounded-md bg-surface shadow-sm">
             {priority.map((s) => (
-              <details key={s.subpoint_id} className="px-4 py-3 group">
+              <details key={s.key} className="px-4 py-3 group">
                 <summary className="cursor-pointer text-sm font-medium list-none flex justify-between items-center gap-3">
                   <span>
-                    <span className="font-code text-neutral mr-1.5">{s.subpoint_id}</span>
-                    {s.area_name} &middot; {s.subpoint_name} &mdash; scored {s.score} ({s.level_name}) &rarr; target{" "}
-                    {s.target} ({s.target_name})
+                    <span className="font-code text-neutral mr-1.5">{s.code}</span>
+                    {s.areaName} &middot; {s.label} &mdash; scored {fmtScore(s.score)} ({s.levelName}) &rarr; target{" "}
+                    {fmtScore(s.target)} ({s.targetName})
                   </span>
                   <span className="text-neutral group-open:rotate-90 transition-transform shrink-0">&rsaquo;</span>
                 </summary>
