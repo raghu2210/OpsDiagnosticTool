@@ -144,7 +144,7 @@ export function computeDiagnostic(
         n_scored: rows.length,
       };
     })
-    .sort((a, b) => a.area_id.localeCompare(b.area_id));
+    .sort((a, b) => a.area_id.localeCompare(b.area_id, undefined, { numeric: true }));
 
   let moduleScore = 0;
   if (areaScores.length) {

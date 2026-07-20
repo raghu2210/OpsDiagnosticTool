@@ -262,6 +262,16 @@ updated independently. The two logs are never allowed to mix, even when both hap
 the same work session - see the corresponding entry there for what happened on the
 workflow side of any given date.
 
+- **2026-07-20** - Fixed area/sub-point ordering across the app: `groupByArea()`
+  (`lib/domain/grouping.ts`), the combined-checklist row sort in `BuildFlow.tsx`, and the
+  `area_scores` sort in `computeDiagnostic()` (`lib/domain/scoring.ts`) all used
+  `String.localeCompare()` on IDs like `A1`/`A10`/`A2`, which sorts lexically (`A1, A10,
+  A11, ..., A18, A2, A3, ...`) rather than numerically - only visible once the module grew
+  past 9 areas in the v3.0 rollout. Switched all three to `localeCompare(..., undefined, {
+  numeric: true })`, which sorts `A1` through `A18` in the expected numeric order
+  everywhere areas or sub-points are listed (Build's area cards, the checklist preview
+  table, Diagnose's area breakdown, and the PDF exports). Purely a display-order fix - no
+  score, weight, or data change.
 - **2026-07-15** - `BuildFlow.tsx`'s checklist preview table restructured from repeating
   the sub-point name on every problem row to a staggered hierarchy: a bold sub-point
   header row (e.g. A1.1 Receiving Dock Discipline), followed by its indented problem rows

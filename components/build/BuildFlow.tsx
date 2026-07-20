@@ -72,7 +72,11 @@ export function BuildFlow({ masters, problems }: { masters: MasterRow[]; problem
         const ids = areas.filter((a) => selectedAreas.has(a.area_id)).map((a) => a.area_id);
         const combinedRows = moduleRows
           .filter((r) => selectedAreas.has(r.area_id))
-          .sort((a, b) => a.area_id.localeCompare(b.area_id) || a.subpoint_id.localeCompare(b.subpoint_id));
+          .sort(
+            (a, b) =>
+              a.area_id.localeCompare(b.area_id, undefined, { numeric: true }) ||
+              a.subpoint_id.localeCompare(b.subpoint_id, undefined, { numeric: true })
+          );
         await downloadChecklist(
           moduleName,
           combinedRows,

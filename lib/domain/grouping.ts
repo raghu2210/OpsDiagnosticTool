@@ -9,6 +9,8 @@ export interface AreaGroup {
 
 /** Groups a single module's rows by area, sorted by area_id then subpoint_id - mirrors
  * app.py's `module_df.groupby("area_id")` iteration order used to render the score form. */
+const numericCompare = (a: string, b: string) => a.localeCompare(b, undefined, { numeric: true });
+
 export function groupByArea(moduleRows: MasterRow[]): AreaGroup[] {
   const byArea = new Map<string, MasterRow[]>();
   for (const row of moduleRows) {
@@ -21,9 +23,9 @@ export function groupByArea(moduleRows: MasterRow[]): AreaGroup[] {
       area_id,
       area_name: rows[0].area_name,
       area_weight: rows[0].area_weight,
-      subpoints: [...rows].sort((a, b) => a.subpoint_id.localeCompare(b.subpoint_id)),
+      subpoints: [...rows].sort((a, b) => numericCompare(a.subpoint_id, b.subpoint_id)),
     }))
-    .sort((a, b) => a.area_id.localeCompare(b.area_id));
+    .sort((a, b) => numericCompare(a.area_id, b.area_id));
 }
 
 export interface ModuleOption {
