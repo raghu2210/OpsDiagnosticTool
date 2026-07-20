@@ -262,6 +262,19 @@ updated independently. The two logs are never allowed to mix, even when both hap
 the same work session - see the corresponding entry there for what happened on the
 workflow side of any given date.
 
+- **2026-07-20** - Areas are now displayed in warehouse-operations order instead of
+  numeric area_id order (A1..A18): plan/source (Market Intelligence, Vendor & CC Ops) ->
+  inward (Inward & Quality Grading) -> storage & layout (Cold Chain, Put-Away & Slotting,
+  Inventory & Shelf-Life, Warehouse Flow & Layout) -> outbound (Replenishment, Pick-Pack) ->
+  loss & exceptions (Spoilage, Rejection, Returns, Complaints) -> oversight & enablement
+  (Control Tower, Metrics & Visibility, Cost Diagnostics, Training, People). New
+  `compareAreaIds()` in `lib/domain/grouping.ts` holds this order and is now used by
+  `groupByArea()` (Build's area cards, the checklist preview, Diagnose's area picker and
+  ScoreForm), `computeDiagnostic()`'s `area_scores` (Diagnose's Area maturity breakdown and
+  the PDF export), and `BuildFlow.tsx`'s combined-checklist row order - one order, applied
+  everywhere areas are listed. `area_id` values themselves (A1..A18) are unchanged, so
+  Masters/Problems/Recommendations keys and every subpoint_id/problem_id built from them
+  are untouched - purely a display-order change.
 - **2026-07-20** - Hero subhead's opening ("10-minute delivery, days-long shelf life")
   generalized to "Fast delivery promises, days-long shelf life" - not every quick-commerce
   player commits to a literal 10-minute SLA, and the copy shouldn't assume one. No other

@@ -3,7 +3,7 @@
 import { Fragment, useMemo, useState } from "react";
 import { Check, Loader2 } from "lucide-react";
 import type { MasterRow, ProblemRow } from "@/lib/domain/types";
-import { groupByArea, listModules } from "@/lib/domain/grouping";
+import { compareAreaIds, groupByArea, listModules } from "@/lib/domain/grouping";
 import { Reveal } from "@/components/motion/Reveal";
 
 async function downloadChecklist(
@@ -74,7 +74,7 @@ export function BuildFlow({ masters, problems }: { masters: MasterRow[]; problem
           .filter((r) => selectedAreas.has(r.area_id))
           .sort(
             (a, b) =>
-              a.area_id.localeCompare(b.area_id, undefined, { numeric: true }) ||
+              compareAreaIds(a.area_id, b.area_id) ||
               a.subpoint_id.localeCompare(b.subpoint_id, undefined, { numeric: true })
           );
         await downloadChecklist(

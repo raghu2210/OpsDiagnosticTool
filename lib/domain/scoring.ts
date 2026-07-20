@@ -10,6 +10,7 @@ import {
   ScoredSubpoint,
   SubpointScore,
 } from "./types";
+import { compareAreaIds } from "./grouping";
 
 /**
  * Ported 1:1 from app.py's compute_diagnostic(). `moduleRows` must already be filtered to
@@ -144,7 +145,7 @@ export function computeDiagnostic(
         n_scored: rows.length,
       };
     })
-    .sort((a, b) => a.area_id.localeCompare(b.area_id, undefined, { numeric: true }));
+    .sort((a, b) => compareAreaIds(a.area_id, b.area_id));
 
   let moduleScore = 0;
   if (areaScores.length) {
