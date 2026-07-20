@@ -5,8 +5,8 @@
  * Section bodies are plain string arrays (one paragraph per string) rather than JSX so the
  * exact same content can drive both renderers without duplicating the copy.
  */
-export const APP_VERSION = "2.9";
-export const APP_UPDATED = "2026-07-15";
+export const APP_VERSION = "3.0";
+export const APP_UPDATED = "2026-07-20";
 
 export const FLOW_STEPS = ["Data layer", "Build checklist", "Auditor fills", "Score & diagnose", "Outputs"];
 
@@ -40,6 +40,11 @@ export const WORKFLOW_SECTIONS: { title: string; body: string[] }[] = [
 ];
 
 export const CHANGELOG = [
+  {
+    version: "3.0",
+    date: "2026-07-20",
+    body: "Expanded the FnV Warehouse Diagnostic from 7 to 18 areas, incorporating the broader 'Fresh Operating System' operational framework (slot scheduling, vendor/CC operations, warehouse flow, rejection/returns/complaints handling, control tower, market intelligence, training, people, metrics & visibility, cost diagnostics) rather than warehouse-floor activity alone. 11 new areas (A8-A18), 22 new sub-points, 87 total problem statements (44 new, each with its own 5-level maturity description and Node-4 scoring, same as the existing A1-A7 areas), 176 new recommendation rows. Existing A1-A7 area_weight values were rebalanced (summing to 0.55 instead of 1.0) so all 18 areas' weights sum to 1.0 together - no sub-point or problem weight within any existing area changed, so previously-recorded relative scores within A1-A7 are unaffected. Pure content/data extension via a new seed script (scripts/seed-a8-a18-areas.mjs -> sample_data/LongArc_Masters.xlsx -> regenerated JSON fallback) - no code changed, since computeDiagnostic(), ScoreForm.tsx, BuildFlow.tsx, ResultsReveal.tsx, and DiagnosticReport.tsx already handle any number of areas/sub-points/problems generically. Verified end to end: all 18 areas' weights sum to 1.0, every sub-point's problem weights sum to 1.0, computeDiagnostic() correctly rolls up scores across all 18 areas to a module score, and all 44 new problem statements resolve non-empty recommendation text when scored below target.",
+  },
   {
     version: "2.9",
     date: "2026-07-15",

@@ -4798,5 +4798,1413 @@
     "target_level": 5,
     "target_level_name": "Best-in-class",
     "recommended_tasks": "Move Inventory Reconciliation on Disposal toward: Reconciliation is automatic and real-time, with disposal method also optimized (e.g. donation/composting) to reduce cost and waste impact."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A8.1.1",
+    "subpoint_name": "CC Receiving Discipline",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move CC Receiving Discipline toward: A rough check-in happens informally at some centers but isn't consistent or recorded."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A8.1.1",
+    "subpoint_name": "CC Receiving Discipline",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move CC Receiving Discipline toward: A documented CC receiving process (check-in, weigh, basic condition check) exists and is generally followed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A8.1.1",
+    "subpoint_name": "CC Receiving Discipline",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move CC Receiving Discipline toward: CC receiving is actively audited against the SOP, with compliance tracked per center."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A8.1.1",
+    "subpoint_name": "CC Receiving Discipline",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move CC Receiving Discipline toward: CC receiving is standardized and digitally logged across all centers, with real-time visibility into intake quality."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A8.1.2",
+    "subpoint_name": "CC-to-Warehouse Transit Handling",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move CC-to-Warehouse Transit Handling toward: A rough transit practice exists informally (e.g. \"use the covered truck when available\") but isn't documented."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A8.1.2",
+    "subpoint_name": "CC-to-Warehouse Transit Handling",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move CC-to-Warehouse Transit Handling toward: A documented transit handling standard (vehicle type, loading practice, timing) exists and is generally followed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A8.1.2",
+    "subpoint_name": "CC-to-Warehouse Transit Handling",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move CC-to-Warehouse Transit Handling toward: Transit handling is actively monitored (condition-on-arrival vs condition-at-CC) with deviations investigated."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A8.1.2",
+    "subpoint_name": "CC-to-Warehouse Transit Handling",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move CC-to-Warehouse Transit Handling toward: Transit is continuously monitored (temperature-logged vehicles where relevant) with condition loss tracked and minimized as a KPI."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A8.2.1",
+    "subpoint_name": "Vendor Scorecard Usage",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Vendor Scorecard Usage toward: A scorecard concept exists informally but isn't consistently populated or referenced."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A8.2.1",
+    "subpoint_name": "Vendor Scorecard Usage",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Vendor Scorecard Usage toward: A documented vendor scorecard (quality, rejection rate, on-time %) exists and is generally used."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A8.2.1",
+    "subpoint_name": "Vendor Scorecard Usage",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Vendor Scorecard Usage toward: The scorecard is actively reviewed on a defined cadence and directly informs sourcing allocation decisions."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A8.2.1",
+    "subpoint_name": "Vendor Scorecard Usage",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Vendor Scorecard Usage toward: The scorecard is continuously updated and automatically weights sourcing decisions, with vendors given visibility into their own standing."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A8.2.2",
+    "subpoint_name": "Vendor Onboarding & Capability Assessment",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Vendor Onboarding & Capability Assessment toward: A rough informal check happens before onboarding some vendors, but isn't consistent or documented."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A8.2.2",
+    "subpoint_name": "Vendor Onboarding & Capability Assessment",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Vendor Onboarding & Capability Assessment toward: A documented onboarding/capability assessment process exists and is generally applied to new vendors."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A8.2.2",
+    "subpoint_name": "Vendor Onboarding & Capability Assessment",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Vendor Onboarding & Capability Assessment toward: Onboarding assessments are actively tracked against subsequent actual performance to validate the process."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A8.2.2",
+    "subpoint_name": "Vendor Onboarding & Capability Assessment",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Vendor Onboarding & Capability Assessment toward: Onboarding is standardized, data-driven, and continuously refined based on which onboarding signals actually predict performance."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A9.1.1",
+    "subpoint_name": "Flow Pattern Definition",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Flow Pattern Definition toward: A flow pattern is understood informally by long-tenured staff but was never deliberately designed or documented."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A9.1.1",
+    "subpoint_name": "Flow Pattern Definition",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Flow Pattern Definition toward: A documented flow pattern (e.g. U-shaped or criss-cross) is defined for the facility and generally followed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A9.1.1",
+    "subpoint_name": "Flow Pattern Definition",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Flow Pattern Definition toward: The flow pattern is actively validated against actual movement (walk-throughs, timing studies) and refined."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A9.1.1",
+    "subpoint_name": "Flow Pattern Definition",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Flow Pattern Definition toward: Flow pattern is data-optimized and periodically re-validated as volume/SKU mix changes."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A9.1.2",
+    "subpoint_name": "Cross-Traffic & Congestion Management",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Cross-Traffic & Congestion Management toward: Congestion is addressed reactively and informally in the moment, with no underlying process change."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A9.1.2",
+    "subpoint_name": "Cross-Traffic & Congestion Management",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Cross-Traffic & Congestion Management toward: A documented approach to managing cross-traffic (staggered timing, designated paths) exists and is generally followed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A9.1.2",
+    "subpoint_name": "Cross-Traffic & Congestion Management",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Cross-Traffic & Congestion Management toward: Congestion points are actively tracked and addressed through layout or scheduling changes."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A9.1.2",
+    "subpoint_name": "Cross-Traffic & Congestion Management",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Cross-Traffic & Congestion Management toward: Cross-traffic is continuously monitored and proactively managed through dynamic scheduling/routing."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A9.2.1",
+    "subpoint_name": "Dock Slot Allocation Logic",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Dock Slot Allocation Logic toward: A rough informal priority exists (e.g. \"regular vendors get first dock\") but isn't documented."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A9.2.1",
+    "subpoint_name": "Dock Slot Allocation Logic",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Dock Slot Allocation Logic toward: A documented dock allocation logic (by vendor, time window, or activity type) exists and is generally followed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A9.2.1",
+    "subpoint_name": "Dock Slot Allocation Logic",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Dock Slot Allocation Logic toward: Dock allocation effectiveness is actively measured (wait time, conflicts) and the logic is refined."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A9.2.1",
+    "subpoint_name": "Dock Slot Allocation Logic",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Dock Slot Allocation Logic toward: Dock allocation is system-scheduled and dynamically adjusted based on real-time conditions."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A9.2.2",
+    "subpoint_name": "Slot Utilization Tracking",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Slot Utilization Tracking toward: Utilization is estimated informally (\"docks always seem busy\") without real measurement."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A9.2.2",
+    "subpoint_name": "Slot Utilization Tracking",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Slot Utilization Tracking toward: A documented process tracks slot utilization on a basic level (e.g. logged manually)."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A9.2.2",
+    "subpoint_name": "Slot Utilization Tracking",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Slot Utilization Tracking toward: Utilization is actively tracked as a KPI and reviewed to identify chronic bottleneck slots/times."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A9.2.2",
+    "subpoint_name": "Slot Utilization Tracking",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Slot Utilization Tracking toward: Utilization is tracked continuously and automatically surfaces bottlenecks for proactive resolution."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A10.1.1",
+    "subpoint_name": "Rejection Segregation & Holding",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Rejection Segregation & Holding toward: Segregation happens informally (a corner is used) but isn't a defined, labeled holding area."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A10.1.1",
+    "subpoint_name": "Rejection Segregation & Holding",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Rejection Segregation & Holding toward: A documented segregation process (labeled holding area, clear marking) exists and is generally followed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A10.1.1",
+    "subpoint_name": "Rejection Segregation & Holding",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Rejection Segregation & Holding toward: Segregation compliance is actively audited, with any mixing incidents investigated."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A10.1.1",
+    "subpoint_name": "Rejection Segregation & Holding",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Rejection Segregation & Holding toward: Segregation is system-enforced (rejected stock can't be picked or shipped) and continuously verified."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A10.1.2",
+    "subpoint_name": "Disposition Decision Process",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Disposition Decision Process toward: A rough informal rule exists (\"just send it back\") but isn't documented or applied consistently."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A10.1.2",
+    "subpoint_name": "Disposition Decision Process",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Disposition Decision Process toward: A documented disposition decision process (return to vendor / downgrade / dispose) exists and is generally followed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A10.1.2",
+    "subpoint_name": "Disposition Decision Process",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Disposition Decision Process toward: Disposition decisions are actively tracked and reviewed for cost-effectiveness."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A10.1.2",
+    "subpoint_name": "Disposition Decision Process",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Disposition Decision Process toward: Disposition decisions are rule-based and system-guided, optimized for cost and waste reduction."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A10.2.1",
+    "subpoint_name": "Rejection Reason Communication to Vendor",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Rejection Reason Communication to Vendor toward: Communication happens informally and inconsistently, often verbal and undocumented."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A10.2.1",
+    "subpoint_name": "Rejection Reason Communication to Vendor",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Rejection Reason Communication to Vendor toward: A documented process communicates specific rejection reasons to the vendor and is generally followed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A10.2.1",
+    "subpoint_name": "Rejection Reason Communication to Vendor",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Rejection Reason Communication to Vendor toward: Communication is actively tracked for completeness and timeliness."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A10.2.1",
+    "subpoint_name": "Rejection Reason Communication to Vendor",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Rejection Reason Communication to Vendor toward: Rejection reasons are automatically communicated to vendors in real time, with a documented trail."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A10.2.2",
+    "subpoint_name": "Rejection Trend Analysis",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Rejection Trend Analysis toward: Trends are occasionally noticed informally but not systematically analyzed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A10.2.2",
+    "subpoint_name": "Rejection Trend Analysis",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Rejection Trend Analysis toward: A documented process reviews rejection trends by vendor/SKU on a defined cadence."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A10.2.2",
+    "subpoint_name": "Rejection Trend Analysis",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Rejection Trend Analysis toward: Rejection trends actively inform vendor scorecard updates and sourcing decisions."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A10.2.2",
+    "subpoint_name": "Rejection Trend Analysis",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Rejection Trend Analysis toward: Rejection trend analysis is continuous and automatically flags vendors/SKUs crossing a risk threshold."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A11.1.1",
+    "subpoint_name": "Return Receiving SOP",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Return Receiving SOP toward: A rough informal check happens but isn't documented or consistently applied."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A11.1.1",
+    "subpoint_name": "Return Receiving SOP",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Return Receiving SOP toward: A documented return-receiving SOP (condition check, reason capture) exists and is generally followed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A11.1.1",
+    "subpoint_name": "Return Receiving SOP",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Return Receiving SOP toward: Return receiving compliance is actively audited against the SOP."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A11.1.1",
+    "subpoint_name": "Return Receiving SOP",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Return Receiving SOP toward: Return receiving is standardized and digitally logged, with condition data captured systematically."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A11.1.2",
+    "subpoint_name": "Return Disposition",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Return Disposition toward: Disposition happens informally based on whoever is handling the return."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A11.1.2",
+    "subpoint_name": "Return Disposition",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Return Disposition toward: A documented disposition process (restock if sellable / dispose / write-off) exists and is generally followed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A11.1.2",
+    "subpoint_name": "Return Disposition",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Return Disposition toward: Disposition decisions are actively tracked and reviewed for accuracy and cost impact."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A11.1.2",
+    "subpoint_name": "Return Disposition",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Return Disposition toward: Disposition is rule-based and system-guided, with outcomes tracked against sellability criteria."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A11.2.1",
+    "subpoint_name": "Return Reason Tracking",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Return Reason Tracking toward: Reasons are occasionally noted informally but not compiled anywhere."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A11.2.1",
+    "subpoint_name": "Return Reason Tracking",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Return Reason Tracking toward: A documented process logs return reasons in a structured way and is generally followed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A11.2.1",
+    "subpoint_name": "Return Reason Tracking",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Return Reason Tracking toward: Return reasons are actively categorized and reviewed on a defined cadence."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A11.2.1",
+    "subpoint_name": "Return Reason Tracking",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Return Reason Tracking toward: Return reason tracking is systematic and real-time, feeding directly into upstream process dashboards."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A11.2.2",
+    "subpoint_name": "Return-Driven Process Correction",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Return-Driven Process Correction toward: Corrections happen occasionally and informally when a pattern becomes impossible to ignore."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A11.2.2",
+    "subpoint_name": "Return-Driven Process Correction",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Return-Driven Process Correction toward: A documented process links return root causes to corrective action in the relevant upstream area."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A11.2.2",
+    "subpoint_name": "Return-Driven Process Correction",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Return-Driven Process Correction toward: Corrective actions from returns are actively tracked to completion and their impact measured."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A11.2.2",
+    "subpoint_name": "Return-Driven Process Correction",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Return-Driven Process Correction toward: Return-driven correction is systematic, with root causes automatically routed and impact continuously tracked."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A12.1.1",
+    "subpoint_name": "Complaint Logging Discipline",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Complaint Logging Discipline toward: Complaints are logged informally and inconsistently, often missing key details."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A12.1.1",
+    "subpoint_name": "Complaint Logging Discipline",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Complaint Logging Discipline toward: A documented complaint-logging process exists and is generally followed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A12.1.1",
+    "subpoint_name": "Complaint Logging Discipline",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Complaint Logging Discipline toward: Complaint logging completeness is actively audited and gaps are corrected."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A12.1.1",
+    "subpoint_name": "Complaint Logging Discipline",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Complaint Logging Discipline toward: Complaint logging is systematic and structured, capturing full detail automatically at the point of complaint."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A12.1.2",
+    "subpoint_name": "Complaint-to-Batch Traceability",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Complaint-to-Batch Traceability toward: Tracing back is possible in theory with significant manual effort, and often fails."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A12.1.2",
+    "subpoint_name": "Complaint-to-Batch Traceability",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Complaint-to-Batch Traceability toward: A documented process links complaints to batch/vendor data where available, generally workable."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A12.1.2",
+    "subpoint_name": "Complaint-to-Batch Traceability",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Complaint-to-Batch Traceability toward: Traceability is actively tested to confirm it works, with gaps addressed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A12.1.2",
+    "subpoint_name": "Complaint-to-Batch Traceability",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Complaint-to-Batch Traceability toward: Any complaint can be traced to its source batch/vendor within minutes, system-supported."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A12.2.1",
+    "subpoint_name": "Resolution Time & Ownership",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Resolution Time & Ownership toward: Ownership is informal and inconsistent, varying by who happens to pick it up."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A12.2.1",
+    "subpoint_name": "Resolution Time & Ownership",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Resolution Time & Ownership toward: A documented process assigns ownership and a time target for resolution, generally followed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A12.2.1",
+    "subpoint_name": "Resolution Time & Ownership",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Resolution Time & Ownership toward: Resolution time is actively tracked against the target, with overdue items flagged and escalated."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A12.2.1",
+    "subpoint_name": "Resolution Time & Ownership",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Resolution Time & Ownership toward: Resolution ownership and time are system-tracked with automatic escalation on breach."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A12.2.2",
+    "subpoint_name": "Complaint-to-Wastage Correlation",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Complaint-to-Wastage Correlation toward: A connection is occasionally noticed informally but never analyzed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A12.2.2",
+    "subpoint_name": "Complaint-to-Wastage Correlation",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Complaint-to-Wastage Correlation toward: A documented process reviews complaints alongside wastage data on a basic level."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A12.2.2",
+    "subpoint_name": "Complaint-to-Wastage Correlation",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Complaint-to-Wastage Correlation toward: Complaint-wastage correlation is actively analyzed to find shared root causes."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A12.2.2",
+    "subpoint_name": "Complaint-to-Wastage Correlation",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Complaint-to-Wastage Correlation toward: Complaints and wastage are tracked in one unified dashboard (hub-wise), with correlation continuously monitored."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A13.1.1",
+    "subpoint_name": "Policy Documentation & Distribution",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Policy Documentation & Distribution toward: Some policies are written down but aren't distributed or referenced consistently."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A13.1.1",
+    "subpoint_name": "Policy Documentation & Distribution",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Policy Documentation & Distribution toward: Documented policies exist and are distributed to relevant staff, generally referenced."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A13.1.1",
+    "subpoint_name": "Policy Documentation & Distribution",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Policy Documentation & Distribution toward: Policy adherence is actively audited, with gaps between policy and practice corrected."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A13.1.1",
+    "subpoint_name": "Policy Documentation & Distribution",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Policy Documentation & Distribution toward: Policies are centrally maintained, versioned, and automatically distributed/updated across all sites."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A13.1.2",
+    "subpoint_name": "Daily/Weekly Monitoring Rhythm",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Daily/Weekly Monitoring Rhythm toward: Monitoring happens informally and inconsistently, without a defined schedule."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A13.1.2",
+    "subpoint_name": "Daily/Weekly Monitoring Rhythm",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Daily/Weekly Monitoring Rhythm toward: A documented daily/weekly monitoring rhythm exists and is generally followed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A13.1.2",
+    "subpoint_name": "Daily/Weekly Monitoring Rhythm",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Daily/Weekly Monitoring Rhythm toward: Monitoring rhythm adherence is actively tracked, with findings reviewed and actioned."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A13.1.2",
+    "subpoint_name": "Daily/Weekly Monitoring Rhythm",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Daily/Weekly Monitoring Rhythm toward: Monitoring is continuous and dashboard-driven, with the rhythm automated rather than manually run."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A13.2.1",
+    "subpoint_name": "Threshold Definition",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Threshold Definition toward: Rough thresholds exist informally in experienced staff's judgment, not documented."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A13.2.1",
+    "subpoint_name": "Threshold Definition",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Threshold Definition toward: Documented thresholds exist for key metrics and are generally referenced."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A13.2.1",
+    "subpoint_name": "Threshold Definition",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Threshold Definition toward: Thresholds are actively reviewed and recalibrated based on operational experience."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A13.2.1",
+    "subpoint_name": "Threshold Definition",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Threshold Definition toward: Thresholds are data-derived, continuously recalibrated, and applied automatically across all monitored metrics."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A13.2.2",
+    "subpoint_name": "Escalation Response & Closure",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Escalation Response & Closure toward: Escalations are handled informally and inconsistently, often without being tracked to closure."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A13.2.2",
+    "subpoint_name": "Escalation Response & Closure",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Escalation Response & Closure toward: A documented escalation-response process exists (who responds, in what time) and is generally followed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A13.2.2",
+    "subpoint_name": "Escalation Response & Closure",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Escalation Response & Closure toward: Escalation response time and closure are actively tracked against targets."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A13.2.2",
+    "subpoint_name": "Escalation Response & Closure",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Escalation Response & Closure toward: Escalations are system-tracked end to end with automatic reminders and closure verification."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A14.1.1",
+    "subpoint_name": "Daily Market Intelligence Discipline",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Daily Market Intelligence Discipline toward: Some market awareness exists informally through individual relationships, not systematically captured."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A14.1.1",
+    "subpoint_name": "Daily Market Intelligence Discipline",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Daily Market Intelligence Discipline toward: A documented process for daily market intelligence capture exists and is generally followed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A14.1.1",
+    "subpoint_name": "Daily Market Intelligence Discipline",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Daily Market Intelligence Discipline toward: Market intelligence capture is actively reviewed for completeness and accuracy."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A14.1.1",
+    "subpoint_name": "Daily Market Intelligence Discipline",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Daily Market Intelligence Discipline toward: Market intelligence is captured systematically from multiple sources and available in near real time."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A14.1.2",
+    "subpoint_name": "Seasonal Adjustment Process",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Seasonal Adjustment Process toward: Seasonal adjustments happen informally based on individual experience."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A14.1.2",
+    "subpoint_name": "Seasonal Adjustment Process",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Seasonal Adjustment Process toward: A documented seasonal adjustment process (product, sourcing area, special instructions) exists and is generally followed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A14.1.2",
+    "subpoint_name": "Seasonal Adjustment Process",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Seasonal Adjustment Process toward: Seasonal adjustments are actively reviewed for effectiveness after each season and refined."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A14.1.2",
+    "subpoint_name": "Seasonal Adjustment Process",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Seasonal Adjustment Process toward: Seasonal adjustment is data-driven, using historical performance to proactively plan ahead of each season."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A14.2.1",
+    "subpoint_name": "Benchmark Company Tracking",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Benchmark Company Tracking toward: Some informal awareness of competitors/benchmarks exists but isn't documented or tracked."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A14.2.1",
+    "subpoint_name": "Benchmark Company Tracking",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Benchmark Company Tracking toward: A documented list of benchmark companies (by customer type, quality, margins, variability) exists and is referenced."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A14.2.1",
+    "subpoint_name": "Benchmark Company Tracking",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Benchmark Company Tracking toward: Benchmark tracking is actively updated and used to inform strategic decisions."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A14.2.1",
+    "subpoint_name": "Benchmark Company Tracking",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Benchmark Company Tracking toward: Benchmark tracking is continuous and systematically maintained, directly informing target-setting."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A14.2.2",
+    "subpoint_name": "Hub-wise SKU & S&G Norms",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Hub-wise SKU & S&G Norms toward: A rough SKU/norm understanding exists informally per hub, not documented or consistent across hubs."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A14.2.2",
+    "subpoint_name": "Hub-wise SKU & S&G Norms",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Hub-wise SKU & S&G Norms toward: A documented hub-wise SKU list and S&G norms exist and are generally followed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A14.2.2",
+    "subpoint_name": "Hub-wise SKU & S&G Norms",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Hub-wise SKU & S&G Norms toward: Hub-wise norms are actively reviewed and reconciled across hubs for consistency."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A14.2.2",
+    "subpoint_name": "Hub-wise SKU & S&G Norms",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Hub-wise SKU & S&G Norms toward: Hub-wise SKU lists and norms are centrally maintained and kept continuously consistent across all hubs."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A15.1.1",
+    "subpoint_name": "Role-Based Training Curriculum",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Role-Based Training Curriculum toward: Some role-specific guidance exists informally but isn't documented as a curriculum."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A15.1.1",
+    "subpoint_name": "Role-Based Training Curriculum",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Role-Based Training Curriculum toward: A documented role-based training curriculum exists and is generally used for new hires."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A15.1.1",
+    "subpoint_name": "Role-Based Training Curriculum",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Role-Based Training Curriculum toward: The curriculum is actively reviewed against actual role requirements and updated."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A15.1.1",
+    "subpoint_name": "Role-Based Training Curriculum",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Role-Based Training Curriculum toward: Curriculum is continuously refined based on performance outcomes and kept current with role changes."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A15.1.2",
+    "subpoint_name": "SOP-to-Training Linkage",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move SOP-to-Training Linkage toward: Some overlap exists informally between training and SOPs, but they aren't deliberately linked."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A15.1.2",
+    "subpoint_name": "SOP-to-Training Linkage",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move SOP-to-Training Linkage toward: A documented process links training content directly to current SOPs and is generally maintained."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A15.1.2",
+    "subpoint_name": "SOP-to-Training Linkage",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move SOP-to-Training Linkage toward: The SOP-training linkage is actively audited whenever SOPs change."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A15.1.2",
+    "subpoint_name": "SOP-to-Training Linkage",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move SOP-to-Training Linkage toward: Training content is automatically flagged for update whenever the linked SOP changes."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A15.2.1",
+    "subpoint_name": "Training Completion Tracking",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Training Completion Tracking toward: Completion is tracked informally and inconsistently, often just a memory of who attended."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A15.2.1",
+    "subpoint_name": "Training Completion Tracking",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Training Completion Tracking toward: A documented completion-tracking process exists and is generally maintained."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A15.2.1",
+    "subpoint_name": "Training Completion Tracking",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Training Completion Tracking toward: Completion is actively tracked against a target (e.g. 100% of new hires within X days) and gaps are chased."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A15.2.1",
+    "subpoint_name": "Training Completion Tracking",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Training Completion Tracking toward: Completion tracking is systematic and automated, with real-time visibility into training status per employee."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A15.2.2",
+    "subpoint_name": "Post-Training Competency Check",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Post-Training Competency Check toward: A rough informal check happens sometimes (a supervisor watching briefly) but isn't consistent."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A15.2.2",
+    "subpoint_name": "Post-Training Competency Check",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Post-Training Competency Check toward: A documented competency check (test, supervised trial) exists after training and is generally applied."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A15.2.2",
+    "subpoint_name": "Post-Training Competency Check",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Post-Training Competency Check toward: Competency check results are actively tracked and used to identify training gaps."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A15.2.2",
+    "subpoint_name": "Post-Training Competency Check",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Post-Training Competency Check toward: Competency verification is systematic and required before independent work, with results feeding curriculum improvement."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A16.1.1",
+    "subpoint_name": "Headcount Planning vs Volume",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Headcount Planning vs Volume toward: Headcount is adjusted informally based on gut feel when things feel busy or slow."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A16.1.1",
+    "subpoint_name": "Headcount Planning vs Volume",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Headcount Planning vs Volume toward: A documented headcount plan tied to volume bands exists and is generally followed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A16.1.1",
+    "subpoint_name": "Headcount Planning vs Volume",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Headcount Planning vs Volume toward: Headcount vs volume is actively tracked and reviewed for efficiency, with adjustments made proactively."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A16.1.1",
+    "subpoint_name": "Headcount Planning vs Volume",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Headcount Planning vs Volume toward: Headcount planning is data-driven and continuously calibrated against forecasted and actual volume."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A16.1.2",
+    "subpoint_name": "Peak-Period Staffing Flexibility",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Peak-Period Staffing Flexibility toward: Extra staffing is arranged informally and inconsistently when a peak is remembered in advance."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A16.1.2",
+    "subpoint_name": "Peak-Period Staffing Flexibility",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Peak-Period Staffing Flexibility toward: A documented plan for peak-period staffing (temp staff, shift extensions) exists and is generally followed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A16.1.2",
+    "subpoint_name": "Peak-Period Staffing Flexibility",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Peak-Period Staffing Flexibility toward: Peak staffing effectiveness is actively reviewed post-event and refined."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A16.1.2",
+    "subpoint_name": "Peak-Period Staffing Flexibility",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Peak-Period Staffing Flexibility toward: Peak staffing is proactively planned from demand forecasts, with flexibility built into standing contracts/processes."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A16.2.1",
+    "subpoint_name": "Role/Responsibility Definition",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Role/Responsibility Definition toward: Roles are understood informally by tenured staff but not documented anywhere."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A16.2.1",
+    "subpoint_name": "Role/Responsibility Definition",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Role/Responsibility Definition toward: Documented role/responsibility definitions exist and are generally referenced."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A16.2.1",
+    "subpoint_name": "Role/Responsibility Definition",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Role/Responsibility Definition toward: Role clarity is actively checked (e.g. via staff surveys or audits) and gaps are corrected."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A16.2.1",
+    "subpoint_name": "Role/Responsibility Definition",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Role/Responsibility Definition toward: Roles are clearly documented, continuously reinforced through training, and reviewed as operations evolve."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A16.2.2",
+    "subpoint_name": "Attrition Tracking & Response",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Attrition Tracking & Response toward: Attrition is noticed informally (\"we're always hiring\") without being measured."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A16.2.2",
+    "subpoint_name": "Attrition Tracking & Response",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Attrition Tracking & Response toward: A documented process tracks attrition rate and basic exit reasons."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A16.2.2",
+    "subpoint_name": "Attrition Tracking & Response",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Attrition Tracking & Response toward: Attrition is actively analyzed for root causes and response actions are taken."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A16.2.2",
+    "subpoint_name": "Attrition Tracking & Response",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Attrition Tracking & Response toward: Attrition is tracked continuously with root-cause analysis directly informing retention initiatives."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A17.1.1",
+    "subpoint_name": "Metric Definition Completeness",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Metric Definition Completeness toward: A few metrics exist informally for the areas someone happened to care about."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A17.1.1",
+    "subpoint_name": "Metric Definition Completeness",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Metric Definition Completeness toward: A documented set of metrics covers the key operational areas and is generally maintained."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A17.1.1",
+    "subpoint_name": "Metric Definition Completeness",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Metric Definition Completeness toward: Metric coverage is actively reviewed for gaps and expanded where needed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A17.1.1",
+    "subpoint_name": "Metric Definition Completeness",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Metric Definition Completeness toward: Metric definitions are comprehensive, consistently maintained, and reviewed for relevance on a regular cadence."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A17.1.2",
+    "subpoint_name": "Metric Ownership Assignment",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Metric Ownership Assignment toward: Ownership is assumed informally rather than assigned."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A17.1.2",
+    "subpoint_name": "Metric Ownership Assignment",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Metric Ownership Assignment toward: A documented ownership assignment exists for key metrics and is generally respected."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A17.1.2",
+    "subpoint_name": "Metric Ownership Assignment",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Metric Ownership Assignment toward: Ownership is actively reinforced, with owners accountable for reviewing and acting on their metrics."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A17.1.2",
+    "subpoint_name": "Metric Ownership Assignment",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Metric Ownership Assignment toward: Every metric has a clear, current owner who is accountable and actively reviewed on metric performance."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A17.2.1",
+    "subpoint_name": "Dashboard Availability & Refresh Cadence",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Dashboard Availability & Refresh Cadence toward: A basic dashboard/report exists but is updated inconsistently and often stale."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A17.2.1",
+    "subpoint_name": "Dashboard Availability & Refresh Cadence",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Dashboard Availability & Refresh Cadence toward: A documented dashboard with a defined refresh cadence exists and is generally maintained."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A17.2.1",
+    "subpoint_name": "Dashboard Availability & Refresh Cadence",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Dashboard Availability & Refresh Cadence toward: Dashboard freshness and accuracy are actively monitored, with issues corrected quickly."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A17.2.1",
+    "subpoint_name": "Dashboard Availability & Refresh Cadence",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Dashboard Availability & Refresh Cadence toward: Dashboards are real-time or near-real-time, comprehensive, and reliably available to all who need them."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A17.2.2",
+    "subpoint_name": "Metric-Driven Decision Making",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Metric-Driven Decision Making toward: Metrics occasionally inform a decision informally, but it's not a consistent practice."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A17.2.2",
+    "subpoint_name": "Metric-Driven Decision Making",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Metric-Driven Decision Making toward: A documented process references metrics in regular operational decision-making and is generally followed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A17.2.2",
+    "subpoint_name": "Metric-Driven Decision Making",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Metric-Driven Decision Making toward: Metric-driven decisions are actively tracked, with outcomes reviewed to confirm the metric was the right one to act on."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A17.2.2",
+    "subpoint_name": "Metric-Driven Decision Making",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Metric-Driven Decision Making toward: Decision-making is systematically metric-driven, with a demonstrated track record of metrics changing operational behavior."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A18.1.1",
+    "subpoint_name": "Cost-per-Unit Tracking",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Cost-per-Unit Tracking toward: A rough cost estimate exists informally but isn't calculated consistently."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A18.1.1",
+    "subpoint_name": "Cost-per-Unit Tracking",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Cost-per-Unit Tracking toward: A documented cost-per-unit tracking process exists for key activities and is generally maintained."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A18.1.1",
+    "subpoint_name": "Cost-per-Unit Tracking",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Cost-per-Unit Tracking toward: Cost-per-unit is actively tracked against a target and reviewed regularly."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A18.1.1",
+    "subpoint_name": "Cost-per-Unit Tracking",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Cost-per-Unit Tracking toward: Cost-per-unit is tracked in real time across activities and directly informs operational decisions."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A18.1.2",
+    "subpoint_name": "Cost Benchmarking vs Target",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Cost Benchmarking vs Target toward: A rough informal sense of \"reasonable cost\" exists without a defined benchmark."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A18.1.2",
+    "subpoint_name": "Cost Benchmarking vs Target",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Cost Benchmarking vs Target toward: Documented cost benchmarks/targets exist and actual costs are generally compared against them."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A18.1.2",
+    "subpoint_name": "Cost Benchmarking vs Target",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Cost Benchmarking vs Target toward: Cost-vs-benchmark variance is actively reviewed and drives corrective action."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A18.1.2",
+    "subpoint_name": "Cost Benchmarking vs Target",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Cost Benchmarking vs Target toward: Cost benchmarking is continuous and automatically flags variance for action."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A18.2.1",
+    "subpoint_name": "Spoilage/Rejection Cost Quantification",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Spoilage/Rejection Cost Quantification toward: A rough cost estimate is made informally and inconsistently."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A18.2.1",
+    "subpoint_name": "Spoilage/Rejection Cost Quantification",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Spoilage/Rejection Cost Quantification toward: A documented process converts spoilage/rejection quantities into a cost figure on a basic level."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A18.2.1",
+    "subpoint_name": "Spoilage/Rejection Cost Quantification",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Spoilage/Rejection Cost Quantification toward: Cost quantification is actively tracked and reviewed against a reduction target."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A18.2.1",
+    "subpoint_name": "Spoilage/Rejection Cost Quantification",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Spoilage/Rejection Cost Quantification toward: Spoilage/rejection cost is quantified in real time and automatically prioritized against other cost drivers."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A18.2.2",
+    "subpoint_name": "Cost-Impact Reporting to Stakeholders",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Cost-Impact Reporting to Stakeholders toward: Reporting happens informally and inconsistently, often only when something goes badly wrong."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A18.2.2",
+    "subpoint_name": "Cost-Impact Reporting to Stakeholders",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Cost-Impact Reporting to Stakeholders toward: A documented reporting process shares cost-of-quality-failure with stakeholders on a defined cadence."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A18.2.2",
+    "subpoint_name": "Cost-Impact Reporting to Stakeholders",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Cost-Impact Reporting to Stakeholders toward: Reporting is actively used to secure investment in corrective action, with outcomes tracked."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A18.2.2",
+    "subpoint_name": "Cost-Impact Reporting to Stakeholders",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Cost-Impact Reporting to Stakeholders toward: Cost-impact reporting is systematic, real-time, and demonstrably drives stakeholder investment decisions."
   }
 ]
