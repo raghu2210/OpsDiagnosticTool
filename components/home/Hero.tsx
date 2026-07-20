@@ -9,19 +9,24 @@ import { ArrowRight, ChevronDown } from "lucide-react";
 // of borrowed brand logos, since there's no such thing as an internal-audit-tool's
 // investor/partner marquee. Genuinely descriptive content standing in for decoration.
 const DOMAINS = [
+  "Inward & Quality Grading",
   "Cold Chain & Storage",
+  "Warehouse Flow & Layout",
+  "Vendor & Collection Center Ops",
   "Spoilage & Wastage",
-  "FEFO / Shelf-Life Rotation",
-  "Put-Away & Slotting",
-  "Dark Store Replenishment",
-  "Quality Grading",
+  "Rejection & Returns Handling",
   "Pick-Pack Accuracy",
+  "Metrics & Visibility",
+  "People & Training",
+  "Cost Diagnostics",
 ];
 
-// Direction B from the hero copy review: hooks on the real operational tension (10-minute
-// delivery promise vs. days-long shelf life for fresh produce) instead of generic "clarity"
-// language, per the "10 seconds to grab attention" brief.
-const HEADLINE = "10-minute delivery. Days-long shelf life. One diagnostic for the gap.";
+// Leads with the product action itself ("Score your FnV warehouse") rather than the
+// abstract delivery-vs-shelf-life tension - the tension now lives in the subhead instead,
+// since the diagnostic covers more than warehouse-floor activity after the 18-area rollout
+// (vendor ops, training, people, cost) and the headline needed to read as the umbrella
+// action, not just one operational metaphor.
+const HEADLINE = "Score your FnV warehouse. Find exactly where it's breaking.";
 
 function GlowBackdrop() {
   // The second glow carries the brand accent (--accent, a grounded rust/terracotta) rather
@@ -80,8 +85,9 @@ export function Hero() {
           transition={{ duration: 0.6, delay: 0.9 }}
           className="text-white/70 text-lg max-w-lg leading-relaxed"
         >
-          Score your FnV warehouse operation &ndash; storage, rotation, spoilage, replenishment &ndash; against a
-          clear 1&ndash;5 maturity scale, and export a ready-to-use audit checklist for on-ground scoring.
+          10-minute delivery, days-long shelf life &ndash; 18 areas across inward quality, cold chain, warehouse
+          flow, vendor operations, people, and cost, scored against a clear 1&ndash;5 maturity scale, with a
+          ready-to-use audit checklist for on-ground scoring.
         </motion.p>
 
         <motion.p

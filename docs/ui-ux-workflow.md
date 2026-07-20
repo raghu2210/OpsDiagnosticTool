@@ -262,6 +262,13 @@ updated independently. The two logs are never allowed to mix, even when both hap
 the same work session - see the corresponding entry there for what happened on the
 workflow side of any given date.
 
+- **2026-07-20** - Home hero rewritten: headline is now "Score your FnV warehouse. Find
+  exactly where it's breaking." (leads with the product action, per direct feedback that
+  the previous headline buried it below the fold) - the delivery-vs-shelf-life tension
+  moved into the subhead instead. Subhead and the domain marquee both updated to reflect
+  the 18-area scope (vendor operations, warehouse flow, people/training, cost diagnostics,
+  metrics & visibility) rather than only the original 7 warehouse-floor areas. Copy-only;
+  no functional change.
 - **2026-07-20** - `DiagnoseFlow.tsx`'s "Score in-app" tab now shows the same
   select-one-or-more-Areas toggle grid already used on the Checklist page (Select
   all/Clear buttons, one card per area) above the scoring form, instead of always
