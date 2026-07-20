@@ -262,6 +262,12 @@ updated independently. The two logs are never allowed to mix, even when both hap
 the same work session - see the corresponding entry there for what happened on the
 workflow side of any given date.
 
+- **2026-07-20** - Removed the redundant standalone "Start a Diagnostic" button from
+  `HowItWorks.tsx` (below the 01/02/03 steps) - the Home page had the same CTA appearing
+  three times (Hero, HowItWorks, and each module row in "Or jump straight in"). HowItWorks
+  is now purely explanatory and hands off directly into the module ledger below it, which
+  already carries the only CTAs that need to exist past the Hero (module-specific Build
+  checklist / Diagnose). No change to the Hero or module ledger CTAs.
 - **2026-07-20** - Areas are now displayed in warehouse-operations order instead of
   numeric area_id order (A1..A18): plan/source (Market Intelligence, Vendor & CC Ops) ->
   inward (Inward & Quality Grading) -> storage & layout (Cold Chain, Put-Away & Slotting,

@@ -1,8 +1,6 @@
 "use client";
 
-import Link from "next/link";
 import { motion } from "framer-motion";
-import { ArrowRight } from "lucide-react";
 
 const STEPS = [
   {
@@ -23,13 +21,15 @@ const STEPS = [
 ] as const;
 
 /**
- * Scroll-revealed step sequence ending in a CTA into /diagnose - the literal "animation
- * that brings you to Diagnose" the app's flow is supposed to guide toward.
+ * Scroll-revealed step sequence - purely explanatory, no CTA of its own. It hands off
+ * directly into the module ledger below ("Or jump straight in"), which already carries
+ * the per-module Build checklist / Diagnose actions - repeating a generic "Start a
+ * Diagnostic" button here just restated the Hero's CTA without adding a new decision.
  */
 export function HowItWorks() {
   return (
     <section className="py-20">
-      <div className="grid md:grid-cols-3 gap-10 md:gap-6 mb-14">
+      <div className="grid md:grid-cols-3 gap-10 md:gap-6">
         {STEPS.map((step, i) => (
           <motion.div
             key={step.n}
@@ -47,23 +47,6 @@ export function HowItWorks() {
           </motion.div>
         ))}
       </div>
-
-      <motion.div
-        initial={{ opacity: 0, y: 10 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true, margin: "-80px" }}
-        transition={{ duration: 0.5, delay: 0.3, ease: [0.23, 1, 0.32, 1] }}
-      >
-        <Link
-          href="/diagnose"
-          className="group inline-flex items-center gap-3 bg-charcoal text-white pl-6 pr-2 py-2 rounded-full font-medium hover:bg-ink transition-colors"
-        >
-          Start a Diagnostic
-          <span className="bg-white text-ink rounded-full p-2 group-hover:translate-x-0.5 transition-transform">
-            <ArrowRight className="w-4 h-4" />
-          </span>
-        </Link>
-      </motion.div>
     </section>
   );
 }
