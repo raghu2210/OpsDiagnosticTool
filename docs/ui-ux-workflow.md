@@ -262,6 +262,15 @@ updated independently. The two logs are never allowed to mix, even when both hap
 the same work session - see the corresponding entry there for what happened on the
 workflow side of any given date.
 
+- **2026-07-20** - `DiagnoseFlow.tsx`'s "Score in-app" tab now shows the same
+  select-one-or-more-Areas toggle grid already used on the Checklist page (Select
+  all/Clear buttons, one card per area) above the scoring form, instead of always
+  rendering all 18 areas' sub-points at once. `ScoreForm` now receives only the selected
+  areas; selection resets when the module changes and persists when switching between the
+  "Upload" and "Score in-app" tabs. `computeDiagnostic()` is still called with the full
+  module's rows, exactly as it already does for a partially-filled uploaded checklist, so
+  un-selected areas simply show as not-yet-scored in the results - no scoring/rollup logic
+  changed.
 - **2026-07-20** - Fixed area/sub-point ordering across the app: `groupByArea()`
   (`lib/domain/grouping.ts`), the combined-checklist row sort in `BuildFlow.tsx`, and the
   `area_scores` sort in `computeDiagnostic()` (`lib/domain/scoring.ts`) all used
