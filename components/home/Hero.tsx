@@ -85,9 +85,9 @@ export function Hero() {
           transition={{ duration: 0.6, delay: 0.9 }}
           className="text-white/70 text-lg max-w-lg leading-relaxed"
         >
-          10-minute delivery, days-long shelf life &ndash; 18 areas across inward quality, cold chain, warehouse
-          flow, vendor operations, people, and cost, scored against a clear 1&ndash;5 maturity scale, with a
-          ready-to-use audit checklist for on-ground scoring.
+          Fast delivery promises, days-long shelf life &ndash; 18 areas across inward quality, cold chain,
+          warehouse flow, vendor operations, people, and cost, scored against a clear 1&ndash;5 maturity scale,
+          with a ready-to-use audit checklist for on-ground scoring.
         </motion.p>
 
         <motion.p

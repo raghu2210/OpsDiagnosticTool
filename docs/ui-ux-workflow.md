@@ -262,6 +262,10 @@ updated independently. The two logs are never allowed to mix, even when both hap
 the same work session - see the corresponding entry there for what happened on the
 workflow side of any given date.
 
+- **2026-07-20** - Hero subhead's opening ("10-minute delivery, days-long shelf life")
+  generalized to "Fast delivery promises, days-long shelf life" - not every quick-commerce
+  player commits to a literal 10-minute SLA, and the copy shouldn't assume one. No other
+  copy referenced a specific delivery time.
 - **2026-07-20** - Home hero rewritten: headline is now "Score your FnV warehouse. Find
   exactly where it's breaking." (leads with the product action, per direct feedback that
   the previous headline buried it below the fold) - the delivery-vs-shelf-life tension
