@@ -45,7 +45,7 @@ function BackgroundVideo() {
     <div className="absolute inset-0 overflow-hidden pointer-events-none">
       <video
         ref={videoRef}
-        className="absolute inset-0 w-full h-full object-cover opacity-40"
+        className="absolute inset-0 w-full h-full object-cover opacity-60"
         src="/hero-bg.mp4"
         autoPlay
         muted
@@ -55,7 +55,7 @@ function BackgroundVideo() {
       />
       <div
         className="absolute inset-0"
-        style={{ background: "linear-gradient(100deg, var(--ink) 30%, rgba(36,36,36,0.75) 65%, rgba(36,36,36,0.55) 100%)" }}
+        style={{ background: "linear-gradient(100deg, rgba(36,36,36,0.88) 25%, rgba(36,36,36,0.55) 65%, rgba(36,36,36,0.35) 100%)" }}
       />
     </div>
   );
