@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useRef, useState } from "react";
-import { ImagePlus, X } from "lucide-react";
+import { ChevronRight, ImagePlus, X } from "lucide-react";
 import type { AreaGroup } from "@/lib/domain/grouping";
 import type { ProblemRow, ScoreValue } from "@/lib/domain/types";
 import { scoreBand } from "@/lib/domain/bands";
@@ -213,6 +213,15 @@ export function ScoreForm({
   const [values, setValues] = useState<Record<string, string>>({});
   const [obs, setObs] = useState<Record<string, string>>({});
   const [photos, setPhotos] = useState<Record<string, string>>({});
+  const [expanded, setExpanded] = useState<Set<string>>(new Set());
+
+  function toggleExpanded(subpointId: string) {
+    setExpanded((prev) => {
+      const next = new Set(prev);
+      next.has(subpointId) ? next.delete(subpointId) : next.add(subpointId);
+      return next;
+    });
+  }
 
   const problemsBySubpoint = useMemo(() => {
     const map = new Map<string, ProblemRow[]>();
@@ -259,13 +268,21 @@ export function ScoreForm({
               if (subProblems && subProblems.length > 0) {
                 const rollup = liveRollup(subProblems, values);
                 const band = rollup !== null ? scoreBand(rollup) : null;
+                const isOpen = expanded.has(sp.subpoint_id);
                 return (
                   <div key={sp.subpoint_id}>
-                    <div className="flex items-center justify-between gap-4 px-4 py-3 bg-black/[0.03]">
-                      <div className="text-sm font-medium">
-                        <span className="font-code text-neutral mr-1.5">{sp.subpoint_id}</span>
-                        {sp.subpoint_name}
-                        <span className="ml-2 font-code text-xs text-neutral font-normal">
+                    <button
+                      type="button"
+                      onClick={() => toggleExpanded(sp.subpoint_id)}
+                      className="w-full flex items-center justify-between gap-4 px-4 py-3 bg-black/[0.03] text-left hover:bg-black/[0.05] transition-colors"
+                    >
+                      <div className="text-sm font-medium flex items-center gap-1.5 min-w-0">
+                        <ChevronRight
+                          className={`w-3.5 h-3.5 shrink-0 text-neutral transition-transform ${isOpen ? "rotate-90" : ""}`}
+                        />
+                        <span className="font-code text-neutral">{sp.subpoint_id}</span>
+                        <span className="truncate">{sp.subpoint_name}</span>
+                        <span className="font-code text-xs text-neutral font-normal shrink-0">
                           {subProblems.length} problem statements
                         </span>
                       </div>
@@ -276,25 +293,27 @@ export function ScoreForm({
                       ) : (
                         <span className="text-xs text-neutral shrink-0">Not yet scored</span>
                       )}
-                    </div>
-                    <div className="divide-y divide-rule">
-                      {subProblems.map((p) => (
-                        <ScorableRow
-                          key={p.problem_id}
-                          id={p.problem_id}
-                          code={p.problem_id}
-                          label={p.problem_name}
-                          obsValue={obs[p.problem_id] ?? ""}
-                          onObsChange={(v) => setObs((o) => ({ ...o, [p.problem_id]: v }))}
-                          photo={photos[p.problem_id]}
-                          onPhotoAttach={(dataUrl) => setPhotos((ph) => ({ ...ph, [p.problem_id]: dataUrl }))}
-                          onPhotoRemove={() => setPhotos((ph) => ({ ...ph, [p.problem_id]: "" }))}
-                          scoreValue={values[p.problem_id] ?? ""}
-                          onScoreChange={(v) => setValues((prev) => ({ ...prev, [p.problem_id]: v }))}
-                          indent
-                        />
-                      ))}
-                    </div>
+                    </button>
+                    {isOpen && (
+                      <div className="divide-y divide-rule">
+                        {subProblems.map((p) => (
+                          <ScorableRow
+                            key={p.problem_id}
+                            id={p.problem_id}
+                            code={p.problem_id}
+                            label={p.problem_name}
+                            obsValue={obs[p.problem_id] ?? ""}
+                            onObsChange={(v) => setObs((o) => ({ ...o, [p.problem_id]: v }))}
+                            photo={photos[p.problem_id]}
+                            onPhotoAttach={(dataUrl) => setPhotos((ph) => ({ ...ph, [p.problem_id]: dataUrl }))}
+                            onPhotoRemove={() => setPhotos((ph) => ({ ...ph, [p.problem_id]: "" }))}
+                            scoreValue={values[p.problem_id] ?? ""}
+                            onScoreChange={(v) => setValues((prev) => ({ ...prev, [p.problem_id]: v }))}
+                            indent
+                          />
+                        ))}
+                      </div>
+                    )}
                   </div>
                 );
               }

@@ -268,6 +268,16 @@ workflow side of any given date.
   is now purely explanatory and hands off directly into the module ledger below it, which
   already carries the only CTAs that need to exist past the Hero (module-specific Build
   checklist / Diagnose). No change to the Hero or module ledger CTAs.
+- **2026-07-21** - Sub-points with Node-4 problem statements now collapse by default in
+  both `BuildFlow.tsx`'s checklist preview table and `ScoreForm.tsx`'s in-app scoring form
+  - only the sub-point header (ID, name, problem count, and in ScoreForm's case the live
+  rollup score) shows initially; clicking it expands to reveal the actual problem rows
+  (checklist preview: ID/name/weight; ScoreForm: the score picker, observation, and photo
+  attach for each problem). With areas now carrying up to 9 sub-points and 67 sub-points
+  total across the module, showing every problem row for every sub-point at once was too
+  much to scan - this matches the same collapsed-by-default pattern already used for the
+  area picker. Sub-points without Node-4 problems (scored directly) are unaffected, since
+  there's nothing to collapse under them.
 - **2026-07-21** - Now that the module has 7 areas instead of 24 (see the v3.2 workflow
   entry for the underlying restructure), the category-accordion picker built earlier today
   is redundant - `AreaPicker.tsx` reverted to the flat grid it started as, and

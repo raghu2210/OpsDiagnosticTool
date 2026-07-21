@@ -1,7 +1,7 @@
 "use client";
 
 import { Fragment, useMemo, useState } from "react";
-import { Loader2 } from "lucide-react";
+import { ChevronRight, Loader2 } from "lucide-react";
 import type { MasterRow, ProblemRow } from "@/lib/domain/types";
 import { compareAreaIds, groupByArea, listModules } from "@/lib/domain/grouping";
 import { Reveal } from "@/components/motion/Reveal";
@@ -33,6 +33,7 @@ export function BuildFlow({ masters, problems }: { masters: MasterRow[]; problem
   const modules = useMemo(() => listModules(masters), [masters]);
   const [moduleId, setModuleId] = useState(modules[0]?.module_id);
   const [selectedAreas, setSelectedAreas] = useState<Set<string>>(new Set());
+  const [expandedSubpoints, setExpandedSubpoints] = useState<Set<string>>(new Set());
   const [downloading, setDownloading] = useState<string | null>(null);
   const [error, setError] = useState<{ kind: "full" | "combined"; message: string } | null>(null);
 
@@ -59,6 +60,14 @@ export function BuildFlow({ masters, problems }: { masters: MasterRow[]; problem
     setSelectedAreas((prev) => {
       const next = new Set(prev);
       next.has(areaId) ? next.delete(areaId) : next.add(areaId);
+      return next;
+    });
+  }
+
+  function toggleSubpoint(subpointId: string) {
+    setExpandedSubpoints((prev) => {
+      const next = new Set(prev);
+      next.has(subpointId) ? next.delete(subpointId) : next.add(subpointId);
       return next;
     });
   }
@@ -193,28 +202,43 @@ export function BuildFlow({ masters, problems }: { masters: MasterRow[]; problem
                       {area.subpoints.map((sp) => {
                         const subProblems = problemsBySubpoint.get(sp.subpoint_id);
                         if (subProblems && subProblems.length > 0) {
+                          const isOpen = expandedSubpoints.has(sp.subpoint_id);
                           return (
                             <Fragment key={sp.subpoint_id}>
-                              <tr className="border-b border-rule bg-black/[0.03]">
+                              <tr
+                                onClick={() => toggleSubpoint(sp.subpoint_id)}
+                                className="border-b border-rule bg-black/[0.03] cursor-pointer hover:bg-black/[0.05] transition-colors"
+                              >
                                 <td className="font-code text-xs text-neutral px-3 py-2 align-top whitespace-nowrap font-medium">
-                                  {sp.subpoint_id}
+                                  <span className="inline-flex items-center gap-1.5">
+                                    <ChevronRight
+                                      className={`w-3.5 h-3.5 shrink-0 transition-transform ${isOpen ? "rotate-90" : ""}`}
+                                    />
+                                    {sp.subpoint_id}
+                                  </span>
                                 </td>
-                                <td className="px-3 py-2 align-top font-medium">{sp.subpoint_name}</td>
+                                <td className="px-3 py-2 align-top font-medium">
+                                  {sp.subpoint_name}
+                                  <span className="ml-2 font-code text-xs text-neutral font-normal">
+                                    {subProblems.length} problem statements
+                                  </span>
+                                </td>
                                 <td className="font-code text-xs text-neutral px-3 py-2 align-top whitespace-nowrap">
                                   {(sp.subpoint_weight * 100).toFixed(0)}%
                                 </td>
                               </tr>
-                              {subProblems.map((p) => (
-                                <tr key={p.problem_id} className="border-b border-rule last:border-b-0 hover:bg-black/[0.02]">
-                                  <td className="font-code text-xs text-neutral px-3 py-2 pl-8 align-top whitespace-nowrap">
-                                    {p.problem_id}
-                                  </td>
-                                  <td className="px-3 py-2 align-top">{p.problem_name}</td>
-                                  <td className="font-code text-xs text-neutral px-3 py-2 align-top whitespace-nowrap">
-                                    {(p.problem_weight * 100).toFixed(0)}%
-                                  </td>
-                                </tr>
-                              ))}
+                              {isOpen &&
+                                subProblems.map((p) => (
+                                  <tr key={p.problem_id} className="border-b border-rule last:border-b-0 hover:bg-black/[0.02]">
+                                    <td className="font-code text-xs text-neutral px-3 py-2 pl-8 align-top whitespace-nowrap">
+                                      {p.problem_id}
+                                    </td>
+                                    <td className="px-3 py-2 align-top">{p.problem_name}</td>
+                                    <td className="font-code text-xs text-neutral px-3 py-2 align-top whitespace-nowrap">
+                                      {(p.problem_weight * 100).toFixed(0)}%
+                                    </td>
+                                  </tr>
+                                ))}
                             </Fragment>
                           );
                         }
