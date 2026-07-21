@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { Loader2 } from "lucide-react";
 import type { MasterRow, ProblemRow, RecommendationRow, DiagnosticResult, SubpointScore } from "@/lib/domain/types";
 import { groupByArea, listModules } from "@/lib/domain/grouping";
@@ -32,6 +32,14 @@ export function DiagnoseFlow({
   const [diag, setDiag] = useState<DiagnosticResult | null>(null);
   const [downloading, setDownloading] = useState(false);
   const [downloadError, setDownloadError] = useState<string | null>(null);
+  const resultsRef = useRef<HTMLDivElement>(null);
+
+  // Scroll the results into view the moment a diagnostic is computed (or re-computed by
+  // running again) - the scoring form can be long, so surfacing the report is worth more
+  // than leaving the user to scroll down and find it themselves.
+  useEffect(() => {
+    if (diag) resultsRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+  }, [diag]);
 
   const moduleRows = useMemo(() => masters.filter((r) => r.module_id === moduleId), [masters, moduleId]);
   const moduleProblems = useMemo(() => problems.filter((r) => r.module_id === moduleId), [problems, moduleId]);
@@ -177,7 +185,7 @@ export function DiagnoseFlow({
       </div>
 
       {diag && (
-        <div className="pt-8 border-t border-rule">
+        <div ref={resultsRef} className="pt-8 border-t border-rule scroll-mt-24">
           <div className="mb-6">
             <div className="flex items-center justify-between">
               <h2 className="font-display text-2xl font-semibold">Diagnostic</h2>

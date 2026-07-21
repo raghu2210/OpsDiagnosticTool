@@ -268,6 +268,14 @@ workflow side of any given date.
   is now purely explanatory and hands off directly into the module ledger below it, which
   already carries the only CTAs that need to exist past the Hero (module-specific Build
   checklist / Diagnose). No change to the Hero or module ledger CTAs.
+- **2026-07-21** - `DiagnoseFlow.tsx` now auto-scrolls the Diagnostic results into view
+  (smooth scroll, with `scroll-mt-24` so the floating `TopNav` pill doesn't overlap the
+  results heading) the moment `computeDiagnostic()` returns, whether from submitting the
+  in-app form or uploading a filled checklist. Previously the results sat below the
+  (potentially long) scoring form with no indication they'd appeared, so you had to
+  manually scroll down to find them - direct feedback was that the report should be the
+  first thing seen after running the diagnostic. Re-running the diagnostic (e.g. after
+  adjusting scores) re-triggers the scroll each time.
 - **2026-07-21** - Sub-points with Node-4 problem statements now collapse by default in
   both `BuildFlow.tsx`'s checklist preview table and `ScoreForm.tsx`'s in-app scoring form
   - only the sub-point header (ID, name, problem count, and in ScoreForm's case the live
