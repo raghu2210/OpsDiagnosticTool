@@ -245,6 +245,15 @@ updated independently. The two logs are never allowed to mix, even when both hap
 the same work session - see the corresponding entry there for what happened on the
 workflow side of any given date.
 
+- **2026-07-22** - `ResultsReveal.tsx`'s "Priority actions" list redesigned - it's the
+  actual payoff of the whole diagnostic (the ranked to-do list someone acts on) but had
+  the least visual treatment of any result component, just a plain monotone
+  `<details>`/`<summary>` accordion. Now: a rank number per row, a `scoreBand()`-colored
+  3px left rail + a colored score badge (reusing the same severity color language already
+  used by `ScoreDial`/`AreaBar`, just not previously extended to this list), and a
+  decluttered summary line (full level names/target context moved into the expanded panel
+  instead of cramming into one line). No functional/interaction change - still an
+  expand-to-see-recommendation accordion, same data, same sort order.
 - **2026-07-21** - Removed the "Checklist" nav item and the standalone `/build` page -
   `TopNav` is down to 4 links (Home, Diagnose, Tracker, Workflow). `BuildFlow.tsx` and
   `app/build/page.tsx` deleted; the checklist-export action moved into

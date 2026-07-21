@@ -204,35 +204,57 @@ export function ResultsReveal({ diag }: { diag: DiagnosticResult }) {
         {priority.length === 0 ? (
           <p className="text-sm text-green font-medium">Every scored sub-point is already best-in-class.</p>
         ) : (
-          <div className="divide-y divide-rule border border-rule rounded-md bg-surface shadow-sm">
-            {priority.map((s) => (
-              <details key={s.key} className="px-4 py-3 group">
-                <summary className="cursor-pointer text-sm font-medium list-none flex justify-between items-center gap-3">
-                  <span>
-                    <span className="font-code text-neutral mr-1.5">{s.code}</span>
-                    {s.areaName} &middot; {s.label} &mdash; scored {fmtScore(s.score)} ({s.levelName}) &rarr; target{" "}
-                    {fmtScore(s.target)} ({s.targetName})
-                  </span>
-                  <span className="text-neutral group-open:rotate-90 transition-transform shrink-0">&rsaquo;</span>
-                </summary>
-                <div className="pt-3 text-sm text-neutral">
-                  {s.observation && <p className="mb-2 italic">Observation: {s.observation}</p>}
-                  {s.photo && (
-                    // eslint-disable-next-line @next/next/no-img-element -- client-only base64 data URI
-                    <img src={s.photo} alt="" className="mb-2 rounded-sm border border-rule max-h-40 max-w-full" />
-                  )}
-                  {s.tasks ? (
-                    <ul className="list-disc pl-5 space-y-1">
-                      {s.tasks.split("\n").filter(Boolean).map((t, i) => (
-                        <li key={i}>{t}</li>
-                      ))}
-                    </ul>
-                  ) : (
-                    <p>No recommendation authored yet for this sub-point/level.</p>
-                  )}
-                </div>
-              </details>
-            ))}
+          <div className="divide-y divide-rule border border-rule rounded-md bg-surface shadow-sm overflow-hidden">
+            {priority.map((s, i) => {
+              const band = scoreBand(s.score);
+              return (
+                <details key={s.key} className="group" style={{ borderLeft: `3px solid ${band.color}` }}>
+                  <summary className="cursor-pointer list-none flex items-center gap-3 pl-3.5 pr-4 py-3 hover:bg-black/[0.02] transition-colors">
+                    <span className="font-code text-xs text-neutral/70 w-5 text-right shrink-0 tabular-nums">
+                      {i + 1}
+                    </span>
+                    <span className="text-sm font-medium flex-1 min-w-0 truncate">
+                      <span className="font-code text-neutral mr-1.5">{s.code}</span>
+                      {s.areaName} &middot; {s.label}
+                    </span>
+                    <span className="flex items-center gap-1.5 shrink-0 font-code text-xs tabular-nums">
+                      <span
+                        className="px-1.5 py-0.5 rounded-xs font-medium text-white"
+                        style={{ backgroundColor: band.color }}
+                      >
+                        {fmtScore(s.score)}
+                      </span>
+                      <span className="text-neutral">&rarr;</span>
+                      <span className="px-1.5 py-0.5 rounded-xs border border-rule text-neutral">
+                        {fmtScore(s.target)}
+                      </span>
+                    </span>
+                    <span className="text-neutral group-open:rotate-90 transition-transform shrink-0">&rsaquo;</span>
+                  </summary>
+                  <div className="pl-12 pr-4 pb-4 text-sm text-neutral">
+                    <p className="mb-2">
+                      Currently <span className="font-medium" style={{ color: band.color }}>{s.levelName}</span>
+                      {" "}({fmtScore(s.score)}) &rarr; target{" "}
+                      <span className="font-medium text-ink">{s.targetName}</span> ({fmtScore(s.target)})
+                    </p>
+                    {s.observation && <p className="mb-2 italic">Observation: {s.observation}</p>}
+                    {s.photo && (
+                      // eslint-disable-next-line @next/next/no-img-element -- client-only base64 data URI
+                      <img src={s.photo} alt="" className="mb-2 rounded-sm border border-rule max-h-40 max-w-full" />
+                    )}
+                    {s.tasks ? (
+                      <ul className="list-disc pl-5 space-y-1">
+                        {s.tasks.split("\n").filter(Boolean).map((t, idx) => (
+                          <li key={idx}>{t}</li>
+                        ))}
+                      </ul>
+                    ) : (
+                      <p>No recommendation authored yet for this sub-point/level.</p>
+                    )}
+                  </div>
+                </details>
+              );
+            })}
           </div>
         )}
       </div>
