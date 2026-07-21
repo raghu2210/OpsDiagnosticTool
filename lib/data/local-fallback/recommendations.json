@@ -2817,7 +2817,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A1.1",
+    "subpoint_id": "A2.1",
     "subpoint_name": "Receiving Dock Discipline",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -2825,7 +2825,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A1.1",
+    "subpoint_id": "A2.1",
     "subpoint_name": "Receiving Dock Discipline",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -2833,7 +2833,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A1.1",
+    "subpoint_id": "A2.1",
     "subpoint_name": "Receiving Dock Discipline",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -2841,7 +2841,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A1.1",
+    "subpoint_id": "A2.1",
     "subpoint_name": "Receiving Dock Discipline",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -2849,7 +2849,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A1.2",
+    "subpoint_id": "A2.2",
     "subpoint_name": "Produce Quality Grading",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -2857,7 +2857,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A1.2",
+    "subpoint_id": "A2.2",
     "subpoint_name": "Produce Quality Grading",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -2865,7 +2865,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A1.2",
+    "subpoint_id": "A2.2",
     "subpoint_name": "Produce Quality Grading",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -2873,7 +2873,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A1.2",
+    "subpoint_id": "A2.2",
     "subpoint_name": "Produce Quality Grading",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -2881,7 +2881,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A1.3",
+    "subpoint_id": "A2.3",
     "subpoint_name": "Batch & Lot Traceability",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -2889,7 +2889,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A1.3",
+    "subpoint_id": "A2.3",
     "subpoint_name": "Batch & Lot Traceability",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -2897,7 +2897,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A1.3",
+    "subpoint_id": "A2.3",
     "subpoint_name": "Batch & Lot Traceability",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -2905,7 +2905,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A1.3",
+    "subpoint_id": "A2.3",
     "subpoint_name": "Batch & Lot Traceability",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -2913,7 +2913,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A2.1",
+    "subpoint_id": "A2.5",
     "subpoint_name": "Temperature Monitoring & Logging",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -2921,7 +2921,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A2.1",
+    "subpoint_id": "A2.5",
     "subpoint_name": "Temperature Monitoring & Logging",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -2929,7 +2929,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A2.1",
+    "subpoint_id": "A2.5",
     "subpoint_name": "Temperature Monitoring & Logging",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -2937,7 +2937,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A2.1",
+    "subpoint_id": "A2.5",
     "subpoint_name": "Temperature Monitoring & Logging",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -2945,7 +2945,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A2.2",
+    "subpoint_id": "A2.6",
     "subpoint_name": "Zone Segregation by Produce Type",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -2953,7 +2953,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A2.2",
+    "subpoint_id": "A2.6",
     "subpoint_name": "Zone Segregation by Produce Type",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -2961,7 +2961,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A2.2",
+    "subpoint_id": "A2.6",
     "subpoint_name": "Zone Segregation by Produce Type",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -2969,7 +2969,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A2.2",
+    "subpoint_id": "A2.6",
     "subpoint_name": "Zone Segregation by Produce Type",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -2977,7 +2977,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A2.3",
+    "subpoint_id": "A2.7",
     "subpoint_name": "Humidity & Ventilation Control",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -2985,7 +2985,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A2.3",
+    "subpoint_id": "A2.7",
     "subpoint_name": "Humidity & Ventilation Control",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -2993,7 +2993,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A2.3",
+    "subpoint_id": "A2.7",
     "subpoint_name": "Humidity & Ventilation Control",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -3001,7 +3001,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A2.3",
+    "subpoint_id": "A2.7",
     "subpoint_name": "Humidity & Ventilation Control",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -3073,7 +3073,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A4.1",
+    "subpoint_id": "A3.3",
     "subpoint_name": "FEFO Rotation Discipline",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -3081,7 +3081,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A4.1",
+    "subpoint_id": "A3.3",
     "subpoint_name": "FEFO Rotation Discipline",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -3089,7 +3089,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A4.1",
+    "subpoint_id": "A3.3",
     "subpoint_name": "FEFO Rotation Discipline",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -3097,7 +3097,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A4.1",
+    "subpoint_id": "A3.3",
     "subpoint_name": "FEFO Rotation Discipline",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -3105,7 +3105,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A4.2",
+    "subpoint_id": "A3.4",
     "subpoint_name": "Expiry / Shelf-Life Tracking",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -3113,7 +3113,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A4.2",
+    "subpoint_id": "A3.4",
     "subpoint_name": "Expiry / Shelf-Life Tracking",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -3121,7 +3121,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A4.2",
+    "subpoint_id": "A3.4",
     "subpoint_name": "Expiry / Shelf-Life Tracking",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -3129,7 +3129,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A4.2",
+    "subpoint_id": "A3.4",
     "subpoint_name": "Expiry / Shelf-Life Tracking",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -3137,7 +3137,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A4.3",
+    "subpoint_id": "A3.5",
     "subpoint_name": "Cycle Counting & Stock Accuracy",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -3145,7 +3145,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A4.3",
+    "subpoint_id": "A3.5",
     "subpoint_name": "Cycle Counting & Stock Accuracy",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -3153,7 +3153,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A4.3",
+    "subpoint_id": "A3.5",
     "subpoint_name": "Cycle Counting & Stock Accuracy",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -3161,7 +3161,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A4.3",
+    "subpoint_id": "A3.5",
     "subpoint_name": "Cycle Counting & Stock Accuracy",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -3169,7 +3169,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A5.1",
+    "subpoint_id": "A4.1",
     "subpoint_name": "Dark Store Replenishment Cadence",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -3177,7 +3177,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A5.1",
+    "subpoint_id": "A4.1",
     "subpoint_name": "Dark Store Replenishment Cadence",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -3185,7 +3185,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A5.1",
+    "subpoint_id": "A4.1",
     "subpoint_name": "Dark Store Replenishment Cadence",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -3193,7 +3193,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A5.1",
+    "subpoint_id": "A4.1",
     "subpoint_name": "Dark Store Replenishment Cadence",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -3201,7 +3201,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A5.2",
+    "subpoint_id": "A4.2",
     "subpoint_name": "Demand Forecasting for Perishables",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -3209,7 +3209,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A5.2",
+    "subpoint_id": "A4.2",
     "subpoint_name": "Demand Forecasting for Perishables",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -3217,7 +3217,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A5.2",
+    "subpoint_id": "A4.2",
     "subpoint_name": "Demand Forecasting for Perishables",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -3225,7 +3225,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A5.2",
+    "subpoint_id": "A4.2",
     "subpoint_name": "Demand Forecasting for Perishables",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -3233,7 +3233,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A5.3",
+    "subpoint_id": "A4.3",
     "subpoint_name": "Stockout & Overstock Balance",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -3241,7 +3241,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A5.3",
+    "subpoint_id": "A4.3",
     "subpoint_name": "Stockout & Overstock Balance",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -3249,7 +3249,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A5.3",
+    "subpoint_id": "A4.3",
     "subpoint_name": "Stockout & Overstock Balance",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -3257,7 +3257,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A5.3",
+    "subpoint_id": "A4.3",
     "subpoint_name": "Stockout & Overstock Balance",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -3265,7 +3265,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A6.1",
+    "subpoint_id": "A4.4",
     "subpoint_name": "Pick Accuracy for Loose/Weighted SKUs",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -3273,7 +3273,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A6.1",
+    "subpoint_id": "A4.4",
     "subpoint_name": "Pick Accuracy for Loose/Weighted SKUs",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -3281,7 +3281,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A6.1",
+    "subpoint_id": "A4.4",
     "subpoint_name": "Pick Accuracy for Loose/Weighted SKUs",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -3289,7 +3289,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A6.1",
+    "subpoint_id": "A4.4",
     "subpoint_name": "Pick Accuracy for Loose/Weighted SKUs",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -3297,7 +3297,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A6.2",
+    "subpoint_id": "A4.5",
     "subpoint_name": "Packaging Integrity for Transit",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -3305,7 +3305,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A6.2",
+    "subpoint_id": "A4.5",
     "subpoint_name": "Packaging Integrity for Transit",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -3313,7 +3313,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A6.2",
+    "subpoint_id": "A4.5",
     "subpoint_name": "Packaging Integrity for Transit",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -3321,7 +3321,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A6.2",
+    "subpoint_id": "A4.5",
     "subpoint_name": "Packaging Integrity for Transit",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -3329,7 +3329,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A7.1",
+    "subpoint_id": "A5.1",
     "subpoint_name": "Spoilage / Shrinkage Tracking",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -3337,7 +3337,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A7.1",
+    "subpoint_id": "A5.1",
     "subpoint_name": "Spoilage / Shrinkage Tracking",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -3345,7 +3345,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A7.1",
+    "subpoint_id": "A5.1",
     "subpoint_name": "Spoilage / Shrinkage Tracking",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -3353,7 +3353,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A7.1",
+    "subpoint_id": "A5.1",
     "subpoint_name": "Spoilage / Shrinkage Tracking",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -3361,7 +3361,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A7.2",
+    "subpoint_id": "A5.2",
     "subpoint_name": "Root-Cause Analysis & Corrective Action",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -3369,7 +3369,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A7.2",
+    "subpoint_id": "A5.2",
     "subpoint_name": "Root-Cause Analysis & Corrective Action",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -3377,7 +3377,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A7.2",
+    "subpoint_id": "A5.2",
     "subpoint_name": "Root-Cause Analysis & Corrective Action",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -3385,7 +3385,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A7.2",
+    "subpoint_id": "A5.2",
     "subpoint_name": "Root-Cause Analysis & Corrective Action",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -3393,7 +3393,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A7.3",
+    "subpoint_id": "A5.3",
     "subpoint_name": "Write-Off & Disposal Process",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -3401,7 +3401,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A7.3",
+    "subpoint_id": "A5.3",
     "subpoint_name": "Write-Off & Disposal Process",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -3409,7 +3409,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A7.3",
+    "subpoint_id": "A5.3",
     "subpoint_name": "Write-Off & Disposal Process",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -3417,7 +3417,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A7.3",
+    "subpoint_id": "A5.3",
     "subpoint_name": "Write-Off & Disposal Process",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -3425,7 +3425,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A1.1.1",
+    "subpoint_id": "A2.1.1",
     "subpoint_name": "Dock Scheduling",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -3433,7 +3433,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A1.1.1",
+    "subpoint_id": "A2.1.1",
     "subpoint_name": "Dock Scheduling",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -3441,7 +3441,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A1.1.1",
+    "subpoint_id": "A2.1.1",
     "subpoint_name": "Dock Scheduling",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -3449,7 +3449,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A1.1.1",
+    "subpoint_id": "A2.1.1",
     "subpoint_name": "Dock Scheduling",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -3457,7 +3457,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A1.1.2",
+    "subpoint_id": "A2.1.2",
     "subpoint_name": "Arrival Time-Stamping",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -3465,7 +3465,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A1.1.2",
+    "subpoint_id": "A2.1.2",
     "subpoint_name": "Arrival Time-Stamping",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -3473,7 +3473,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A1.1.2",
+    "subpoint_id": "A2.1.2",
     "subpoint_name": "Arrival Time-Stamping",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -3481,7 +3481,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A1.1.2",
+    "subpoint_id": "A2.1.2",
     "subpoint_name": "Arrival Time-Stamping",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -3489,7 +3489,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A1.1.3",
+    "subpoint_id": "A2.1.3",
     "subpoint_name": "Dock-to-Shelf SOP Adherence",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -3497,7 +3497,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A1.1.3",
+    "subpoint_id": "A2.1.3",
     "subpoint_name": "Dock-to-Shelf SOP Adherence",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -3505,7 +3505,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A1.1.3",
+    "subpoint_id": "A2.1.3",
     "subpoint_name": "Dock-to-Shelf SOP Adherence",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -3513,7 +3513,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A1.1.3",
+    "subpoint_id": "A2.1.3",
     "subpoint_name": "Dock-to-Shelf SOP Adherence",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -3521,7 +3521,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A1.2.1",
+    "subpoint_id": "A2.2.1",
     "subpoint_name": "Grading Standard Documentation",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -3529,7 +3529,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A1.2.1",
+    "subpoint_id": "A2.2.1",
     "subpoint_name": "Grading Standard Documentation",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -3537,7 +3537,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A1.2.1",
+    "subpoint_id": "A2.2.1",
     "subpoint_name": "Grading Standard Documentation",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -3545,7 +3545,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A1.2.1",
+    "subpoint_id": "A2.2.1",
     "subpoint_name": "Grading Standard Documentation",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -3553,7 +3553,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A1.2.2",
+    "subpoint_id": "A2.2.2",
     "subpoint_name": "Grading Consistency & Sampling",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -3561,7 +3561,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A1.2.2",
+    "subpoint_id": "A2.2.2",
     "subpoint_name": "Grading Consistency & Sampling",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -3569,7 +3569,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A1.2.2",
+    "subpoint_id": "A2.2.2",
     "subpoint_name": "Grading Consistency & Sampling",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -3577,7 +3577,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A1.2.2",
+    "subpoint_id": "A2.2.2",
     "subpoint_name": "Grading Consistency & Sampling",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -3585,7 +3585,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A1.2.3",
+    "subpoint_id": "A2.2.3",
     "subpoint_name": "Rejection Data & Vendor Feedback Loop",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -3593,7 +3593,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A1.2.3",
+    "subpoint_id": "A2.2.3",
     "subpoint_name": "Rejection Data & Vendor Feedback Loop",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -3601,7 +3601,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A1.2.3",
+    "subpoint_id": "A2.2.3",
     "subpoint_name": "Rejection Data & Vendor Feedback Loop",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -3609,7 +3609,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A1.2.3",
+    "subpoint_id": "A2.2.3",
     "subpoint_name": "Rejection Data & Vendor Feedback Loop",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -3617,7 +3617,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A1.3.1",
+    "subpoint_id": "A2.3.1",
     "subpoint_name": "Batch/Lot Identification at Receiving",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -3625,7 +3625,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A1.3.1",
+    "subpoint_id": "A2.3.1",
     "subpoint_name": "Batch/Lot Identification at Receiving",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -3633,7 +3633,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A1.3.1",
+    "subpoint_id": "A2.3.1",
     "subpoint_name": "Batch/Lot Identification at Receiving",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -3641,7 +3641,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A1.3.1",
+    "subpoint_id": "A2.3.1",
     "subpoint_name": "Batch/Lot Identification at Receiving",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -3649,7 +3649,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A1.3.2",
+    "subpoint_id": "A2.3.2",
     "subpoint_name": "Traceability Through Storage",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -3657,7 +3657,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A1.3.2",
+    "subpoint_id": "A2.3.2",
     "subpoint_name": "Traceability Through Storage",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -3665,7 +3665,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A1.3.2",
+    "subpoint_id": "A2.3.2",
     "subpoint_name": "Traceability Through Storage",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -3673,7 +3673,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A1.3.2",
+    "subpoint_id": "A2.3.2",
     "subpoint_name": "Traceability Through Storage",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -3681,7 +3681,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A1.3.3",
+    "subpoint_id": "A2.3.3",
     "subpoint_name": "Recall/Root-Cause Capability",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -3689,7 +3689,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A1.3.3",
+    "subpoint_id": "A2.3.3",
     "subpoint_name": "Recall/Root-Cause Capability",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -3697,7 +3697,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A1.3.3",
+    "subpoint_id": "A2.3.3",
     "subpoint_name": "Recall/Root-Cause Capability",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -3705,7 +3705,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A1.3.3",
+    "subpoint_id": "A2.3.3",
     "subpoint_name": "Recall/Root-Cause Capability",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -3713,7 +3713,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A2.1.1",
+    "subpoint_id": "A2.5.1",
     "subpoint_name": "Sensor Coverage & Placement",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -3721,7 +3721,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A2.1.1",
+    "subpoint_id": "A2.5.1",
     "subpoint_name": "Sensor Coverage & Placement",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -3729,7 +3729,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A2.1.1",
+    "subpoint_id": "A2.5.1",
     "subpoint_name": "Sensor Coverage & Placement",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -3737,7 +3737,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A2.1.1",
+    "subpoint_id": "A2.5.1",
     "subpoint_name": "Sensor Coverage & Placement",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -3745,7 +3745,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A2.1.2",
+    "subpoint_id": "A2.5.2",
     "subpoint_name": "Reading Frequency & Logging Discipline",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -3753,7 +3753,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A2.1.2",
+    "subpoint_id": "A2.5.2",
     "subpoint_name": "Reading Frequency & Logging Discipline",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -3761,7 +3761,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A2.1.2",
+    "subpoint_id": "A2.5.2",
     "subpoint_name": "Reading Frequency & Logging Discipline",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -3769,7 +3769,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A2.1.2",
+    "subpoint_id": "A2.5.2",
     "subpoint_name": "Reading Frequency & Logging Discipline",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -3777,7 +3777,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A2.1.3",
+    "subpoint_id": "A2.5.3",
     "subpoint_name": "Excursion Escalation Process",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -3785,7 +3785,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A2.1.3",
+    "subpoint_id": "A2.5.3",
     "subpoint_name": "Excursion Escalation Process",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -3793,7 +3793,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A2.1.3",
+    "subpoint_id": "A2.5.3",
     "subpoint_name": "Excursion Escalation Process",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -3801,7 +3801,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A2.1.3",
+    "subpoint_id": "A2.5.3",
     "subpoint_name": "Excursion Escalation Process",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -3809,7 +3809,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A2.2.1",
+    "subpoint_id": "A2.6.1",
     "subpoint_name": "Zone Definition & Labeling",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -3817,7 +3817,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A2.2.1",
+    "subpoint_id": "A2.6.1",
     "subpoint_name": "Zone Definition & Labeling",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -3825,7 +3825,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A2.2.1",
+    "subpoint_id": "A2.6.1",
     "subpoint_name": "Zone Definition & Labeling",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -3833,7 +3833,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A2.2.1",
+    "subpoint_id": "A2.6.1",
     "subpoint_name": "Zone Definition & Labeling",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -3841,7 +3841,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A2.2.2",
+    "subpoint_id": "A2.6.2",
     "subpoint_name": "Ethylene-Sensitivity Separation",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -3849,7 +3849,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A2.2.2",
+    "subpoint_id": "A2.6.2",
     "subpoint_name": "Ethylene-Sensitivity Separation",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -3857,7 +3857,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A2.2.2",
+    "subpoint_id": "A2.6.2",
     "subpoint_name": "Ethylene-Sensitivity Separation",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -3865,7 +3865,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A2.2.2",
+    "subpoint_id": "A2.6.2",
     "subpoint_name": "Ethylene-Sensitivity Separation",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -3873,7 +3873,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A2.2.3",
+    "subpoint_id": "A2.6.3",
     "subpoint_name": "Put-Away Enforcement of Zoning",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -3881,7 +3881,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A2.2.3",
+    "subpoint_id": "A2.6.3",
     "subpoint_name": "Put-Away Enforcement of Zoning",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -3889,7 +3889,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A2.2.3",
+    "subpoint_id": "A2.6.3",
     "subpoint_name": "Put-Away Enforcement of Zoning",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -3897,7 +3897,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A2.2.3",
+    "subpoint_id": "A2.6.3",
     "subpoint_name": "Put-Away Enforcement of Zoning",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -3905,7 +3905,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A2.3.1",
+    "subpoint_id": "A2.7.1",
     "subpoint_name": "Humidity Target Setting per Zone",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -3913,7 +3913,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A2.3.1",
+    "subpoint_id": "A2.7.1",
     "subpoint_name": "Humidity Target Setting per Zone",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -3921,7 +3921,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A2.3.1",
+    "subpoint_id": "A2.7.1",
     "subpoint_name": "Humidity Target Setting per Zone",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -3929,7 +3929,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A2.3.1",
+    "subpoint_id": "A2.7.1",
     "subpoint_name": "Humidity Target Setting per Zone",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -3937,7 +3937,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A2.3.2",
+    "subpoint_id": "A2.7.2",
     "subpoint_name": "Airflow/Ventilation Equipment Upkeep",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -3945,7 +3945,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A2.3.2",
+    "subpoint_id": "A2.7.2",
     "subpoint_name": "Airflow/Ventilation Equipment Upkeep",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -3953,7 +3953,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A2.3.2",
+    "subpoint_id": "A2.7.2",
     "subpoint_name": "Airflow/Ventilation Equipment Upkeep",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -3961,7 +3961,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A2.3.2",
+    "subpoint_id": "A2.7.2",
     "subpoint_name": "Airflow/Ventilation Equipment Upkeep",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -4097,7 +4097,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A4.1.1",
+    "subpoint_id": "A3.3.1",
     "subpoint_name": "Date-Based Bin/Location Labeling",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -4105,7 +4105,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A4.1.1",
+    "subpoint_id": "A3.3.1",
     "subpoint_name": "Date-Based Bin/Location Labeling",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -4113,7 +4113,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A4.1.1",
+    "subpoint_id": "A3.3.1",
     "subpoint_name": "Date-Based Bin/Location Labeling",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -4121,7 +4121,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A4.1.1",
+    "subpoint_id": "A3.3.1",
     "subpoint_name": "Date-Based Bin/Location Labeling",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -4129,7 +4129,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A4.1.2",
+    "subpoint_id": "A3.3.2",
     "subpoint_name": "Pick-Time FEFO Enforcement",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -4137,7 +4137,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A4.1.2",
+    "subpoint_id": "A3.3.2",
     "subpoint_name": "Pick-Time FEFO Enforcement",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -4145,7 +4145,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A4.1.2",
+    "subpoint_id": "A3.3.2",
     "subpoint_name": "Pick-Time FEFO Enforcement",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -4153,7 +4153,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A4.1.2",
+    "subpoint_id": "A3.3.2",
     "subpoint_name": "Pick-Time FEFO Enforcement",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -4161,7 +4161,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A4.2.1",
+    "subpoint_id": "A3.4.1",
     "subpoint_name": "Per-Batch Shelf-Life Recording",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -4169,7 +4169,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A4.2.1",
+    "subpoint_id": "A3.4.1",
     "subpoint_name": "Per-Batch Shelf-Life Recording",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -4177,7 +4177,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A4.2.1",
+    "subpoint_id": "A3.4.1",
     "subpoint_name": "Per-Batch Shelf-Life Recording",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -4185,7 +4185,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A4.2.1",
+    "subpoint_id": "A3.4.1",
     "subpoint_name": "Per-Batch Shelf-Life Recording",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -4193,7 +4193,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A4.2.2",
+    "subpoint_id": "A3.4.2",
     "subpoint_name": "Aging-Stock Flagging & Action",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -4201,7 +4201,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A4.2.2",
+    "subpoint_id": "A3.4.2",
     "subpoint_name": "Aging-Stock Flagging & Action",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -4209,7 +4209,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A4.2.2",
+    "subpoint_id": "A3.4.2",
     "subpoint_name": "Aging-Stock Flagging & Action",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -4217,7 +4217,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A4.2.2",
+    "subpoint_id": "A3.4.2",
     "subpoint_name": "Aging-Stock Flagging & Action",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -4225,7 +4225,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A4.3.1",
+    "subpoint_id": "A3.5.1",
     "subpoint_name": "Count Frequency & Coverage",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -4233,7 +4233,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A4.3.1",
+    "subpoint_id": "A3.5.1",
     "subpoint_name": "Count Frequency & Coverage",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -4241,7 +4241,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A4.3.1",
+    "subpoint_id": "A3.5.1",
     "subpoint_name": "Count Frequency & Coverage",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -4249,7 +4249,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A4.3.1",
+    "subpoint_id": "A3.5.1",
     "subpoint_name": "Count Frequency & Coverage",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -4257,7 +4257,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A4.3.2",
+    "subpoint_id": "A3.5.2",
     "subpoint_name": "Variance Investigation Process",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -4265,7 +4265,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A4.3.2",
+    "subpoint_id": "A3.5.2",
     "subpoint_name": "Variance Investigation Process",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -4273,7 +4273,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A4.3.2",
+    "subpoint_id": "A3.5.2",
     "subpoint_name": "Variance Investigation Process",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -4281,7 +4281,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A4.3.2",
+    "subpoint_id": "A3.5.2",
     "subpoint_name": "Variance Investigation Process",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -4289,7 +4289,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A5.1.1",
+    "subpoint_id": "A4.1.1",
     "subpoint_name": "Replenishment Trigger Definition",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -4297,7 +4297,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A5.1.1",
+    "subpoint_id": "A4.1.1",
     "subpoint_name": "Replenishment Trigger Definition",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -4305,7 +4305,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A5.1.1",
+    "subpoint_id": "A4.1.1",
     "subpoint_name": "Replenishment Trigger Definition",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -4313,7 +4313,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A5.1.1",
+    "subpoint_id": "A4.1.1",
     "subpoint_name": "Replenishment Trigger Definition",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -4321,7 +4321,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A5.1.2",
+    "subpoint_id": "A4.1.2",
     "subpoint_name": "Peak/Promo Demand Adjustment",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -4329,7 +4329,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A5.1.2",
+    "subpoint_id": "A4.1.2",
     "subpoint_name": "Peak/Promo Demand Adjustment",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -4337,7 +4337,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A5.1.2",
+    "subpoint_id": "A4.1.2",
     "subpoint_name": "Peak/Promo Demand Adjustment",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -4345,7 +4345,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A5.1.2",
+    "subpoint_id": "A4.1.2",
     "subpoint_name": "Peak/Promo Demand Adjustment",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -4353,7 +4353,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A5.2.1",
+    "subpoint_id": "A4.2.1",
     "subpoint_name": "Forecast Input Data Quality",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -4361,7 +4361,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A5.2.1",
+    "subpoint_id": "A4.2.1",
     "subpoint_name": "Forecast Input Data Quality",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -4369,7 +4369,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A5.2.1",
+    "subpoint_id": "A4.2.1",
     "subpoint_name": "Forecast Input Data Quality",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -4377,7 +4377,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A5.2.1",
+    "subpoint_id": "A4.2.1",
     "subpoint_name": "Forecast Input Data Quality",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -4385,7 +4385,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A5.2.2",
+    "subpoint_id": "A4.2.2",
     "subpoint_name": "Forecast Accuracy Review Cadence",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -4393,7 +4393,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A5.2.2",
+    "subpoint_id": "A4.2.2",
     "subpoint_name": "Forecast Accuracy Review Cadence",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -4401,7 +4401,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A5.2.2",
+    "subpoint_id": "A4.2.2",
     "subpoint_name": "Forecast Accuracy Review Cadence",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -4409,7 +4409,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A5.2.2",
+    "subpoint_id": "A4.2.2",
     "subpoint_name": "Forecast Accuracy Review Cadence",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -4417,7 +4417,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A5.3.1",
+    "subpoint_id": "A4.3.1",
     "subpoint_name": "Stockout Rate Tracking",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -4425,7 +4425,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A5.3.1",
+    "subpoint_id": "A4.3.1",
     "subpoint_name": "Stockout Rate Tracking",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -4433,7 +4433,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A5.3.1",
+    "subpoint_id": "A4.3.1",
     "subpoint_name": "Stockout Rate Tracking",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -4441,7 +4441,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A5.3.1",
+    "subpoint_id": "A4.3.1",
     "subpoint_name": "Stockout Rate Tracking",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -4449,7 +4449,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A5.3.2",
+    "subpoint_id": "A4.3.2",
     "subpoint_name": "Overstock/Spoilage Linkage Tracking",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -4457,7 +4457,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A5.3.2",
+    "subpoint_id": "A4.3.2",
     "subpoint_name": "Overstock/Spoilage Linkage Tracking",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -4465,7 +4465,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A5.3.2",
+    "subpoint_id": "A4.3.2",
     "subpoint_name": "Overstock/Spoilage Linkage Tracking",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -4473,7 +4473,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A5.3.2",
+    "subpoint_id": "A4.3.2",
     "subpoint_name": "Overstock/Spoilage Linkage Tracking",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -4481,7 +4481,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A6.1.1",
+    "subpoint_id": "A4.4.1",
     "subpoint_name": "Weigh-Station Coverage & Calibration",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -4489,7 +4489,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A6.1.1",
+    "subpoint_id": "A4.4.1",
     "subpoint_name": "Weigh-Station Coverage & Calibration",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -4497,7 +4497,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A6.1.1",
+    "subpoint_id": "A4.4.1",
     "subpoint_name": "Weigh-Station Coverage & Calibration",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -4505,7 +4505,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A6.1.1",
+    "subpoint_id": "A4.4.1",
     "subpoint_name": "Weigh-Station Coverage & Calibration",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -4513,7 +4513,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A6.1.2",
+    "subpoint_id": "A4.4.2",
     "subpoint_name": "Pick-Accuracy Tolerance Enforcement",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -4521,7 +4521,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A6.1.2",
+    "subpoint_id": "A4.4.2",
     "subpoint_name": "Pick-Accuracy Tolerance Enforcement",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -4529,7 +4529,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A6.1.2",
+    "subpoint_id": "A4.4.2",
     "subpoint_name": "Pick-Accuracy Tolerance Enforcement",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -4537,7 +4537,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A6.1.2",
+    "subpoint_id": "A4.4.2",
     "subpoint_name": "Pick-Accuracy Tolerance Enforcement",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -4545,7 +4545,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A6.2.1",
+    "subpoint_id": "A4.5.1",
     "subpoint_name": "Packaging Standard by Produce Category",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -4553,7 +4553,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A6.2.1",
+    "subpoint_id": "A4.5.1",
     "subpoint_name": "Packaging Standard by Produce Category",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -4561,7 +4561,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A6.2.1",
+    "subpoint_id": "A4.5.1",
     "subpoint_name": "Packaging Standard by Produce Category",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -4569,7 +4569,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A6.2.1",
+    "subpoint_id": "A4.5.1",
     "subpoint_name": "Packaging Standard by Produce Category",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -4577,7 +4577,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A6.2.2",
+    "subpoint_id": "A4.5.2",
     "subpoint_name": "Transit-Damage Tracking & Feedback",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -4585,7 +4585,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A6.2.2",
+    "subpoint_id": "A4.5.2",
     "subpoint_name": "Transit-Damage Tracking & Feedback",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -4593,7 +4593,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A6.2.2",
+    "subpoint_id": "A4.5.2",
     "subpoint_name": "Transit-Damage Tracking & Feedback",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -4601,7 +4601,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A6.2.2",
+    "subpoint_id": "A4.5.2",
     "subpoint_name": "Transit-Damage Tracking & Feedback",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -4609,7 +4609,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A7.1.1",
+    "subpoint_id": "A5.1.1",
     "subpoint_name": "Spoilage Logging Discipline",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -4617,7 +4617,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A7.1.1",
+    "subpoint_id": "A5.1.1",
     "subpoint_name": "Spoilage Logging Discipline",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -4625,7 +4625,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A7.1.1",
+    "subpoint_id": "A5.1.1",
     "subpoint_name": "Spoilage Logging Discipline",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -4633,7 +4633,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A7.1.1",
+    "subpoint_id": "A5.1.1",
     "subpoint_name": "Spoilage Logging Discipline",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -4641,7 +4641,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A7.1.2",
+    "subpoint_id": "A5.1.2",
     "subpoint_name": "Shrinkage % Benchmarking",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -4649,7 +4649,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A7.1.2",
+    "subpoint_id": "A5.1.2",
     "subpoint_name": "Shrinkage % Benchmarking",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -4657,7 +4657,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A7.1.2",
+    "subpoint_id": "A5.1.2",
     "subpoint_name": "Shrinkage % Benchmarking",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -4665,7 +4665,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A7.1.2",
+    "subpoint_id": "A5.1.2",
     "subpoint_name": "Shrinkage % Benchmarking",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -4673,7 +4673,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A7.2.1",
+    "subpoint_id": "A5.2.1",
     "subpoint_name": "Cause Categorization Process",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -4681,7 +4681,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A7.2.1",
+    "subpoint_id": "A5.2.1",
     "subpoint_name": "Cause Categorization Process",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -4689,7 +4689,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A7.2.1",
+    "subpoint_id": "A5.2.1",
     "subpoint_name": "Cause Categorization Process",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -4697,7 +4697,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A7.2.1",
+    "subpoint_id": "A5.2.1",
     "subpoint_name": "Cause Categorization Process",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -4705,7 +4705,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A7.2.2",
+    "subpoint_id": "A5.2.2",
     "subpoint_name": "Corrective Action Follow-Through",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -4713,7 +4713,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A7.2.2",
+    "subpoint_id": "A5.2.2",
     "subpoint_name": "Corrective Action Follow-Through",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -4721,7 +4721,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A7.2.2",
+    "subpoint_id": "A5.2.2",
     "subpoint_name": "Corrective Action Follow-Through",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -4729,7 +4729,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A7.2.2",
+    "subpoint_id": "A5.2.2",
     "subpoint_name": "Corrective Action Follow-Through",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -4737,7 +4737,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A7.3.1",
+    "subpoint_id": "A5.3.1",
     "subpoint_name": "Write-Off Approval & Verification",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -4745,7 +4745,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A7.3.1",
+    "subpoint_id": "A5.3.1",
     "subpoint_name": "Write-Off Approval & Verification",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -4753,7 +4753,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A7.3.1",
+    "subpoint_id": "A5.3.1",
     "subpoint_name": "Write-Off Approval & Verification",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -4761,7 +4761,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A7.3.1",
+    "subpoint_id": "A5.3.1",
     "subpoint_name": "Write-Off Approval & Verification",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -4769,7 +4769,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A7.3.2",
+    "subpoint_id": "A5.3.2",
     "subpoint_name": "Inventory Reconciliation on Disposal",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -4777,7 +4777,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A7.3.2",
+    "subpoint_id": "A5.3.2",
     "subpoint_name": "Inventory Reconciliation on Disposal",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -4785,7 +4785,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A7.3.2",
+    "subpoint_id": "A5.3.2",
     "subpoint_name": "Inventory Reconciliation on Disposal",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -4793,7 +4793,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A7.3.2",
+    "subpoint_id": "A5.3.2",
     "subpoint_name": "Inventory Reconciliation on Disposal",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -4801,7 +4801,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A8.1.1",
+    "subpoint_id": "A1.1.1",
     "subpoint_name": "CC Receiving Discipline",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -4809,7 +4809,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A8.1.1",
+    "subpoint_id": "A1.1.1",
     "subpoint_name": "CC Receiving Discipline",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -4817,7 +4817,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A8.1.1",
+    "subpoint_id": "A1.1.1",
     "subpoint_name": "CC Receiving Discipline",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -4825,7 +4825,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A8.1.1",
+    "subpoint_id": "A1.1.1",
     "subpoint_name": "CC Receiving Discipline",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -4833,7 +4833,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A8.1.2",
+    "subpoint_id": "A1.1.2",
     "subpoint_name": "CC-to-Warehouse Transit Handling",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -4841,7 +4841,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A8.1.2",
+    "subpoint_id": "A1.1.2",
     "subpoint_name": "CC-to-Warehouse Transit Handling",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -4849,7 +4849,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A8.1.2",
+    "subpoint_id": "A1.1.2",
     "subpoint_name": "CC-to-Warehouse Transit Handling",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -4857,7 +4857,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A8.1.2",
+    "subpoint_id": "A1.1.2",
     "subpoint_name": "CC-to-Warehouse Transit Handling",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -4865,7 +4865,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A8.2.1",
+    "subpoint_id": "A1.2.1",
     "subpoint_name": "Vendor Scorecard Usage",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -4873,7 +4873,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A8.2.1",
+    "subpoint_id": "A1.2.1",
     "subpoint_name": "Vendor Scorecard Usage",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -4881,7 +4881,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A8.2.1",
+    "subpoint_id": "A1.2.1",
     "subpoint_name": "Vendor Scorecard Usage",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -4889,7 +4889,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A8.2.1",
+    "subpoint_id": "A1.2.1",
     "subpoint_name": "Vendor Scorecard Usage",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -4897,7 +4897,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A8.2.2",
+    "subpoint_id": "A1.2.2",
     "subpoint_name": "Vendor Onboarding & Capability Assessment",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -4905,7 +4905,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A8.2.2",
+    "subpoint_id": "A1.2.2",
     "subpoint_name": "Vendor Onboarding & Capability Assessment",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -4913,7 +4913,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A8.2.2",
+    "subpoint_id": "A1.2.2",
     "subpoint_name": "Vendor Onboarding & Capability Assessment",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -4921,7 +4921,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A8.2.2",
+    "subpoint_id": "A1.2.2",
     "subpoint_name": "Vendor Onboarding & Capability Assessment",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -4929,7 +4929,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A9.1.1",
+    "subpoint_id": "A3.6.1",
     "subpoint_name": "Flow Pattern Definition",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -4937,7 +4937,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A9.1.1",
+    "subpoint_id": "A3.6.1",
     "subpoint_name": "Flow Pattern Definition",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -4945,7 +4945,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A9.1.1",
+    "subpoint_id": "A3.6.1",
     "subpoint_name": "Flow Pattern Definition",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -4953,7 +4953,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A9.1.1",
+    "subpoint_id": "A3.6.1",
     "subpoint_name": "Flow Pattern Definition",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -4961,7 +4961,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A9.1.2",
+    "subpoint_id": "A3.6.2",
     "subpoint_name": "Cross-Traffic & Congestion Management",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -4969,7 +4969,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A9.1.2",
+    "subpoint_id": "A3.6.2",
     "subpoint_name": "Cross-Traffic & Congestion Management",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -4977,7 +4977,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A9.1.2",
+    "subpoint_id": "A3.6.2",
     "subpoint_name": "Cross-Traffic & Congestion Management",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -4985,7 +4985,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A9.1.2",
+    "subpoint_id": "A3.6.2",
     "subpoint_name": "Cross-Traffic & Congestion Management",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -4993,7 +4993,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A9.2.1",
+    "subpoint_id": "A3.7.1",
     "subpoint_name": "Dock Slot Allocation Logic",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -5001,7 +5001,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A9.2.1",
+    "subpoint_id": "A3.7.1",
     "subpoint_name": "Dock Slot Allocation Logic",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -5009,7 +5009,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A9.2.1",
+    "subpoint_id": "A3.7.1",
     "subpoint_name": "Dock Slot Allocation Logic",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -5017,7 +5017,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A9.2.1",
+    "subpoint_id": "A3.7.1",
     "subpoint_name": "Dock Slot Allocation Logic",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -5025,7 +5025,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A9.2.2",
+    "subpoint_id": "A3.7.2",
     "subpoint_name": "Slot Utilization Tracking",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -5033,7 +5033,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A9.2.2",
+    "subpoint_id": "A3.7.2",
     "subpoint_name": "Slot Utilization Tracking",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -5041,7 +5041,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A9.2.2",
+    "subpoint_id": "A3.7.2",
     "subpoint_name": "Slot Utilization Tracking",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -5049,7 +5049,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A9.2.2",
+    "subpoint_id": "A3.7.2",
     "subpoint_name": "Slot Utilization Tracking",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -5057,7 +5057,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A10.1.1",
+    "subpoint_id": "A2.8.1",
     "subpoint_name": "Rejection Segregation & Holding",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -5065,7 +5065,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A10.1.1",
+    "subpoint_id": "A2.8.1",
     "subpoint_name": "Rejection Segregation & Holding",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -5073,7 +5073,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A10.1.1",
+    "subpoint_id": "A2.8.1",
     "subpoint_name": "Rejection Segregation & Holding",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -5081,7 +5081,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A10.1.1",
+    "subpoint_id": "A2.8.1",
     "subpoint_name": "Rejection Segregation & Holding",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -5089,7 +5089,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A10.1.2",
+    "subpoint_id": "A2.8.2",
     "subpoint_name": "Disposition Decision Process",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -5097,7 +5097,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A10.1.2",
+    "subpoint_id": "A2.8.2",
     "subpoint_name": "Disposition Decision Process",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -5105,7 +5105,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A10.1.2",
+    "subpoint_id": "A2.8.2",
     "subpoint_name": "Disposition Decision Process",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -5113,7 +5113,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A10.1.2",
+    "subpoint_id": "A2.8.2",
     "subpoint_name": "Disposition Decision Process",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -5121,7 +5121,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A10.2.1",
+    "subpoint_id": "A2.9.1",
     "subpoint_name": "Rejection Reason Communication to Vendor",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -5129,7 +5129,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A10.2.1",
+    "subpoint_id": "A2.9.1",
     "subpoint_name": "Rejection Reason Communication to Vendor",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -5137,7 +5137,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A10.2.1",
+    "subpoint_id": "A2.9.1",
     "subpoint_name": "Rejection Reason Communication to Vendor",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -5145,7 +5145,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A10.2.1",
+    "subpoint_id": "A2.9.1",
     "subpoint_name": "Rejection Reason Communication to Vendor",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -5153,7 +5153,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A10.2.2",
+    "subpoint_id": "A2.9.2",
     "subpoint_name": "Rejection Trend Analysis",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -5161,7 +5161,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A10.2.2",
+    "subpoint_id": "A2.9.2",
     "subpoint_name": "Rejection Trend Analysis",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -5169,7 +5169,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A10.2.2",
+    "subpoint_id": "A2.9.2",
     "subpoint_name": "Rejection Trend Analysis",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -5177,7 +5177,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A10.2.2",
+    "subpoint_id": "A2.9.2",
     "subpoint_name": "Rejection Trend Analysis",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -5185,7 +5185,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A11.1.1",
+    "subpoint_id": "A5.4.1",
     "subpoint_name": "Return Receiving SOP",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -5193,7 +5193,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A11.1.1",
+    "subpoint_id": "A5.4.1",
     "subpoint_name": "Return Receiving SOP",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -5201,7 +5201,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A11.1.1",
+    "subpoint_id": "A5.4.1",
     "subpoint_name": "Return Receiving SOP",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -5209,7 +5209,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A11.1.1",
+    "subpoint_id": "A5.4.1",
     "subpoint_name": "Return Receiving SOP",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -5217,7 +5217,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A11.1.2",
+    "subpoint_id": "A5.4.2",
     "subpoint_name": "Return Disposition",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -5225,7 +5225,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A11.1.2",
+    "subpoint_id": "A5.4.2",
     "subpoint_name": "Return Disposition",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -5233,7 +5233,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A11.1.2",
+    "subpoint_id": "A5.4.2",
     "subpoint_name": "Return Disposition",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -5241,7 +5241,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A11.1.2",
+    "subpoint_id": "A5.4.2",
     "subpoint_name": "Return Disposition",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -5249,7 +5249,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A11.2.1",
+    "subpoint_id": "A5.5.1",
     "subpoint_name": "Return Reason Tracking",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -5257,7 +5257,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A11.2.1",
+    "subpoint_id": "A5.5.1",
     "subpoint_name": "Return Reason Tracking",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -5265,7 +5265,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A11.2.1",
+    "subpoint_id": "A5.5.1",
     "subpoint_name": "Return Reason Tracking",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -5273,7 +5273,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A11.2.1",
+    "subpoint_id": "A5.5.1",
     "subpoint_name": "Return Reason Tracking",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -5281,7 +5281,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A11.2.2",
+    "subpoint_id": "A5.5.2",
     "subpoint_name": "Return-Driven Process Correction",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -5289,7 +5289,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A11.2.2",
+    "subpoint_id": "A5.5.2",
     "subpoint_name": "Return-Driven Process Correction",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -5297,7 +5297,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A11.2.2",
+    "subpoint_id": "A5.5.2",
     "subpoint_name": "Return-Driven Process Correction",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -5305,7 +5305,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A11.2.2",
+    "subpoint_id": "A5.5.2",
     "subpoint_name": "Return-Driven Process Correction",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -5313,7 +5313,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A12.1.1",
+    "subpoint_id": "A5.6.1",
     "subpoint_name": "Complaint Logging Discipline",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -5321,7 +5321,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A12.1.1",
+    "subpoint_id": "A5.6.1",
     "subpoint_name": "Complaint Logging Discipline",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -5329,7 +5329,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A12.1.1",
+    "subpoint_id": "A5.6.1",
     "subpoint_name": "Complaint Logging Discipline",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -5337,7 +5337,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A12.1.1",
+    "subpoint_id": "A5.6.1",
     "subpoint_name": "Complaint Logging Discipline",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -5345,7 +5345,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A12.1.2",
+    "subpoint_id": "A5.6.2",
     "subpoint_name": "Complaint-to-Batch Traceability",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -5353,7 +5353,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A12.1.2",
+    "subpoint_id": "A5.6.2",
     "subpoint_name": "Complaint-to-Batch Traceability",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -5361,7 +5361,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A12.1.2",
+    "subpoint_id": "A5.6.2",
     "subpoint_name": "Complaint-to-Batch Traceability",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -5369,7 +5369,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A12.1.2",
+    "subpoint_id": "A5.6.2",
     "subpoint_name": "Complaint-to-Batch Traceability",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -5377,7 +5377,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A12.2.1",
+    "subpoint_id": "A5.7.1",
     "subpoint_name": "Resolution Time & Ownership",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -5385,7 +5385,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A12.2.1",
+    "subpoint_id": "A5.7.1",
     "subpoint_name": "Resolution Time & Ownership",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -5393,7 +5393,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A12.2.1",
+    "subpoint_id": "A5.7.1",
     "subpoint_name": "Resolution Time & Ownership",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -5401,7 +5401,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A12.2.1",
+    "subpoint_id": "A5.7.1",
     "subpoint_name": "Resolution Time & Ownership",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -5409,7 +5409,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A12.2.2",
+    "subpoint_id": "A5.7.2",
     "subpoint_name": "Complaint-to-Wastage Correlation",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -5417,7 +5417,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A12.2.2",
+    "subpoint_id": "A5.7.2",
     "subpoint_name": "Complaint-to-Wastage Correlation",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -5425,7 +5425,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A12.2.2",
+    "subpoint_id": "A5.7.2",
     "subpoint_name": "Complaint-to-Wastage Correlation",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -5433,7 +5433,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A12.2.2",
+    "subpoint_id": "A5.7.2",
     "subpoint_name": "Complaint-to-Wastage Correlation",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -5441,7 +5441,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A13.1.1",
+    "subpoint_id": "A6.1.1",
     "subpoint_name": "Policy Documentation & Distribution",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -5449,7 +5449,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A13.1.1",
+    "subpoint_id": "A6.1.1",
     "subpoint_name": "Policy Documentation & Distribution",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -5457,7 +5457,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A13.1.1",
+    "subpoint_id": "A6.1.1",
     "subpoint_name": "Policy Documentation & Distribution",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -5465,7 +5465,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A13.1.1",
+    "subpoint_id": "A6.1.1",
     "subpoint_name": "Policy Documentation & Distribution",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -5473,7 +5473,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A13.1.2",
+    "subpoint_id": "A6.1.2",
     "subpoint_name": "Daily/Weekly Monitoring Rhythm",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -5481,7 +5481,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A13.1.2",
+    "subpoint_id": "A6.1.2",
     "subpoint_name": "Daily/Weekly Monitoring Rhythm",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -5489,7 +5489,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A13.1.2",
+    "subpoint_id": "A6.1.2",
     "subpoint_name": "Daily/Weekly Monitoring Rhythm",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -5497,7 +5497,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A13.1.2",
+    "subpoint_id": "A6.1.2",
     "subpoint_name": "Daily/Weekly Monitoring Rhythm",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -5505,7 +5505,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A13.2.1",
+    "subpoint_id": "A6.2.1",
     "subpoint_name": "Threshold Definition",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -5513,7 +5513,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A13.2.1",
+    "subpoint_id": "A6.2.1",
     "subpoint_name": "Threshold Definition",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -5521,7 +5521,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A13.2.1",
+    "subpoint_id": "A6.2.1",
     "subpoint_name": "Threshold Definition",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -5529,7 +5529,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A13.2.1",
+    "subpoint_id": "A6.2.1",
     "subpoint_name": "Threshold Definition",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -5537,7 +5537,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A13.2.2",
+    "subpoint_id": "A6.2.2",
     "subpoint_name": "Escalation Response & Closure",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -5545,7 +5545,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A13.2.2",
+    "subpoint_id": "A6.2.2",
     "subpoint_name": "Escalation Response & Closure",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -5553,7 +5553,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A13.2.2",
+    "subpoint_id": "A6.2.2",
     "subpoint_name": "Escalation Response & Closure",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -5561,7 +5561,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A13.2.2",
+    "subpoint_id": "A6.2.2",
     "subpoint_name": "Escalation Response & Closure",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -5569,7 +5569,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A14.1.1",
+    "subpoint_id": "A1.3.1",
     "subpoint_name": "Daily Market Intelligence Discipline",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -5577,7 +5577,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A14.1.1",
+    "subpoint_id": "A1.3.1",
     "subpoint_name": "Daily Market Intelligence Discipline",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -5585,7 +5585,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A14.1.1",
+    "subpoint_id": "A1.3.1",
     "subpoint_name": "Daily Market Intelligence Discipline",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -5593,7 +5593,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A14.1.1",
+    "subpoint_id": "A1.3.1",
     "subpoint_name": "Daily Market Intelligence Discipline",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -5601,7 +5601,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A14.1.2",
+    "subpoint_id": "A1.3.2",
     "subpoint_name": "Seasonal Adjustment Process",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -5609,7 +5609,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A14.1.2",
+    "subpoint_id": "A1.3.2",
     "subpoint_name": "Seasonal Adjustment Process",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -5617,7 +5617,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A14.1.2",
+    "subpoint_id": "A1.3.2",
     "subpoint_name": "Seasonal Adjustment Process",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -5625,7 +5625,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A14.1.2",
+    "subpoint_id": "A1.3.2",
     "subpoint_name": "Seasonal Adjustment Process",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -5633,7 +5633,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A14.2.1",
+    "subpoint_id": "A1.4.1",
     "subpoint_name": "Benchmark Company Tracking",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -5641,7 +5641,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A14.2.1",
+    "subpoint_id": "A1.4.1",
     "subpoint_name": "Benchmark Company Tracking",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -5649,7 +5649,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A14.2.1",
+    "subpoint_id": "A1.4.1",
     "subpoint_name": "Benchmark Company Tracking",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -5657,7 +5657,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A14.2.1",
+    "subpoint_id": "A1.4.1",
     "subpoint_name": "Benchmark Company Tracking",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -5665,7 +5665,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A14.2.2",
+    "subpoint_id": "A1.4.2",
     "subpoint_name": "Hub-wise SKU & S&G Norms",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -5673,7 +5673,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A14.2.2",
+    "subpoint_id": "A1.4.2",
     "subpoint_name": "Hub-wise SKU & S&G Norms",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -5681,7 +5681,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A14.2.2",
+    "subpoint_id": "A1.4.2",
     "subpoint_name": "Hub-wise SKU & S&G Norms",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -5689,7 +5689,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A14.2.2",
+    "subpoint_id": "A1.4.2",
     "subpoint_name": "Hub-wise SKU & S&G Norms",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -5697,7 +5697,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A15.1.1",
+    "subpoint_id": "A7.1.1",
     "subpoint_name": "Role-Based Training Curriculum",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -5705,7 +5705,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A15.1.1",
+    "subpoint_id": "A7.1.1",
     "subpoint_name": "Role-Based Training Curriculum",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -5713,7 +5713,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A15.1.1",
+    "subpoint_id": "A7.1.1",
     "subpoint_name": "Role-Based Training Curriculum",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -5721,7 +5721,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A15.1.1",
+    "subpoint_id": "A7.1.1",
     "subpoint_name": "Role-Based Training Curriculum",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -5729,7 +5729,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A15.1.2",
+    "subpoint_id": "A7.1.2",
     "subpoint_name": "SOP-to-Training Linkage",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -5737,7 +5737,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A15.1.2",
+    "subpoint_id": "A7.1.2",
     "subpoint_name": "SOP-to-Training Linkage",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -5745,7 +5745,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A15.1.2",
+    "subpoint_id": "A7.1.2",
     "subpoint_name": "SOP-to-Training Linkage",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -5753,7 +5753,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A15.1.2",
+    "subpoint_id": "A7.1.2",
     "subpoint_name": "SOP-to-Training Linkage",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -5761,7 +5761,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A15.2.1",
+    "subpoint_id": "A7.2.1",
     "subpoint_name": "Training Completion Tracking",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -5769,7 +5769,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A15.2.1",
+    "subpoint_id": "A7.2.1",
     "subpoint_name": "Training Completion Tracking",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -5777,7 +5777,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A15.2.1",
+    "subpoint_id": "A7.2.1",
     "subpoint_name": "Training Completion Tracking",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -5785,7 +5785,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A15.2.1",
+    "subpoint_id": "A7.2.1",
     "subpoint_name": "Training Completion Tracking",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -5793,7 +5793,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A15.2.2",
+    "subpoint_id": "A7.2.2",
     "subpoint_name": "Post-Training Competency Check",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -5801,7 +5801,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A15.2.2",
+    "subpoint_id": "A7.2.2",
     "subpoint_name": "Post-Training Competency Check",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -5809,7 +5809,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A15.2.2",
+    "subpoint_id": "A7.2.2",
     "subpoint_name": "Post-Training Competency Check",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -5817,7 +5817,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A15.2.2",
+    "subpoint_id": "A7.2.2",
     "subpoint_name": "Post-Training Competency Check",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -5825,7 +5825,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A16.1.1",
+    "subpoint_id": "A7.3.1",
     "subpoint_name": "Headcount Planning vs Volume",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -5833,7 +5833,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A16.1.1",
+    "subpoint_id": "A7.3.1",
     "subpoint_name": "Headcount Planning vs Volume",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -5841,7 +5841,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A16.1.1",
+    "subpoint_id": "A7.3.1",
     "subpoint_name": "Headcount Planning vs Volume",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -5849,7 +5849,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A16.1.1",
+    "subpoint_id": "A7.3.1",
     "subpoint_name": "Headcount Planning vs Volume",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -5857,7 +5857,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A16.1.2",
+    "subpoint_id": "A7.3.2",
     "subpoint_name": "Peak-Period Staffing Flexibility",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -5865,7 +5865,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A16.1.2",
+    "subpoint_id": "A7.3.2",
     "subpoint_name": "Peak-Period Staffing Flexibility",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -5873,7 +5873,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A16.1.2",
+    "subpoint_id": "A7.3.2",
     "subpoint_name": "Peak-Period Staffing Flexibility",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -5881,7 +5881,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A16.1.2",
+    "subpoint_id": "A7.3.2",
     "subpoint_name": "Peak-Period Staffing Flexibility",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -5889,7 +5889,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A16.2.1",
+    "subpoint_id": "A7.4.1",
     "subpoint_name": "Role/Responsibility Definition",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -5897,7 +5897,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A16.2.1",
+    "subpoint_id": "A7.4.1",
     "subpoint_name": "Role/Responsibility Definition",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -5905,7 +5905,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A16.2.1",
+    "subpoint_id": "A7.4.1",
     "subpoint_name": "Role/Responsibility Definition",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -5913,7 +5913,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A16.2.1",
+    "subpoint_id": "A7.4.1",
     "subpoint_name": "Role/Responsibility Definition",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -5921,7 +5921,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A16.2.2",
+    "subpoint_id": "A7.4.2",
     "subpoint_name": "Attrition Tracking & Response",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -5929,7 +5929,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A16.2.2",
+    "subpoint_id": "A7.4.2",
     "subpoint_name": "Attrition Tracking & Response",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -5937,7 +5937,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A16.2.2",
+    "subpoint_id": "A7.4.2",
     "subpoint_name": "Attrition Tracking & Response",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -5945,7 +5945,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A16.2.2",
+    "subpoint_id": "A7.4.2",
     "subpoint_name": "Attrition Tracking & Response",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -5953,7 +5953,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A17.1.1",
+    "subpoint_id": "A6.3.1",
     "subpoint_name": "Metric Definition Completeness",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -5961,7 +5961,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A17.1.1",
+    "subpoint_id": "A6.3.1",
     "subpoint_name": "Metric Definition Completeness",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -5969,7 +5969,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A17.1.1",
+    "subpoint_id": "A6.3.1",
     "subpoint_name": "Metric Definition Completeness",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -5977,7 +5977,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A17.1.1",
+    "subpoint_id": "A6.3.1",
     "subpoint_name": "Metric Definition Completeness",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -5985,7 +5985,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A17.1.2",
+    "subpoint_id": "A6.3.2",
     "subpoint_name": "Metric Ownership Assignment",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -5993,7 +5993,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A17.1.2",
+    "subpoint_id": "A6.3.2",
     "subpoint_name": "Metric Ownership Assignment",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -6001,7 +6001,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A17.1.2",
+    "subpoint_id": "A6.3.2",
     "subpoint_name": "Metric Ownership Assignment",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -6009,7 +6009,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A17.1.2",
+    "subpoint_id": "A6.3.2",
     "subpoint_name": "Metric Ownership Assignment",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -6017,7 +6017,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A17.2.1",
+    "subpoint_id": "A6.4.1",
     "subpoint_name": "Dashboard Availability & Refresh Cadence",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -6025,7 +6025,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A17.2.1",
+    "subpoint_id": "A6.4.1",
     "subpoint_name": "Dashboard Availability & Refresh Cadence",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -6033,7 +6033,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A17.2.1",
+    "subpoint_id": "A6.4.1",
     "subpoint_name": "Dashboard Availability & Refresh Cadence",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -6041,7 +6041,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A17.2.1",
+    "subpoint_id": "A6.4.1",
     "subpoint_name": "Dashboard Availability & Refresh Cadence",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -6049,7 +6049,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A17.2.2",
+    "subpoint_id": "A6.4.2",
     "subpoint_name": "Metric-Driven Decision Making",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -6057,7 +6057,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A17.2.2",
+    "subpoint_id": "A6.4.2",
     "subpoint_name": "Metric-Driven Decision Making",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -6065,7 +6065,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A17.2.2",
+    "subpoint_id": "A6.4.2",
     "subpoint_name": "Metric-Driven Decision Making",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -6073,7 +6073,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A17.2.2",
+    "subpoint_id": "A6.4.2",
     "subpoint_name": "Metric-Driven Decision Making",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -6081,7 +6081,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A18.1.1",
+    "subpoint_id": "A6.5.1",
     "subpoint_name": "Cost-per-Unit Tracking",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -6089,7 +6089,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A18.1.1",
+    "subpoint_id": "A6.5.1",
     "subpoint_name": "Cost-per-Unit Tracking",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -6097,7 +6097,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A18.1.1",
+    "subpoint_id": "A6.5.1",
     "subpoint_name": "Cost-per-Unit Tracking",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -6105,7 +6105,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A18.1.1",
+    "subpoint_id": "A6.5.1",
     "subpoint_name": "Cost-per-Unit Tracking",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -6113,7 +6113,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A18.1.2",
+    "subpoint_id": "A6.5.2",
     "subpoint_name": "Cost Benchmarking vs Target",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -6121,7 +6121,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A18.1.2",
+    "subpoint_id": "A6.5.2",
     "subpoint_name": "Cost Benchmarking vs Target",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -6129,7 +6129,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A18.1.2",
+    "subpoint_id": "A6.5.2",
     "subpoint_name": "Cost Benchmarking vs Target",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -6137,7 +6137,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A18.1.2",
+    "subpoint_id": "A6.5.2",
     "subpoint_name": "Cost Benchmarking vs Target",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -6145,7 +6145,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A18.2.1",
+    "subpoint_id": "A6.6.1",
     "subpoint_name": "Spoilage/Rejection Cost Quantification",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -6153,7 +6153,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A18.2.1",
+    "subpoint_id": "A6.6.1",
     "subpoint_name": "Spoilage/Rejection Cost Quantification",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -6161,7 +6161,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A18.2.1",
+    "subpoint_id": "A6.6.1",
     "subpoint_name": "Spoilage/Rejection Cost Quantification",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -6169,7 +6169,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A18.2.1",
+    "subpoint_id": "A6.6.1",
     "subpoint_name": "Spoilage/Rejection Cost Quantification",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -6177,7 +6177,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A18.2.2",
+    "subpoint_id": "A6.6.2",
     "subpoint_name": "Cost-Impact Reporting to Stakeholders",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -6185,7 +6185,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A18.2.2",
+    "subpoint_id": "A6.6.2",
     "subpoint_name": "Cost-Impact Reporting to Stakeholders",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -6193,7 +6193,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A18.2.2",
+    "subpoint_id": "A6.6.2",
     "subpoint_name": "Cost-Impact Reporting to Stakeholders",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -6201,7 +6201,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A18.2.2",
+    "subpoint_id": "A6.6.2",
     "subpoint_name": "Cost-Impact Reporting to Stakeholders",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -6209,7 +6209,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A1.4.1",
+    "subpoint_id": "A2.4.1",
     "subpoint_name": "Weighing Equipment Calibration",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -6217,7 +6217,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A1.4.1",
+    "subpoint_id": "A2.4.1",
     "subpoint_name": "Weighing Equipment Calibration",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -6225,7 +6225,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A1.4.1",
+    "subpoint_id": "A2.4.1",
     "subpoint_name": "Weighing Equipment Calibration",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -6233,7 +6233,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A1.4.1",
+    "subpoint_id": "A2.4.1",
     "subpoint_name": "Weighing Equipment Calibration",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -6241,7 +6241,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A1.4.2",
+    "subpoint_id": "A2.4.2",
     "subpoint_name": "Weighment Accuracy Verification",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -6249,7 +6249,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A1.4.2",
+    "subpoint_id": "A2.4.2",
     "subpoint_name": "Weighment Accuracy Verification",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -6257,7 +6257,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A1.4.2",
+    "subpoint_id": "A2.4.2",
     "subpoint_name": "Weighment Accuracy Verification",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -6265,7 +6265,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A1.4.2",
+    "subpoint_id": "A2.4.2",
     "subpoint_name": "Weighment Accuracy Verification",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -6273,7 +6273,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A9.3.1",
+    "subpoint_id": "A3.8.1",
     "subpoint_name": "Touch-Count Measurement",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -6281,7 +6281,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A9.3.1",
+    "subpoint_id": "A3.8.1",
     "subpoint_name": "Touch-Count Measurement",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -6289,7 +6289,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A9.3.1",
+    "subpoint_id": "A3.8.1",
     "subpoint_name": "Touch-Count Measurement",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -6297,7 +6297,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A9.3.1",
+    "subpoint_id": "A3.8.1",
     "subpoint_name": "Touch-Count Measurement",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -6305,7 +6305,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A9.3.2",
+    "subpoint_id": "A3.8.2",
     "subpoint_name": "Touch Reduction Initiatives",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -6313,7 +6313,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A9.3.2",
+    "subpoint_id": "A3.8.2",
     "subpoint_name": "Touch Reduction Initiatives",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -6321,7 +6321,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A9.3.2",
+    "subpoint_id": "A3.8.2",
     "subpoint_name": "Touch Reduction Initiatives",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -6329,7 +6329,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A9.3.2",
+    "subpoint_id": "A3.8.2",
     "subpoint_name": "Touch Reduction Initiatives",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -6337,7 +6337,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A16.3.1",
+    "subpoint_id": "A7.5.1",
     "subpoint_name": "Cross-Utilization Practice",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -6345,7 +6345,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A16.3.1",
+    "subpoint_id": "A7.5.1",
     "subpoint_name": "Cross-Utilization Practice",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -6353,7 +6353,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A16.3.1",
+    "subpoint_id": "A7.5.1",
     "subpoint_name": "Cross-Utilization Practice",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -6361,7 +6361,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A16.3.1",
+    "subpoint_id": "A7.5.1",
     "subpoint_name": "Cross-Utilization Practice",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -6369,7 +6369,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A16.3.2",
+    "subpoint_id": "A7.5.2",
     "subpoint_name": "Skill/Training Matrix Maintenance",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -6377,7 +6377,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A16.3.2",
+    "subpoint_id": "A7.5.2",
     "subpoint_name": "Skill/Training Matrix Maintenance",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -6385,7 +6385,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A16.3.2",
+    "subpoint_id": "A7.5.2",
     "subpoint_name": "Skill/Training Matrix Maintenance",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -6393,7 +6393,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A16.3.2",
+    "subpoint_id": "A7.5.2",
     "subpoint_name": "Skill/Training Matrix Maintenance",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -6401,7 +6401,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A18.3.1",
+    "subpoint_id": "A6.7.1",
     "subpoint_name": "Labor Cost as % of Throughput Value",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -6409,7 +6409,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A18.3.1",
+    "subpoint_id": "A6.7.1",
     "subpoint_name": "Labor Cost as % of Throughput Value",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -6417,7 +6417,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A18.3.1",
+    "subpoint_id": "A6.7.1",
     "subpoint_name": "Labor Cost as % of Throughput Value",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -6425,7 +6425,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A18.3.1",
+    "subpoint_id": "A6.7.1",
     "subpoint_name": "Labor Cost as % of Throughput Value",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -6433,7 +6433,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A18.3.2",
+    "subpoint_id": "A6.7.2",
     "subpoint_name": "Energy/Utility Cost Discipline",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -6441,7 +6441,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A18.3.2",
+    "subpoint_id": "A6.7.2",
     "subpoint_name": "Energy/Utility Cost Discipline",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -6449,7 +6449,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A18.3.2",
+    "subpoint_id": "A6.7.2",
     "subpoint_name": "Energy/Utility Cost Discipline",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -6457,7 +6457,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A18.3.2",
+    "subpoint_id": "A6.7.2",
     "subpoint_name": "Energy/Utility Cost Discipline",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -6465,7 +6465,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A19.1.1",
+    "subpoint_id": "A4.6.1",
     "subpoint_name": "Load Plan vs Order Accuracy",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -6473,7 +6473,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A19.1.1",
+    "subpoint_id": "A4.6.1",
     "subpoint_name": "Load Plan vs Order Accuracy",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -6481,7 +6481,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A19.1.1",
+    "subpoint_id": "A4.6.1",
     "subpoint_name": "Load Plan vs Order Accuracy",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -6489,7 +6489,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A19.1.1",
+    "subpoint_id": "A4.6.1",
     "subpoint_name": "Load Plan vs Order Accuracy",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -6497,7 +6497,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A19.1.2",
+    "subpoint_id": "A4.6.2",
     "subpoint_name": "Dispatch Sequencing Logic",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -6505,7 +6505,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A19.1.2",
+    "subpoint_id": "A4.6.2",
     "subpoint_name": "Dispatch Sequencing Logic",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -6513,7 +6513,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A19.1.2",
+    "subpoint_id": "A4.6.2",
     "subpoint_name": "Dispatch Sequencing Logic",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -6521,7 +6521,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A19.1.2",
+    "subpoint_id": "A4.6.2",
     "subpoint_name": "Dispatch Sequencing Logic",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -6529,7 +6529,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A19.2.1",
+    "subpoint_id": "A4.7.1",
     "subpoint_name": "Outbound Weighment & Documentation Accuracy",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -6537,7 +6537,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A19.2.1",
+    "subpoint_id": "A4.7.1",
     "subpoint_name": "Outbound Weighment & Documentation Accuracy",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -6545,7 +6545,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A19.2.1",
+    "subpoint_id": "A4.7.1",
     "subpoint_name": "Outbound Weighment & Documentation Accuracy",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -6553,7 +6553,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A19.2.1",
+    "subpoint_id": "A4.7.1",
     "subpoint_name": "Outbound Weighment & Documentation Accuracy",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -6561,7 +6561,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A19.2.2",
+    "subpoint_id": "A4.7.2",
     "subpoint_name": "Outbound Dock Turnaround Time",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -6569,7 +6569,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A19.2.2",
+    "subpoint_id": "A4.7.2",
     "subpoint_name": "Outbound Dock Turnaround Time",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -6577,7 +6577,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A19.2.2",
+    "subpoint_id": "A4.7.2",
     "subpoint_name": "Outbound Dock Turnaround Time",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -6585,7 +6585,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A19.2.2",
+    "subpoint_id": "A4.7.2",
     "subpoint_name": "Outbound Dock Turnaround Time",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -6593,7 +6593,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A20.1.1",
+    "subpoint_id": "A4.8.1",
     "subpoint_name": "Pick Path Design",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -6601,7 +6601,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A20.1.1",
+    "subpoint_id": "A4.8.1",
     "subpoint_name": "Pick Path Design",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -6609,7 +6609,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A20.1.1",
+    "subpoint_id": "A4.8.1",
     "subpoint_name": "Pick Path Design",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -6617,7 +6617,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A20.1.1",
+    "subpoint_id": "A4.8.1",
     "subpoint_name": "Pick Path Design",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -6625,7 +6625,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A20.1.2",
+    "subpoint_id": "A4.8.2",
     "subpoint_name": "Pick Cart/Tooling Fitness",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -6633,7 +6633,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A20.1.2",
+    "subpoint_id": "A4.8.2",
     "subpoint_name": "Pick Cart/Tooling Fitness",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -6641,7 +6641,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A20.1.2",
+    "subpoint_id": "A4.8.2",
     "subpoint_name": "Pick Cart/Tooling Fitness",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -6649,7 +6649,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A20.1.2",
+    "subpoint_id": "A4.8.2",
     "subpoint_name": "Pick Cart/Tooling Fitness",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -6657,7 +6657,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A20.2.1",
+    "subpoint_id": "A4.9.1",
     "subpoint_name": "Zone Picking Discipline",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -6665,7 +6665,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A20.2.1",
+    "subpoint_id": "A4.9.1",
     "subpoint_name": "Zone Picking Discipline",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -6673,7 +6673,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A20.2.1",
+    "subpoint_id": "A4.9.1",
     "subpoint_name": "Zone Picking Discipline",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -6681,7 +6681,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A20.2.1",
+    "subpoint_id": "A4.9.1",
     "subpoint_name": "Zone Picking Discipline",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -6689,7 +6689,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A20.2.2",
+    "subpoint_id": "A4.9.2",
     "subpoint_name": "Crate/Tote Tagging Accuracy",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -6697,7 +6697,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A20.2.2",
+    "subpoint_id": "A4.9.2",
     "subpoint_name": "Crate/Tote Tagging Accuracy",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -6705,7 +6705,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A20.2.2",
+    "subpoint_id": "A4.9.2",
     "subpoint_name": "Crate/Tote Tagging Accuracy",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -6713,7 +6713,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A20.2.2",
+    "subpoint_id": "A4.9.2",
     "subpoint_name": "Crate/Tote Tagging Accuracy",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -6721,7 +6721,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A21.1.1",
+    "subpoint_id": "A4.10.1",
     "subpoint_name": "Pack Station Layout & Workflow",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -6729,7 +6729,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A21.1.1",
+    "subpoint_id": "A4.10.1",
     "subpoint_name": "Pack Station Layout & Workflow",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -6737,7 +6737,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A21.1.1",
+    "subpoint_id": "A4.10.1",
     "subpoint_name": "Pack Station Layout & Workflow",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -6745,7 +6745,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A21.1.1",
+    "subpoint_id": "A4.10.1",
     "subpoint_name": "Pack Station Layout & Workflow",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -6753,7 +6753,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A21.1.2",
+    "subpoint_id": "A4.10.2",
     "subpoint_name": "Packer Ergonomics & Fatigue Management",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -6761,7 +6761,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A21.1.2",
+    "subpoint_id": "A4.10.2",
     "subpoint_name": "Packer Ergonomics & Fatigue Management",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -6769,7 +6769,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A21.1.2",
+    "subpoint_id": "A4.10.2",
     "subpoint_name": "Packer Ergonomics & Fatigue Management",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -6777,7 +6777,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A21.1.2",
+    "subpoint_id": "A4.10.2",
     "subpoint_name": "Packer Ergonomics & Fatigue Management",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -6785,7 +6785,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A21.2.1",
+    "subpoint_id": "A4.11.1",
     "subpoint_name": "Packaging Material Right-Sizing",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -6793,7 +6793,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A21.2.1",
+    "subpoint_id": "A4.11.1",
     "subpoint_name": "Packaging Material Right-Sizing",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -6801,7 +6801,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A21.2.1",
+    "subpoint_id": "A4.11.1",
     "subpoint_name": "Packaging Material Right-Sizing",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -6809,7 +6809,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A21.2.1",
+    "subpoint_id": "A4.11.1",
     "subpoint_name": "Packaging Material Right-Sizing",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -6817,7 +6817,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A21.2.2",
+    "subpoint_id": "A4.11.2",
     "subpoint_name": "Pre-Dispatch Pack QC",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -6825,7 +6825,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A21.2.2",
+    "subpoint_id": "A4.11.2",
     "subpoint_name": "Pre-Dispatch Pack QC",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -6833,7 +6833,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A21.2.2",
+    "subpoint_id": "A4.11.2",
     "subpoint_name": "Pre-Dispatch Pack QC",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -6841,7 +6841,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A21.2.2",
+    "subpoint_id": "A4.11.2",
     "subpoint_name": "Pre-Dispatch Pack QC",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -6849,7 +6849,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A22.1.1",
+    "subpoint_id": "A6.8.1",
     "subpoint_name": "MHE (Forklift/Pallet Truck) Safety Protocol",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -6857,7 +6857,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A22.1.1",
+    "subpoint_id": "A6.8.1",
     "subpoint_name": "MHE (Forklift/Pallet Truck) Safety Protocol",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -6865,7 +6865,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A22.1.1",
+    "subpoint_id": "A6.8.1",
     "subpoint_name": "MHE (Forklift/Pallet Truck) Safety Protocol",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -6873,7 +6873,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A22.1.1",
+    "subpoint_id": "A6.8.1",
     "subpoint_name": "MHE (Forklift/Pallet Truck) Safety Protocol",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -6881,7 +6881,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A22.1.2",
+    "subpoint_id": "A6.8.2",
     "subpoint_name": "Racking Load & Inspection Audits",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -6889,7 +6889,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A22.1.2",
+    "subpoint_id": "A6.8.2",
     "subpoint_name": "Racking Load & Inspection Audits",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -6897,7 +6897,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A22.1.2",
+    "subpoint_id": "A6.8.2",
     "subpoint_name": "Racking Load & Inspection Audits",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -6905,7 +6905,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A22.1.2",
+    "subpoint_id": "A6.8.2",
     "subpoint_name": "Racking Load & Inspection Audits",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -6913,7 +6913,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A22.2.1",
+    "subpoint_id": "A6.9.1",
     "subpoint_name": "Fire & Emergency Preparedness",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -6921,7 +6921,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A22.2.1",
+    "subpoint_id": "A6.9.1",
     "subpoint_name": "Fire & Emergency Preparedness",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -6929,7 +6929,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A22.2.1",
+    "subpoint_id": "A6.9.1",
     "subpoint_name": "Fire & Emergency Preparedness",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -6937,7 +6937,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A22.2.1",
+    "subpoint_id": "A6.9.1",
     "subpoint_name": "Fire & Emergency Preparedness",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -6945,7 +6945,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A22.2.2",
+    "subpoint_id": "A6.9.2",
     "subpoint_name": "Incident/Near-Miss Reporting",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -6953,7 +6953,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A22.2.2",
+    "subpoint_id": "A6.9.2",
     "subpoint_name": "Incident/Near-Miss Reporting",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -6961,7 +6961,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A22.2.2",
+    "subpoint_id": "A6.9.2",
     "subpoint_name": "Incident/Near-Miss Reporting",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -6969,7 +6969,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A22.2.2",
+    "subpoint_id": "A6.9.2",
     "subpoint_name": "Incident/Near-Miss Reporting",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -6977,7 +6977,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A23.1.1",
+    "subpoint_id": "A6.10.1",
     "subpoint_name": "SLA Definition for Outsourced Floor Work",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -6985,7 +6985,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A23.1.1",
+    "subpoint_id": "A6.10.1",
     "subpoint_name": "SLA Definition for Outsourced Floor Work",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -6993,7 +6993,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A23.1.1",
+    "subpoint_id": "A6.10.1",
     "subpoint_name": "SLA Definition for Outsourced Floor Work",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -7001,7 +7001,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A23.1.1",
+    "subpoint_id": "A6.10.1",
     "subpoint_name": "SLA Definition for Outsourced Floor Work",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -7009,7 +7009,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A23.1.2",
+    "subpoint_id": "A6.10.2",
     "subpoint_name": "Quality Parity vs In-House",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -7017,7 +7017,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A23.1.2",
+    "subpoint_id": "A6.10.2",
     "subpoint_name": "Quality Parity vs In-House",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -7025,7 +7025,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A23.1.2",
+    "subpoint_id": "A6.10.2",
     "subpoint_name": "Quality Parity vs In-House",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -7033,7 +7033,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A23.1.2",
+    "subpoint_id": "A6.10.2",
     "subpoint_name": "Quality Parity vs In-House",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -7041,7 +7041,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A23.2.1",
+    "subpoint_id": "A6.11.1",
     "subpoint_name": "Labor-Law & Safety Compliance Pass-Through",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -7049,7 +7049,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A23.2.1",
+    "subpoint_id": "A6.11.1",
     "subpoint_name": "Labor-Law & Safety Compliance Pass-Through",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -7057,7 +7057,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A23.2.1",
+    "subpoint_id": "A6.11.1",
     "subpoint_name": "Labor-Law & Safety Compliance Pass-Through",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -7065,7 +7065,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A23.2.1",
+    "subpoint_id": "A6.11.1",
     "subpoint_name": "Labor-Law & Safety Compliance Pass-Through",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -7073,7 +7073,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A23.2.2",
+    "subpoint_id": "A6.11.2",
     "subpoint_name": "Contractor Onboarding & Performance Tracking",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -7081,7 +7081,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A23.2.2",
+    "subpoint_id": "A6.11.2",
     "subpoint_name": "Contractor Onboarding & Performance Tracking",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -7089,7 +7089,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A23.2.2",
+    "subpoint_id": "A6.11.2",
     "subpoint_name": "Contractor Onboarding & Performance Tracking",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -7097,7 +7097,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A23.2.2",
+    "subpoint_id": "A6.11.2",
     "subpoint_name": "Contractor Onboarding & Performance Tracking",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -7105,7 +7105,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A24.1.1",
+    "subpoint_id": "A6.12.1",
     "subpoint_name": "Racking/Layout Headroom for SKU Growth",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -7113,7 +7113,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A24.1.1",
+    "subpoint_id": "A6.12.1",
     "subpoint_name": "Racking/Layout Headroom for SKU Growth",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -7121,7 +7121,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A24.1.1",
+    "subpoint_id": "A6.12.1",
     "subpoint_name": "Racking/Layout Headroom for SKU Growth",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -7129,7 +7129,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A24.1.1",
+    "subpoint_id": "A6.12.1",
     "subpoint_name": "Racking/Layout Headroom for SKU Growth",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -7137,7 +7137,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A24.1.2",
+    "subpoint_id": "A6.12.2",
     "subpoint_name": "Slotting Re-Optimization Cadence",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -7145,7 +7145,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A24.1.2",
+    "subpoint_id": "A6.12.2",
     "subpoint_name": "Slotting Re-Optimization Cadence",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -7153,7 +7153,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A24.1.2",
+    "subpoint_id": "A6.12.2",
     "subpoint_name": "Slotting Re-Optimization Cadence",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -7161,7 +7161,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A24.1.2",
+    "subpoint_id": "A6.12.2",
     "subpoint_name": "Slotting Re-Optimization Cadence",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -7169,7 +7169,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A24.2.1",
+    "subpoint_id": "A6.13.1",
     "subpoint_name": "Process Scalability Assessment",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -7177,7 +7177,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A24.2.1",
+    "subpoint_id": "A6.13.1",
     "subpoint_name": "Process Scalability Assessment",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -7185,7 +7185,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A24.2.1",
+    "subpoint_id": "A6.13.1",
     "subpoint_name": "Process Scalability Assessment",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -7193,7 +7193,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A24.2.1",
+    "subpoint_id": "A6.13.1",
     "subpoint_name": "Process Scalability Assessment",
     "target_level": 5,
     "target_level_name": "Best-in-class",
@@ -7201,7 +7201,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A24.2.2",
+    "subpoint_id": "A6.13.2",
     "subpoint_name": "Systems/Tech Scalability for SKU Growth",
     "target_level": 2,
     "target_level_name": "Basic",
@@ -7209,7 +7209,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A24.2.2",
+    "subpoint_id": "A6.13.2",
     "subpoint_name": "Systems/Tech Scalability for SKU Growth",
     "target_level": 3,
     "target_level_name": "Standardized",
@@ -7217,7 +7217,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A24.2.2",
+    "subpoint_id": "A6.13.2",
     "subpoint_name": "Systems/Tech Scalability for SKU Growth",
     "target_level": 4,
     "target_level_name": "Managed",
@@ -7225,7 +7225,7 @@
   },
   {
     "module_id": "FNV_WH_V1",
-    "subpoint_id": "A24.2.2",
+    "subpoint_id": "A6.13.2",
     "subpoint_name": "Systems/Tech Scalability for SKU Growth",
     "target_level": 5,
     "target_level_name": "Best-in-class",

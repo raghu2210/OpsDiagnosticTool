@@ -5,7 +5,7 @@
  * Section bodies are plain string arrays (one paragraph per string) rather than JSX so the
  * exact same content can drive both renderers without duplicating the copy.
  */
-export const APP_VERSION = "3.1";
+export const APP_VERSION = "3.2";
 export const APP_UPDATED = "2026-07-21";
 
 export const FLOW_STEPS = ["Data layer", "Build checklist", "Auditor fills", "Score & diagnose", "Outputs"];
@@ -40,6 +40,11 @@ export const WORKFLOW_SECTIONS: { title: string; body: string[] }[] = [
 ];
 
 export const CHANGELOG = [
+  {
+    version: "3.2",
+    date: "2026-07-21",
+    body: "Restructured the FnV Warehouse Diagnostic's area hierarchy: the 7 area-picker categories (Planning & Sourcing, Inbound & Quality, Storage & Inventory, Fulfillment Operations, Loss/Returns & Complaints, Governance & Performance, People & Training) are now the actual Node-2 areas (A1-A7), and the previous 24 areas are re-parented as Node-3 sub-points directly under them - zero content lost. The old 'Area' level never carried its own maturity descriptions (only a name and a weight, aggregated from its sub-point rows), so each old area's sub-points were individually re-IDed and re-parented rather than squeezed into a single new sub-point - all 57 sub-points and all 119 Node-4 problem statements are fully intact with their original names, weights, and 5-level descriptions unchanged. Weight math (new_area_weight = sum of constituent old area_weight values; new_subpoint_weight = old_area_weight * old_subpoint_weight / new_area_weight) preserves every sub-point's global importance exactly - verified with a real end-to-end computeDiagnostic() run using a varied, non-uniform score set that the module score is bit-for-bit identical before and after the migration. IDs renamed throughout Masters, Problems, and Recommendations (552 recommendation rows updated) via scripts/collapse-categories-to-areas.mjs, run against the same content pipeline as every other content change this session.",
+  },
   {
     version: "3.1",
     date: "2026-07-21",

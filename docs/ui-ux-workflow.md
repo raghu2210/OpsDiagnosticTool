@@ -268,6 +268,12 @@ workflow side of any given date.
   is now purely explanatory and hands off directly into the module ledger below it, which
   already carries the only CTAs that need to exist past the Hero (module-specific Build
   checklist / Diagnose). No change to the Hero or module ledger CTAs.
+- **2026-07-21** - Now that the module has 7 areas instead of 24 (see the v3.2 workflow
+  entry for the underlying restructure), the category-accordion picker built earlier today
+  is redundant - `AreaPicker.tsx` reverted to the flat grid it started as, and
+  `AREA_CATEGORIES`/`groupAreasByCategory()` were removed from `lib/domain/grouping.ts`
+  since the area_ids themselves (A1-A7) now directly match what the categories used to be.
+  Build and Diagnose both confirmed rendering exactly 7 area cards.
 - **2026-07-21** - Reordered the 7 area-selection categories to reflect operational
   sequence: "Vendor & Market" renamed to **Planning & Sourcing** (A8 Vendor & CC Ops, A14
   Market Intelligence & Benchmarking only) and moved to lead the list, ahead of Inbound &
