@@ -3,8 +3,9 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { Loader2 } from "lucide-react";
 import type { MasterRow, ProblemRow, RecommendationRow, DiagnosticResult, SubpointScore } from "@/lib/domain/types";
-import { groupByArea, listModules } from "@/lib/domain/grouping";
+import { compareAreaIds, groupByArea, listModules } from "@/lib/domain/grouping";
 import { computeDiagnostic, toScoreMaps } from "@/lib/domain/scoring";
+import { downloadChecklist } from "@/lib/xlsx/download-checklist-client";
 import { AreaPicker } from "@/components/areas/AreaPicker";
 import { ScoreForm, type ScoreFormValues } from "./ScoreForm";
 import { UploadChecklist } from "./UploadChecklist";
@@ -32,6 +33,8 @@ export function DiagnoseFlow({
   const [diag, setDiag] = useState<DiagnosticResult | null>(null);
   const [downloading, setDownloading] = useState(false);
   const [downloadError, setDownloadError] = useState<string | null>(null);
+  const [exportingChecklist, setExportingChecklist] = useState(false);
+  const [exportError, setExportError] = useState<string | null>(null);
   const resultsRef = useRef<HTMLDivElement>(null);
 
   // Scroll the results into view the moment a diagnostic is computed (or re-computed by
@@ -80,6 +83,32 @@ export function DiagnoseFlow({
     setDiag(
       computeDiagnostic(moduleRows, scores, observations, recommendations, undefined, moduleProblems, problemScores)
     );
+  }
+
+  async function handleExportChecklist() {
+    setExportingChecklist(true);
+    setExportError(null);
+    try {
+      const ids = scoredAreas.map((a) => a.area_id);
+      const combinedRows = moduleRows
+        .filter((r) => selectedAreas.has(r.area_id))
+        .sort(
+          (a, b) =>
+            compareAreaIds(a.area_id, b.area_id) ||
+            a.subpoint_id.localeCompare(b.subpoint_id, undefined, { numeric: true })
+        );
+      await downloadChecklist(
+        moduleName,
+        combinedRows,
+        ids.join(", "),
+        `${moduleId}_${ids.join("-")}_checklist.xlsx`,
+        moduleProblems
+      );
+    } catch (e) {
+      setExportError(e instanceof Error ? e.message : "Couldn't generate that checklist. Try again.");
+    } finally {
+      setExportingChecklist(false);
+    }
   }
 
   async function handleDownloadPdf() {
@@ -154,8 +183,8 @@ export function DiagnoseFlow({
             <div>
               <h3 className="font-display text-lg font-medium mb-1">Select one or more Areas</h3>
               <p className="text-sm text-neutral mb-4">
-                Tap a category to expand it, then tap areas to toggle them on/off. Only selected areas are
-                shown below to score.
+                Tap areas to toggle them on/off. Score them directly below, or export a fillable checklist for
+                the same selection to fill in on the ground.
               </p>
               <AreaPicker
                 areas={areas}
@@ -167,7 +196,25 @@ export function DiagnoseFlow({
             </div>
 
             {scoredAreas.length > 0 ? (
-              <div className="pt-6 border-t border-rule">
+              <div className="pt-6 border-t border-rule space-y-6">
+                <div className="flex items-center justify-between gap-4 flex-wrap">
+                  <h3 className="font-display text-lg font-medium">
+                    Score in-app &middot; <span className="text-accent">{scoredAreas.length}</span> area
+                    {scoredAreas.length !== 1 ? "s" : ""} selected
+                  </h3>
+                  <button
+                    type="button"
+                    onClick={handleExportChecklist}
+                    disabled={exportingChecklist}
+                    className="inline-flex items-center gap-2 text-sm font-medium px-4 py-2 rounded-xs border border-rule hover:border-charcoal transition-colors disabled:opacity-50"
+                  >
+                    {exportingChecklist && <Loader2 className="w-3.5 h-3.5 animate-spin" />}
+                    {exportingChecklist
+                      ? "Generating..."
+                      : `Export checklist for offline use (${scoredAreas.length})`}
+                  </button>
+                </div>
+                {exportError && <p className="text-sm text-red -mt-2 text-right">{exportError}</p>}
                 <ScoreForm
                   key={`${moduleId}:${[...selectedAreas].sort().join(",")}`}
                   areas={scoredAreas}

@@ -37,7 +37,9 @@ export function UploadChecklist({ onParsed }: { onParsed: (rows: SubpointScore[]
           }}
         />
         <div className="text-sm font-medium">Upload the completed checklist (.xlsx)</div>
-        <div className="text-sm text-neutral mt-1">A workbook exported from Build a Checklist, filled in.</div>
+        <div className="text-sm text-neutral mt-1">
+          A workbook exported from the &ldquo;Score in-app&rdquo; tab&rsquo;s checklist export, filled in.
+        </div>
       </label>
       {status.kind === "loading" && <p className="text-sm text-neutral mt-3">Reading file...</p>}
       {status.kind === "success" && <p className="text-sm text-green mt-3">{status.message}</p>}

@@ -5,13 +5,13 @@ import { motion } from "framer-motion";
 const STEPS = [
   {
     n: "01",
-    title: "Build a checklist",
-    body: "Pick a module and its focus areas - export a fillable audit workbook benchmarked on a clear 1-5 scale.",
+    title: "Pick your areas",
+    body: "Choose a module and the areas that matter right now, benchmarked on a clear 1-5 maturity scale.",
   },
   {
     n: "02",
     title: "Score it",
-    body: "Fill it in on the ground, or score in-app directly. Either path feeds the same weighted diagnostic.",
+    body: "Score in-app directly, or export a fillable checklist for the same selection to fill in on the ground. Either path feeds the same weighted diagnostic.",
   },
   {
     n: "03",
@@ -23,8 +23,8 @@ const STEPS = [
 /**
  * Scroll-revealed step sequence - purely explanatory, no CTA of its own. It hands off
  * directly into the module ledger below ("Or jump straight in"), which already carries
- * the per-module Build checklist / Diagnose actions - repeating a generic "Start a
- * Diagnostic" button here just restated the Hero's CTA without adding a new decision.
+ * the per-module Diagnose action - repeating a generic "Start a Diagnostic" button here
+ * just restated the Hero's CTA without adding a new decision.
  */
 export function HowItWorks() {
   return (

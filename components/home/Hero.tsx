@@ -119,9 +119,9 @@ export function Hero() {
           transition={{ duration: 0.6, delay: 0.9 }}
           className="text-white/70 text-lg max-w-lg leading-relaxed"
         >
-          Fast delivery promises, days-long shelf life &ndash; 18 areas across inward quality, cold chain,
-          warehouse flow, vendor operations, people, and cost, scored against a clear 1&ndash;5 maturity scale,
-          with a ready-to-use audit checklist for on-ground scoring.
+          Fast delivery promises, days-long shelf life &ndash; 10 areas across planning, cold chain, storage,
+          fulfillment, safety, and cost, scored against a clear 1&ndash;5 maturity scale, with a ready-to-use
+          audit checklist for on-ground scoring.
         </motion.p>
 
         <motion.p
@@ -147,12 +147,6 @@ export function Hero() {
             <span className="bg-ink text-white rounded-full p-2 group-hover:translate-x-0.5 transition-transform">
               <ArrowRight className="w-4 h-4" />
             </span>
-          </Link>
-          <Link
-            href="/build"
-            className="inline-flex items-center px-6 py-2.5 rounded-full border border-white/25 text-white font-medium hover:bg-white/10 transition-colors"
-          >
-            Build a Checklist
           </Link>
         </motion.div>
       </div>

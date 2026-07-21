@@ -13,20 +13,12 @@ export function ModuleLedger({ modules }: { modules: ModuleSummary[] }) {
               {m.areas} areas &middot; {m.sub_points} sub-points
             </div>
           </div>
-          <div className="flex gap-2 shrink-0">
-            <Link
-              href={`/build?module=${m.module_id}`}
-              className="text-sm font-medium px-3 py-1.5 rounded-xs border border-rule hover:border-charcoal transition-colors"
-            >
-              Build checklist
-            </Link>
-            <Link
-              href={`/diagnose?module=${m.module_id}`}
-              className="text-sm font-medium px-3 py-1.5 rounded-xs bg-charcoal text-white hover:bg-ink transition-colors"
-            >
-              Diagnose
-            </Link>
-          </div>
+          <Link
+            href={`/diagnose?module=${m.module_id}`}
+            className="text-sm font-medium px-3 py-1.5 rounded-xs bg-charcoal text-white hover:bg-ink transition-colors shrink-0"
+          >
+            Diagnose
+          </Link>
         </div>
       ))}
     </div>

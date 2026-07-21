@@ -15,20 +15,21 @@ VS Code extension.
 
 - **`TopNav`** (`components/nav/TopNav.tsx`) - a sticky, floating glassmorphic pill
   (`position: sticky; top: 1rem`), not a full-width bar. Rendered once in `app/layout.tsx`
-  so it's present unchanged across all five routes rather than each page owning its own
+  so it's present unchanged across all four routes rather than each page owning its own
   header.
   - **Brand mark:** `longarc-logo.png`, a self-contained wordmark image (the "LongArc"
     text is baked into the PNG) rendered at its native ~2.81:1 aspect ratio - there is no
     separate text label next to it.
-  - **Links:** Home (`/`), Checklist (`/build`), Diagnose (`/diagnose`), Tracker
-    (`/tracker`), Workflow (`/workflow`) - rendered from a single `NAV` array, so adding a
-    page means adding one array entry, not touching markup in multiple places.
+  - **Links:** Home (`/`), Diagnose (`/diagnose`), Tracker (`/tracker`), Workflow
+    (`/workflow`) - rendered from a single `NAV` array, so adding a page means adding one
+    array entry, not touching markup in multiple places. There used to be a fifth link,
+    Checklist (`/build`) - that page was folded into Diagnose (see below) rather than kept
+    standalone, since both pages started with the identical module/area-selection step.
   - **Active state:** `usePathname()` compares against each link's `href` (`pathname ===
-    "/"` for Home, `pathname.startsWith(href)` for everything else, so a future
-    `/build/:id`-style sub-route would still highlight "Checklist"). Active link:
-    solid charcoal pill, white text. Inactive: neutral text, `hover:text-accent` +
-    a faint hover background - accent is used here purely as interaction chrome, never as
-    a status color (see the design skill's color rules).
+    "/"` for Home, `pathname.startsWith(href)` for everything else). Active link: solid
+    charcoal pill, white text. Inactive: neutral text, `hover:text-accent` + a faint hover
+    background - accent is used here purely as interaction chrome, never as a status color
+    (see the design skill's color rules).
 - **`Footer`** (`components/nav/Footer.tsx`) - static, non-interactive except two
   `mailto:` / external links, also accent-on-hover. No data, no navigation logic.
 - There is no secondary/side navigation anywhere in the app - see the top-nav-vs-side-nav
@@ -70,61 +71,39 @@ for external consumption if something outside this app ever needs the same data.
 - **Data in:** none live - static marketing/orientation content (`Hero`, `HowItWorks`,
   `MaturityLadder`, `ModuleLedger`). `ModuleLedger` reads a summary of the same Masters
   data other pages use, to show real module names rather than placeholder copy.
-- **User does:** reads, clicks through to one of the four functional pages via `TopNav`.
+- **User does:** reads, clicks through to one of the three functional pages via `TopNav`.
 - **Data out:** none - pure entry point.
 - **States:** no loading/empty/error states - everything here is server-rendered from
   data that's either present or a static fallback; nothing here can be "empty."
 
-### Build a Checklist (`/build`)
-
-- **Data in:** `app/build/page.tsx` (server component) calls `loadMasters()`, filters to
-  `status === "active"`, passes the full active row set into `BuildFlow` (client
-  component).
-- **User does, in order:**
-  1. Picks a **Module** from a `<select>` (`listModules()` derives the option list from
-     the loaded rows - not a separate lookup).
-  2. `groupByArea()` groups that module's rows into **Areas**, rendered as toggle cards.
-     The user taps one or more Area cards; selection state (`Set<string>` of `area_id`)
-     lives entirely client-side in `BuildFlow`. `Select all` / `Clear` buttons operate on
-     the same state.
-  3. Either downloads the **full module** checklist immediately, or - once at least one
-     Area is selected - a **Checklist** section reveals below showing the combined
-     sub-point table, and downloads a **combined checklist** scoped to just the selected
-     Areas.
-- **Data out:** the selected rows (full module or combined-Areas subset) are POSTed as
-  JSON to `POST /api/checklist/export`, which calls `buildChecklistXlsx()`
-  (`lib/xlsx/build-checklist.ts`) and streams back an `.xlsx` file - one row per
-  sub-point, with its five score-level descriptions and **blank** Score/Observation
-  columns for an auditor to fill in on the ground. This file is the literal template that
-  later gets fed back into Diagnose's "Upload filled checklist" path.
-- **States:**
-  - *Loading:* both download buttons swap their label to "Generating..." and show a
-    spinning `Loader2` icon while `handleDownload()` awaits the export request; both
-    buttons are `disabled` for the duration so a second click can't fire a second export.
-  - *Empty:* before any Area is selected, the Checklist section is replaced by a dashed
-    placeholder box ("Select at least one Area above to generate its checklist"),
-    visually matching the same dashed-border pattern used for Diagnose's upload dropzone.
-  - *Error:* `downloadChecklist()` throws on a non-OK response; `handleDownload()` catches
-    it and shows a red error line next to whichever button (full/combined) triggered it.
-
 ### Score & Diagnose (`/diagnose`)
 
-- **Data in:** `loadMasters()` + `loadRecommendations()`, both active-filtered, passed
-  into `DiagnoseFlow`. Same Module `<select>` / `groupByArea()` pattern as Build - the two
-  pages share `lib/domain/grouping.ts` rather than duplicating the grouping logic.
+- **Data in:** `loadMasters()` + `loadRecommendations()` + `loadProblems()`, all
+  active-filtered, passed into `DiagnoseFlow`. Picks a **Module** from a `<select>`
+  (`listModules()` derives the option list from the loaded rows). `groupByArea()` groups
+  that module's rows into **Areas**, rendered via the shared `AreaPicker` component.
   Switching modules resets any in-progress diagnostic (`setDiag(null)`).
 - **Two mutually exclusive input modes** (tab switch, `mode` state in `DiagnoseFlow`,
-  underlined-tab UI - accent underline on the active tab):
+  underlined-tab UI - accent underline on the active tab, "Score in-app" first/default):
+  - **Score in-app** (`ScoreForm.tsx`): the same Area/sub-point list rendered as an
+    interactive form (`SegmentedScore` 1-5 picker + a free-text observation input +
+    optional photo per row, collapsible per sub-point); submitting builds the
+    `{scores, observations, photos, problemScores}` shape directly, no file or server
+    round-trip involved. Once at least one Area is selected, an **"Export checklist for
+    offline use"** button also appears above the scoring form - it downloads the exact
+    same selection as a fillable `.xlsx` (via `downloadChecklist()`,
+    `lib/xlsx/download-checklist-client.ts` -> `POST /api/checklist/export` ->
+    `buildChecklistXlsx()`, `lib/xlsx/build-checklist.ts`), for an auditor who'd rather
+    fill it in on the ground than score directly in the browser. This used to be a
+    separate "Build a Checklist" page (`/build`) - folded into Diagnose since both pages
+    started with the identical module/area-selection step, and exporting a checklist for
+    a selection you're not also about to score in-app was a rare, not a common, path.
   - **Upload filled checklist** (`UploadChecklist.tsx`): the auditor drops in the `.xlsx`
-    that Build produced (now filled with scores). The file is sent to
+    that the export button above produced (now filled with scores). The file is sent to
     `POST /api/checklist/parse`, which runs server-side (Node runtime, since `exceljs`
     needs Node APIs) via `parseChecklistXlsx()` (`lib/xlsx/parse-checklist.ts`) and
     returns parsed `SubpointScore[]` JSON; `toScoreMaps()` (`lib/domain/scoring.ts`) then
-    splits that into a `scores` Map and an `observations` Map client-side.
-  - **Score in-app** (`ScoreForm.tsx`): the same Area/sub-point list rendered as an
-    interactive form (`SegmentedScore` 1-5 picker + a free-text observation input per
-    row); submitting builds the same `{scores, observations}` shape directly, no file or
-    server round-trip involved.
+    splits that into `scores`/`problemScores`/`observations` Maps client-side.
 - **Both modes converge** on one function: `computeDiagnostic(moduleRows, scores,
   observations, recommendations)` (`lib/domain/scoring.ts`) - ported 1:1 from the
   original Python `compute_diagnostic()`. For every **scored** sub-point (unscored ones
@@ -150,7 +129,7 @@ for external consumption if something outside this app ever needs the same data.
     format, unparseable workbook, etc.) - `UploadChecklist` is the one place in the app
     with an explicit, visible error state.
   - *PDF loading:* "Generating..." label swap + spinning `Loader2` icon on the download
-    button, matching Build's buttons.
+    button, matching the checklist-export button's loading state.
   - *PDF error:* a failed report generation shows a red error line above the results,
     right-aligned under the download button.
   - *Empty:* the entire "Diagnostic" section (score ring, priority list, download button)
@@ -197,25 +176,26 @@ for external consumption if something outside this app ever needs the same data.
   of this port wrongly merged them into one PDF.
 - **States:** no loading/empty/error states - both download links are plain anchor tags
   (`<a href="/api/...">`), so the browser's own download UI handles progress; there's no
-  client-side fetch/loading state to manage here the way Build and Diagnose's
-  `fetch`-then-`blob()` downloads need.
+  client-side fetch/loading state to manage here the way Diagnose's `fetch`-then-`blob()`
+  downloads need.
 
-## The two loops that share one data layer
+## One loop, two ways to produce a scored diagnostic
 
-Build and Diagnose are the two operating loops referenced in the Workflow page's own
-copy - both start from the same Masters rows, but diverge immediately:
+Both start from the same Masters rows and the same module/area selection inside
+`DiagnoseFlow`, then diverge only in how the actual scores get in:
 
 ```
                          loadMasters() (active rows)
                                    |
+                     pick Module -> pick Area(s)
+                          (DiagnoseFlow, shared)
+                                   |
                 +------------------+------------------+
                 |                                     |
-             Build                                Diagnose
+     "Export checklist" button          "Score in-app" / "Upload filled checklist"
                 |                                     |
-     pick Module -> pick Area(s)          pick Module -> upload OR score in-app
-                |                                     |
-     POST /api/checklist/export        upload: POST /api/checklist/parse -> toScoreMaps()
-                |                        form:  ScoreForm submit -> {scores, observations}
+     POST /api/checklist/export        in-app: ScoreForm submit -> {scores, observations}
+                |                       upload: POST /api/checklist/parse -> toScoreMaps()
         blank .xlsx checklist                          |
       (Score/Observation columns              computeDiagnostic()
               empty)                                   |
@@ -227,28 +207,31 @@ copy - both start from the same Masters rows, but diverge immediately:
                        on the ground
 ```
 
-The checklist produced by Build is the literal input document that later gets uploaded
-back into Diagnose's "Upload filled checklist" mode - the two pages are not just
-thematically related, they're two ends of the same physical document's lifecycle. This
-loop, plus every page's navigation and data-in/out edges, is also drawn visually in
-`docs/ui-ux-flow.drawio`.
+The exported checklist is the literal input document that later gets uploaded back into
+Diagnose's "Upload filled checklist" mode - both the export and the upload live on the
+same page now, since a standalone "Build a Checklist" page duplicated the exact same
+module/area-selection step Diagnose already had. This loop, plus every page's navigation
+and data-in/out edges, is also drawn visually in `docs/ui-ux-flow.drawio` - **note: that
+diagram still shows the old two-page (Build + Diagnose) structure and needs a manual
+update**, since editing a `.drawio` file's internals isn't something this session's tools
+can do reliably.
 
 ## Gaps found and fixed
 
 Both gaps originally flagged in this doc have since been closed:
 
-- **Silent failure on export/refresh errors** - Build's checklist download, Diagnose's
-  PDF download, and Tracker's refresh now all surface a visible red error message on
-  failure instead of just clearing the loading state. `UploadChecklist`'s existing
-  error UI was the pattern the other three were normalized to.
-- **Inconsistent loading affordance** - Diagnose's PDF download button now shows the
-  same spinning `Loader2` icon Build's buttons already had, not just the text swap.
+- **Silent failure on export/refresh errors** - the checklist download, Diagnose's PDF
+  download, and Tracker's refresh now all surface a visible red error message on failure
+  instead of just clearing the loading state. `UploadChecklist`'s existing error UI was
+  the pattern the other three were normalized to.
+- **Inconsistent loading affordance** - Diagnose's PDF download button shows the same
+  spinning `Loader2` icon the checklist-export button uses, not just a text swap.
 
 ## What this app does not do
 
 - It does not write back to Masters, Recommendations, or the Tracker sheet. Every data
   flow above is either read-only (Tracker, and Masters/Recommendations as consumed by
-  Build/Diagnose) or produces a downloadable file (`.xlsx` checklist, diagnostic PDF,
+  Diagnose) or produces a downloadable file (`.xlsx` checklist, diagnostic PDF,
   workflow/changelog PDFs) - never a write back to the source of truth.
 - Editing Recommendations or Masters happens by hand in the Google Sheet, outside this
   app, exactly like the Sync Tracker.
@@ -262,6 +245,19 @@ updated independently. The two logs are never allowed to mix, even when both hap
 the same work session - see the corresponding entry there for what happened on the
 workflow side of any given date.
 
+- **2026-07-21** - Removed the "Checklist" nav item and the standalone `/build` page -
+  `TopNav` is down to 4 links (Home, Diagnose, Tracker, Workflow). `BuildFlow.tsx` and
+  `app/build/page.tsx` deleted; the checklist-export action moved into
+  `DiagnoseFlow.tsx`'s "Score in-app" tab (see the corresponding v3.4 entry in
+  `lib/domain/workflow-content.ts` for the underlying workflow rationale). Home page:
+  `ModuleLedger` rows now show a single "Diagnose" button per module instead of "Build
+  checklist" + "Diagnose"; `HowItWorks`'s step 01 rewritten from "Build a checklist" to
+  "Pick your areas" and step 02 updated to mention both scoring paths; Hero's secondary
+  "Build a Checklist" CTA removed (single "Start a Diagnostic" CTA remains). Also fixed
+  Hero's subhead, which still said "18 areas" from before the v3.2/v3.3 restructure to 10
+  areas. `docs/ui-ux-flow.drawio` still shows the old two-page structure and needs a
+  manual update - editing that file's internals isn't something these tools can do
+  reliably.
 - **2026-07-20** - Removed the redundant standalone "Start a Diagnostic" button from
   `HowItWorks.tsx` (below the 01/02/03 steps) - the Home page had the same CTA appearing
   three times (Hero, HowItWorks, and each module row in "Or jump straight in"). HowItWorks

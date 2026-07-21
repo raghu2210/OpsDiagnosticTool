@@ -5,10 +5,10 @@
  * Section bodies are plain string arrays (one paragraph per string) rather than JSX so the
  * exact same content can drive both renderers without duplicating the copy.
  */
-export const APP_VERSION = "3.3";
+export const APP_VERSION = "3.4";
 export const APP_UPDATED = "2026-07-21";
 
-export const FLOW_STEPS = ["Data layer", "Build checklist", "Auditor fills", "Score & diagnose", "Outputs"];
+export const FLOW_STEPS = ["Data layer", "Pick areas", "Score & diagnose", "Outputs"];
 
 export const WORKFLOW_SECTIONS: { title: string; body: string[] }[] = [
   {
@@ -20,19 +20,14 @@ export const WORKFLOW_SECTIONS: { title: string; body: string[] }[] = [
     ],
   },
   {
-    title: "2 - Build a Checklist",
+    title: "2 - Score & Diagnose",
     body: [
-      "Pick a module and one or more areas; the selection combines into a single fillable workbook via lib/xlsx/build-checklist.ts. Each row carries the sub-point, its five score-level descriptions, and blank Score / Observation columns for the auditor to fill on the ground.",
+      "Pick a module and one or more areas on the Diagnose page. From there: score directly in-app, upload a filled checklist (parsed by lib/xlsx/parse-checklist.ts), or export the same selection as a fillable workbook (lib/xlsx/build-checklist.ts) for an auditor to fill in on the ground and upload back later - all three share the one module/area selection instead of living on separate pages.",
+      "computeDiagnostic() produces a weighted maturity score per area and module, plus the exact tasks needed to reach the next level, ranked by weighted impact (low score x high weight first). Results can be exported as a branded PDF.",
     ],
   },
   {
-    title: "3 - Score & Diagnose",
-    body: [
-      "Either upload a filled checklist (parsed by lib/xlsx/parse-checklist.ts) or score directly in-app. computeDiagnostic() produces a weighted maturity score per area and module, plus the exact tasks needed to reach the next level, ranked by weighted impact (low score x high weight first). Results can be exported as a branded PDF.",
-    ],
-  },
-  {
-    title: "4 - Sync Tracker",
+    title: "3 - Sync Tracker",
     body: [
       "A read-only mirror of a hand-maintained Google Sheet (GOOGLE_TRACKER_SHEET_ID). Uses the Sheets API with hyperlink-preserving fields when credentials are configured, otherwise the sheet's published CSV (auth-free, but strips rich hyperlinks - bare URLs pasted into cells are still auto-linkified). Sub-items (Sr No like 2.1) nest under their parent row (2) as an expandable group. Re-reads on a 60s cache; the Refresh button forces an immediate re-fetch.",
     ],
@@ -40,6 +35,11 @@ export const WORKFLOW_SECTIONS: { title: string; body: string[] }[] = [
 ];
 
 export const CHANGELOG = [
+  {
+    version: "3.4",
+    date: "2026-07-21",
+    body: "Folded the standalone 'Build a Checklist' page (/build) into Diagnose. Both pages started with the identical module/area-selection step and only diverged in what you did with the selection - Build only ever produced a blank .xlsx, which is now available as an 'Export checklist for offline use' button directly inside Diagnose's 'Score in-app' tab, scoped to whatever areas are currently selected there. The workflow is now one page with three ways to get scores in (score in-app, export-then-upload, or upload a checklist filled elsewhere) instead of two pages each owning half the flow. No scoring/rollup logic changed - buildChecklistXlsx()/parseChecklistXlsx() and computeDiagnostic() are untouched; this is a page-structure and navigation change. Workflow page's own step list updated to match (was 4 steps including a standalone 'Build a Checklist' step, now 3).",
+  },
   {
     version: "3.3",
     date: "2026-07-21",
