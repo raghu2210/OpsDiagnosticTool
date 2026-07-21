@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useRef } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { ArrowRight, ChevronDown } from "lucide-react";
@@ -28,6 +29,38 @@ const DOMAINS = [
 // action, not just one operational metaphor.
 const HEADLINE = "Score your FnV warehouse. Find exactly where it's breaking.";
 
+function BackgroundVideo() {
+  const videoRef = useRef<HTMLVideoElement>(null);
+
+  // autoPlay/muted covers most browsers, but reduced-motion users should never get
+  // moving video even if it's muted - stop it explicitly on mount rather than relying on
+  // a CSS-only approach (video playback state isn't controllable from CSS).
+  useEffect(() => {
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      videoRef.current?.pause();
+    }
+  }, []);
+
+  return (
+    <div className="absolute inset-0 overflow-hidden pointer-events-none">
+      <video
+        ref={videoRef}
+        className="absolute inset-0 w-full h-full object-cover opacity-40"
+        src="/hero-bg.mp4"
+        autoPlay
+        muted
+        loop
+        playsInline
+        aria-hidden="true"
+      />
+      <div
+        className="absolute inset-0"
+        style={{ background: "linear-gradient(100deg, var(--ink) 30%, rgba(36,36,36,0.75) 65%, rgba(36,36,36,0.55) 100%)" }}
+      />
+    </div>
+  );
+}
+
 function GlowBackdrop() {
   // The second glow carries the brand accent (--accent, a grounded rust/terracotta) rather
   // than --amber - amber stays reserved for scoring/status semantics, so the hero's own
@@ -53,6 +86,7 @@ export function Hero() {
       className="relative rounded-lg overflow-hidden bg-ink text-white min-h-[560px] md:min-h-[640px] flex flex-col justify-between px-8 md:px-14 py-12 md:py-16"
       aria-label="LongArc Operations Diagnostics"
     >
+      <BackgroundVideo />
       <GlowBackdrop />
 
       <div className="relative z-10">

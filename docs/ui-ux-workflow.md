@@ -268,6 +268,11 @@ workflow side of any given date.
   is now purely explanatory and hands off directly into the module ledger below it, which
   already carries the only CTAs that need to exist past the Hero (module-specific Build
   checklist / Diagnose). No change to the Hero or module ledger CTAs.
+- **2026-07-21** - Home hero now runs a looping muted background video
+  (`public/hero-bg.mp4`) beneath the existing `GlowBackdrop` glows, with a left-to-right
+  ink gradient overlay so the headline/copy stay legible over it. Pauses on
+  `prefers-reduced-motion` (JS-driven, since video playback isn't controllable from CSS
+  alone). Direct request from the user, who supplied the clip.
 - **2026-07-21** - `DiagnoseFlow.tsx` now auto-scrolls the Diagnostic results into view
   (smooth scroll, with `scroll-mt-24` so the floating `TopNav` pill doesn't overlap the
   results heading) the moment `computeDiagnostic()` returns, whether from submitting the
