@@ -18,10 +18,16 @@ const HEIGHTS = [64, 96, 128, 160, 192]; // ascending steps, level 1 -> 5
  * The Maturity Ladder as an actual graphic - ascending, color-coded steps (a literal
  * staircase) instead of a text list. Every score in the app maps to one of these five
  * steps, so this is the visual grammar reused wherever a maturity level appears.
+ *
+ * No own card chrome (border/bg/padding) - it's nested inside the single shared panel in
+ * app/page.tsx's "Or jump straight in" section alongside the module feature, rather than
+ * owning a separate same-height card. A standalone one-module list next to this card used
+ * to produce a visibly lopsided two-column layout (a single thin row next to a tall
+ * graphic) - one panel with two halves fixes that by construction.
  */
 export function MaturityLadder() {
   return (
-    <div className="border border-rule rounded-md p-6 bg-surface shadow-sm">
+    <div>
       <div className="font-code text-xs uppercase tracking-wider text-neutral mb-6">The Maturity Ladder</div>
 
       <div className="flex items-end gap-2 h-48 mb-4">

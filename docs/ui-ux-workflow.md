@@ -245,6 +245,15 @@ updated independently. The two logs are never allowed to mix, even when both hap
 the same work session - see the corresponding entry there for what happened on the
 workflow side of any given date.
 
+- **2026-07-22** - Fixed a visibly lopsided "Or jump straight in" section on Home:
+  `ModuleLedger` (a single thin row, since the product has consolidated to one active
+  module) sat next to `MaturityLadder` (a much taller card) in a 2-column grid with
+  `items-start`, so the two boxes ended at very different heights. Merged both into one
+  shared bordered panel (`app/page.tsx`) instead of two independent same-row cards -
+  `ModuleLedger` and `MaturityLadder` both dropped their own card chrome (border/bg/
+  padding) in favor of the shared panel's, and `ModuleLedger`'s content is now vertically
+  centered within the panel's full height rather than hugging the top. Also fixed a
+  grammar bug in the stat strip above it ("1 modules" -> "1 module").
 - **2026-07-22** - `ResultsReveal.tsx`'s "Priority actions" list redesigned - it's the
   actual payoff of the whole diagnostic (the ranked to-do list someone acts on) but had
   the least visual treatment of any result component, just a plain monotone

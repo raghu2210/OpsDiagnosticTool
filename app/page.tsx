@@ -40,7 +40,7 @@ export default async function HomePage() {
           <h2 className="font-display text-2xl font-semibold">Or jump straight in</h2>
           <div className="flex gap-6 font-code text-sm text-neutral">
             <span>
-              <span className="font-medium text-ink">{modules.length}</span> modules
+              <span className="font-medium text-ink">{modules.length}</span> module{modules.length !== 1 ? "s" : ""}
             </span>
             <span>
               <span className="font-medium text-ink">{totalAreas}</span> areas
@@ -51,9 +51,15 @@ export default async function HomePage() {
           </div>
         </div>
 
-        <div className="grid lg:grid-cols-[1.4fr_1fr] gap-8 items-start">
-          <ModuleLedger modules={modules} />
-          <MaturityLadder />
+        <div className="border border-rule rounded-md bg-surface shadow-sm overflow-hidden">
+          <div className="grid lg:grid-cols-[1.4fr_1fr] lg:divide-x divide-rule">
+            <div className="p-6 md:p-8">
+              <ModuleLedger modules={modules} />
+            </div>
+            <div className="p-6 md:p-8">
+              <MaturityLadder />
+            </div>
+          </div>
         </div>
       </div>
     </div>
