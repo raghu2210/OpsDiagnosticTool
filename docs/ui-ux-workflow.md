@@ -268,6 +268,18 @@ workflow side of any given date.
   is now purely explanatory and hands off directly into the module ledger below it, which
   already carries the only CTAs that need to exist past the Hero (module-specific Build
   checklist / Diagnose). No change to the Hero or module ledger CTAs.
+- **2026-07-21** - Grouped the area-selection grid on Build and Diagnose into 7 expandable
+  thematic categories (Inbound & Quality, Storage & Inventory, Fulfillment Operations,
+  Loss/Returns & Complaints, Vendor & Market, Governance & Performance, People & Training)
+  instead of one flat wall of 24 area cards - a flat grid stopped being scannable once the
+  module grew past 18 areas. New shared `components/areas/AreaPicker.tsx` (extracted from
+  what was near-duplicate inline markup in both `BuildFlow.tsx` and `DiagnoseFlow.tsx`)
+  renders a collapsed-by-default accordion per category, each header showing a live
+  "N / M selected" count so you don't have to expand a category to know what's picked.
+  `AREA_CATEGORIES` + `groupAreasByCategory()` (`lib/domain/grouping.ts`) hold the mapping;
+  every area_id is accounted for exactly once (verified), with an "Other" fallback bucket
+  if a future area is ever added without a category assignment. Display/selection-UI only -
+  no change to area_id, weights, or scoring.
 - **2026-07-21** - Reverted area display order back to plain numeric (A1, A2, A3, ... A24)
   on both Build and Diagnose - the warehouse-operations flow order added 2026-07-20
   (Market Intelligence/Vendor leading, etc.) was explicitly reversed per direct feedback;

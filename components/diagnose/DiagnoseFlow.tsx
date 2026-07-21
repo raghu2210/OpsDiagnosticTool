@@ -1,10 +1,11 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { Check, Loader2 } from "lucide-react";
+import { Loader2 } from "lucide-react";
 import type { MasterRow, ProblemRow, RecommendationRow, DiagnosticResult, SubpointScore } from "@/lib/domain/types";
 import { groupByArea, listModules } from "@/lib/domain/grouping";
 import { computeDiagnostic, toScoreMaps } from "@/lib/domain/scoring";
+import { AreaPicker } from "@/components/areas/AreaPicker";
 import { ScoreForm, type ScoreFormValues } from "./ScoreForm";
 import { UploadChecklist } from "./UploadChecklist";
 import { ResultsReveal } from "./ResultsReveal";
@@ -145,46 +146,16 @@ export function DiagnoseFlow({
             <div>
               <h3 className="font-display text-lg font-medium mb-1">Select one or more Areas</h3>
               <p className="text-sm text-neutral mb-4">
-                Tap areas to toggle them on/off. Only selected areas are shown below to score.
+                Tap a category to expand it, then tap areas to toggle them on/off. Only selected areas are
+                shown below to score.
               </p>
-              <div className="flex gap-2 mb-4">
-                <button
-                  type="button"
-                  onClick={() => setSelectedAreas(new Set(areas.map((a) => a.area_id)))}
-                  className="text-sm font-medium px-3 py-1.5 rounded-xs border border-rule hover:border-accent transition-colors"
-                >
-                  Select all
-                </button>
-                <button
-                  type="button"
-                  onClick={() => setSelectedAreas(new Set())}
-                  className="text-sm font-medium px-3 py-1.5 rounded-xs border border-rule hover:border-accent transition-colors"
-                >
-                  Clear
-                </button>
-              </div>
-              <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
-                {areas.map((area) => {
-                  const picked = selectedAreas.has(area.area_id);
-                  return (
-                    <button
-                      type="button"
-                      key={area.area_id}
-                      onClick={() => toggleArea(area.area_id)}
-                      className={`text-left px-4 py-3 rounded-sm border shadow-sm transition-colors ${
-                        picked ? "border-accent bg-accent/5" : "border-rule bg-surface hover:border-charcoal"
-                      }`}
-                    >
-                      <div className="flex items-center justify-between mb-1">
-                        <span className="font-code text-xs text-neutral">{area.area_id}</span>
-                        {picked && <Check className="w-4 h-4 text-accent" />}
-                      </div>
-                      <div className="text-sm font-medium mb-0.5">{area.area_name}</div>
-                      <div className="font-code text-xs text-neutral">weight {(area.area_weight * 100).toFixed(0)}%</div>
-                    </button>
-                  );
-                })}
-              </div>
+              <AreaPicker
+                areas={areas}
+                selected={selectedAreas}
+                onToggle={toggleArea}
+                onSelectAll={() => setSelectedAreas(new Set(areas.map((a) => a.area_id)))}
+                onClear={() => setSelectedAreas(new Set())}
+              />
             </div>
 
             {scoredAreas.length > 0 ? (
