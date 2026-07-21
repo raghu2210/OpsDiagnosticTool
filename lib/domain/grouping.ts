@@ -24,8 +24,11 @@ const AREA_DISPLAY_ORDER = [
   "A3", // Put-Away & Slotting - storage
   "A4", // Inventory & Shelf-Life Management - storage
   "A9", // Warehouse Flow & Layout - storage/flow
-  "A5", // Replenishment & Demand Planning - outbound
-  "A6", // Pick-Pack & Fulfillment Accuracy - outbound
+  "A5", // Replenishment & Demand Planning - outbound prep
+  "A20", // Picking Productivity - outbound prep
+  "A6", // Pick-Pack & Fulfillment Accuracy - outbound prep
+  "A21", // Packing Operations - outbound prep
+  "A19", // Outbound Dispatch & Load Management - outbound
   "A7", // Spoilage & Wastage Management - loss & exceptions
   "A10", // Rejection Handling - loss & exceptions
   "A11", // Returns Management - loss & exceptions
@@ -33,6 +36,9 @@ const AREA_DISPLAY_ORDER = [
   "A13", // Control Tower - oversight
   "A17", // Metrics & Visibility - oversight
   "A18", // Cost Diagnostics - oversight
+  "A22", // Warehouse Safety & Compliance - oversight
+  "A23", // Third-Party Labor & Outsourced Operations Governance - oversight
+  "A24", // SKU Expansion & Scalability Readiness - oversight
   "A15", // Training Plan - enablement
   "A16", // People / Workforce - enablement
 ];

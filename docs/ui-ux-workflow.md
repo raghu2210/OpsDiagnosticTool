@@ -268,6 +268,15 @@ workflow side of any given date.
   is now purely explanatory and hands off directly into the module ledger below it, which
   already carries the only CTAs that need to exist past the Hero (module-specific Build
   checklist / Diagnose). No change to the Hero or module ledger CTAs.
+- **2026-07-21** - Slotted the 6 new areas from the v3.1 content rollout (Picking
+  Productivity, Packing Operations, Outbound Dispatch & Load Management, Warehouse Safety
+  & Compliance, Third-Party Labor & Outsourced Operations Governance, SKU Expansion &
+  Scalability Readiness) into `AREA_DISPLAY_ORDER` (`lib/domain/grouping.ts`) at their
+  correct position in the operational flow - Picking Productivity/Packing Operations sit
+  between Replenishment and Pick-Pack Accuracy (outbound prep), Outbound Dispatch follows
+  immediately after, and Safety/3PL Governance/Scalability sit with the other oversight
+  areas (Control Tower, Metrics, Cost). Display-order only, same mechanism as the
+  2026-07-20 ordering fix.
 - **2026-07-20** - Areas are now displayed in warehouse-operations order instead of
   numeric area_id order (A1..A18): plan/source (Market Intelligence, Vendor & CC Ops) ->
   inward (Inward & Quality Grading) -> storage & layout (Cold Chain, Put-Away & Slotting,

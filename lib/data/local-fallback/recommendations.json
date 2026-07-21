@@ -6206,5 +6206,1029 @@
     "target_level": 5,
     "target_level_name": "Best-in-class",
     "recommended_tasks": "Move Cost-Impact Reporting to Stakeholders toward: Cost-impact reporting is systematic, real-time, and demonstrably drives stakeholder investment decisions."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A1.4.1",
+    "subpoint_name": "Weighing Equipment Calibration",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Weighing Equipment Calibration toward: Calibration happens informally and irregularly, whenever someone happens to think of it."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A1.4.1",
+    "subpoint_name": "Weighing Equipment Calibration",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Weighing Equipment Calibration toward: A documented calibration schedule exists and is generally followed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A1.4.1",
+    "subpoint_name": "Weighing Equipment Calibration",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Weighing Equipment Calibration toward: Calibration compliance is actively tracked against the schedule, with overdue equipment flagged."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A1.4.1",
+    "subpoint_name": "Weighing Equipment Calibration",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Weighing Equipment Calibration toward: Calibration is tracked on a fixed audit schedule with full documentation and traceability to a reference standard."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A1.4.2",
+    "subpoint_name": "Weighment Accuracy Verification",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Weighment Accuracy Verification toward: A rough informal spot-check happens occasionally but isn't systematic or recorded."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A1.4.2",
+    "subpoint_name": "Weighment Accuracy Verification",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Weighment Accuracy Verification toward: A documented weighment accuracy verification process (spot-checks, reference weights) exists and is generally followed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A1.4.2",
+    "subpoint_name": "Weighment Accuracy Verification",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Weighment Accuracy Verification toward: Verification results are actively tracked and discrepancies investigated for equipment or process cause."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A1.4.2",
+    "subpoint_name": "Weighment Accuracy Verification",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Weighment Accuracy Verification toward: Weighment accuracy is continuously verified (system-flagged variance checks) with discrepancies auto-routed for investigation."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A9.3.1",
+    "subpoint_name": "Touch-Count Measurement",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Touch-Count Measurement toward: A rough informal estimate exists ('it gets touched a few times') without real measurement."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A9.3.1",
+    "subpoint_name": "Touch-Count Measurement",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Touch-Count Measurement toward: A documented touch-count measurement for the receipt-to-pick flow exists and is checked periodically."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A9.3.1",
+    "subpoint_name": "Touch-Count Measurement",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Touch-Count Measurement toward: Touch count is actively tracked as a KPI and reviewed for reduction opportunities."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A9.3.1",
+    "subpoint_name": "Touch-Count Measurement",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Touch-Count Measurement toward: Touch count is measured continuously and tracked as a standing efficiency KPI across the flow."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A9.3.2",
+    "subpoint_name": "Touch Reduction Initiatives",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Touch Reduction Initiatives toward: A touch-reduction idea comes up occasionally and informally, but nothing structured is done about it."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A9.3.2",
+    "subpoint_name": "Touch Reduction Initiatives",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Touch Reduction Initiatives toward: A documented touch-reduction initiative process exists and is generally used when flow changes are considered."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A9.3.2",
+    "subpoint_name": "Touch Reduction Initiatives",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Touch Reduction Initiatives toward: Touch-reduction initiatives are actively tracked for impact (before/after touch count) and iterated on."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A9.3.2",
+    "subpoint_name": "Touch Reduction Initiatives",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Touch Reduction Initiatives toward: Touch reduction is a continuous improvement discipline, with initiatives tracked, measured, and iterated systematically."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A16.3.1",
+    "subpoint_name": "Cross-Utilization Practice",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Cross-Utilization Practice toward: Cross-utilization happens informally and ad hoc, whenever a supervisor decides to pull someone over."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A16.3.1",
+    "subpoint_name": "Cross-Utilization Practice",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Cross-Utilization Practice toward: A documented cross-utilization plan exists (which staff can cover which processes) and is generally used."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A16.3.1",
+    "subpoint_name": "Cross-Utilization Practice",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Cross-Utilization Practice toward: Cross-utilization effectiveness is actively tracked (coverage gaps closed, throughput impact) and refined."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A16.3.1",
+    "subpoint_name": "Cross-Utilization Practice",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Cross-Utilization Practice toward: Cross-utilization is dynamically planned using a live skill matrix, with staff redeployed by real-time process-speed need."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A16.3.2",
+    "subpoint_name": "Skill/Training Matrix Maintenance",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Skill/Training Matrix Maintenance toward: A rough informal sense exists in supervisors' heads of who can do what, not documented anywhere."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A16.3.2",
+    "subpoint_name": "Skill/Training Matrix Maintenance",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Skill/Training Matrix Maintenance toward: A documented skill/training matrix exists and is generally kept up to date."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A16.3.2",
+    "subpoint_name": "Skill/Training Matrix Maintenance",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Skill/Training Matrix Maintenance toward: The skill matrix is actively reviewed and updated as staff complete new training, used to plan cross-utilization."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A16.3.2",
+    "subpoint_name": "Skill/Training Matrix Maintenance",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Skill/Training Matrix Maintenance toward: The skill matrix is maintained continuously and directly drives cross-utilization and shift-planning decisions."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A18.3.1",
+    "subpoint_name": "Labor Cost as % of Throughput Value",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Labor Cost as % of Throughput Value toward: A rough informal estimate exists without an actual calculated ratio."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A18.3.1",
+    "subpoint_name": "Labor Cost as % of Throughput Value",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Labor Cost as % of Throughput Value toward: A documented process calculates labor cost as % of throughput value on a basic (e.g. monthly) cadence."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A18.3.1",
+    "subpoint_name": "Labor Cost as % of Throughput Value",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Labor Cost as % of Throughput Value toward: The ratio is actively tracked against a target/benchmark and reviewed for efficiency opportunities."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A18.3.1",
+    "subpoint_name": "Labor Cost as % of Throughput Value",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Labor Cost as % of Throughput Value toward: Labor cost ratio is tracked continuously and directly informs staffing and productivity investment decisions."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A18.3.2",
+    "subpoint_name": "Energy/Utility Cost Discipline",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Energy/Utility Cost Discipline toward: A rough informal awareness exists ('the electricity bill is high') without any structured tracking."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A18.3.2",
+    "subpoint_name": "Energy/Utility Cost Discipline",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Energy/Utility Cost Discipline toward: A documented process tracks energy/utility cost on a basic cadence and is reviewed periodically."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A18.3.2",
+    "subpoint_name": "Energy/Utility Cost Discipline",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Energy/Utility Cost Discipline toward: Energy/utility cost is actively tracked against a target/benchmark and efficiency initiatives are run based on findings."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A18.3.2",
+    "subpoint_name": "Energy/Utility Cost Discipline",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Energy/Utility Cost Discipline toward: Energy/utility cost is tracked continuously and directly informs facility investment and efficiency decisions."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A19.1.1",
+    "subpoint_name": "Load Plan vs Order Accuracy",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Load Plan vs Order Accuracy toward: A rough visual check happens informally before dispatch but isn't systematic or recorded."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A19.1.1",
+    "subpoint_name": "Load Plan vs Order Accuracy",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Load Plan vs Order Accuracy toward: A documented load-vs-order verification step exists before dispatch and is generally followed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A19.1.1",
+    "subpoint_name": "Load Plan vs Order Accuracy",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Load Plan vs Order Accuracy toward: Load accuracy is actively tracked as a KPI, with discrepancy root causes investigated."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A19.1.1",
+    "subpoint_name": "Load Plan vs Order Accuracy",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Load Plan vs Order Accuracy toward: Load-vs-order verification is system-assisted (scan-based) and near-100% accurate, continuously monitored."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A19.1.2",
+    "subpoint_name": "Dispatch Sequencing Logic",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Dispatch Sequencing Logic toward: A rough informal priority exists (urgent orders 'get pushed forward') but isn't documented."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A19.1.2",
+    "subpoint_name": "Dispatch Sequencing Logic",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Dispatch Sequencing Logic toward: A documented dispatch sequencing logic (priority, FEFO, or route-based) exists and is generally followed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A19.1.2",
+    "subpoint_name": "Dispatch Sequencing Logic",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Dispatch Sequencing Logic toward: Sequencing adherence is actively tracked and reviewed for on-time performance impact."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A19.1.2",
+    "subpoint_name": "Dispatch Sequencing Logic",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Dispatch Sequencing Logic toward: Dispatch sequencing is system-optimized in real time across priority, FEFO, and route constraints together."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A19.2.1",
+    "subpoint_name": "Outbound Weighment & Documentation Accuracy",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Outbound Weighment & Documentation Accuracy toward: A rough informal check happens for some dispatches but isn't consistent or recorded."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A19.2.1",
+    "subpoint_name": "Outbound Weighment & Documentation Accuracy",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Outbound Weighment & Documentation Accuracy toward: A documented outbound weighment and documentation process exists and is generally followed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A19.2.1",
+    "subpoint_name": "Outbound Weighment & Documentation Accuracy",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Outbound Weighment & Documentation Accuracy toward: Weighment/documentation accuracy is actively audited, with gaps corrected."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A19.2.1",
+    "subpoint_name": "Outbound Weighment & Documentation Accuracy",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Outbound Weighment & Documentation Accuracy toward: Outbound weighment and documentation are system-captured and verified automatically before a vehicle is released."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A19.2.2",
+    "subpoint_name": "Outbound Dock Turnaround Time",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Outbound Dock Turnaround Time toward: Turnaround is estimated informally ('trucks usually leave by evening') without real measurement."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A19.2.2",
+    "subpoint_name": "Outbound Dock Turnaround Time",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Outbound Dock Turnaround Time toward: A documented process tracks outbound dock turnaround time on a basic level."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A19.2.2",
+    "subpoint_name": "Outbound Dock Turnaround Time",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Outbound Dock Turnaround Time toward: Turnaround time is actively tracked against a target and chronic delays are investigated."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A19.2.2",
+    "subpoint_name": "Outbound Dock Turnaround Time",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Outbound Dock Turnaround Time toward: Outbound dock turnaround is tracked in real time and continuously optimized as a throughput KPI."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A20.1.1",
+    "subpoint_name": "Pick Path Design",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Pick Path Design toward: A rough informal path exists based on picker habit, not deliberately designed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A20.1.1",
+    "subpoint_name": "Pick Path Design",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Pick Path Design toward: A documented pick path design exists (by zone or SKU velocity) and is generally followed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A20.1.1",
+    "subpoint_name": "Pick Path Design",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Pick Path Design toward: Pick path efficiency is actively measured (distance/time per pick) and refined based on findings."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A20.1.1",
+    "subpoint_name": "Pick Path Design",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Pick Path Design toward: Pick paths are system-generated and continuously optimized against real-time order mix and SKU velocity."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A20.1.2",
+    "subpoint_name": "Pick Cart/Tooling Fitness",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Pick Cart/Tooling Fitness toward: Some informal tooling choices exist (certain carts 'work better') but aren't standardized or deliberately designed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A20.1.2",
+    "subpoint_name": "Pick Cart/Tooling Fitness",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Pick Cart/Tooling Fitness toward: A documented picking tool/cart standard exists, fit for the produce type and order profile, and is generally used."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A20.1.2",
+    "subpoint_name": "Pick Cart/Tooling Fitness",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Pick Cart/Tooling Fitness toward: Tooling fitness is actively reviewed against picker feedback and productivity data."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A20.1.2",
+    "subpoint_name": "Pick Cart/Tooling Fitness",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Pick Cart/Tooling Fitness toward: Picking tools/carts are purpose-designed and continuously refined based on productivity and ergonomic data."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A20.2.1",
+    "subpoint_name": "Zone Picking Discipline",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Zone Picking Discipline toward: A rough informal zone split exists but isn't consistently enforced."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A20.2.1",
+    "subpoint_name": "Zone Picking Discipline",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Zone Picking Discipline toward: A documented zone picking process exists (pickers assigned defined zones) and is generally followed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A20.2.1",
+    "subpoint_name": "Zone Picking Discipline",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Zone Picking Discipline toward: Zone adherence is actively tracked and rebalanced based on order volume by zone."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A20.2.1",
+    "subpoint_name": "Zone Picking Discipline",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Zone Picking Discipline toward: Zone picking is system-assigned and dynamically rebalanced in real time against order volume."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A20.2.2",
+    "subpoint_name": "Crate/Tote Tagging Accuracy",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Crate/Tote Tagging Accuracy toward: Tagging happens informally (handwritten labels) and is error-prone."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A20.2.2",
+    "subpoint_name": "Crate/Tote Tagging Accuracy",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Crate/Tote Tagging Accuracy toward: A documented crate/tote tagging process exists and is generally followed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A20.2.2",
+    "subpoint_name": "Crate/Tote Tagging Accuracy",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Crate/Tote Tagging Accuracy toward: Tagging accuracy is actively audited and errors traced to root cause."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A20.2.2",
+    "subpoint_name": "Crate/Tote Tagging Accuracy",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Crate/Tote Tagging Accuracy toward: Crate/tote tagging is barcode/RFID-based and verified automatically at each handoff point."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A21.1.1",
+    "subpoint_name": "Pack Station Layout & Workflow",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Pack Station Layout & Workflow toward: A rough informal layout exists but wasn't deliberately designed for workflow."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A21.1.1",
+    "subpoint_name": "Pack Station Layout & Workflow",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Pack Station Layout & Workflow toward: A documented pack station layout (material flow, packer positioning) exists and is generally followed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A21.1.1",
+    "subpoint_name": "Pack Station Layout & Workflow",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Pack Station Layout & Workflow toward: Layout effectiveness is actively measured (throughput per station) and refined."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A21.1.1",
+    "subpoint_name": "Pack Station Layout & Workflow",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Pack Station Layout & Workflow toward: Pack station layout is continuously optimized against throughput data as volume and SKU mix evolve."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A21.1.2",
+    "subpoint_name": "Packer Ergonomics & Fatigue Management",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Packer Ergonomics & Fatigue Management toward: Some informal awareness exists (packers rotate 'when it feels needed') without a defined practice."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A21.1.2",
+    "subpoint_name": "Packer Ergonomics & Fatigue Management",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Packer Ergonomics & Fatigue Management toward: A documented ergonomics/fatigue management practice (rotation, station height, rest breaks) exists and is generally followed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A21.1.2",
+    "subpoint_name": "Packer Ergonomics & Fatigue Management",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Packer Ergonomics & Fatigue Management toward: Ergonomics/fatigue practices are actively reviewed against injury/strain reports and refined."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A21.1.2",
+    "subpoint_name": "Packer Ergonomics & Fatigue Management",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Packer Ergonomics & Fatigue Management toward: Ergonomics and fatigue management are continuously monitored and proactively adjusted using real injury/strain data."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A21.2.1",
+    "subpoint_name": "Packaging Material Right-Sizing",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Packaging Material Right-Sizing toward: Some informal material choices exist per order type but aren't a defined guide."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A21.2.1",
+    "subpoint_name": "Packaging Material Right-Sizing",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Packaging Material Right-Sizing toward: A documented packaging right-sizing guide (by order size/produce type) exists and is generally followed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A21.2.1",
+    "subpoint_name": "Packaging Material Right-Sizing",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Packaging Material Right-Sizing toward: Right-sizing is actively tracked for material cost and pack integrity, refined based on findings."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A21.2.1",
+    "subpoint_name": "Packaging Material Right-Sizing",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Packaging Material Right-Sizing toward: Packaging right-sizing is system-guided per order at pack time, continuously optimized for cost and protection."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A21.2.2",
+    "subpoint_name": "Pre-Dispatch Pack QC",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Pre-Dispatch Pack QC toward: A quick informal visual check happens sometimes, inconsistently, before a pack ships."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A21.2.2",
+    "subpoint_name": "Pre-Dispatch Pack QC",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Pre-Dispatch Pack QC toward: A documented pre-dispatch pack QC step exists and is generally applied."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A21.2.2",
+    "subpoint_name": "Pre-Dispatch Pack QC",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Pre-Dispatch Pack QC toward: Pre-dispatch QC pass/fail rates are actively tracked and failure causes investigated."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A21.2.2",
+    "subpoint_name": "Pre-Dispatch Pack QC",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Pre-Dispatch Pack QC toward: Pre-dispatch pack QC is systematic (checklist or scan-verified) with failure data continuously tracked and fed back to packing."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A22.1.1",
+    "subpoint_name": "MHE (Forklift/Pallet Truck) Safety Protocol",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move MHE (Forklift/Pallet Truck) Safety Protocol toward: A rough informal practice exists (senior staff show newer staff) but isn't documented or certified."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A22.1.1",
+    "subpoint_name": "MHE (Forklift/Pallet Truck) Safety Protocol",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move MHE (Forklift/Pallet Truck) Safety Protocol toward: A documented MHE safety protocol (certified operators, speed limits, pedestrian separation) exists and is generally followed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A22.1.1",
+    "subpoint_name": "MHE (Forklift/Pallet Truck) Safety Protocol",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move MHE (Forklift/Pallet Truck) Safety Protocol toward: MHE safety compliance is actively audited, with violations tracked and corrected."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A22.1.1",
+    "subpoint_name": "MHE (Forklift/Pallet Truck) Safety Protocol",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move MHE (Forklift/Pallet Truck) Safety Protocol toward: MHE safety is continuously enforced and audited, with operator certification tracked and renewed on schedule."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A22.1.2",
+    "subpoint_name": "Racking Load & Inspection Audits",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Racking Load & Inspection Audits toward: A rough informal visual check happens occasionally but isn't scheduled or documented."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A22.1.2",
+    "subpoint_name": "Racking Load & Inspection Audits",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Racking Load & Inspection Audits toward: A documented racking load limit and inspection audit process exists and is generally followed on a defined cadence."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A22.1.2",
+    "subpoint_name": "Racking Load & Inspection Audits",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Racking Load & Inspection Audits toward: Racking audit findings are actively tracked to closure, with damaged racking taken out of service."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A22.1.2",
+    "subpoint_name": "Racking Load & Inspection Audits",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Racking Load & Inspection Audits toward: Racking is inspected on a fixed audit schedule with full documentation, load limits enforced and continuously verified."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A22.2.1",
+    "subpoint_name": "Fire & Emergency Preparedness",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Fire & Emergency Preparedness toward: A rough informal plan exists (staff 'know where the exits are') but isn't documented or drilled."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A22.2.1",
+    "subpoint_name": "Fire & Emergency Preparedness",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Fire & Emergency Preparedness toward: A documented fire/emergency preparedness plan (evacuation routes, equipment checks) exists and is generally followed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A22.2.1",
+    "subpoint_name": "Fire & Emergency Preparedness",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Fire & Emergency Preparedness toward: Preparedness is actively drilled and reviewed on a defined cadence, with gaps corrected."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A22.2.1",
+    "subpoint_name": "Fire & Emergency Preparedness",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Fire & Emergency Preparedness toward: Fire/emergency preparedness is drilled and audited on a fixed schedule, fully documented and continuously improved."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A22.2.2",
+    "subpoint_name": "Incident/Near-Miss Reporting",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Incident/Near-Miss Reporting toward: Reporting happens informally and inconsistently, often only for serious incidents."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A22.2.2",
+    "subpoint_name": "Incident/Near-Miss Reporting",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Incident/Near-Miss Reporting toward: A documented incident/near-miss reporting process exists and is generally used."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A22.2.2",
+    "subpoint_name": "Incident/Near-Miss Reporting",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Incident/Near-Miss Reporting toward: Reported incidents/near-misses are actively analyzed for root cause and trend, with corrective actions tracked."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A22.2.2",
+    "subpoint_name": "Incident/Near-Miss Reporting",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Incident/Near-Miss Reporting toward: Incident/near-miss reporting is systematic and analyzed continuously, directly driving safety process changes."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A23.1.1",
+    "subpoint_name": "SLA Definition for Outsourced Floor Work",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move SLA Definition for Outsourced Floor Work toward: A rough informal expectation exists verbally but isn't a documented SLA."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A23.1.1",
+    "subpoint_name": "SLA Definition for Outsourced Floor Work",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move SLA Definition for Outsourced Floor Work toward: A documented SLA (speed, accuracy, safety expectations) exists for outsourced floor work and is generally referenced."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A23.1.1",
+    "subpoint_name": "SLA Definition for Outsourced Floor Work",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move SLA Definition for Outsourced Floor Work toward: SLA performance is actively tracked against the defined terms and reviewed with the provider."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A23.1.1",
+    "subpoint_name": "SLA Definition for Outsourced Floor Work",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move SLA Definition for Outsourced Floor Work toward: SLA performance is tracked continuously and directly informs 3PL scorecards and contract decisions."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A23.1.2",
+    "subpoint_name": "Quality Parity vs In-House",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Quality Parity vs In-House toward: A rough informal impression exists ('the 3PL team seems fine') without any actual comparison."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A23.1.2",
+    "subpoint_name": "Quality Parity vs In-House",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Quality Parity vs In-House toward: A documented process compares 3PL vs in-house quality metrics on a basic level."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A23.1.2",
+    "subpoint_name": "Quality Parity vs In-House",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Quality Parity vs In-House toward: Quality parity is actively tracked and reviewed, with gaps addressed through retraining or SLA renegotiation."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A23.1.2",
+    "subpoint_name": "Quality Parity vs In-House",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Quality Parity vs In-House toward: Quality parity between 3PL and in-house is tracked continuously and directly drives sourcing/staffing mix decisions."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A23.2.1",
+    "subpoint_name": "Labor-Law & Safety Compliance Pass-Through",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Labor-Law & Safety Compliance Pass-Through toward: A rough informal assumption of compliance exists without documentation or verification."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A23.2.1",
+    "subpoint_name": "Labor-Law & Safety Compliance Pass-Through",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Labor-Law & Safety Compliance Pass-Through toward: A documented compliance check (labor law, safety pass-through) exists and is generally applied to contractors."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A23.2.1",
+    "subpoint_name": "Labor-Law & Safety Compliance Pass-Through",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Labor-Law & Safety Compliance Pass-Through toward: Compliance is actively audited on a defined cadence, with non-compliance escalated."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A23.2.1",
+    "subpoint_name": "Labor-Law & Safety Compliance Pass-Through",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Labor-Law & Safety Compliance Pass-Through toward: Contractor compliance is continuously verified and documented, with audit trails available on demand."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A23.2.2",
+    "subpoint_name": "Contractor Onboarding & Performance Tracking",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Contractor Onboarding & Performance Tracking toward: A rough informal onboarding happens but isn't documented, and performance isn't tracked per contractor."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A23.2.2",
+    "subpoint_name": "Contractor Onboarding & Performance Tracking",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Contractor Onboarding & Performance Tracking toward: A documented contractor onboarding and basic performance tracking process exists and is generally followed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A23.2.2",
+    "subpoint_name": "Contractor Onboarding & Performance Tracking",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Contractor Onboarding & Performance Tracking toward: Contractor performance is actively tracked and reviewed, feeding into retention/replacement decisions."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A23.2.2",
+    "subpoint_name": "Contractor Onboarding & Performance Tracking",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Contractor Onboarding & Performance Tracking toward: Contractor onboarding and performance are systematically tracked and integrated with the 3PL SLA scorecard."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A24.1.1",
+    "subpoint_name": "Racking/Layout Headroom for SKU Growth",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Racking/Layout Headroom for SKU Growth toward: A rough informal sense exists ('we're getting full') without any actual headroom assessment."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A24.1.1",
+    "subpoint_name": "Racking/Layout Headroom for SKU Growth",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Racking/Layout Headroom for SKU Growth toward: A documented headroom assessment exists and is referenced when planning new SKU intake."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A24.1.1",
+    "subpoint_name": "Racking/Layout Headroom for SKU Growth",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Racking/Layout Headroom for SKU Growth toward: Headroom is actively tracked against actual SKU growth and reviewed for when expansion is needed."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A24.1.1",
+    "subpoint_name": "Racking/Layout Headroom for SKU Growth",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Racking/Layout Headroom for SKU Growth toward: Headroom is continuously modeled against growth forecasts, with expansion triggered proactively before capacity is hit."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A24.1.2",
+    "subpoint_name": "Slotting Re-Optimization Cadence",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Slotting Re-Optimization Cadence toward: Re-slotting happens informally and rarely, usually only when things become unworkable."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A24.1.2",
+    "subpoint_name": "Slotting Re-Optimization Cadence",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Slotting Re-Optimization Cadence toward: A documented slotting re-optimization cadence exists and is generally followed as SKU count changes."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A24.1.2",
+    "subpoint_name": "Slotting Re-Optimization Cadence",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Slotting Re-Optimization Cadence toward: Re-optimization outcomes are actively tracked (pick efficiency before/after) and the cadence refined."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A24.1.2",
+    "subpoint_name": "Slotting Re-Optimization Cadence",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Slotting Re-Optimization Cadence toward: Slotting is continuously re-optimized using real velocity/SKU-growth data rather than a fixed calendar cadence."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A24.2.1",
+    "subpoint_name": "Process Scalability Assessment",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Process Scalability Assessment toward: A rough informal sense exists that processes are strained, without a structured assessment."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A24.2.1",
+    "subpoint_name": "Process Scalability Assessment",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Process Scalability Assessment toward: A documented process scalability assessment exists and is referenced when planning for SKU growth."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A24.2.1",
+    "subpoint_name": "Process Scalability Assessment",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Process Scalability Assessment toward: Process scalability is actively reviewed against growth milestones, with bottlenecks flagged proactively."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A24.2.1",
+    "subpoint_name": "Process Scalability Assessment",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Process Scalability Assessment toward: Process scalability is continuously assessed against growth forecasts, with capacity investments planned ahead of need."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A24.2.2",
+    "subpoint_name": "Systems/Tech Scalability for SKU Growth",
+    "target_level": 2,
+    "target_level_name": "Basic",
+    "recommended_tasks": "Move Systems/Tech Scalability for SKU Growth toward: A rough informal awareness exists that the system might struggle at scale, without any real assessment."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A24.2.2",
+    "subpoint_name": "Systems/Tech Scalability for SKU Growth",
+    "target_level": 3,
+    "target_level_name": "Standardized",
+    "recommended_tasks": "Move Systems/Tech Scalability for SKU Growth toward: A documented systems/tech scalability assessment exists and is referenced when planning for SKU growth."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A24.2.2",
+    "subpoint_name": "Systems/Tech Scalability for SKU Growth",
+    "target_level": 4,
+    "target_level_name": "Managed",
+    "recommended_tasks": "Move Systems/Tech Scalability for SKU Growth toward: Systems scalability is actively reviewed against growth milestones, with upgrade needs flagged proactively."
+  },
+  {
+    "module_id": "FNV_WH_V1",
+    "subpoint_id": "A24.2.2",
+    "subpoint_name": "Systems/Tech Scalability for SKU Growth",
+    "target_level": 5,
+    "target_level_name": "Best-in-class",
+    "recommended_tasks": "Move Systems/Tech Scalability for SKU Growth toward: Systems/tech scalability is continuously assessed against growth forecasts, with upgrades planned ahead of need."
   }
 ]

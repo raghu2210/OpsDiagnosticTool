@@ -5,8 +5,8 @@
  * Section bodies are plain string arrays (one paragraph per string) rather than JSX so the
  * exact same content can drive both renderers without duplicating the copy.
  */
-export const APP_VERSION = "3.0";
-export const APP_UPDATED = "2026-07-20";
+export const APP_VERSION = "3.1";
+export const APP_UPDATED = "2026-07-21";
 
 export const FLOW_STEPS = ["Data layer", "Build checklist", "Auditor fills", "Score & diagnose", "Outputs"];
 
@@ -40,6 +40,11 @@ export const WORKFLOW_SECTIONS: { title: string; body: string[] }[] = [
 ];
 
 export const CHANGELOG = [
+  {
+    version: "3.1",
+    date: "2026-07-21",
+    body: "Closed real coverage gaps found comparing our 18-area diagnostic against a general 'Core WH Flow Ops + Support & Governance' framework (user-authored R&D) - not adopted as a replacement (it has no perishability lens at all - no cold chain, no spoilage, no FEFO - so our structure stays the backbone), but mined for what we were genuinely missing. Added 6 new areas (A19 Outbound Dispatch & Load Management, A20 Picking Productivity, A21 Packing Operations, A22 Warehouse Safety & Compliance, A23 Third-Party Labor & Outsourced Operations Governance, A24 SKU Expansion & Scalability Readiness) and 4 new sub-points folded into existing areas (A1.4 Weighment Accuracy & Calibration, A9.3 Handling Steps & Touch Minimization, A16.3 Cross-Utilization & Skill Matrix, A18.3 Labor Cost Ratio & Utility Cost Discipline) - 16 new sub-points, 32 new problem statements (119 total), 128 new recommendation rows, all Node-4 scored with full 5-level maturity descriptions. Existing A1-A18 area_weight rescaled by a flat x0.82 factor (exact proportional scaling, frees 18% of the module's weight for the 6 new areas); the 4 areas gaining a sub-point had their internal subpoint_weight rebalanced to include it. Pure content/data extension via scripts/seed-spread-expansion.mjs -> sample_data/LongArc_Masters.xlsx -> regenerated JSON fallback - no scoring/rollup code changed. Verified end to end: all 24 areas' weights sum to exactly 1.0, every sub-point/problem weight sums to 1.0 within its parent, computeDiagnostic() correctly rolls up all 24 areas to a module score, and all 119 problems resolve non-empty recommendation text when scored below target.",
+  },
   {
     version: "3.0",
     date: "2026-07-20",
