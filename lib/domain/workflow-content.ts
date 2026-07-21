@@ -5,7 +5,7 @@
  * Section bodies are plain string arrays (one paragraph per string) rather than JSX so the
  * exact same content can drive both renderers without duplicating the copy.
  */
-export const APP_VERSION = "3.2";
+export const APP_VERSION = "3.3";
 export const APP_UPDATED = "2026-07-21";
 
 export const FLOW_STEPS = ["Data layer", "Build checklist", "Auditor fills", "Score & diagnose", "Outputs"];
@@ -40,6 +40,11 @@ export const WORKFLOW_SECTIONS: { title: string; body: string[] }[] = [
 ];
 
 export const CHANGELOG = [
+  {
+    version: "3.3",
+    date: "2026-07-21",
+    body: "Rebalanced the 7-area structure from v3.2 into 10 areas, fixing two categorization errors and one mega-area problem found on a fresh critical review: (1) Demand Forecasting, Dark Store Replenishment Cadence, and Stockout & Overstock Balance were left under 'Fulfillment Operations' even though they're planning decisions, not execution - moved to 'Planning & Sourcing'. (2) Temperature Monitoring, Zone Segregation, and Humidity/Ventilation Control were left under 'Inbound & Quality' even though cold chain is an ongoing storage condition, not a receiving-time activity - split into a new 'Cold Chain & Perishability' area. (3) The old 'Governance & Performance' area had swallowed 13 sub-points (more than double every other area), diluting Safety & Compliance to roughly 1.8% effective module weight - split into 'Control Tower & Metrics', 'Safety, Compliance & Risk', and 'Cost & Scalability', with 3PL/Contractor Compliance folded into 'People & Training' instead (a workforce-governance topic, not facility/safety). Every area now sits in the 4-9 sub-point range instead of 4-13. Also added 10 new sub-points closing real gaps: New SKU/Vendor Onboarding Process, Cold-Chain Power Backup & Continuity, Space/Capacity Utilization Tracking, Packaging Sustainability, Security & Theft Prevention, Food Safety & Hygiene Compliance, Regulatory Licensing & Documentation, Facility Infrastructure & Upkeep, Insurance & Business Continuity, and WMS/Tech System Maturity - 20 new Node-4 problem statements with full 5-level descriptions (139 total problems, 67 total sub-points). Existing content's weight was rescaled by a flat x0.88 factor to free 12% of the module for the new sub-points, with the same global-weight-preserving math as v3.2's collapse (verified: zero content lost, all weight sums check out, computeDiagnostic() runs correctly end to end). Built via scripts/restructure-10-areas.mjs - caught and fixed a real bug during verification where a newly-generated problem ID collided with an old problem ID also being renamed in the same pass, corrupting a recommendation row; fixed by renaming existing rows before adding new ones rather than after.",
+  },
   {
     version: "3.2",
     date: "2026-07-21",
