@@ -26,7 +26,7 @@ export function DiagnoseFlow({
   const [moduleId, setModuleId] = useState(
     initialModuleId && modules.some((m) => m.module_id === initialModuleId) ? initialModuleId : modules[0]?.module_id
   );
-  const [mode, setMode] = useState<InputMode>("upload");
+  const [mode, setMode] = useState<InputMode>("form");
   const [selectedAreas, setSelectedAreas] = useState<Set<string>>(new Set());
   const [diag, setDiag] = useState<DiagnosticResult | null>(null);
   const [downloading, setDownloading] = useState(false);
@@ -122,8 +122,8 @@ export function DiagnoseFlow({
         <div className="flex gap-1 border-b border-rule mb-6">
           {(
             [
-              ["upload", "Upload filled checklist"],
               ["form", "Score in-app"],
+              ["upload", "Upload filled checklist"],
             ] as const
           ).map(([key, label]) => (
             <button

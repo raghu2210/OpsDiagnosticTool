@@ -268,6 +268,13 @@ workflow side of any given date.
   is now purely explanatory and hands off directly into the module ledger below it, which
   already carries the only CTAs that need to exist past the Hero (module-specific Build
   checklist / Diagnose). No change to the Hero or module ledger CTAs.
+- **2026-07-21** - Reverted area display order back to plain numeric (A1, A2, A3, ... A24)
+  on both Build and Diagnose - the warehouse-operations flow order added 2026-07-20
+  (Market Intelligence/Vendor leading, etc.) was explicitly reversed per direct feedback;
+  `compareAreaIds()` (`lib/domain/grouping.ts`) is now a straight numeric compare with no
+  special-cased ordering table. Also swapped Diagnose's tab order - "Score in-app" is now
+  the first tab and the default active mode (was "Upload filled checklist" first/default),
+  matching the more commonly used path.
 - **2026-07-21** - Slotted the 6 new areas from the v3.1 content rollout (Picking
   Productivity, Packing Operations, Outbound Dispatch & Load Management, Warehouse Safety
   & Compliance, Third-Party Labor & Outsourced Operations Governance, SKU Expansion &
