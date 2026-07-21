@@ -268,6 +268,15 @@ workflow side of any given date.
   is now purely explanatory and hands off directly into the module ledger below it, which
   already carries the only CTAs that need to exist past the Hero (module-specific Build
   checklist / Diagnose). No change to the Hero or module ledger CTAs.
+- **2026-07-21** - Reordered the 7 area-selection categories to reflect operational
+  sequence: "Vendor & Market" renamed to **Planning & Sourcing** (A8 Vendor & CC Ops, A14
+  Market Intelligence & Benchmarking only) and moved to lead the list, ahead of Inbound &
+  Quality - the original ascending-by-lowest-area_id ordering had no actual operational
+  logic behind it. A23 (Third-Party Labor & Outsourced Operations Governance) moved out of
+  that category into Governance & Performance, where it's a better content fit (labor
+  governance, not sourcing). Final order: Planning & Sourcing -> Inbound & Quality ->
+  Storage & Inventory -> Fulfillment Operations -> Loss/Returns & Complaints -> Governance
+  & Performance -> People & Training. All 24 areas re-verified covered exactly once.
 - **2026-07-21** - Grouped the area-selection grid on Build and Diagnose into 7 expandable
   thematic categories (Inbound & Quality, Storage & Inventory, Fulfillment Operations,
   Loss/Returns & Complaints, Vendor & Market, Governance & Performance, People & Training)

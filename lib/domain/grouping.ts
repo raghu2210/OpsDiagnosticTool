@@ -47,12 +47,12 @@ export interface AreaCategory {
 }
 
 export const AREA_CATEGORIES: AreaCategory[] = [
+  { id: "planning", name: "Planning & Sourcing", areaIds: ["A8", "A14"] },
   { id: "inbound", name: "Inbound & Quality", areaIds: ["A1", "A2", "A10"] },
   { id: "storage", name: "Storage & Inventory", areaIds: ["A3", "A4", "A9"] },
   { id: "fulfillment", name: "Fulfillment Operations", areaIds: ["A5", "A6", "A19", "A20", "A21"] },
   { id: "loss", name: "Loss, Returns & Complaints", areaIds: ["A7", "A11", "A12"] },
-  { id: "vendor", name: "Vendor & Market", areaIds: ["A8", "A14", "A23"] },
-  { id: "governance", name: "Governance & Performance", areaIds: ["A13", "A17", "A18", "A22", "A24"] },
+  { id: "governance", name: "Governance & Performance", areaIds: ["A13", "A17", "A18", "A22", "A23", "A24"] },
   { id: "people", name: "People & Training", areaIds: ["A15", "A16"] },
 ];
 
