@@ -5,8 +5,8 @@
  * Section bodies are plain string arrays (one paragraph per string) rather than JSX so the
  * exact same content can drive both renderers without duplicating the copy.
  */
-export const APP_VERSION = "3.4";
-export const APP_UPDATED = "2026-07-21";
+export const APP_VERSION = "3.5";
+export const APP_UPDATED = "2026-08-06";
 
 export const FLOW_STEPS = ["Data layer", "Pick areas", "Score & diagnose", "Outputs"];
 
@@ -35,6 +35,11 @@ export const WORKFLOW_SECTIONS: { title: string; body: string[] }[] = [
 ];
 
 export const CHANGELOG = [
+  {
+    version: "3.5",
+    date: "2026-08-06",
+    body: "Updated the knowledge base Master data via a newly provided Excel file (Knowledge_base_updated.xlsx), modifying the fallback generation script to cleanly read from sample_data/Knowledge_base_updated.xlsx and look for the 'Master' sheet instead of 'Masters'.",
+  },
   {
     version: "3.4",
     date: "2026-07-21",

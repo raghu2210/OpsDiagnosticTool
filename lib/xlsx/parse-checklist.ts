@@ -1,4 +1,4 @@
-import ExcelJS from "exceljs";
+ import ExcelJS from "exceljs";
 import type { ScoreValue, SubpointScore } from "@/lib/domain/types";
 
 /**

@@ -13,7 +13,7 @@ import { fileURLToPath } from "node:url";
 import path from "node:path";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const SOURCE_XLSX = path.resolve(__dirname, "../../sample_data/LongArc_Masters.xlsx");
+const SOURCE_XLSX = path.resolve(__dirname, "../sample_data/Knowledge_base_updated.xlsx");
 const OUT_DIR = path.resolve(__dirname, "../lib/data/local-fallback");
 
 const DASH_RE = /[‐‑‒–—―−﹘﹣－⁃]/g;
@@ -46,7 +46,7 @@ async function main() {
   const wb = new ExcelJS.Workbook();
   await wb.xlsx.readFile(SOURCE_XLSX);
 
-  const masters = sheetToRecords(wb.getWorksheet("Masters"));
+  const masters = sheetToRecords(wb.getWorksheet("Master"));
   const recommendations = sheetToRecords(wb.getWorksheet("Recommendations"));
   const problemsWs = wb.getWorksheet("Problems");
   const problems = problemsWs ? sheetToRecords(problemsWs) : [];
