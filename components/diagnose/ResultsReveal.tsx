@@ -104,7 +104,6 @@ interface PriorityItem {
   targetName: string;
   weightedGap: number;
   observation: string;
-  photo?: string;
   tasks: string;
 }
 
@@ -134,7 +133,6 @@ export function ResultsReveal({ diag }: { diag: DiagnosticResult }) {
         targetName: s.target_name,
         weightedGap: s.weighted_gap,
         observation: s.observation,
-        photo: s.photo,
         tasks: s.tasks,
       })),
     ...diag.scored_problems
@@ -150,7 +148,6 @@ export function ResultsReveal({ diag }: { diag: DiagnosticResult }) {
         targetName: p.target_name,
         weightedGap: p.weighted_gap,
         observation: p.observation,
-        photo: p.photo,
         tasks: p.tasks,
       })),
   ].sort((a, b) => b.weightedGap - a.weightedGap);
@@ -175,9 +172,11 @@ export function ResultsReveal({ diag }: { diag: DiagnosticResult }) {
             </div>
             <div>
               <div className="text-xl font-medium">
-                {diag.n_scored} / {diag.n_total}
+                {diag.n_scored}
               </div>
-              <div className="text-neutral text-xs uppercase tracking-wider mt-1">sub-points scored</div>
+              <div className="text-neutral text-xs uppercase tracking-wider mt-1">
+                {diag.n_scored === 1 ? "sub point analysed" : "sub points analysed"}
+              </div>
             </div>
           </div>
         </div>
@@ -238,10 +237,6 @@ export function ResultsReveal({ diag }: { diag: DiagnosticResult }) {
                       <span className="font-medium text-ink">{s.targetName}</span> ({fmtScore(s.target)})
                     </p>
                     {s.observation && <p className="mb-2 italic">Observation: {s.observation}</p>}
-                    {s.photo && (
-                      // eslint-disable-next-line @next/next/no-img-element -- client-only base64 data URI
-                      <img src={s.photo} alt="" className="mb-2 rounded-sm border border-rule max-h-40 max-w-full" />
-                    )}
                     {s.tasks ? (
                       <ul className="list-disc pl-5 space-y-1">
                         {s.tasks.split("\n").filter(Boolean).map((t, idx) => (

@@ -140,7 +140,11 @@ export function DiagnosticReport({ moduleName, diag }: { moduleName: string; dia
 
         <View style={styles.body}>
           <Text style={styles.moduleName}>{pdfSafe(moduleName)}</Text>
-          <Text style={styles.muted}>{pdfSafe(`${diag.n_scored} of ${diag.n_total} sub-points scored`)}</Text>
+          <Text style={styles.muted}>
+            {pdfSafe(
+              `${diag.n_scored} ${diag.n_scored === 1 ? "sub point analysed" : "sub points analysed"}`
+            )}
+          </Text>
 
           <View style={styles.scoreRow}>
             <Text style={[styles.scoreNum, { color: band.color }]}>{`${diag.module_score.toFixed(1)} / 5`}</Text>

@@ -18,24 +18,19 @@ describe("computeDiagnostic parity with the Python implementation", () => {
     subpointIds.map((sid, i) => [sid, (((i % 5) + 1) as ScoreValue)])
   );
   const observations = new Map<string, string>([[subpointIds[0], "Sample observation for golden test"]]);
-
   const result = computeDiagnostic(moduleRows, scores, observations, recommendations);
-
   it("matches the Python golden output's module-level numbers", () => {
-    expect(result.module_score).toBeCloseTo(3.2487000000000004, 9);
-    expect(result.pct).toBeCloseTo(64.974, 9);
+    expect(result.module_score).toBeCloseTo(3.2171717171717167, 9);
+    expect(result.pct).toBeCloseTo(64.34343434343434, 9);
     expect(result.n_scored).toBe(20);
-    expect(result.n_total).toBe(23);
+    expect(result.n_total).toBe(63);
   });
 
   it("matches the Python golden output's per-area scores", () => {
     const expected = [
-      { area_id: "A1", area_name: "Inward", area_weight: 0.17, area_score: 3.0, n_scored: 5 },
-      { area_id: "A2", area_name: "Quality Control", area_weight: 0.17, area_score: 2.5, n_scored: 4 },
-      { area_id: "A3", area_name: "Putaway", area_weight: 0.17, area_score: 2.75, n_scored: 4 },
-      { area_id: "A4", area_name: "Packaging", area_weight: 0.17, area_score: 3.3400000000000003, n_scored: 3 },
-      { area_id: "A5", area_name: "Staging", area_weight: 0.16, area_score: 2.99, n_scored: 3 },
-      { area_id: "A6", area_name: "Dispatch", area_weight: 0.16, area_score: 5.0, n_scored: 1 },
+      { area_id: "A1", area_name: "Inward / Gate & Dock Operations", area_weight: 0.125, area_score: 2.818181818181818, n_scored: 11 },
+      { area_id: "A2", area_name: "Quality Management", area_weight: 0.125, area_score: 2.8333333333333335, n_scored: 6 },
+      { area_id: "A3", area_name: "Process Excellence & Lean", area_weight: 0.125, area_score: 4.0, n_scored: 3 },
     ];
     expect(result.area_scores).toHaveLength(expected.length);
     expected.forEach((exp, i) => {
@@ -60,9 +55,9 @@ describe("computeDiagnostic parity with the Python implementation", () => {
   });
 
   it("assigns no recommended tasks to a subpoint scored 5", () => {
-    const a31 = result.scored.find((s) => s.subpoint_id === "A3.1");
-    expect(a31?.score).toBe(5);
-    expect(a31?.tasks).toBe("");
+    const a33 = result.scored.find((s) => s.subpoint_id === "A3.3");
+    expect(a33?.score).toBe(5);
+    expect(a33?.tasks).toBe("");
   });
 
   it("excludes un-scored subpoints from the result entirely", () => {
