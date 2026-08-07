@@ -245,6 +245,18 @@ updated independently. The two logs are never allowed to mix, even when both hap
 the same work session - see the corresponding entry there for what happened on the
 workflow side of any given date.
 
+- **2026-08-07** - KB Tracker page: added two things on top of the initial build. (1)
+  Clicking a sub-point row now expands further to reveal its actual 5 maturity
+  descriptions (`score_1_desc`..`score_5_desc` from the Master sheet, joined by
+  `subpoint_id` - the page now also loads `loadMasters()` alongside `loadKbTracker()`) -
+  answers "what does a 1 vs a 2 actually mean" for that specific sub-point, reusing the
+  same numbered-badge + `LEVEL_NAME` styling already established in `MaturityLadder`. (2)
+  Added a "Group by Area" / "Group by Status" tab toggle (same underlined-tab pattern as
+  Diagnose's mode switch) - the Status view buckets every sub-point into one of the 3
+  status groups regardless of area, so you can see everything Pending (or Needs review)
+  across the whole module in one place instead of hunting area by area. Both views share
+  the same expand-to-drill-down sub-point row component. No data change - purely
+  additional display of data already loaded.
 - **2026-08-07** - Added a new "KB Tracker" page (`/kb-tracker`), a 5th `TopNav` link
   between Diagnose and Tracker - shows content-authoring review status (Closed / Needs
   review / Pending) per area with a stat strip up top and expand-to-drill-down accordion
