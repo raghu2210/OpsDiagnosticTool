@@ -152,3 +152,19 @@ export interface TrackerRow {
   notes_link: string | null;
   blocker: string;
 }
+
+// --- KB Tracker ---
+/** Content-authoring review status per sub-point - "is this content done," not scoring
+ * data. Deliberately a separate dataset from MasterRow (same principle as Sync Tracker
+ * being wholly separate from Masters/Recommendations) so review status never leaks into
+ * the scoring pipeline. */
+export type KbReviewStatus = "Closed" | "Needs review" | "Pending" | string;
+
+export interface KbTrackerRow {
+  module_id: string;
+  area_id: string;
+  area_name: string;
+  subpoint_id: string;
+  subpoint_name: string;
+  review_status: KbReviewStatus;
+}

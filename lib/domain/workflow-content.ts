@@ -5,8 +5,8 @@
  * Section bodies are plain string arrays (one paragraph per string) rather than JSX so the
  * exact same content can drive both renderers without duplicating the copy.
  */
-export const APP_VERSION = "3.5";
-export const APP_UPDATED = "2026-08-06";
+export const APP_VERSION = "3.6";
+export const APP_UPDATED = "2026-08-07";
 
 export const FLOW_STEPS = ["Data layer", "Pick areas", "Score & diagnose", "Outputs"];
 
@@ -35,6 +35,11 @@ export const WORKFLOW_SECTIONS: { title: string; body: string[] }[] = [
 ];
 
 export const CHANGELOG = [
+  {
+    version: "3.6",
+    date: "2026-08-07",
+    body: "Added a KB Tracker dataset: sample_data/Knowledge_base_updated.xlsx gains a new 'KB Tracker' sheet (module_id, area_id, area_name, subpoint_id, subpoint_name, review_status) tracking content-authoring status per sub-point - Closed / Needs review / Pending - entirely separate from the Master sheet, same principle as the Sync Tracker's data being wholly separate from Masters/Recommendations. Populated one-time from a color-coded reference copy of the workbook (cell fill color -> status, matched by subpoint_id: 32 Closed, 27 Needs review, 4 Pending, 63 total, 0 unmatched). scripts/generate-fallback-json.mjs extended to read this sheet (optional, defaults to [] like Problems) into lib/data/local-fallback/kb-tracker.json, and lib/data/masters-source.ts gains loadKbTracker() following the same Google-Sheet-if-configured-else-local-fallback pattern as loadMasters()/loadProblems().",
+  },
   {
     version: "3.5",
     date: "2026-08-06",

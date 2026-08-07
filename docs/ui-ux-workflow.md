@@ -245,6 +245,16 @@ updated independently. The two logs are never allowed to mix, even when both hap
 the same work session - see the corresponding entry there for what happened on the
 workflow side of any given date.
 
+- **2026-08-07** - Added a new "KB Tracker" page (`/kb-tracker`), a 5th `TopNav` link
+  between Diagnose and Tracker - shows content-authoring review status (Closed / Needs
+  review / Pending) per area with a stat strip up top and expand-to-drill-down accordion
+  per area (`components/kbtracker/KbTrackerView.tsx`, same collapsed-by-default pattern
+  already used for Node-4 problem statements in ScoreForm/BuildFlow). Status colors reuse
+  the existing semantic palette (Closed->green, Needs review->amber, Pending->red) rather
+  than introducing a new color system. Read-only, entirely separate page from Diagnose -
+  same "don't mix into the scoring flow" principle as the existing Sync Tracker page.
+  Underlying data pipeline change (new KB Tracker sheet/dataset) logged separately in
+  `lib/domain/workflow-content.ts`'s changelog, v3.6, per the hard rule.
 - **2026-07-22** - Fixed a visibly lopsided "Or jump straight in" section on Home:
   `ModuleLedger` (a single thin row, since the product has consolidated to one active
   module) sat next to `MaturityLadder` (a much taller card) in a 2-column grid with

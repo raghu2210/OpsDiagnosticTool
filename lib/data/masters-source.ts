@@ -1,10 +1,11 @@
 import { google } from "googleapis";
 import { getGoogleAuthClient } from "./google-auth";
 import { normalizeDashesDeep } from "@/lib/domain/normalize";
-import type { MasterRow, ProblemRow, RecommendationRow } from "@/lib/domain/types";
+import type { KbTrackerRow, MasterRow, ProblemRow, RecommendationRow } from "@/lib/domain/types";
 import masterFallback from "./local-fallback/masters.json";
 import recommendationFallback from "./local-fallback/recommendations.json";
 import problemFallback from "./local-fallback/problems.json";
+import kbTrackerFallback from "./local-fallback/kb-tracker.json";
 
 /** Converts a Sheets values.get response (array of row arrays, first row = headers)
  * into an array of plain objects keyed by header - mirrors gspread's get_all_records(). */
@@ -81,4 +82,22 @@ export async function loadProblems(): Promise<ProblemRow[]> {
     }
   }
   return problemFallback as unknown as ProblemRow[];
+}
+
+/**
+ * Reads the KB Tracker sheet - content-authoring review status per sub-point (Closed /
+ * Needs review / Pending), entirely separate from the scoring pipeline. Same
+ * graceful-degradation contract as loadProblems(): returns [] if the sheet is missing.
+ */
+export async function loadKbTracker(): Promise<KbTrackerRow[]> {
+  const sheetId = process.env.GOOGLE_SHEET_ID;
+  if (sheetId) {
+    try {
+      const rows = await fetchSheetRange(sheetId, "KB Tracker");
+      return normalizeDashesDeep(rows) as unknown as KbTrackerRow[];
+    } catch {
+      // fall through to local fallback
+    }
+  }
+  return kbTrackerFallback as unknown as KbTrackerRow[];
 }
