@@ -175,7 +175,7 @@ export function ResultsReveal({ diag }: { diag: DiagnosticResult }) {
                 {diag.n_scored}
               </div>
               <div className="text-neutral text-xs uppercase tracking-wider mt-1">
-                {diag.n_scored === 1 ? "sub point analysed" : "sub points analysed"}
+                {diag.n_scored === 1 ? "point scored" : "points scored"}
               </div>
             </div>
           </div>

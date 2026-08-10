@@ -68,9 +68,11 @@ function liveRollup(subProblems: ProblemRow[], values: Record<string, string>): 
 function AutoGrowTextarea({
   value,
   onChange,
+  onBlur,
 }: {
   value: string;
   onChange: (v: string) => void;
+  onBlur?: () => void;
 }) {
   const ref = useRef<HTMLTextAreaElement>(null);
 
@@ -93,6 +95,7 @@ function AutoGrowTextarea({
           onChange(capWords(e.target.value));
           resize();
         }}
+        onBlur={onBlur}
       />
       {value && (
         <div className="text-xs text-neutral/70 mt-0.5">
@@ -101,6 +104,36 @@ function AutoGrowTextarea({
       )}
     </div>
   );
+}
+
+/** Rubric text for one scorable row's 5 levels - threaded through from MasterRow/ProblemRow
+ * so the auto-score API call has something to classify the observation against. */
+interface ScoreRubric {
+  score_1_desc: string;
+  score_2_desc: string;
+  score_3_desc: string;
+  score_4_desc: string;
+  score_5_desc: string;
+}
+
+interface AutoScoreResult {
+  score: number;
+  rationale: string | null;
+}
+
+async function fetchAutoScore(observation: string, rubric: ScoreRubric): Promise<AutoScoreResult | null> {
+  try {
+    const res = await fetch("/api/diagnostic/auto-score", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ observation, ...rubric }),
+    });
+    if (!res.ok) return null;
+    const data = await res.json();
+    return typeof data.score === "number" ? { score: data.score, rationale: data.rationale ?? null } : null;
+  } catch {
+    return null;
+  }
 }
 
 function PhotoAttach({
@@ -161,17 +194,28 @@ function PhotoAttach({
 
 /** One sub-point row's observation + photo + score picker - shared by both the direct
  * scoring row and each nested problem-statement row, just keyed by a different id. */
+function ScoreRationale({ scoreValue, rationale }: { scoreValue: string; rationale: string }) {
+  return (
+    <div className="mt-2 pl-2.5 border-l-2 border-rule text-xs text-neutral leading-relaxed">
+      <span className="font-code text-neutral/80 mr-1">Why {scoreValue}:</span>
+      {rationale}
+    </div>
+  );
+}
+
 function ScorableRow({
   id,
   label,
   code,
   obsValue,
   onObsChange,
+  onObsBlur,
   photo,
   onPhotoAttach,
   onPhotoRemove,
   scoreValue,
   onScoreChange,
+  rationale,
   indent,
 }: {
   id: string;
@@ -179,11 +223,13 @@ function ScorableRow({
   code: string;
   obsValue: string;
   onObsChange: (v: string) => void;
+  onObsBlur: () => void;
   photo: string | undefined;
   onPhotoAttach: (dataUrl: string) => void;
   onPhotoRemove: () => void;
   scoreValue: string;
   onScoreChange: (v: string) => void;
+  rationale?: string;
   indent?: boolean;
 }) {
   return (
@@ -193,8 +239,9 @@ function ScorableRow({
           <span className="font-code text-neutral mr-1.5">{code}</span>
           {label}
         </div>
-        <AutoGrowTextarea value={obsValue} onChange={onObsChange} />
+        <AutoGrowTextarea value={obsValue} onChange={onObsChange} onBlur={onObsBlur} />
         <PhotoAttach photo={photo} onAttach={onPhotoAttach} onRemove={onPhotoRemove} />
+        {rationale && <ScoreRationale scoreValue={scoreValue} rationale={rationale} />}
       </div>
       <SegmentedScore value={scoreValue} onChange={onScoreChange} />
     </div>
@@ -214,6 +261,44 @@ export function ScoreForm({
   const [obs, setObs] = useState<Record<string, string>>({});
   const [photos, setPhotos] = useState<Record<string, string>>({});
   const [expanded, setExpanded] = useState<Set<string>>(new Set());
+  // Why the auto-scorer picked the value it did, per row - cleared whenever the score is
+  // overridden manually or the observation is edited further, since a stale rationale would
+  // no longer describe the current score/text.
+  const [rationales, setRationales] = useState<Record<string, string>>({});
+  // Tracks the observation text last sent for auto-scoring per row, so blurring an
+  // untouched or already-scored field doesn't re-fire the request.
+  const lastAutoScored = useRef<Record<string, string>>({});
+
+  function handleObsChange(id: string, v: string) {
+    setObs((o) => ({ ...o, [id]: v }));
+    setRationales((r) => {
+      if (!(id in r)) return r;
+      const next = { ...r };
+      delete next[id];
+      return next;
+    });
+  }
+
+  function handleScoreChange(id: string, v: string) {
+    setValues((prev) => ({ ...prev, [id]: v }));
+    setRationales((r) => {
+      if (!(id in r)) return r;
+      const next = { ...r };
+      delete next[id];
+      return next;
+    });
+  }
+
+  function handleObsBlur(id: string, observation: string, rubric: ScoreRubric) {
+    const text = observation.trim();
+    if (!text || lastAutoScored.current[id] === text) return;
+    lastAutoScored.current[id] = text;
+    fetchAutoScore(text, rubric).then((result) => {
+      if (result === null) return;
+      setValues((prev) => ({ ...prev, [id]: String(result.score) }));
+      if (result.rationale) setRationales((r) => ({ ...r, [id]: result.rationale as string }));
+    });
+  }
 
   function toggleExpanded(subpointId: string) {
     setExpanded((prev) => {
@@ -303,12 +388,14 @@ export function ScoreForm({
                             code={p.problem_id}
                             label={p.problem_name}
                             obsValue={obs[p.problem_id] ?? ""}
-                            onObsChange={(v) => setObs((o) => ({ ...o, [p.problem_id]: v }))}
+                            onObsChange={(v) => handleObsChange(p.problem_id, v)}
+                            onObsBlur={() => handleObsBlur(p.problem_id, obs[p.problem_id] ?? "", p)}
                             photo={photos[p.problem_id]}
                             onPhotoAttach={(dataUrl) => setPhotos((ph) => ({ ...ph, [p.problem_id]: dataUrl }))}
                             onPhotoRemove={() => setPhotos((ph) => ({ ...ph, [p.problem_id]: "" }))}
                             scoreValue={values[p.problem_id] ?? ""}
-                            onScoreChange={(v) => setValues((prev) => ({ ...prev, [p.problem_id]: v }))}
+                            onScoreChange={(v) => handleScoreChange(p.problem_id, v)}
+                            rationale={rationales[p.problem_id]}
                             indent
                           />
                         ))}
@@ -325,12 +412,14 @@ export function ScoreForm({
                   code={sp.subpoint_id}
                   label={sp.subpoint_name}
                   obsValue={obs[sp.subpoint_id] ?? ""}
-                  onObsChange={(v) => setObs((o) => ({ ...o, [sp.subpoint_id]: v }))}
+                  onObsChange={(v) => handleObsChange(sp.subpoint_id, v)}
+                  onObsBlur={() => handleObsBlur(sp.subpoint_id, obs[sp.subpoint_id] ?? "", sp)}
                   photo={photos[sp.subpoint_id]}
                   onPhotoAttach={(dataUrl) => setPhotos((ph) => ({ ...ph, [sp.subpoint_id]: dataUrl }))}
                   onPhotoRemove={() => setPhotos((ph) => ({ ...ph, [sp.subpoint_id]: "" }))}
                   scoreValue={values[sp.subpoint_id] ?? ""}
-                  onScoreChange={(v) => setValues((prev) => ({ ...prev, [sp.subpoint_id]: v }))}
+                  onScoreChange={(v) => handleScoreChange(sp.subpoint_id, v)}
+                  rationale={rationales[sp.subpoint_id]}
                 />
               );
             })}
