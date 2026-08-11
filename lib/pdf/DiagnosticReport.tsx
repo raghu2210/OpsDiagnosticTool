@@ -142,7 +142,7 @@ export function DiagnosticReport({ moduleName, diag }: { moduleName: string; dia
           <Text style={styles.moduleName}>{pdfSafe(moduleName)}</Text>
           <Text style={styles.muted}>
             {pdfSafe(
-              `${diag.n_scored} ${diag.n_scored === 1 ? "sub point analysed" : "sub points analysed"}`
+              `${diag.n_scored} ${diag.n_scored === 1 ? "point scored" : "points scored"}`
             )}
           </Text>
 
