@@ -1,6 +1,7 @@
 import { google } from "googleapis";
 
 const SHEETS_READONLY_SCOPE = "https://www.googleapis.com/auth/spreadsheets.readonly";
+const SHEETS_READWRITE_SCOPE = "https://www.googleapis.com/auth/spreadsheets";
 
 /**
  * Builds a service-account JWT client from env vars, mirroring app.py's
@@ -12,8 +13,12 @@ const SHEETS_READONLY_SCOPE = "https://www.googleapis.com/auth/spreadsheets.read
  * standalone `google-auth-library` package directly - googleapis bundles its own internal
  * copy of that library, and the two package instances' types are structurally
  * incompatible (private field conflicts) even at matching version ranges.
+ *
+ * Pass `write: true` for callers that need to persist edits (e.g. KB Tracker level-review
+ * approvals) - kept as an opt-in param rather than always requesting the broader scope, so
+ * read-only callers stay minimum-privilege.
  */
-export function getGoogleAuthClient() {
+export function getGoogleAuthClient(opts: { write?: boolean } = {}) {
   const email = process.env.GOOGLE_SERVICE_ACCOUNT_EMAIL;
   const rawKey = process.env.GOOGLE_PRIVATE_KEY;
   if (!email || !rawKey) return null;
@@ -24,6 +29,6 @@ export function getGoogleAuthClient() {
   return new google.auth.JWT({
     email,
     key,
-    scopes: [SHEETS_READONLY_SCOPE],
+    scopes: [opts.write ? SHEETS_READWRITE_SCOPE : SHEETS_READONLY_SCOPE],
   });
 }

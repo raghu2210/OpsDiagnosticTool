@@ -55,7 +55,7 @@ export async function loadMasters(): Promise<MasterRow[]> {
   const sheetId = process.env.GOOGLE_SHEET_ID;
   if (sheetId) {
     try {
-      const rows = await fetchSheetRange(sheetId, "Masters");
+      const rows = await fetchSheetRange(sheetId, "Master");
       return normalizeDashesDeep(rows) as unknown as MasterRow[];
     } catch {
       // fall through to local fallback, same as the Python try/except
@@ -108,7 +108,7 @@ export async function loadKbTracker(): Promise<KbTrackerRow[]> {
   const sheetId = process.env.GOOGLE_SHEET_ID;
   if (sheetId) {
     try {
-      const rows = await fetchSheetRange(sheetId, "KB Tracker");
+      const rows = await fetchSheetRange(sheetId, "Sheet1");
       return normalizeDashesDeep(rows) as unknown as KbTrackerRow[];
     } catch {
       // fall through to local fallback

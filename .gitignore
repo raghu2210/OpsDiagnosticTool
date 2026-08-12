@@ -37,6 +37,11 @@ yarn-error.log*
 # vercel
 .vercel
 
+# service account credentials - never commit
+*-service-account*.json
+erudite-hope-*.json
+*credentials*.json
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
