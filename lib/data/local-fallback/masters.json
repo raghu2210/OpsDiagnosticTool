@@ -15,7 +15,7 @@
     "score_5_desc": ">90% slot adherence with automated vendor notification.\nLoad spread within +/-10% across all shift hours.\nAverage wait time under 15 minutes.\nzero congregation at the security gate.\nDock-in time is system-captured and forms the auditable SLA start-point for GRN TAT, with automated breach alerts.\nDigital slot booking with a QR/Booking-ID confirmation (D-2 indent to D-1 slot) is shared with over 90% of vendors and scanned at the gate as the primary authentication step, with zero manual slot entries.",
     "version": "1",
     "status": "active",
-    "level_review": "1 [APPROVED] - Need to change the Ad-Hoc\n2 [APPROVED] - Increase the percentage to 30 to 50%  check\n3 [APPROVED] - \n4 [APPROVED] - \n5 [APPROVED] - ",
+    "level_review": "1 [APPROVED] - \n2 [PENDING] - \n3 [PENDING] - \n4 [PENDING] - \n5 [PENDING] - ",
     "indicative_scoring_questions": "• Is there a defined slot-booking mechanism for inbound vehicles? What % arrive within their booked slot?\n• What % of daily inbound volume clusters into a single peak window, and what is the average vehicle wait time?\n• Is a designated driver holding area (away from the security gate) marked and enforced?\n• Is dock-in time captured, and does it feed the Goods Receipt Note (GRN) turnaround-time (TAT) Service Level Agreement (SLA)?\n• Is slot booking digital, with a Quick Response (QR)/Booking-ID sent to vendors ahead of arrival and scanned at the gate?"
   },
   {
