@@ -2,505 +2,953 @@
   {
     "module_id": "WH_V1",
     "area_id": "A1",
-    "area_name": "Inward / Gate & Dock Operations",
+    "area_name": "Scheduling",
     "subpoint_id": "A1.1",
     "subpoint_name": "Appointment Scheduling",
-    "review_status": "Closed"
+    "review_status": "Needs review"
   },
   {
     "module_id": "WH_V1",
-    "area_id": "A1",
-    "area_name": "Inward / Gate & Dock Operations",
-    "subpoint_id": "A1.2",
-    "subpoint_name": "Gate Entry & Documentation Verification",
-    "review_status": "Closed"
+    "area_id": "A10",
+    "area_name": "Dispatch",
+    "subpoint_id": "A10.1",
+    "subpoint_name": "Dispatch & Loading Operations",
+    "review_status": "Needs review"
   },
   {
     "module_id": "WH_V1",
-    "area_id": "A1",
-    "area_name": "Inward / Gate & Dock Operations",
-    "subpoint_id": "A1.3",
-    "subpoint_name": "Manpower Entry Management",
-    "review_status": "Closed"
+    "area_id": "A10",
+    "area_name": "Dispatch",
+    "subpoint_id": "A10.2",
+    "subpoint_name": "STN Ready Time (Created to Ready)",
+    "review_status": "Needs review"
   },
   {
     "module_id": "WH_V1",
-    "area_id": "A1",
-    "area_name": "Inward / Gate & Dock Operations",
-    "subpoint_id": "A1.4",
-    "subpoint_name": "Dock Management System",
-    "review_status": "Closed"
+    "area_id": "A10",
+    "area_name": "Dispatch",
+    "subpoint_id": "A10.3",
+    "subpoint_name": "Outbound Vehicle Wait Time (Arrival to Exit)",
+    "review_status": "Needs review"
   },
   {
     "module_id": "WH_V1",
-    "area_id": "A1",
-    "area_name": "Inward / Gate & Dock Operations",
-    "subpoint_id": "A1.5",
-    "subpoint_name": "Dock Buffers",
-    "review_status": "Closed"
+    "area_id": "A10",
+    "area_name": "Dispatch",
+    "subpoint_id": "A10.4",
+    "subpoint_name": "Dispatch SLA % (Orders Dispatched On Time)",
+    "review_status": "Needs review"
   },
   {
     "module_id": "WH_V1",
-    "area_id": "A1",
-    "area_name": "Inward / Gate & Dock Operations",
-    "subpoint_id": "A1.6",
-    "subpoint_name": "Unloading Operations & Floor Management",
-    "review_status": "Closed"
-  },
-  {
-    "module_id": "WH_V1",
-    "area_id": "A1",
-    "area_name": "Inward / Gate & Dock Operations",
-    "subpoint_id": "A1.7",
-    "subpoint_name": "Weighment & GRN Digitization",
-    "review_status": "Closed"
-  },
-  {
-    "module_id": "WH_V1",
-    "area_id": "A1",
-    "area_name": "Inward / Gate & Dock Operations",
-    "subpoint_id": "A1.8",
-    "subpoint_name": "Gate Release Decision & Capacity Gating",
-    "review_status": "Closed"
-  },
-  {
-    "module_id": "WH_V1",
-    "area_id": "A1",
-    "area_name": "Inward / Gate & Dock Operations",
-    "subpoint_id": "A1.9",
-    "subpoint_name": "Dock-to-Stock Time",
-    "review_status": "Closed"
-  },
-  {
-    "module_id": "WH_V1",
-    "area_id": "A1",
-    "area_name": "Inward / Gate & Dock Operations",
-    "subpoint_id": "A1.10",
-    "subpoint_name": "Unloading TAT",
-    "review_status": "Closed"
-  },
-  {
-    "module_id": "WH_V1",
-    "area_id": "A1",
-    "area_name": "Inward / Gate & Dock Operations",
-    "subpoint_id": "A1.11",
-    "subpoint_name": "Putaway TAT",
-    "review_status": "Closed"
-  },
-  {
-    "module_id": "WH_V1",
-    "area_id": "A2",
-    "area_name": "Quality Management",
-    "subpoint_id": "A2.1",
+    "area_id": "A11",
+    "area_name": "Quality Management (Governance)",
+    "subpoint_id": "A11.1",
     "subpoint_name": "QMS Framework",
-    "review_status": "Closed"
+    "review_status": "Needs review"
   },
   {
     "module_id": "WH_V1",
-    "area_id": "A2",
-    "area_name": "Quality Management",
-    "subpoint_id": "A2.2",
-    "subpoint_name": "Inbound Quality Check Norms",
-    "review_status": "Closed"
+    "area_id": "A11",
+    "area_name": "Quality Management (Governance)",
+    "subpoint_id": "A11.10",
+    "subpoint_name": "Shortage, Loss Prevention (SLP) & Theft Management",
+    "review_status": "Needs review"
   },
   {
     "module_id": "WH_V1",
-    "area_id": "A2",
-    "area_name": "Quality Management",
-    "subpoint_id": "A2.3",
+    "area_id": "A11",
+    "area_name": "Quality Management (Governance)",
+    "subpoint_id": "A11.2",
     "subpoint_name": "Return to Vendor Policy",
-    "review_status": "Closed"
+    "review_status": "Needs review"
   },
   {
     "module_id": "WH_V1",
-    "area_id": "A2",
-    "area_name": "Quality Management",
-    "subpoint_id": "A2.4",
+    "area_id": "A11",
+    "area_name": "Quality Management (Governance)",
+    "subpoint_id": "A11.3",
     "subpoint_name": "Customer Complaint Tracking",
-    "review_status": "Closed"
+    "review_status": "Needs review"
   },
   {
     "module_id": "WH_V1",
-    "area_id": "A2",
-    "area_name": "Quality Management",
-    "subpoint_id": "A2.5",
+    "area_id": "A11",
+    "area_name": "Quality Management (Governance)",
+    "subpoint_id": "A11.4",
     "subpoint_name": "Safety / Near-Miss Incidents",
-    "review_status": "Closed"
+    "review_status": "Needs review"
   },
   {
     "module_id": "WH_V1",
-    "area_id": "A2",
-    "area_name": "Quality Management",
-    "subpoint_id": "A2.6",
+    "area_id": "A11",
+    "area_name": "Quality Management (Governance)",
+    "subpoint_id": "A11.5",
     "subpoint_name": "Chiller/Freezer Temperature Compliance %",
-    "review_status": "Closed"
+    "review_status": "Needs review"
   },
   {
     "module_id": "WH_V1",
-    "area_id": "A3",
-    "area_name": "Process Excellence & Lean",
-    "subpoint_id": "A3.1",
+    "area_id": "A11",
+    "area_name": "Quality Management (Governance)",
+    "subpoint_id": "A11.6",
+    "subpoint_name": "Inbound Quality Check Norms",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A11",
+    "area_name": "Quality Management (Governance)",
+    "subpoint_id": "A11.7",
     "subpoint_name": "5S Implementation",
     "review_status": "Needs review"
   },
   {
     "module_id": "WH_V1",
-    "area_id": "A3",
-    "area_name": "Process Excellence & Lean",
-    "subpoint_id": "A3.2",
+    "area_id": "A11",
+    "area_name": "Quality Management (Governance)",
+    "subpoint_id": "A11.8",
     "subpoint_name": "Lean Principles Implementation",
     "review_status": "Needs review"
   },
   {
     "module_id": "WH_V1",
-    "area_id": "A3",
-    "area_name": "Process Excellence & Lean",
-    "subpoint_id": "A3.3",
-    "subpoint_name": "Process Design (ITL & Exception Flows)",
+    "area_id": "A11",
+    "area_name": "Quality Management (Governance)",
+    "subpoint_id": "A11.9",
+    "subpoint_name": "Ethylene-Sensitive/Releasing Product Segregation",
     "review_status": "Needs review"
   },
   {
     "module_id": "WH_V1",
-    "area_id": "A4",
-    "area_name": "Sorting, Grading & Packing Operations",
-    "subpoint_id": "A4.1",
-    "subpoint_name": "Sorting & Grading Norms",
-    "review_status": "Closed"
+    "area_id": "A12",
+    "area_name": "Process Design & Governance",
+    "subpoint_id": "A12.1",
+    "subpoint_name": "Process Architecture, Definition & Flow Mapping",
+    "review_status": "Needs review"
   },
   {
     "module_id": "WH_V1",
-    "area_id": "A4",
-    "area_name": "Sorting, Grading & Packing Operations",
-    "subpoint_id": "A4.2",
-    "subpoint_name": "Packing Norms & Productivity",
-    "review_status": "Closed"
+    "area_id": "A12",
+    "area_name": "Process Design & Governance",
+    "subpoint_id": "A12.2",
+    "subpoint_name": "Process Ownership & Responsibility Matrix",
+    "review_status": "Needs review"
   },
   {
     "module_id": "WH_V1",
-    "area_id": "A4",
-    "area_name": "Sorting, Grading & Packing Operations",
-    "subpoint_id": "A4.3",
-    "subpoint_name": "Manpower Planning for Processing",
-    "review_status": "Closed"
+    "area_id": "A12",
+    "area_name": "Process Design & Governance",
+    "subpoint_id": "A12.3",
+    "subpoint_name": "Exception Flow & Approval Matrix",
+    "review_status": "Needs review"
   },
   {
     "module_id": "WH_V1",
-    "area_id": "A4",
-    "area_name": "Sorting, Grading & Packing Operations",
-    "subpoint_id": "A4.4",
-    "subpoint_name": "Shrinkage & Seasonal Loss Management",
-    "review_status": "Closed"
+    "area_id": "A12",
+    "area_name": "Process Design & Governance",
+    "subpoint_id": "A12.4",
+    "subpoint_name": "Scan-Based Traceability Depth",
+    "review_status": "Needs review"
   },
   {
     "module_id": "WH_V1",
-    "area_id": "A4",
-    "area_name": "Sorting, Grading & Packing Operations",
-    "subpoint_id": "A4.5",
-    "subpoint_name": "Repacking Reduction Targets",
-    "review_status": "Closed"
-  },
-  {
-    "module_id": "WH_V1",
-    "area_id": "A4",
-    "area_name": "Sorting, Grading & Packing Operations",
-    "subpoint_id": "A4.6",
-    "subpoint_name": "Packing Accuracy % (Units/Cases Packed Correctly)",
-    "review_status": "Closed"
-  },
-  {
-    "module_id": "WH_V1",
-    "area_id": "A5",
+    "area_id": "A13",
     "area_name": "Planning (Demand, Inventory, Capacity)",
-    "subpoint_id": "A5.1",
+    "subpoint_id": "A13.1",
     "subpoint_name": "Demand Planning",
     "review_status": "Needs review"
   },
   {
     "module_id": "WH_V1",
-    "area_id": "A5",
+    "area_id": "A13",
     "area_name": "Planning (Demand, Inventory, Capacity)",
-    "subpoint_id": "A5.2",
-    "subpoint_name": "Inventory Planning",
-    "review_status": "Needs review"
-  },
-  {
-    "module_id": "WH_V1",
-    "area_id": "A5",
-    "area_name": "Planning (Demand, Inventory, Capacity)",
-    "subpoint_id": "A5.3",
-    "subpoint_name": "Replenishment Planning",
-    "review_status": "Needs review"
-  },
-  {
-    "module_id": "WH_V1",
-    "area_id": "A5",
-    "area_name": "Planning (Demand, Inventory, Capacity)",
-    "subpoint_id": "A5.4",
-    "subpoint_name": "Manpower & Capacity Planning",
-    "review_status": "Needs review"
-  },
-  {
-    "module_id": "WH_V1",
-    "area_id": "A5",
-    "area_name": "Planning (Demand, Inventory, Capacity)",
-    "subpoint_id": "A5.5",
-    "subpoint_name": "Network Planning",
-    "review_status": "Needs review"
-  },
-  {
-    "module_id": "WH_V1",
-    "area_id": "A5",
-    "area_name": "Planning (Demand, Inventory, Capacity)",
-    "subpoint_id": "A5.6",
-    "subpoint_name": "Planning Cycle & Fill Rate Monitoring",
-    "review_status": "Needs review"
-  },
-  {
-    "module_id": "WH_V1",
-    "area_id": "A5",
-    "area_name": "Planning (Demand, Inventory, Capacity)",
-    "subpoint_id": "A5.7",
-    "subpoint_name": "Supplier Planning & Risk Management",
-    "review_status": "Needs review"
-  },
-  {
-    "module_id": "WH_V1",
-    "area_id": "A5",
-    "area_name": "Planning (Demand, Inventory, Capacity)",
-    "subpoint_id": "A5.8",
-    "subpoint_name": "Indent Accuracy (Order Projection vs. Actual)",
-    "review_status": "Needs review"
-  },
-  {
-    "module_id": "WH_V1",
-    "area_id": "A5",
-    "area_name": "Planning (Demand, Inventory, Capacity)",
-    "subpoint_id": "A5.9",
-    "subpoint_name": "Inventory Rotation FIFO Compliance %",
-    "review_status": "Needs review"
-  },
-  {
-    "module_id": "WH_V1",
-    "area_id": "A5",
-    "area_name": "Planning (Demand, Inventory, Capacity)",
-    "subpoint_id": "A5.10",
+    "subpoint_id": "A13.10",
     "subpoint_name": "Inventory Accuracy % (System vs. Physical)",
     "review_status": "Needs review"
   },
   {
     "module_id": "WH_V1",
-    "area_id": "A5",
+    "area_id": "A13",
     "area_name": "Planning (Demand, Inventory, Capacity)",
-    "subpoint_id": "A5.11",
+    "subpoint_id": "A13.11",
     "subpoint_name": "Expiry Loss % (Expired Value vs. Sales)",
     "review_status": "Needs review"
   },
   {
     "module_id": "WH_V1",
-    "area_id": "A5",
+    "area_id": "A13",
     "area_name": "Planning (Demand, Inventory, Capacity)",
-    "subpoint_id": "A5.12",
-    "subpoint_name": "Labor Productivity - UPMH (Units per Manhour) vs. Target",
-    "review_status": "Needs review"
-  },
-  {
-    "module_id": "WH_V1",
-    "area_id": "A5",
-    "area_name": "Planning (Demand, Inventory, Capacity)",
-    "subpoint_id": "A5.13",
-    "subpoint_name": "Labor Productivity - Orders per Manhour vs. Target",
-    "review_status": "Needs review"
-  },
-  {
-    "module_id": "WH_V1",
-    "area_id": "A5",
-    "area_name": "Planning (Demand, Inventory, Capacity)",
-    "subpoint_id": "A5.14",
-    "subpoint_name": "Labor Utilization %",
-    "review_status": "Needs review"
-  },
-  {
-    "module_id": "WH_V1",
-    "area_id": "A5",
-    "area_name": "Planning (Demand, Inventory, Capacity)",
-    "subpoint_id": "A5.15",
+    "subpoint_id": "A13.12",
     "subpoint_name": "Absenteeism %",
     "review_status": "Needs review"
   },
   {
     "module_id": "WH_V1",
-    "area_id": "A5",
+    "area_id": "A13",
     "area_name": "Planning (Demand, Inventory, Capacity)",
-    "subpoint_id": "A5.16",
+    "subpoint_id": "A13.13",
     "subpoint_name": "Inward Accuracy (Actual Arrived Qty vs. Indent)",
     "review_status": "Needs review"
   },
   {
     "module_id": "WH_V1",
-    "area_id": "A5",
+    "area_id": "A13",
     "area_name": "Planning (Demand, Inventory, Capacity)",
-    "subpoint_id": "A5.17",
+    "subpoint_id": "A13.14",
     "subpoint_name": "Dispatched Accuracy (Actual Dispatched Qty vs. Plan)",
     "review_status": "Needs review"
   },
   {
     "module_id": "WH_V1",
-    "area_id": "A6",
+    "area_id": "A13",
+    "area_name": "Planning (Demand, Inventory, Capacity)",
+    "subpoint_id": "A13.2",
+    "subpoint_name": "Inventory Planning",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A13",
+    "area_name": "Planning (Demand, Inventory, Capacity)",
+    "subpoint_id": "A13.3",
+    "subpoint_name": "Replenishment Planning",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A13",
+    "area_name": "Planning (Demand, Inventory, Capacity)",
+    "subpoint_id": "A13.4",
+    "subpoint_name": "Manpower & Capacity Planning",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A13",
+    "area_name": "Planning (Demand, Inventory, Capacity)",
+    "subpoint_id": "A13.5",
+    "subpoint_name": "Network Planning",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A13",
+    "area_name": "Planning (Demand, Inventory, Capacity)",
+    "subpoint_id": "A13.6",
+    "subpoint_name": "Planning Cycle & Fill Rate Monitoring",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A13",
+    "area_name": "Planning (Demand, Inventory, Capacity)",
+    "subpoint_id": "A13.7",
+    "subpoint_name": "Supplier Planning & Risk Management",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A13",
+    "area_name": "Planning (Demand, Inventory, Capacity)",
+    "subpoint_id": "A13.8",
+    "subpoint_name": "Indent Accuracy (Order Projection vs. Actual)",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A13",
+    "area_name": "Planning (Demand, Inventory, Capacity)",
+    "subpoint_id": "A13.9",
+    "subpoint_name": "Inventory Rotation FIFO Compliance %",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A14",
     "area_name": "Facility & Warehouse Design",
-    "subpoint_id": "A6.1",
+    "subpoint_id": "A14.1",
     "subpoint_name": "Facility Sizing & Throughput Planning",
     "review_status": "Needs review"
   },
   {
     "module_id": "WH_V1",
-    "area_id": "A6",
+    "area_id": "A14",
     "area_name": "Facility & Warehouse Design",
-    "subpoint_id": "A6.2",
+    "subpoint_id": "A14.2",
     "subpoint_name": "Warehouse Layout Design",
     "review_status": "Needs review"
   },
   {
     "module_id": "WH_V1",
-    "area_id": "A6",
+    "area_id": "A14",
     "area_name": "Facility & Warehouse Design",
-    "subpoint_id": "A6.3",
+    "subpoint_id": "A14.3",
     "subpoint_name": "Cost per Unit Tracking",
     "review_status": "Needs review"
   },
   {
     "module_id": "WH_V1",
-    "area_id": "A6",
+    "area_id": "A14",
     "area_name": "Facility & Warehouse Design",
-    "subpoint_id": "A6.4",
+    "subpoint_id": "A14.4",
     "subpoint_name": "Project Planning & Governance (Charter, Timeline, Cost Control)",
     "review_status": "Needs review"
   },
   {
     "module_id": "WH_V1",
-    "area_id": "A6",
+    "area_id": "A14",
     "area_name": "Facility & Warehouse Design",
-    "subpoint_id": "A6.5",
-    "subpoint_name": "Warehouse Cost per Order",
-    "review_status": "Needs review"
-  },
-  {
-    "module_id": "WH_V1",
-    "area_id": "A6",
-    "area_name": "Facility & Warehouse Design",
-    "subpoint_id": "A6.6",
+    "subpoint_id": "A14.5",
     "subpoint_name": "Utility Cost per Sqft",
     "review_status": "Needs review"
   },
   {
     "module_id": "WH_V1",
+    "area_id": "A15",
+    "area_name": "Collection Center Operations (FnV)",
+    "subpoint_id": "A15.1",
+    "subpoint_name": "Collection Center Setup & Purpose",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A15",
+    "area_name": "Collection Center Operations (FnV)",
+    "subpoint_id": "A15.2",
+    "subpoint_name": "Collection Center Timing & Dispatch Cutoffs",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A15",
+    "area_name": "Collection Center Operations (FnV)",
+    "subpoint_id": "A15.3",
+    "subpoint_name": "Collection Center Processing Split",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A15",
+    "area_name": "Collection Center Operations (FnV)",
+    "subpoint_id": "A15.4",
+    "subpoint_name": "Unloading Productivity Norms",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A16",
+    "area_name": "Dark Store / Collection Hub Operations",
+    "subpoint_id": "A16.1",
+    "subpoint_name": "Dark Store Receiving & Putaway",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A16",
+    "area_name": "Dark Store / Collection Hub Operations",
+    "subpoint_id": "A16.2",
+    "subpoint_name": "Dark Store Picking & Packing Productivity",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A16",
+    "area_name": "Dark Store / Collection Hub Operations",
+    "subpoint_id": "A16.3",
+    "subpoint_name": "Dark Store Order Fulfillment SLA",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A16",
+    "area_name": "Dark Store / Collection Hub Operations",
+    "subpoint_id": "A16.4",
+    "subpoint_name": "Dark Store Layout & Zoning",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A16",
+    "area_name": "Dark Store / Collection Hub Operations",
+    "subpoint_id": "A16.5",
+    "subpoint_name": "Dark Store Replenishment & Shelf Availability",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A16",
+    "area_name": "Dark Store / Collection Hub Operations",
+    "subpoint_id": "A16.6",
+    "subpoint_name": "Dark Store Capacity Adequacy",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A16",
+    "area_name": "Dark Store / Collection Hub Operations",
+    "subpoint_id": "A16.7",
+    "subpoint_name": "Forecast-to-Replenishment Linkage",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A16",
+    "area_name": "Dark Store / Collection Hub Operations",
+    "subpoint_id": "A16.8",
+    "subpoint_name": "Replenishment Frequency & Fill Rate",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A16",
+    "area_name": "Dark Store / Collection Hub Operations",
+    "subpoint_id": "A16.9",
+    "subpoint_name": "Stock-out & Excess Inventory Management",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A17",
+    "area_name": "Middle-Mile Transportation",
+    "subpoint_id": "A17.1",
+    "subpoint_name": "Fleet Availability & Adequacy",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A17",
+    "area_name": "Middle-Mile Transportation",
+    "subpoint_id": "A17.2",
+    "subpoint_name": "Vehicle Utilization",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A17",
+    "area_name": "Middle-Mile Transportation",
+    "subpoint_id": "A17.3",
+    "subpoint_name": "Middle-Mile Service Levels",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A17",
+    "area_name": "Middle-Mile Transportation",
+    "subpoint_id": "A17.4",
+    "subpoint_name": "Middle-Mile Transportation Cost",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A17",
+    "area_name": "Middle-Mile Transportation",
+    "subpoint_id": "A17.5",
+    "subpoint_name": "Reefer Vehicle Compliance & Performance",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A18",
+    "area_name": "Dispatch Wave Diagnostics",
+    "subpoint_id": "A18.1",
+    "subpoint_name": "Wave Architecture & Volume Distribution",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A18",
+    "area_name": "Dispatch Wave Diagnostics",
+    "subpoint_id": "A18.2",
+    "subpoint_name": "Wave Readiness",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A18",
+    "area_name": "Dispatch Wave Diagnostics",
+    "subpoint_id": "A18.3",
+    "subpoint_name": "Wave-to-Demand Alignment",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A19",
+    "area_name": "Control Tower & End-to-End Visibility",
+    "subpoint_id": "A19.1",
+    "subpoint_name": "Inbound Visibility",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A19",
+    "area_name": "Control Tower & End-to-End Visibility",
+    "subpoint_id": "A19.2",
+    "subpoint_name": "Processing Visibility",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A19",
+    "area_name": "Control Tower & End-to-End Visibility",
+    "subpoint_id": "A19.3",
+    "subpoint_name": "Inventory Visibility",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A19",
+    "area_name": "Control Tower & End-to-End Visibility",
+    "subpoint_id": "A19.4",
+    "subpoint_name": "Dispatch Visibility",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A19",
+    "area_name": "Control Tower & End-to-End Visibility",
+    "subpoint_id": "A19.5",
+    "subpoint_name": "Middle-Mile Visibility",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A19",
+    "area_name": "Control Tower & End-to-End Visibility",
+    "subpoint_id": "A19.6",
+    "subpoint_name": "Dark-Store Visibility",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A19",
+    "area_name": "Control Tower & End-to-End Visibility",
+    "subpoint_id": "A19.7",
+    "subpoint_name": "Control Tower Maturity (Exception Management & Decision-Making)",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A19",
+    "area_name": "Control Tower & End-to-End Visibility",
+    "subpoint_id": "A19.8",
+    "subpoint_name": "Crate Return Visibility",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A19",
+    "area_name": "Control Tower & End-to-End Visibility",
+    "subpoint_id": "A19.9",
+    "subpoint_name": "Order Management System (OMS) Visibility",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A2",
+    "area_name": "Gate Entry",
+    "subpoint_id": "A2.1",
+    "subpoint_name": "Gate Entry & Documentation Verification",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A2",
+    "area_name": "Gate Entry",
+    "subpoint_id": "A2.2",
+    "subpoint_name": "Gate Release Decision & Capacity Gating",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A2",
+    "area_name": "Gate Entry",
+    "subpoint_id": "A2.3",
+    "subpoint_name": "Manpower Entry Management",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A20",
+    "area_name": "Warehouse Management System (WMS) & Digital-Physical Integration",
+    "subpoint_id": "A20.1",
+    "subpoint_name": "Transaction Coverage Across End-to-End Flow",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A20",
+    "area_name": "Warehouse Management System (WMS) & Digital-Physical Integration",
+    "subpoint_id": "A20.2",
+    "subpoint_name": "Scan/RF Discipline & Data Capture Quality",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A20",
+    "area_name": "Warehouse Management System (WMS) & Digital-Physical Integration",
+    "subpoint_id": "A20.3",
+    "subpoint_name": "System Latency & Real-Time Data Accuracy",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A20",
+    "area_name": "Warehouse Management System (WMS) & Digital-Physical Integration",
+    "subpoint_id": "A20.4",
+    "subpoint_name": "System Integration (ERP/OMS/TMS/Control Tower/Finance)",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A20",
+    "area_name": "Warehouse Management System (WMS) & Digital-Physical Integration",
+    "subpoint_id": "A20.5",
+    "subpoint_name": "Exception Handling, Overrides, Approval Flow & Audit Trail",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A20",
+    "area_name": "Warehouse Management System (WMS) & Digital-Physical Integration",
+    "subpoint_id": "A20.6",
+    "subpoint_name": "Traceability & Genealogy",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A20",
+    "area_name": "Warehouse Management System (WMS) & Digital-Physical Integration",
+    "subpoint_id": "A20.7",
+    "subpoint_name": "Cycle Count Automation & Inventory Status Control",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A20",
+    "area_name": "Warehouse Management System (WMS) & Digital-Physical Integration",
+    "subpoint_id": "A20.8",
+    "subpoint_name": "Downtime Contingency & Reporting",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A21",
+    "area_name": "Material Handling Equipment (MHE) & Internal Movement",
+    "subpoint_id": "A21.1",
+    "subpoint_name": "MHE Fleet Adequacy",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A21",
+    "area_name": "Material Handling Equipment (MHE) & Internal Movement",
+    "subpoint_id": "A21.2",
+    "subpoint_name": "MHE Performance & Reliability",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A21",
+    "area_name": "Material Handling Equipment (MHE) & Internal Movement",
+    "subpoint_id": "A21.3",
+    "subpoint_name": "Internal Movement & Travel Efficiency",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A22",
+    "area_name": "Cold-Chain & Temperature-Controlled Operations",
+    "subpoint_id": "A22.1",
+    "subpoint_name": "0-4C Chiller Storage & Handling",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A22",
+    "area_name": "Cold-Chain & Temperature-Controlled Operations",
+    "subpoint_id": "A22.2",
+    "subpoint_name": "15-20C Leafy Processing",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A22",
+    "area_name": "Cold-Chain & Temperature-Controlled Operations",
+    "subpoint_id": "A22.3",
+    "subpoint_name": "15-20C Hydroponics Processing",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A22",
+    "area_name": "Cold-Chain & Temperature-Controlled Operations",
+    "subpoint_id": "A22.4",
+    "subpoint_name": "Cold Process Flow Continuity",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A22",
+    "area_name": "Cold-Chain & Temperature-Controlled Operations",
+    "subpoint_id": "A22.5",
+    "subpoint_name": "Cold-Chain Infrastructure Reliability",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A23",
+    "area_name": "Food & Beverage (F&B) / Non-Goods and Services Tax (Non-GST) Operating Segregation",
+    "subpoint_id": "A23.1",
+    "subpoint_name": "Physical & Process Segregation",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A23",
+    "area_name": "Food & Beverage (F&B) / Non-Goods and Services Tax (Non-GST) Operating Segregation",
+    "subpoint_id": "A23.2",
+    "subpoint_name": "Inventory Ownership, Documentation & WMS Segregation",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A23",
+    "area_name": "Food & Beverage (F&B) / Non-Goods and Services Tax (Non-GST) Operating Segregation",
+    "subpoint_id": "A23.3",
+    "subpoint_name": "Compliance Risk & Tax-Interpretation Flag",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A24",
+    "area_name": "Facility & Warehouse Design Diagnostics (Expansion)",
+    "subpoint_id": "A24.1",
+    "subpoint_name": "Process Flow Diagnostics",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A24",
+    "area_name": "Facility & Warehouse Design Diagnostics (Expansion)",
+    "subpoint_id": "A24.2",
+    "subpoint_name": "Area Adequacy Across Functional Zones",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A24",
+    "area_name": "Facility & Warehouse Design Diagnostics (Expansion)",
+    "subpoint_id": "A24.3",
+    "subpoint_name": "Storage Diagnostics (Slotting & Density)",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A24",
+    "area_name": "Facility & Warehouse Design Diagnostics (Expansion)",
+    "subpoint_id": "A24.4",
+    "subpoint_name": "Dock Diagnostics (Adequacy & Segregation)",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A24",
+    "area_name": "Facility & Warehouse Design Diagnostics (Expansion)",
+    "subpoint_id": "A24.5",
+    "subpoint_name": "Cold-Chain Infrastructure Diagnostics (Civil/Design)",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A24",
+    "area_name": "Facility & Warehouse Design Diagnostics (Expansion)",
+    "subpoint_id": "A24.6",
+    "subpoint_name": "Food-Safety Facility Diagnostics",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A25",
+    "area_name": "Training, Induction & Continuous Improvement",
+    "subpoint_id": "A25.1",
+    "subpoint_name": "New Employee Induction & Onboarding",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A25",
+    "area_name": "Training, Induction & Continuous Improvement",
+    "subpoint_id": "A25.2",
+    "subpoint_name": "Role-Specific Skill Training & Certification",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A25",
+    "area_name": "Training, Induction & Continuous Improvement",
+    "subpoint_id": "A25.3",
+    "subpoint_name": "Training Effectiveness Measurement",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A25",
+    "area_name": "Training, Induction & Continuous Improvement",
+    "subpoint_id": "A25.4",
+    "subpoint_name": "Cross-Training & Multi-Skilling Coverage",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A25",
+    "area_name": "Training, Induction & Continuous Improvement",
+    "subpoint_id": "A25.5",
+    "subpoint_name": "Continuous Improvement Culture & Frontline Idea Generation",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A25",
+    "area_name": "Training, Induction & Continuous Improvement",
+    "subpoint_id": "A25.6",
+    "subpoint_name": "Refresher / Recertification Cadence",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A3",
+    "area_name": "Dock Allotment",
+    "subpoint_id": "A3.1",
+    "subpoint_name": "Dock Management System",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A3",
+    "area_name": "Dock Allotment",
+    "subpoint_id": "A3.2",
+    "subpoint_name": "Dock Buffers",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A4",
+    "area_name": "Unloading (incl. Palletization)",
+    "subpoint_id": "A4.1",
+    "subpoint_name": "Unloading Operations & Floor Management",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A4",
+    "area_name": "Unloading (incl. Palletization)",
+    "subpoint_id": "A4.2",
+    "subpoint_name": "Unloading TAT",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A4",
+    "area_name": "Unloading (incl. Palletization)",
+    "subpoint_id": "A4.3",
+    "subpoint_name": "Weighment & GRN Digitization",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A5",
+    "area_name": "Sorting & Grading",
+    "subpoint_id": "A5.1",
+    "subpoint_name": "Sorting & Grading Norms",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A5",
+    "area_name": "Sorting & Grading",
+    "subpoint_id": "A5.2",
+    "subpoint_name": "Manpower Planning for Processing",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
     "area_id": "A6",
-    "area_name": "Facility & Warehouse Design",
-    "subpoint_id": "A6.7",
-    "subpoint_name": "Shrinkage Cost % (Loss Value vs. Sales)",
+    "area_name": "Packing",
+    "subpoint_id": "A6.1",
+    "subpoint_name": "Packing Norms",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A6",
+    "area_name": "Packing",
+    "subpoint_id": "A6.2",
+    "subpoint_name": "Packing Productivity",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A6",
+    "area_name": "Packing",
+    "subpoint_id": "A6.3",
+    "subpoint_name": "Packing Accuracy % (Units/Cases Packed Correctly)",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A6",
+    "area_name": "Packing",
+    "subpoint_id": "A6.4",
+    "subpoint_name": "Repacking Reduction Targets",
+    "review_status": "Needs review"
+  },
+  {
+    "module_id": "WH_V1",
+    "area_id": "A6",
+    "area_name": "Packing",
+    "subpoint_id": "A6.5",
+    "subpoint_name": "Shrinkage & Seasonal Loss Management",
     "review_status": "Needs review"
   },
   {
     "module_id": "WH_V1",
     "area_id": "A7",
-    "area_name": "Collection Center Operations (FnV)",
+    "area_name": "Staging for Picking",
     "subpoint_id": "A7.1",
-    "subpoint_name": "Collection Center Setup & Purpose",
-    "review_status": "Pending"
-  },
-  {
-    "module_id": "WH_V1",
-    "area_id": "A7",
-    "area_name": "Collection Center Operations (FnV)",
-    "subpoint_id": "A7.2",
-    "subpoint_name": "Collection Center Timing & Dispatch Cutoffs",
-    "review_status": "Pending"
-  },
-  {
-    "module_id": "WH_V1",
-    "area_id": "A7",
-    "area_name": "Collection Center Operations (FnV)",
-    "subpoint_id": "A7.3",
-    "subpoint_name": "Collection Center Processing Split",
-    "review_status": "Pending"
-  },
-  {
-    "module_id": "WH_V1",
-    "area_id": "A7",
-    "area_name": "Collection Center Operations (FnV)",
-    "subpoint_id": "A7.4",
-    "subpoint_name": "Unloading Productivity Norms",
-    "review_status": "Pending"
-  },
-  {
-    "module_id": "WH_V1",
-    "area_id": "A8",
-    "area_name": "Outbound / Staging & Dispatch Operations",
-    "subpoint_id": "A8.1",
     "subpoint_name": "Staging & Holding Zone Management",
-    "review_status": "Closed"
+    "review_status": "Needs review"
   },
   {
     "module_id": "WH_V1",
     "area_id": "A8",
-    "area_name": "Outbound / Staging & Dispatch Operations",
-    "subpoint_id": "A8.2",
-    "subpoint_name": "Dispatch & Loading Operations",
-    "review_status": "Closed"
-  },
-  {
-    "module_id": "WH_V1",
-    "area_id": "A8",
-    "area_name": "Outbound / Staging & Dispatch Operations",
-    "subpoint_id": "A8.3",
+    "area_name": "Picking",
+    "subpoint_id": "A8.1",
     "subpoint_name": "Picking Accuracy %",
-    "review_status": "Closed"
+    "review_status": "Needs review"
   },
   {
     "module_id": "WH_V1",
     "area_id": "A8",
-    "area_name": "Outbound / Staging & Dispatch Operations",
-    "subpoint_id": "A8.4",
-    "subpoint_name": "Short Pick % (SKU Unavailable During Picking)",
-    "review_status": "Closed"
+    "area_name": "Picking",
+    "subpoint_id": "A8.2",
+    "subpoint_name": "Picking Productivity",
+    "review_status": "Needs review"
   },
   {
     "module_id": "WH_V1",
     "area_id": "A8",
-    "area_name": "Outbound / Staging & Dispatch Operations",
-    "subpoint_id": "A8.5",
+    "area_name": "Picking",
+    "subpoint_id": "A8.3",
     "subpoint_name": "Not Found % (Picker Unable to Locate SKU)",
-    "review_status": "Closed"
+    "review_status": "Needs review"
   },
   {
     "module_id": "WH_V1",
-    "area_id": "A8",
-    "area_name": "Outbound / Staging & Dispatch Operations",
-    "subpoint_id": "A8.6",
-    "subpoint_name": "STN Ready Time (Created to Ready)",
-    "review_status": "Closed"
-  },
-  {
-    "module_id": "WH_V1",
-    "area_id": "A8",
-    "area_name": "Outbound / Staging & Dispatch Operations",
-    "subpoint_id": "A8.7",
-    "subpoint_name": "Handover TAT (Packed to Rider Handover)",
-    "review_status": "Closed"
-  },
-  {
-    "module_id": "WH_V1",
-    "area_id": "A8",
-    "area_name": "Outbound / Staging & Dispatch Operations",
-    "subpoint_id": "A8.8",
-    "subpoint_name": "Outbound Vehicle Wait Time (Arrival to Exit)",
-    "review_status": "Closed"
-  },
-  {
-    "module_id": "WH_V1",
-    "area_id": "A8",
-    "area_name": "Outbound / Staging & Dispatch Operations",
-    "subpoint_id": "A8.9",
-    "subpoint_name": "Dispatch SLA % (Orders Dispatched On Time)",
-    "review_status": "Closed"
+    "area_id": "A9",
+    "area_name": "Allocation",
+    "subpoint_id": "A9.1",
+    "subpoint_name": "Allocation (System vs. Physical)",
+    "review_status": "Needs review"
   }
 ]

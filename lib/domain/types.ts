@@ -24,6 +24,11 @@ export interface MasterRow {
   score_5_desc: string;
   version: number | string;
   status: Status;
+  /** Raw "level_review" cell text (one line per maturity level 1-5, e.g.
+   * "1 [APPROVED] - \n2 [PENDING] - fix wording..."), parsed via
+   * lib/domain/level-review.ts's parseLevelReview(). Kept as a raw string here, same
+   * convention as score_1_desc..score_5_desc, rather than a second parsed shape on MasterRow. */
+  level_review: string;
 }
 
 export interface RecommendationRow {
@@ -157,7 +162,9 @@ export interface TrackerRow {
 /** Content-authoring review status per sub-point - "is this content done," not scoring
  * data. Deliberately a separate dataset from MasterRow (same principle as Sync Tracker
  * being wholly separate from Masters/Recommendations) so review status never leaks into
- * the scoring pipeline. */
+ * the scoring pipeline. Derived from the sub-point's 5 per-level approvals
+ * (lib/domain/level-review.ts's deriveReviewStatus()) and mirrored here on every save via
+ * /api/kb-tracker/level-review - not independently editable. */
 export type KbReviewStatus = "Closed" | "Needs review" | "Pending" | string;
 
 export interface KbTrackerRow {

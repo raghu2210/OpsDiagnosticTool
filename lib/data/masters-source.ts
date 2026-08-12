@@ -1,11 +1,26 @@
+import { readFileSync } from "node:fs";
+import path from "node:path";
 import { google } from "googleapis";
 import { getGoogleAuthClient } from "./google-auth";
 import { normalizeDashesDeep } from "@/lib/domain/normalize";
 import type { KbTrackerRow, MasterRow, ProblemRow, RecommendationRow } from "@/lib/domain/types";
-import masterFallback from "./local-fallback/masters.json";
 import recommendationFallback from "./local-fallback/recommendations.json";
 import problemFallback from "./local-fallback/problems.json";
-import kbTrackerFallback from "./local-fallback/kb-tracker.json";
+
+export const MASTERS_FALLBACK_PATH = path.join(process.cwd(), "lib/data/local-fallback/masters.json");
+export const KB_TRACKER_FALLBACK_PATH = path.join(process.cwd(), "lib/data/local-fallback/kb-tracker.json");
+
+/** Read fresh from disk (not a static import) so writes from /api/kb-tracker/level-review
+ * are visible on the next request without a server restart. */
+function readMastersFallback(): MasterRow[] {
+  return JSON.parse(readFileSync(MASTERS_FALLBACK_PATH, "utf-8"));
+}
+
+/** Read fresh from disk (not a static import) so writes from /api/kb-tracker/level-review
+ * are visible on the next request without a server restart. */
+function readKbTrackerFallback(): KbTrackerRow[] {
+  return JSON.parse(readFileSync(KB_TRACKER_FALLBACK_PATH, "utf-8"));
+}
 
 /** Converts a Sheets values.get response (array of row arrays, first row = headers)
  * into an array of plain objects keyed by header - mirrors gspread's get_all_records(). */
@@ -46,7 +61,7 @@ export async function loadMasters(): Promise<MasterRow[]> {
       // fall through to local fallback, same as the Python try/except
     }
   }
-  return masterFallback as unknown as MasterRow[];
+  return readMastersFallback();
 }
 
 /** Reads the editable Recommendations sheet. Gracefully returns [] if missing/empty,
@@ -99,5 +114,5 @@ export async function loadKbTracker(): Promise<KbTrackerRow[]> {
       // fall through to local fallback
     }
   }
-  return kbTrackerFallback as unknown as KbTrackerRow[];
+  return readKbTrackerFallback();
 }
