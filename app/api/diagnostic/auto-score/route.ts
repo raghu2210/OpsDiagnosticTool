@@ -10,7 +10,7 @@ interface AutoScoreRequest {
 }
 
 const GROQ_URL = "https://api.groq.com/openai/v1/chat/completions";
-const GROQ_MODEL = "llama-3.3-70b-versatile";
+const GROQ_MODEL = "openai/gpt-oss-120b";
 const MIN_OBSERVATION_LENGTH = 8;
 
 export async function POST(request: NextRequest) {
@@ -34,6 +34,7 @@ export async function POST(request: NextRequest) {
       },
       body: JSON.stringify({
         model: GROQ_MODEL,
+        reasoning_effort: "low",
         response_format: { type: "json_object" },
         messages: [
           {
