@@ -140,7 +140,7 @@ export function computeDiagnostic(
       return {
         area_id: areaId,
         area_name: rows[0].area_name,
-        area_weight: rows[0].area_weight,
+        area_weight: Number(rows[0].area_weight),
         area_score: areaScore,
         n_scored: rows.length,
       };
@@ -170,8 +170,13 @@ function recoKey(moduleId: string | null, id: string, targetLevel: number): stri
   return `${moduleId ?? ""}::${id}::${targetLevel}`;
 }
 
+/** Google Sheets' API returns every cell as a string (its FORMATTED_VALUE default), but
+ * MasterRow/ProblemRow's weight fields are typed number - the type doesn't hold at runtime
+ * for live-sheet data. `a + b` on two such strings concatenates ("0.33"+"0.33" ->
+ * "0.330.33") instead of adding, which then fails to parse as a number anywhere downstream
+ * - Number(b) coerces per element so the reduce always adds, regardless of source. */
 function sum(xs: number[]): number {
-  return xs.reduce((a, b) => a + b, 0);
+  return xs.reduce((a, b) => a + Number(b), 0);
 }
 
 function mean(xs: number[]): number {

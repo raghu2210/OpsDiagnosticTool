@@ -3,9 +3,10 @@ import path from "node:path";
 import { google } from "googleapis";
 import { getGoogleAuthClient } from "./google-auth";
 import { normalizeDashesDeep } from "@/lib/domain/normalize";
-import type { KbTrackerRow, MasterRow, ProblemRow, RecommendationRow } from "@/lib/domain/types";
+import type { KbTrackerRow, MasterRow, ProblemRow, RecommendationRow, WeightProfileRow } from "@/lib/domain/types";
 import recommendationFallback from "./local-fallback/recommendations.json";
 import problemFallback from "./local-fallback/problems.json";
+import weightProfileFallback from "./local-fallback/weight-profiles.json";
 
 export const MASTERS_FALLBACK_PATH = path.join(process.cwd(), "lib/data/local-fallback/masters.json");
 export const KB_TRACKER_FALLBACK_PATH = path.join(process.cwd(), "lib/data/local-fallback/kb-tracker.json");
@@ -55,7 +56,7 @@ export async function loadMasters(): Promise<MasterRow[]> {
   const sheetId = process.env.GOOGLE_SHEET_ID;
   if (sheetId) {
     try {
-      const rows = await fetchSheetRange(sheetId, "Masters");
+      const rows = await fetchSheetRange(sheetId, "Master");
       return normalizeDashesDeep(rows) as unknown as MasterRow[];
     } catch {
       // fall through to local fallback, same as the Python try/except
@@ -100,6 +101,26 @@ export async function loadProblems(): Promise<ProblemRow[]> {
 }
 
 /**
+ * Reads the WeightProfiles sheet - named weighting archetypes (Speed & Density Leader,
+ * Cost / Breadth Aggregator, Quality / Curation Premium, Process / Standardisation), each
+ * overriding area_weight only. Same graceful-degradation contract as loadProblems(): falls
+ * back to the bundled local JSON if the sheet/tab isn't configured, so the app runs with
+ * today's default equal weighting until someone adds real rows.
+ */
+export async function loadWeightProfiles(): Promise<WeightProfileRow[]> {
+  const sheetId = process.env.GOOGLE_SHEET_ID;
+  if (sheetId) {
+    try {
+      const rows = await fetchSheetRange(sheetId, "WeightProfiles");
+      return normalizeDashesDeep(rows) as unknown as WeightProfileRow[];
+    } catch {
+      // fall through to local fallback
+    }
+  }
+  return weightProfileFallback as unknown as WeightProfileRow[];
+}
+
+/**
  * Reads the KB Tracker sheet - content-authoring review status per sub-point (Closed /
  * Needs review / Pending), entirely separate from the scoring pipeline. Same
  * graceful-degradation contract as loadProblems(): returns [] if the sheet is missing.
@@ -108,7 +129,7 @@ export async function loadKbTracker(): Promise<KbTrackerRow[]> {
   const sheetId = process.env.GOOGLE_SHEET_ID;
   if (sheetId) {
     try {
-      const rows = await fetchSheetRange(sheetId, "KB Tracker");
+      const rows = await fetchSheetRange(sheetId, "Sheet1");
       return normalizeDashesDeep(rows) as unknown as KbTrackerRow[];
     } catch {
       // fall through to local fallback

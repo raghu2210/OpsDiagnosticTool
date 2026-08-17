@@ -40,6 +40,17 @@ export interface RecommendationRow {
   recommended_tasks: string;
 }
 
+/** A named weighting archetype (e.g. "Quality-first", "Cost-first") - one row per
+ * (profile_id, area_id). Overrides area_weight only; subpoint_weight (how sub-points
+ * split within an area) is untouched, same as MasterRow's own weights. Purely additive:
+ * a module scored with no profile selected keeps today's default area_weight. */
+export interface WeightProfileRow {
+  profile_id: string;
+  profile_name: string;
+  area_id: string;
+  area_weight: number;
+}
+
 /**
  * Node 4 of the diagnostic tree (Module > Area > Sub-point > Problem statement) - the
  * leaf level where scoring actually happens for sub-points that have been broken down
