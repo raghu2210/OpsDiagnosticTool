@@ -15,6 +15,7 @@ import { computeDiagnostic, toScoreMaps } from "@/lib/domain/scoring";
 import { applyCustomWeights, applyWeightProfile, listWeightProfiles } from "@/lib/domain/weight-profiles";
 import { downloadChecklist } from "@/lib/xlsx/download-checklist-client";
 import { AreaPicker } from "@/components/areas/AreaPicker";
+import { PriorityQuiz } from "./PriorityQuiz";
 import { ScoreForm, type ScoreFormValues } from "./ScoreForm";
 import { UploadChecklist } from "./UploadChecklist";
 import { ResultsReveal } from "./ResultsReveal";
@@ -46,6 +47,7 @@ export function DiagnoseFlow({
   const [customSummary, setCustomSummary] = useState<string | null>(null);
   const [generatingCustom, setGeneratingCustom] = useState(false);
   const [customError, setCustomError] = useState<string | null>(null);
+  const [quizDone, setQuizDone] = useState(false);
   const [mode, setMode] = useState<InputMode>("form");
   const [selectedAreas, setSelectedAreas] = useState<Set<string>>(new Set());
   const [diag, setDiag] = useState<DiagnosticResult | null>(null);
@@ -114,7 +116,16 @@ export function DiagnoseFlow({
     setModuleId(newId);
     setSelectedAreas(new Set());
     setDiag(null);
+    setQuizDone(false);
     resetCustomWeights();
+  }
+
+  function handleQuizComplete(weights: Record<string, number>, summary: string) {
+    setCustomWeights(weights);
+    setCustomReasons(null);
+    setCustomSummary(summary);
+    setProfileId("custom");
+    setQuizDone(true);
   }
 
   function handleProfileChange(newId: string) {
@@ -256,28 +267,34 @@ export function DiagnoseFlow({
           </select>
         </div>
 
-        <div>
-          <label className="text-sm font-medium block mb-1.5" htmlFor="profile-select">
-            Weight profile
-          </label>
-          <select
-            id="profile-select"
-            className="border border-rule rounded-xs px-3 py-2 text-sm min-w-72 focus:outline-none focus:border-accent"
-            value={profileId ?? ""}
-            onChange={(e) => handleProfileChange(e.target.value)}
-          >
-            <option value="">Default (equal weighting)</option>
-            {profiles.map((p) => (
-              <option key={p.profile_id} value={p.profile_id}>
-                {p.profile_name}
-              </option>
-            ))}
-            <option value="custom">Describe your own priorities</option>
-          </select>
-        </div>
+        {quizDone && (
+          <div>
+            <label className="text-sm font-medium block mb-1.5" htmlFor="profile-select">
+              Weight profile
+            </label>
+            <select
+              id="profile-select"
+              className="border border-rule rounded-xs px-3 py-2 text-sm min-w-72 focus:outline-none focus:border-accent"
+              value={profileId ?? ""}
+              onChange={(e) => handleProfileChange(e.target.value)}
+            >
+              <option value="">Default (equal weighting)</option>
+              {profiles.map((p) => (
+                <option key={p.profile_id} value={p.profile_id}>
+                  {p.profile_name}
+                </option>
+              ))}
+              <option value="custom">Describe your own priorities</option>
+            </select>
+          </div>
+        )}
       </div>
 
-      {profileId === "custom" && (
+      {!quizDone && (
+        <PriorityQuiz profiles={weightProfiles} moduleRows={moduleRows} onComplete={handleQuizComplete} />
+      )}
+
+      {quizDone && profileId === "custom" && (
         <div className="border border-rule rounded-md p-4 bg-surface shadow-sm space-y-3">
           <label className="text-sm font-medium block" htmlFor="custom-priorities">
             What does this company care about most?
@@ -324,6 +341,8 @@ export function DiagnoseFlow({
         </div>
       )}
 
+      {quizDone && (
+      <>
       <div>
         <div className="flex gap-1 border-b border-rule mb-6">
           {(
@@ -419,6 +438,8 @@ export function DiagnoseFlow({
           </div>
           <ResultsReveal diag={diag} />
         </div>
+      )}
+      </>
       )}
     </div>
   );
