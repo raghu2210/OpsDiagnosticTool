@@ -29,6 +29,10 @@ export interface MasterRow {
    * lib/domain/level-review.ts's parseLevelReview(). Kept as a raw string here, same
    * convention as score_1_desc..score_5_desc, rather than a second parsed shape on MasterRow. */
   level_review: string;
+  /** Newline-separated, bullet-prefixed interview questions a reviewer should walk through to
+   * decide which score level applies - parsed via lib/domain/indicative-questions.ts. Optional
+   * because older sub-points/sheet revisions don't have this column populated. */
+  indicative_scoring_questions?: string;
 }
 
 export interface RecommendationRow {
@@ -71,6 +75,8 @@ export interface ProblemRow {
   score_5_desc: string;
   version: number | string;
   status: Status;
+  /** See MasterRow.indicative_scoring_questions - same shape, one level deeper. */
+  indicative_scoring_questions?: string;
 }
 
 export type ScoreValue = 1 | 2 | 3 | 4 | 5;

@@ -5,6 +5,7 @@ import { ChevronRight, ImagePlus, X } from "lucide-react";
 import type { AreaGroup } from "@/lib/domain/grouping";
 import type { ProblemRow, ScoreValue } from "@/lib/domain/types";
 import { scoreBand } from "@/lib/domain/bands";
+import { allQuestionsAnswered, composeObservation, parseIndicativeQuestions } from "@/lib/domain/indicative-questions";
 import { SegmentedScore } from "./SegmentedScore";
 
 export interface ScoreFormValues {
@@ -69,10 +70,12 @@ function AutoGrowTextarea({
   value,
   onChange,
   onBlur,
+  placeholder = "Observation (optional)",
 }: {
   value: string;
   onChange: (v: string) => void;
   onBlur?: () => void;
+  placeholder?: string;
 }) {
   const ref = useRef<HTMLTextAreaElement>(null);
 
@@ -88,7 +91,7 @@ function AutoGrowTextarea({
       <textarea
         ref={ref}
         rows={1}
-        placeholder="Observation (optional)"
+        placeholder={placeholder}
         className="w-full text-sm text-neutral bg-transparent mt-1 focus:outline-none focus:text-ink placeholder:text-neutral/70 resize-none overflow-hidden leading-normal"
         value={value}
         onChange={(e) => {
@@ -203,6 +206,50 @@ function ScoreRationale({ scoreValue, rationale }: { scoreValue: string; rationa
   );
 }
 
+/** Renders the indicative scoring questions as required per-question answer fields, plus one
+ * optional free-text field for anything they don't cover. Answers are recombined into the same
+ * "observation" string a plain textarea would have produced - see composeObservation(). */
+function IndicativeQuestions({
+  questions,
+  answers,
+  onAnswerChange,
+  extraValue,
+  onExtraChange,
+  onBlur,
+}: {
+  questions: string[];
+  answers: string[];
+  onAnswerChange: (idx: number, v: string) => void;
+  extraValue: string;
+  onExtraChange: (v: string) => void;
+  onBlur: () => void;
+}) {
+  return (
+    <div className="mt-1.5 space-y-3">
+      {questions.map((question, i) => (
+        <div key={i}>
+          <div className="text-xs text-neutral leading-snug">
+            <span className="text-accent mr-1">*</span>
+            {question}
+          </div>
+          <AutoGrowTextarea
+            value={answers[i] ?? ""}
+            onChange={(v) => onAnswerChange(i, v)}
+            onBlur={onBlur}
+            placeholder='Type your answer, or "NA"'
+          />
+        </div>
+      ))}
+      <AutoGrowTextarea
+        value={extraValue}
+        onChange={onExtraChange}
+        onBlur={onBlur}
+        placeholder="Additional observations (optional)"
+      />
+    </div>
+  );
+}
+
 function ScorableRow({
   id,
   label,
@@ -210,6 +257,11 @@ function ScorableRow({
   obsValue,
   onObsChange,
   onObsBlur,
+  questions,
+  answers,
+  onAnswerChange,
+  extraObsValue,
+  onExtraObsChange,
   photo,
   onPhotoAttach,
   onPhotoRemove,
@@ -224,6 +276,13 @@ function ScorableRow({
   obsValue: string;
   onObsChange: (v: string) => void;
   onObsBlur: () => void;
+  /** Non-empty only for rows whose MasterRow/ProblemRow has indicative_scoring_questions -
+   * switches this row from the plain Observation box to per-question required fields. */
+  questions?: string[];
+  answers?: string[];
+  onAnswerChange?: (idx: number, v: string) => void;
+  extraObsValue?: string;
+  onExtraObsChange?: (v: string) => void;
   photo: string | undefined;
   onPhotoAttach: (dataUrl: string) => void;
   onPhotoRemove: () => void;
@@ -239,7 +298,18 @@ function ScorableRow({
           <span className="font-code text-neutral mr-1.5">{code}</span>
           {label}
         </div>
-        <AutoGrowTextarea value={obsValue} onChange={onObsChange} onBlur={onObsBlur} />
+        {questions && questions.length > 0 ? (
+          <IndicativeQuestions
+            questions={questions}
+            answers={answers ?? []}
+            onAnswerChange={onAnswerChange!}
+            extraValue={extraObsValue ?? ""}
+            onExtraChange={onExtraObsChange!}
+            onBlur={onObsBlur}
+          />
+        ) : (
+          <AutoGrowTextarea value={obsValue} onChange={onObsChange} onBlur={onObsBlur} />
+        )}
         <PhotoAttach photo={photo} onAttach={onPhotoAttach} onRemove={onPhotoRemove} />
         {rationale && <ScoreRationale scoreValue={scoreValue} rationale={rationale} />}
       </div>
@@ -258,7 +328,14 @@ export function ScoreForm({
   onSubmit: (values: ScoreFormValues) => void;
 }) {
   const [values, setValues] = useState<Record<string, string>>({});
+  // Canonical observation text per row - for rows with indicative questions this is always
+  // kept in sync with composeObservation(answers, extraObs) rather than typed directly, so
+  // handleSubmit/handleObsBlur/rationale-clearing all keep working unchanged either way.
   const [obs, setObs] = useState<Record<string, string>>({});
+  // Per-question answers, only populated for rows with indicative_scoring_questions.
+  const [answers, setAnswers] = useState<Record<string, string[]>>({});
+  // The optional "Additional observations" field for rows with indicative_scoring_questions.
+  const [extraObs, setExtraObs] = useState<Record<string, string>>({});
   const [photos, setPhotos] = useState<Record<string, string>>({});
   const [expanded, setExpanded] = useState<Set<string>>(new Set());
   // Why the auto-scorer picked the value it did, per row - cleared whenever the score is
@@ -298,6 +375,25 @@ export function ScoreForm({
       setValues((prev) => ({ ...prev, [id]: String(result.score) }));
       if (result.rationale) setRationales((r) => ({ ...r, [id]: result.rationale as string }));
     });
+  }
+
+  function handleAnswerChange(id: string, idx: number, value: string, questions: string[]) {
+    const nextAnswers = [...(answers[id] ?? [])];
+    nextAnswers[idx] = value;
+    setAnswers((prev) => ({ ...prev, [id]: nextAnswers }));
+    handleObsChange(id, composeObservation(questions, nextAnswers, extraObs[id] ?? ""));
+  }
+
+  function handleExtraObsChange(id: string, value: string, questions: string[]) {
+    setExtraObs((prev) => ({ ...prev, [id]: value }));
+    handleObsChange(id, composeObservation(questions, answers[id] ?? [], value));
+  }
+
+  /** Only auto-scores once every indicative question has some answer (real or "NA") - a
+   * partially-answered row is never scored. */
+  function handleRowBlur(id: string, questions: string[], rubric: ScoreRubric) {
+    if (!allQuestionsAnswered(questions, answers[id] ?? [])) return;
+    handleObsBlur(id, obs[id] ?? "", rubric);
   }
 
   function toggleExpanded(subpointId: string) {
@@ -381,30 +477,39 @@ export function ScoreForm({
                     </button>
                     {isOpen && (
                       <div className="divide-y divide-rule">
-                        {subProblems.map((p) => (
-                          <ScorableRow
-                            key={p.problem_id}
-                            id={p.problem_id}
-                            code={p.problem_id}
-                            label={p.problem_name}
-                            obsValue={obs[p.problem_id] ?? ""}
-                            onObsChange={(v) => handleObsChange(p.problem_id, v)}
-                            onObsBlur={() => handleObsBlur(p.problem_id, obs[p.problem_id] ?? "", p)}
-                            photo={photos[p.problem_id]}
-                            onPhotoAttach={(dataUrl) => setPhotos((ph) => ({ ...ph, [p.problem_id]: dataUrl }))}
-                            onPhotoRemove={() => setPhotos((ph) => ({ ...ph, [p.problem_id]: "" }))}
-                            scoreValue={values[p.problem_id] ?? ""}
-                            onScoreChange={(v) => handleScoreChange(p.problem_id, v)}
-                            rationale={rationales[p.problem_id]}
-                            indent
-                          />
-                        ))}
+                        {subProblems.map((p) => {
+                          const questions = parseIndicativeQuestions(p.indicative_scoring_questions);
+                          return (
+                            <ScorableRow
+                              key={p.problem_id}
+                              id={p.problem_id}
+                              code={p.problem_id}
+                              label={p.problem_name}
+                              obsValue={obs[p.problem_id] ?? ""}
+                              onObsChange={(v) => handleObsChange(p.problem_id, v)}
+                              onObsBlur={() => handleRowBlur(p.problem_id, questions, p)}
+                              questions={questions}
+                              answers={answers[p.problem_id]}
+                              onAnswerChange={(idx, v) => handleAnswerChange(p.problem_id, idx, v, questions)}
+                              extraObsValue={extraObs[p.problem_id]}
+                              onExtraObsChange={(v) => handleExtraObsChange(p.problem_id, v, questions)}
+                              photo={photos[p.problem_id]}
+                              onPhotoAttach={(dataUrl) => setPhotos((ph) => ({ ...ph, [p.problem_id]: dataUrl }))}
+                              onPhotoRemove={() => setPhotos((ph) => ({ ...ph, [p.problem_id]: "" }))}
+                              scoreValue={values[p.problem_id] ?? ""}
+                              onScoreChange={(v) => handleScoreChange(p.problem_id, v)}
+                              rationale={rationales[p.problem_id]}
+                              indent
+                            />
+                          );
+                        })}
                       </div>
                     )}
                   </div>
                 );
               }
 
+              const questions = parseIndicativeQuestions(sp.indicative_scoring_questions);
               return (
                 <ScorableRow
                   key={sp.subpoint_id}
@@ -413,7 +518,12 @@ export function ScoreForm({
                   label={sp.subpoint_name}
                   obsValue={obs[sp.subpoint_id] ?? ""}
                   onObsChange={(v) => handleObsChange(sp.subpoint_id, v)}
-                  onObsBlur={() => handleObsBlur(sp.subpoint_id, obs[sp.subpoint_id] ?? "", sp)}
+                  onObsBlur={() => handleRowBlur(sp.subpoint_id, questions, sp)}
+                  questions={questions}
+                  answers={answers[sp.subpoint_id]}
+                  onAnswerChange={(idx, v) => handleAnswerChange(sp.subpoint_id, idx, v, questions)}
+                  extraObsValue={extraObs[sp.subpoint_id]}
+                  onExtraObsChange={(v) => handleExtraObsChange(sp.subpoint_id, v, questions)}
                   photo={photos[sp.subpoint_id]}
                   onPhotoAttach={(dataUrl) => setPhotos((ph) => ({ ...ph, [sp.subpoint_id]: dataUrl }))}
                   onPhotoRemove={() => setPhotos((ph) => ({ ...ph, [sp.subpoint_id]: "" }))}
